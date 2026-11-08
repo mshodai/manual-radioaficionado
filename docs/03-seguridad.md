@@ -112,11 +112,11 @@ Si alguien se pusiera delante con la emisora transmitiendo sin parar, la distanc
 
 ### Los límites en España
 
-Los límites de exposición del público a campos electromagnéticos están en el anexo II del [Real Decreto 1066/2001, de 28 de septiembre, por el que se aprueba el Reglamento que establece condiciones de protección del dominio público radioeléctrico, restricciones a las emisiones radioeléctricas y medidas de protección sanitaria frente a emisiones radioeléctricas](https://www.boe.es/buscar/act.php?id=BOE-A-2001-18256). Sus valores siguen la [Recomendación 1999/519/CE del Consejo, de 12 de julio de 1999](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31999H0519), relativa a la exposición del público en general a campos electromagnéticos.
+Los límites de exposición del público a campos electromagnéticos están en el anexo II del [Real Decreto 1066/2001, de 28 de septiembre, por el que se aprueba el Reglamento que establece condiciones de protección del dominio público radioeléctrico, restricciones a las emisiones radioeléctricas y medidas de protección sanitaria frente a emisiones radioeléctricas](https://www.boe.es/buscar/act.php?id=BOE-A-2001-18256) (comprobado en noviembre de 2026). Sus valores siguen la [Recomendación 1999/519/CE del Consejo, de 12 de julio de 1999](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31999H0519), relativa a la exposición del público en general a campos electromagnéticos (comprobado en noviembre de 2026).
 
 El [Real Decreto 123/2017, de 24 de febrero, por el que se aprueba el Reglamento sobre el uso del dominio público radioeléctrico](https://www.boe.es/buscar/act.php?id=BOE-A-2017-2460), derogó buena parte del RD 1066/2001, pero dejó en vigor sus artículos 6 y 7 y el anexo II, que son los que fijan los límites. El artículo 6 exige que esos límites se cumplan en las zonas en las que puedan permanecer habitualmente personas (comprobado en noviembre de 2026).
 
-El anexo II establece dos niveles:
+El anexo II establece dos niveles (comprobado en noviembre de 2026):
 
 - Las **restricciones básicas** son los límites de lo que de verdad importa: la energía absorbida dentro del cuerpo. Entre 100 kHz y 10 GHz se expresan como SAR: 0,08 W/kg de media en todo el cuerpo, 2 W/kg localizado en la cabeza y el tronco y 4 W/kg en las extremidades, promediados en seis minutos y, los localizados, en cualquier porción de 10 g de tejido.
 - Los **niveles de referencia** son valores de campo fáciles de calcular o medir desde fuera del cuerpo. Si no se superan, se cumplen también las restricciones básicas. Si se superan, no significa necesariamente que se incumplan, pero hay que hacer una evaluación más detallada.
@@ -130,11 +130,11 @@ Estos son los niveles de referencia en las gamas donde están las bandas de afic
 | 400–2 000 MHz | $1{,}375 \sqrt{f}$ | $0{,}0037 \sqrt{f}$ | $f / 200$ |
 | 2–300 GHz | 61 | 0,16 | 10 |
 
-Son valores eficaces y se promedian en seis minutos, como las restricciones básicas. Si consultas el PDF original del BOE de 2001, verás que la celda de $H$ entre 10 y 400 MHz dice «0,73/f»: es una errata, corregida en el [BOE núm. 91 de 2002](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7198) y en el [núm. 93](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7364). El valor vigente es 0,073 A/m.
+Son valores eficaces y se promedian en seis minutos, como las restricciones básicas. Si consultas el PDF original del BOE de 2001, verás que la celda de $H$ entre 10 y 400 MHz dice «0,73/f»: es una errata, corregida en el [BOE núm. 91 de 2002](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7198) y en el [núm. 93](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7364). El valor vigente es 0,073 A/m (comprobado en noviembre de 2026).
 
 ![Gráfica del nivel de referencia de campo eléctrico frente a la frecuencia: 87 V/m hasta 1 MHz, desciende hasta 28 V/m entre 10 y 400 MHz y vuelve a subir hasta 61 V/m por encima de 2 GHz; están marcadas las bandas de 80 m, 40 m, 20 m, 6 m, 2 m, 70 cm y 23 cm](assets/figuras/03-niveles-referencia.svg)
 
-*Figura 3.1. Nivel de referencia del campo eléctrico para el público según el anexo II del RD 1066/2001. El mínimo coincide con las frecuencias a las que el cuerpo absorbe mejor la energía.*
+*Figura 3.1. Nivel de referencia del campo eléctrico para el público según el anexo II del RD 1066/2001 (comprobado en noviembre de 2026). El mínimo coincide con las frecuencias a las que el cuerpo absorbe mejor la energía.*
 
 **Ejemplo 4.** ¿Qué nivel de referencia corresponde a la banda de 40 m, a 7,1 MHz? Está en la gama de 1 a 10 MHz:
 
@@ -145,7 +145,7 @@ $$
 Y a 435 MHz, en la banda de 70 cm, la densidad de potencia de referencia es $S = 435 / 200 \approx 2{,}2\ \text{W/m}^2$, apenas un poco más permisiva que en 2 m.
 
 ??? note "Para saber más: estudios y certificados de niveles de exposición"
-    El RD 123/2017 obliga a presentar un estudio previo de niveles de exposición (artículo 53) y a certificar cada año que se respetan los límites (artículo 105) a las estaciones fijas de más de 10 W de PIRE de ciertas redes públicas: radiodifusión, telefonía móvil, satélite, acceso inalámbrico y otras. Las medidas se hacen según la [Orden CTE/23/2002, de 11 de enero](https://www.boe.es/buscar/act.php?id=BOE-A-2002-694). Esos artículos no mencionan las estaciones de aficionado, y las condiciones propias de tu estación las fija la autorización y la norma específica del servicio de aficionados, que se trata en el [capítulo 9](09-reglamentacion.md). Lo que sí es seguro es que los límites del anexo II del RD 1066/2001 son los mismos para todos: que no tengas que presentar un estudio no te autoriza a superarlos.
+    El RD 123/2017 obliga a presentar un estudio previo de niveles de exposición (artículo 53) y a certificar cada año que se respetan los límites (artículo 105) a las estaciones fijas de más de 10 W de PIRE de ciertas redes públicas: radiodifusión, telefonía móvil, satélite, acceso inalámbrico y otras (comprobado en noviembre de 2026). Las medidas se hacen según la [Orden CTE/23/2002, de 11 de enero](https://www.boe.es/buscar/act.php?id=BOE-A-2002-694) (comprobado en noviembre de 2026). Esos artículos no mencionan las estaciones de aficionado, y las condiciones propias de tu estación las fija la autorización y la norma específica del servicio de aficionados, que se trata en el [capítulo 9](09-reglamentacion.md). Lo que sí es seguro es que los límites del anexo II del RD 1066/2001 son los mismos para todos: que no tengas que presentar un estudio no te autoriza a superarlos.
 
 ### Cómo evaluar tu estación
 
@@ -204,7 +204,7 @@ Recuerda además que los 230 V de la red son un valor eficaz: el valor de pico e
 
 ### La instalación eléctrica de la estación
 
-Las instalaciones eléctricas de las viviendas se rigen en España por el [Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión](https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099) (REBT). Las modificaciones del cuadro eléctrico o de la instalación fija las debe hacer un instalador autorizado. Lo que sí debes conocer son las protecciones:
+Las instalaciones eléctricas de las viviendas se rigen en España por el [Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión](https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099) (REBT) (comprobado en noviembre de 2026). Las modificaciones del cuadro eléctrico o de la instalación fija las debe hacer un instalador autorizado. Lo que sí debes conocer son las protecciones:
 
 - El **interruptor magnetotérmico** (o automático) corta cuando la corriente supera la que aguanta el cable del circuito, por una sobrecarga o un cortocircuito. Protege los **cables**, no a las personas.
 - El **interruptor diferencial** compara la corriente que sale por la fase con la que vuelve por el neutro. Si no son iguales, es que una parte se va por otro camino (por ejemplo, a tierra a través de una persona) y corta en unas decenas de milisegundos. Los de **alta sensibilidad**, de 30 mA, son los que protegen a las personas. La instrucción ITC-BT-25 del REBT, sobre instalaciones interiores en viviendas, exige que todos los circuitos de una vivienda estén protegidos por diferenciales de 30 mA como máximo (apartado 2.1), con al menos un diferencial por cada cinco circuitos (apartado 2.3.2) (comprobado en noviembre de 2026). Pulsa su botón de prueba de vez en cuando.
@@ -254,7 +254,7 @@ Una antena exterior es el punto más alto de su entorno y un buen camino hacia t
 
 - **Une el mástil a tierra** con un conductor grueso por el camino más corto y recto posible, sin curvas cerradas: la corriente de un rayo sube muy rápido y una curva cerrada se comporta como una bobina que la frena y la desvía.
 - **Pon a tierra la malla del coaxial** a la entrada del edificio y, si es posible, intercala un **protector de sobretensiones coaxial** (con descargador de gas) unido a esa tierra.
-- **Todas las tierras deben estar unidas.** La tierra de la antena y la de la instalación eléctrica del edificio tienen que conectarse entre sí. Si están separadas, durante una descarga aparece una diferencia de tensión enorme entre ellas, y esa diferencia pasa por el equipo que tienes conectado a ambas. Las instalaciones de puesta a tierra de los edificios están reguladas por el REBT, en su instrucción ITC-BT-18; pide a un instalador que haga esa unión.
+- **Todas las tierras deben estar unidas.** La tierra de la antena y la de la instalación eléctrica del edificio tienen que conectarse entre sí. Si están separadas, durante una descarga aparece una diferencia de tensión enorme entre ellas, y esa diferencia pasa por el equipo que tienes conectado a ambas. Las instalaciones de puesta a tierra de los edificios están reguladas por el REBT, en su instrucción ITC-BT-18 (comprobado en noviembre de 2026); pide a un instalador que haga esa unión.
 - En un edificio de viviendas, la cubierta es un elemento común: necesitas la conformidad de la comunidad y respetar el pararrayos y la antena colectiva existentes.
 
 La tierra de protección contra rayos no es lo mismo que la tierra de RF de la estación, aunque estén unidas. La segunda sirve para reducir interferencias y corrientes de RF en la mesa, y se trata en el [capítulo 8](08-interferencias.md).
@@ -298,7 +298,7 @@ La causa de muchos accidentes graves de radioaficionados no es la electricidad n
 
 - La radiofrecuencia es **radiación no ionizante**: su efecto comprobado es el **calentamiento** de los tejidos, que se mide con la tasa de absorción específica (SAR) en W/kg.
 - El cuerpo absorbe más entre unos 30 y 300 MHz; por eso los niveles de referencia más estrictos están entre **10 y 400 MHz**: 28 V/m o 2 W/m².
-- Los límites aplicables en España son los del **anexo II del RD 1066/2001**, que sigue en vigor tras el RD 123/2017. Se promedian en **seis minutos** y deben cumplirse donde puedan permanecer personas.
+- Los límites aplicables en España son los del **anexo II del RD 1066/2001**, que sigue en vigor tras el RD 123/2017 (comprobado en noviembre de 2026). Se promedian en **seis minutos** y deben cumplirse donde puedan permanecer personas.
 - La densidad de potencia en campo lejano es $S = \text{PIRE} / (4 \pi d^2)$: baja con el **cuadrado de la distancia**. En campo cercano hay que dejar un margen o medir.
 - Para reducir la exposición: menos potencia, antena más lejos y más alta, y nunca tocar una antena que transmite.
 - Daña la **corriente**: de unos 50–100 mA a 50 Hz a través del pecho pueden provocar fibrilación. El **diferencial** de 30 mA protege a las personas; el **magnetotérmico**, los cables; la **toma de tierra** da salida a las fugas.

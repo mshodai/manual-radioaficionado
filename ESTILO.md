@@ -93,7 +93,7 @@ No más de una caja seguida. Si un capítulo acumula cajas, sobran.
 - **Toda referencia a una norma lleva enlace a su fuente oficial**: BOE (texto consolidado, `https://www.boe.es/buscar/act.php?id=BOE-A-…`), EUR-Lex, UIT, CEPT (ECO Documentation Database), IARU Región 1 o la sede del ministerio competente.
 - Se cita por su nombre completo la primera vez («Real Decreto 1066/2001, de 28 de septiembre, …») y abreviado después.
 - No se dan como vigentes datos normativos sacados de libros, foros o del *Libro de examen*: se comprueban en la fuente oficial.
-- Cuando un dato cambie con frecuencia (tasas, segmentos de banda), se indica la fecha de comprobación: «(comprobado en noviembre de 2026)».
+- **Cada vez que se cite normativa**, se indica el mes y el año en que se comprobó en la fuente oficial, con el formato «(comprobado en noviembre de 2026)». Es obligatorio en todas las citas, no solo en los datos que cambian con frecuencia (tasas, segmentos de banda).
 
 ## 8. Estructura de cada capítulo
 
