@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 230" width="570" height="230" role="img" aria-labelledby="t">
+<title id="t">Dos resistencias en serie, una a continuación de la otra, y dos resistencias en paralelo, conectadas entre los mismos dos puntos.</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="flecha-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/>
+  </marker>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<text x="140" y="30" font-size="16" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">En serie</text>
+<circle cx="30" cy="110" r="4" fill="#ffffff"/><line x1="34" y1="110" x2="50" y2="110" /><line x1="50" y1="110" x2="70.0" y2="110" /><rect x="70.0" y="100" width="50" height="20"/><line x1="120.0" y1="110" x2="140" y2="110" /><line x1="140" y1="110" x2="160.0" y2="110" /><rect x="160.0" y="100" width="50" height="20"/><line x1="210.0" y1="110" x2="230" y2="110" /><line x1="230" y1="110" x2="246" y2="110" /><circle cx="250" cy="110" r="4" fill="#ffffff"/>
+<text x="95" y="90" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >R₁</text><text x="185" y="90" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >R₂</text>
+<text x="140" y="200" font-size="15" text-anchor="middle" fill="#1a1a1a" stroke="none" >R = R₁ + R₂</text>
+<text x="420" y="30" font-size="16" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">En paralelo</text>
+<circle cx="300" cy="110" r="4" fill="#ffffff"/><line x1="304" y1="110" x2="340" y2="110" /><line x1="340" y1="78" x2="340" y2="150" /><line x1="500" y1="78" x2="500" y2="150" /><line x1="500" y1="110" x2="536" y2="110" /><circle cx="540" cy="110" r="4" fill="#ffffff"/>
+<line x1="340" y1="78" x2="395.0" y2="78" /><rect x="395.0" y="68" width="50" height="20"/><line x1="445.0" y1="78" x2="500" y2="78" /><line x1="340" y1="150" x2="395.0" y2="150" /><rect x="395.0" y="140" width="50" height="20"/><line x1="445.0" y1="150" x2="500" y2="150" />
+<circle cx="340" cy="110" r="3.5" fill="#1a1a1a"/><circle cx="500" cy="110" r="3.5" fill="#1a1a1a"/>
+<text x="420" y="60" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >R₁</text><text x="420" y="180" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >R₂</text>
+<text x="420" y="210" font-size="15" text-anchor="middle" fill="#1a1a1a" stroke="none" >1/R = 1/R₁ + 1/R₂</text>
+</g>
+</svg>

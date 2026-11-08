@@ -3,6 +3,12 @@ site_description: Manual libre en español para la autorización de radioaficion
 site_url: https://mshodai.github.io/manual-radioaficionado/
 repo_url: https://github.com/mshodai/manual-radioaficionado
 repo_name: mshodai/manual-radioaficionado
+# ESTILO.md y CLAUDE.md viven en la raíz, fuera de docs/, así que no se publican.
+# Se excluyen también aquí por si alguna vez se copian dentro de docs/.
+exclude_docs: |
+  ESTILO.md
+  CLAUDE.md
+
 copyright: Texto bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>
 
 theme:
@@ -69,8 +75,16 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - javascripts/vendor/mathjax/tex-mml-chtml.js
