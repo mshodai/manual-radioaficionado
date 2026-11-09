@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" role="img" aria-labelledby="t">
+<title id="t">Cronograma de un manipulador yámbico: al soltar las dos palas durante un punto, el modo A acaba en ese punto y el modo B añade una raya más</title>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<text x="138.0" y="72.0" font-size="13" text-anchor="end" fill="#1a1a1a" stroke="none" >pala de raya</text>
+<line x1="150.0" y1="80.0" x2="750.0" y2="80.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="138.0" y="132.0" font-size="13" text-anchor="end" fill="#1a1a1a" stroke="none" >pala de punto</text>
+<line x1="150.0" y1="140.0" x2="750.0" y2="140.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="138.0" y="212.0" font-size="13" text-anchor="end" fill="#1a1a1a" stroke="none" >salida en modo A</text>
+<line x1="150.0" y1="220.0" x2="750.0" y2="220.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="138.0" y="282.0" font-size="13" text-anchor="end" fill="#1a1a1a" stroke="none" >salida en modo B</text>
+<line x1="150.0" y1="290.0" x2="750.0" y2="290.0" stroke="#e0e0e0" stroke-width="1"/>
+<polyline points="150.0,80.0 150.0,80.0 150.0,56.0 334.0,56.0 334.0,80.0 750.0,80.0" stroke="#9e9e9e" stroke-width="2.5"/>
+<polyline points="150.0,140.0 190.0,140.0 190.0,116.0 334.0,116.0 334.0,140.0 750.0,140.0" stroke="#9e9e9e" stroke-width="2.5"/>
+<line x1="334.0" y1="50.0" x2="334.0" y2="300.0" stroke="#c62828" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="340.0" y="52.0" font-size="12" text-anchor="start" fill="#c62828" stroke="none" >sueltas las dos palas</text>
+<polyline points="150.0,220.0 150.0,220.0 150.0,196.0 270.0,196.0 270.0,220.0 310.0,220.0 310.0,196.0 350.0,196.0 350.0,220.0 750.0,220.0" stroke="#1565c0" stroke-width="2.5"/>
+<text x="390.0" y="212.0" font-size="14" text-anchor="start" fill="#1565c0" stroke="none" font-weight="600">− ·  = N</text>
+<polyline points="150.0,290.0 150.0,290.0 150.0,266.0 270.0,266.0 270.0,290.0 310.0,290.0 310.0,266.0 350.0,266.0 350.0,290.0 390.0,290.0 390.0,266.0 510.0,266.0 510.0,290.0 750.0,290.0" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="550.0" y="282.0" font-size="14" text-anchor="start" fill="#2e7d32" stroke="none" font-weight="600">− · −  = K</text>
+<text x="450.0" y="316.0" font-size="12" text-anchor="middle" fill="#2e7d32" stroke="none" >el modo B termina el elemento en curso y añade el contrario</text>
+<text x="400.0" y="28.0" font-size="15" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">Manipulador yámbico con las dos palas apretadas</text>
+</g>
+</svg>

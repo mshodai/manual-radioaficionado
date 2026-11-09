@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 262" width="800" height="262" role="img" aria-labelledby="t">
+<title id="t">Comparación de PARIS a 10 palabras por minuto con temporización normal y con caracteres a 20 palabras por minuto y espacios alargados; ambas duran seis segundos</title>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<text x="40.0" y="56.0" font-size="13" text-anchor="start" fill="#1a1a1a" stroke="none" font-weight="600">10 ppm normales: punto de 120 ms y espacio entre letras de 360 ms</text>
+<rect x="198.4" y="74.0" width="43.2" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="313.6" y="74.0" width="43.2" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="457.6" y="74.0" width="43.2" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="544.0" y="74.0" width="43.2" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="659.2" y="74.0" width="100.8" height="26.0" fill="#fff3e0" stroke="none"/>
+<polyline points="40.0,100.0 40.0,100.0 40.0,74.0 54.4,74.0 54.4,100.0 68.8,100.0 68.8,74.0 112.0,74.0 112.0,100.0 126.4,100.0 126.4,74.0 169.6,74.0 169.6,100.0 184.0,100.0 184.0,74.0 198.4,74.0 198.4,100.0 241.6,100.0 241.6,74.0 256.0,74.0 256.0,100.0 270.4,100.0 270.4,74.0 313.6,74.0 313.6,100.0 356.8,100.0 356.8,74.0 371.2,74.0 371.2,100.0 385.6,100.0 385.6,74.0 428.8,74.0 428.8,100.0 443.2,100.0 443.2,74.0 457.6,74.0 457.6,100.0 500.8,100.0 500.8,74.0 515.2,74.0 515.2,100.0 529.6,100.0 529.6,74.0 544.0,74.0 544.0,100.0 587.2,100.0 587.2,74.0 601.6,74.0 601.6,100.0 616.0,100.0 616.0,74.0 630.4,74.0 630.4,100.0 644.8,100.0 644.8,74.0 659.2,74.0 659.2,100.0 760.0,100.0" stroke="#1565c0" stroke-width="2"/>
+<text x="40.0" y="156.0" font-size="13" text-anchor="start" fill="#1a1a1a" stroke="none" font-weight="600">Farnsworth 20/10: punto de 60 ms y espacio entre letras de 654 ms</text>
+<rect x="119.2" y="174.0" width="78.4" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="233.6" y="174.0" width="78.4" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="362.5" y="174.0" width="78.4" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="462.5" y="174.0" width="78.4" height="26.0" fill="#fff3e0" stroke="none"/>
+<rect x="577.0" y="174.0" width="183.0" height="26.0" fill="#fff3e0" stroke="none"/>
+<polyline points="40.0,200.0 40.0,200.0 40.0,174.0 47.2,174.0 47.2,200.0 54.4,200.0 54.4,174.0 76.0,174.0 76.0,200.0 83.2,200.0 83.2,174.0 104.8,174.0 104.8,200.0 112.0,200.0 112.0,174.0 119.2,174.0 119.2,200.0 197.6,200.0 197.6,174.0 204.8,174.0 204.8,200.0 212.0,200.0 212.0,174.0 233.6,174.0 233.6,200.0 312.1,200.0 312.1,174.0 319.3,174.0 319.3,200.0 326.5,200.0 326.5,174.0 348.1,174.0 348.1,200.0 355.3,200.0 355.3,174.0 362.5,174.0 362.5,200.0 440.9,200.0 440.9,174.0 448.1,174.0 448.1,200.0 455.3,200.0 455.3,174.0 462.5,174.0 462.5,200.0 541.0,200.0 541.0,174.0 548.2,174.0 548.2,200.0 555.4,200.0 555.4,174.0 562.6,174.0 562.6,200.0 569.8,200.0 569.8,174.0 577.0,174.0 577.0,200.0 760.0,200.0" stroke="#2e7d32" stroke-width="2"/>
+<line x1="40.0" y1="222.0" x2="40.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="40.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >0 s</text>
+<line x1="160.0" y1="222.0" x2="160.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="160.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >1 s</text>
+<line x1="280.0" y1="222.0" x2="280.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="280.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >2 s</text>
+<line x1="400.0" y1="222.0" x2="400.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="400.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >3 s</text>
+<line x1="520.0" y1="222.0" x2="520.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="520.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >4 s</text>
+<line x1="640.0" y1="222.0" x2="640.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="640.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >5 s</text>
+<line x1="760.0" y1="222.0" x2="760.0" y2="228.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="760.0" y="244.0" font-size="11" text-anchor="middle" fill="#9e9e9e" stroke="none" >6 s</text>
+<line x1="40.0" y1="225.0" x2="760.0" y2="225.0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="400.0" y="28.0" font-size="15" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">La misma palabra, la misma velocidad media: cambia dónde está el tiempo</text>
+</g>
+</svg>
