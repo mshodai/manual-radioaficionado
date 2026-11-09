@@ -9,7 +9,9 @@ Uso, desde la raíz del repositorio:
 Fuentes de los datos fijos (comprobadas en noviembre de 2026):
 - Código y temporización: Recomendación UIT-R M.1677-1 (10/2009), anexo 1.
 - Segmentos de CW: plan de bandas de HF de la IARU Región 1 de 2020 (en vigor
-  desde el 16 de octubre de 2020; no se ha podido confirmar si hay cambios posteriores), y planes de VHF y UHF de diciembre de 2020.
+  desde el 16 de octubre de 2020; no se ha podido confirmar si hay cambios posteriores),
+  y planes de VHF y UHF del VHF Handbook v10.03 de la IARU Región 1 (febrero de 2026),
+  apartados 7.2 a 7.5.
 - Velocidad de identificación de los repetidores: artículo 25.d) de la Orden
   IET/1311/2013 (BOE-A-2013-7624).
 """
