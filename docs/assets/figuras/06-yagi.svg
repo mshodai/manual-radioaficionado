@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" role="img" aria-labelledby="t">
+<title id="t">Yagi de tres elementos vista desde arriba. Sobre un boom hay tres elementos paralelos: detrás el reflector, algo más largo; en medio el elemento excitado, de media onda, que es el único conectado a la línea; delante el director, algo más corto. La antena radia sobre todo hacia el lado del director.</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="flecha-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/>
+  </marker>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<line x1="110.0" y1="215.0" x2="540.0" y2="215.0" stroke-width="5" stroke="#616161"/>
+<text x="560.0" y="220.0" font-size="12" text-anchor="start" fill="#1a1a1a" stroke="none" >boom</text>
+<line x1="170.0" y1="80.0" x2="170.0" y2="350.0" stroke="#1a1a1a" stroke-width="4"/>
+<text x="170.0" y="66.0" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >Reflector</text>
+<line x1="330.0" y1="90.0" x2="330.0" y2="208.0" stroke="#1565c0" stroke-width="4"/>
+<line x1="330.0" y1="222.0" x2="330.0" y2="340.0" stroke="#1565c0" stroke-width="4"/>
+<line x1="330.0" y1="222.0" x2="370.0" y2="275.0" stroke-width="1.3"/>
+<text x="374.0" y="289.0" font-size="12" text-anchor="start" fill="#1a1a1a" stroke="none" >línea</text>
+<text x="330.0" y="76.0" font-size="14" text-anchor="middle" fill="#1565c0" stroke="none" >Excitado</text>
+<line x1="450.0" y1="101.0" x2="450.0" y2="329.0" stroke="#1a1a1a" stroke-width="4"/>
+<text x="450.0" y="87.0" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >Director</text>
+<text x="170.0" y="372.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >un 5 % más largo</text>
+<text x="330.0" y="362.0" font-size="12" text-anchor="middle" fill="#1565c0" stroke="none" >≈ λ/2, resonante</text>
+<text x="450.0" y="351.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >un 5 % más corto</text>
+<line x1="560.0" y1="135.0" x2="660.0" y2="135.0" stroke="#1565c0" marker-end="url(#flecha-acc)" stroke-width="3"/>
+<text x="610.0" y="121.0" font-size="13" text-anchor="middle" fill="#1565c0" stroke="none" >máxima radiación</text>
+<text x="350.0" y="30.0" font-size="15" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">Yagi de tres elementos vista desde arriba</text>
+</g>
+</svg>
