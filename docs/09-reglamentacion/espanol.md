@@ -19,7 +19,7 @@ Otras normas que afectan a tu estación ya están en sus capítulos: las de las 
 
 La **autorización de radioaficionado** te habilita para emitir con estaciones fijas que tengan su licencia y con estaciones móviles o portátiles, en cualquiera de las bandas atribuidas al servicio de aficionados y al de aficionados por satélite, con las características técnicas del apartado 3 del anexo I. Las emisiones por satélite quedan limitadas a las bandas que el CNAF atribuye a ese servicio (artículo 5.3; comprobado en noviembre de 2026).
 
-No hay clases: la autorización española es una sola, con las mismas bandas y potencias para todos sus titulares. Lo que sí hay son **autorizaciones especiales** para algunas bandas y para usos experimentales, que verás más abajo.
+El artículo 5 regula una autorización única, sin clases: las mismas bandas y potencias para todos sus titulares. Lo que sí hay son **autorizaciones especiales** para algunas bandas y para usos experimentales, que verás más abajo.
 
 ### Qué características tiene
 
@@ -107,7 +107,7 @@ Este capítulo no repite lo que ya está en otros:
 Solo un apunte que no aparece en esos capítulos. El apartado 3.5 del anexo I añade que las potencias máximas no te eximen de tomar las medidas necesarias, incluida la de bajar potencia, para que la densidad de potencia sea inferior a **3,5 mW/cm²** (es decir, 35 W/m²) en los lugares a los que tengan acceso o por los que puedan pasar personas (comprobado en noviembre de 2026). Ese valor queda muy por encima de los niveles de referencia del Real Decreto 1066/2001 que viste en el [capítulo 3](../03-seguridad.md#los-limites-en-espana): en 2 m, por ejemplo, el nivel para el público es de 2 W/m². Para proteger a las personas, guíate por esos niveles.
 
 !!! tip "Para el examen"
-    Estaciones: la **portátil** lleva antena y batería incorporadas; la **portable** es una estación fija montada temporalmente en otro sitio, y se notifica con **5 días** de antelación salvo usos no continuados de **15 días** como máximo. Estaciones colectivas: solo de **asociaciones reconocidas**; en demostraciones, supervisión presencial de un radioaficionado con **3 años**, 40 % de la potencia de la banda y **100 W p. i. r. e.** como tope. Repetidores: acceso libre, identificación cada **10 min**; balizas, cada **3 min**; en VHF y UHF, **50 W** fuera de casco urbano y **10 W** dentro, antena de **6 dBd** como máximo (comprobado en noviembre de 2026).
+    Estaciones: la **portátil** lleva antena y batería incorporadas; la **portable** es una estación fija montada temporalmente en otro sitio, y se notifica con **5 días** de antelación salvo usos no continuados de **15 días** como máximo. Estaciones colectivas: solo de **asociaciones reconocidas**; en demostraciones, supervisión presencial de un radioaficionado con **3 años**, 40 % de la potencia de la banda y **100 W p. i. r. e.** como tope. Repetidores: acceso libre a los analógicos y a los digitales finales; los analógicos se identifican automáticamente cada **10 min**; balizas, cada **3 min**; en VHF y UHF, **50 W** fuera de casco urbano y **10 W** dentro, antena de **6 dBd** como máximo (comprobado en noviembre de 2026).
 
 ## El distintivo de llamada
 
@@ -154,7 +154,7 @@ Son **hasta tres letras**, asignadas por orden alfabético y por turno riguroso,
 
 - Los que empiezan por **Y**, para estaciones automáticas desatendidas **analógicas**, y por **Z**, para las **digitales**.
 - Los que empiezan por **UR**, para estaciones colectivas de asociaciones, y por **RC** o **RK**, para las de radioclubes.
-- Los de **una y dos letras**, para radioaficionados con antigüedad y práctica internacional acreditadas; los de una letra también se reservan para concursos internacionales de alta competición.
+- Los de **una y dos letras**, para radioaficionados con antigüedad y práctica internacional acreditadas; los de una letra también se reservan para concursos internacionales de alta competición o para los concursos que se celebren dentro del año natural de la solicitud.
 
 De forma excepcional, para eventos o conmemoraciones de especial relevancia, se pueden autorizar sufijos temporales de **cuatro o más letras**.
 
@@ -254,8 +254,8 @@ Al margen de la multa, la orden prevé que se te pueda **revocar la autorizació
 - La autorización es **única** (sin clases), **personal**, **intransferible** e **indefinida** mientras no renuncies ni te la revoquen. Tienes que comunicar los cambios de domicilio. Las emisiones con fines **comerciales o lucrativos** son causa de revocación.
 - Puedes usar equipos comerciales con marcado CE y equipos **de construcción propia** sin autorización previa, siempre que cumplan el anexo I.
 - **Portátil** no es lo mismo que **portable**: la portable se notifica con 5 días de antelación salvo usos no continuados de 15 días como máximo. Las estaciones **colectivas** son de asociaciones reconocidas y pueden servir para demostraciones con supervisión, al 40 % de la potencia y con un tope de 100 W p. i. r. e.
-- Los **repetidores** son de acceso libre y se identifican cada 10 min; las **balizas**, cada 3 min. En VHF y UHF, 50 W fuera de casco urbano y 10 W dentro, con antena de 6 dBd como máximo.
-- **Distintivo**: prefijo (EA, EB, EC permanentes; ED para repetidores; ED a EH y AM a AO temporales), cifra del **distrito** de residencia al obtener la autorización (de 1 a 9; el 0 es especial) y sufijo de hasta tres letras (Y y Z para repetidores, UR y RC o RK para colectivas).
+- Los **repetidores** analógicos y los digitales finales son de acceso libre; los analógicos se identifican automáticamente cada 10 min y las **balizas**, cada 3 min. En VHF y UHF, 50 W fuera de casco urbano y 10 W dentro, con antena de 6 dBd como máximo.
+- **Distintivo**: prefijo (EA, EB, EC permanentes; ED para estaciones automáticas desatendidas; ED a EH y AM a AO temporales), cifra del **distrito** de residencia al obtener la autorización (de 1 a 9; el 0 es especial) y sufijo de hasta tres letras (Y y Z para estaciones automáticas desatendidas analógicas y digitales, UR y RC o RK para colectivas).
 - **Identificación** al principio y al final de cada emisión y cada **10 minutos** en las largas. /P, /M, /MM, /MA y la cifra del distrito son optativos.
 - **Normas de uso**: nada de mensajes cifrados, terceros solo en emergencia o desastre, **obligación** de colaborar con Protección Civil si te lo requiere y de hacerle llegar los mensajes de socorro. El **libro de guardia** es recomendable, pero la orden no lo exige.
 - La **Inspección** es autoridad pública. La **Ley 11/2022** clasifica las infracciones en muy graves, graves y leves, con multas máximas de 20 millones, 2 millones y 100 000 €, y prescripción a los 3, 2 y 1 año (comprobado en noviembre de 2026).
@@ -310,7 +310,7 @@ c) Sí, si os identificáis en claro cada diez minutos.
 d) Solo en las bandas secundarias.
 
 ??? success "Solución"
-    **b)** El artículo 30.2 de la Orden IET/1311/2013 y el número 25.2A del Reglamento de Radiocomunicaciones prohíben codificar para ocultar el significado. La única excepción es el telemando entre las estaciones de mando y los satélites del servicio de aficionados. Identificarse no lo arregla, y el plan de la IARU no puede autorizar lo que la norma prohíbe.
+    **b)** El artículo 30.2 de la Orden IET/1311/2013 prohíbe codificar las transmisiones para ocultar su significado; el número 25.2A del Reglamento de Radiocomunicaciones prohíbe lo mismo en las comunicaciones entre países distintos. La única excepción es el telemando entre las estaciones de mando y los satélites del servicio de aficionados. Identificarse no lo arregla, y el plan de la IARU no puede autorizar lo que la norma prohíbe.
 
 **6.** Según la Ley 11/2022, ¿qué tipo de infracción es instalar una estación de radioaficionado sin tener autorización, y cuál es la multa máxima?
 
@@ -320,14 +320,14 @@ c) Leve; hasta 100 000 euros.
 d) No es infracción, porque la estación no ha llegado a emitir.
 
 ??? success "Solución"
-    **c)** El artículo 108.4 de la Ley 11/2022 tipifica como leve la instalación de estaciones de radioaficionado sin autorización, y el artículo 109.1.d) fija para las leves una multa de hasta 100 000 euros (comprobado en noviembre de 2026). Si además emitieras e interfirieras, podrían sumarse otras infracciones más graves.
+    **c)** El artículo 108.4 de la Ley 11/2022 tipifica como leve la instalación de estaciones de radioaficionado sin autorización, y el artículo 109.1.d) fija para las leves una multa de hasta 100 000 euros (comprobado en noviembre de 2026). El artículo 107.1 tipifica como grave, en general, la instalación de estaciones radioeléctricas sin autorización; pero el 108.4 se refiere específicamente a las estaciones de radioaficionado, y como regla específica prevalece sobre la general. Si además emitieras e interfirieras, podrían sumarse otras infracciones más graves.
 
 **7.** ¿Cuál de estas afirmaciones es **una obligación legal** y no una simple recomendación?
 
 a) Llevar un libro de guardia con todos tus contactos.  
 b) Hacer la telegrafía en el tramo de 7 000 a 7 040 kHz, como indica el plan de la IARU.  
 c) Colaborar con tus medios radioeléctricos cuando te lo requiera la Dirección General de Protección Civil y Emergencias en caso de catástrofe.  
-d) Usar la banda lateral inferior por debajo de 10 MHz.
+d) Confirmar los contactos con tarjeta QSL.
 
 ??? success "Solución"
-    **c)** Es una obligación del artículo 30.4 de la Orden IET/1311/2013. El libro de guardia está en el temario del HAREC, pero la orden no lo exige. El tramo de telegrafía y el uso de la banda lateral inferior por debajo de 10 MHz son recomendaciones del plan de bandas de HF de la IARU Región 1, que la orden manda seguir «como norma general», pero que no son límites legales estrictos.
+    **c)** Es una obligación del artículo 30.4 de la Orden IET/1311/2013. El libro de guardia está en el temario del HAREC, pero la orden no lo exige. Confirmar los contactos con QSL es una costumbre voluntaria. El tramo de telegrafía es una recomendación del plan de bandas de HF de la IARU Región 1, que la orden manda seguir «como norma general», pero que no es un límite legal estricto.

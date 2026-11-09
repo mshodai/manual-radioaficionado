@@ -32,7 +32,7 @@ El anexo 1 de la T/R 61-01 y los artículos 12 y 14 de la orden fijan las condic
 - **Tienes que enseñar la licencia** a las autoridades del país visitado si te la piden.
 - **No puedes reclamar protección** frente a interferencias perjudiciales.
 
-La licencia CEPT tiene que indicar, como mínimo, que es una licencia CEPT, la declaración de que autoriza a operar según la T/R 61-01 en los países que la aplican, el nombre y la dirección del titular, el distintivo, la validez y la autoridad que la expide. El artículo 12 de la orden repite esa lista (comprobado en noviembre de 2026).
+La licencia CEPT tiene que indicar, como mínimo, que es una licencia CEPT, la declaración de que autoriza a operar según la T/R 61-01 en los países que la aplican, el nombre y la dirección del titular, el distintivo, la validez y la autoridad que la expide. El artículo 12 de la orden recoge esa lista salvo el primer elemento, la indicación de que se trata de una licencia CEPT (comprobado en noviembre de 2026).
 
 ### El indicativo en el extranjero
 
@@ -118,7 +118,7 @@ d) No puedes transmitir sin pedir antes una licencia portuguesa.
 ??? success "Solución"
     **b)** Según el apartado 2.3 del anexo 1 de la T/R 61-01, usas tu indicativo nacional **precedido** del prefijo del país visitado, separado por una barra. El anexo 2 da CT7 para el Portugal continental (CT8 y CT9 son Azores y Madeira). No necesitas licencia portuguesa: tu autorización española ya es licencia CEPT (artículo 11 de la Orden IET/1311/2013).
 
-**2.** Una aficionada ficticia con licencia de un país que aplica la T/R 61-01 se traslada a vivir a España por trabajo durante tres años. ¿Qué le conviene?
+**2.** Una aficionada ficticia tiene un HAREC expedido por un país que aplica la T/R 61-02, y su licencia nacional es también licencia CEPT. Se traslada a vivir a España por trabajo durante tres años. ¿Qué puede hacer?
 
 a) Seguir operando indefinidamente con su licencia CEPT.  
 b) Pedir una autorización temporal de 90 días y renovarla cada vez.  

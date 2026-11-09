@@ -46,7 +46,7 @@ Las regiones importan porque las atribuciones no son iguales en todas. Un ejempl
 
 Por eso oyes a estaciones de América hablando en 7 250 kHz, y por eso tú, desde España, no puedes contestarles en esa frecuencia: les llamas en tu parte de la banda y ellos te escuchan en la suya. Es lo que se llama trabajar en **dúplex de frecuencias separadas** (*split*).
 
-El número 5.2 también remite a una **Zona Tropical**, definida en los números 5.16 a 5.21, que se usa para la radiodifusión en onda corta. No afecta a las bandas de aficionados.
+El mapa del número 5.2 muestra también una **Zona Tropical**: el RR la define en los números 5.16 a 5.21 y la usa en el artículo 23 para la radiodifusión.
 
 ## Distintivos de llamada y prefijos
 
@@ -64,7 +64,7 @@ Para las estaciones de aficionado, el número 19.68 fija este formato:
 2. **Una sola cifra**.
 3. **Un grupo de cuatro caracteres como máximo**, el último de los cuales tiene que ser una letra.
 
-En el resto de las estaciones no se pueden usar las cifras 0 y 1 justo después de las letras, pero el número 19.69 hace una excepción para las de aficionado. Y el número 19.68A permite a las administraciones autorizar, en casos especiales y para uso temporal, distintivos con más de cuatro caracteres en el último grupo.
+El número 19.68 exige que esa cifra sea distinta de 0 y de 1, pero el número 19.69 levanta la prohibición para las estaciones de aficionado; sigue valiendo para las experimentales. Y el número 19.68A permite a las administraciones autorizar, en casos especiales y para uso temporal, distintivos con más de cuatro caracteres en el último grupo.
 
 **Ejemplo.** El indicativo ficticio EA0ZZZ cumple el formato: EA (nacionalidad), 0 (una cifra, permitida en aficionados por el número 19.69) y ZZZ (tres caracteres, el último una letra). Un indicativo como EA0 sin nada detrás no lo cumple, porque le falta el grupo final; y EA0ZZ9 tampoco, porque el grupo termina en cifra.
 
@@ -87,7 +87,7 @@ El artículo 25 es el corazón del RR para los radioaficionados. Tiene dos secci
 |---|---|
 | 25.1 | Las comunicaciones entre aficionados de países distintos están permitidas, salvo que la administración de alguno de ellos notifique su oposición. |
 | 25.2 | Entre países distintos, las transmisiones se limitan a lo relativo al objeto del servicio (el del número 1.56) y a observaciones de carácter puramente personal. |
-| 25.2A | No se pueden **codificar para ocultar su significado**. La única excepción son las señales de control entre las estaciones terrenas de control y los satélites de aficionado. |
+| 25.2A | Las transmisiones entre aficionados de **países distintos** no se pueden **codificar para ocultar su significado**. La única excepción son las señales de control entre las estaciones terrenas de control y los satélites de aficionado. En España, la prohibición alcanza a todas las transmisiones (artículo 30.2 de la orden; ver el [nivel español](espanol.md#lo-que-dice-el-articulo-30)). |
 | 25.3 | Solo se pueden transmitir comunicaciones internacionales **en nombre de terceros** en emergencias o en socorro en caso de desastre. Cada administración decide si aplica esta disposición a sus estaciones. |
 | 25.5 | Cada administración decide si exige demostrar aptitud en **Morse** para obtener la licencia. |
 | 25.6 | Las administraciones comprueban la capacidad operativa y técnica de quien quiere operar una estación de aficionado. Las calificaciones mínimas están en la Recomendación UIT-R M.1544. |
@@ -116,7 +116,7 @@ Fíjate en que varias de estas reglas dejan la decisión a cada país: el Morse 
     El anexo II de la Orden IET/1311/2013, que fija el temario del examen, cita la «Res. 640 R.R.» sobre el uso internacional de las bandas de aficionados en catástrofes naturales (comprobado en noviembre de 2026). En la lista de resoluciones de la edición de 2024 del RR ya no figura ninguna Resolución 640 (comprobado en noviembre de 2026). El contenido que hoy está en vigor sobre emergencias son los números 25.3 y 25.9A del artículo 25. Si te preguntan por ella en el examen, la idea que se busca es esa: en catástrofes, las bandas de aficionados pueden usarse para comunicaciones de socorro, incluso en nombre de terceros.
 
 !!! tip "Para el examen"
-    Definición del **servicio de aficionados** (RR 1.56): instrucción individual, intercomunicación y estudios técnicos, por personas autorizadas, a título personal y sin ánimo de lucro. **España está en la Región 1.** Sus series de distintivos son **AMA – AOZ** y **EAA – EHZ**. Distintivo de aficionado (RR 19.68): uno o dos caracteres de nacionalidad, una cifra y hasta cuatro caracteres, el último una letra. Artículo 25: nada de mensajes cifrados, tráfico de terceros solo en emergencias, identificación a intervalos cortos, y el Morse y la potencia los decide cada país (comprobado en noviembre de 2026).
+    Definición del **servicio de aficionados** (RR 1.56): instrucción individual, intercomunicación y estudios técnicos, por personas autorizadas, a título personal y sin ánimo de lucro. **España está en la Región 1.** Sus series de distintivos son **AMA – AOZ** y **EAA – EHZ**. Distintivo de aficionado (RR 19.68): uno o dos caracteres de nacionalidad, una cifra y hasta cuatro caracteres, el último una letra. Artículo 25: nada de mensajes cifrados entre países distintos (en España, el artículo 30.2 de la orden lo prohíbe en todas las transmisiones), tráfico de terceros solo en emergencias, identificación a intervalos cortos, y el Morse y la potencia los decide cada país (comprobado en noviembre de 2026).
 
 ## Resumen
 
@@ -124,7 +124,7 @@ Fíjate en que varias de estas reglas dejan la decisión a cada país: el Morse 
 - El **servicio de aficionados** (número 1.56) tiene por objeto la instrucción individual, la intercomunicación y los estudios técnicos, por personas autorizadas, a título personal y sin ánimo de lucro. El servicio por satélite (1.57) persigue los mismos fines con satélites.
 - El mundo se divide en **tres regiones**. España, con Canarias, está en la **Región 1**. Las atribuciones cambian de una región a otra: 7 200 – 7 300 kHz es de aficionados solo en la Región 2.
 - Un distintivo de aficionado tiene uno o dos caracteres de nacionalidad, **una cifra** y un grupo de **hasta cuatro caracteres**, el último una letra (número 19.68). A España le corresponden las series **AMA – AOZ** y **EAA – EHZ** (apéndice 42).
-- El **artículo 25** permite las comunicaciones internacionales salvo oposición de un país, prohíbe **cifrar** los mensajes, limita el **tráfico de terceros** a emergencias y desastres, exige **identificarse a intervalos cortos** y deja a cada país el Morse, la potencia y la operación de visitantes (comprobado en noviembre de 2026).
+- El **artículo 25** permite las comunicaciones internacionales salvo oposición de un país, prohíbe **cifrar** los mensajes entre países distintos (en España lo prohíbe en general el artículo 30.2 de la orden), limita el **tráfico de terceros** a emergencias y desastres, exige **identificarse a intervalos cortos** y deja a cada país el Morse, la potencia y la operación de visitantes (comprobado en noviembre de 2026).
 
 ## Autoevaluación
 
