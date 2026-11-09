@@ -114,7 +114,7 @@ Si alguien se pusiera delante con la emisora transmitiendo sin parar, la distanc
 
 Los límites de exposición del público a campos electromagnéticos están en el anexo II del [Real Decreto 1066/2001, de 28 de septiembre, por el que se aprueba el Reglamento que establece condiciones de protección del dominio público radioeléctrico, restricciones a las emisiones radioeléctricas y medidas de protección sanitaria frente a emisiones radioeléctricas](https://www.boe.es/buscar/act.php?id=BOE-A-2001-18256) (comprobado en noviembre de 2026). Sus valores siguen la [Recomendación 1999/519/CE del Consejo, de 12 de julio de 1999](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31999H0519), relativa a la exposición del público en general a campos electromagnéticos (comprobado en noviembre de 2026).
 
-El [Real Decreto 123/2017, de 24 de febrero, por el que se aprueba el Reglamento sobre el uso del dominio público radioeléctrico](https://www.boe.es/buscar/act.php?id=BOE-A-2017-2460), derogó buena parte del RD 1066/2001, pero dejó en vigor sus artículos 6 y 7 y el anexo II, que son los que fijan los límites. El artículo 6 exige que esos límites se cumplan en las zonas en las que puedan permanecer habitualmente personas (comprobado en noviembre de 2026).
+El [Real Decreto 123/2017, de 24 de febrero, por el que se aprueba el Reglamento sobre el uso del dominio público radioeléctrico](https://www.boe.es/buscar/act.php?id=BOE-A-2017-2460), derogó los capítulos II, IV y V y el anexo I del reglamento aprobado por el RD 1066/2001 (letra c de su disposición derogatoria única). Siguen en vigor el capítulo I (artículos 1 y 2), el capítulo III (artículos 6 y 7), la disposición transitoria única y el anexo II, que es el que fija los límites. El artículo 6 exige que esos límites se cumplan en las zonas en las que puedan permanecer habitualmente personas (comprobado en noviembre de 2026).
 
 El anexo II establece dos niveles (comprobado en noviembre de 2026):
 
@@ -130,7 +130,7 @@ Estos son los niveles de referencia en las gamas donde están las bandas de afic
 | 400–2 000 MHz | $1{,}375 \sqrt{f}$ | $0{,}0037 \sqrt{f}$ | $f / 200$ |
 | 2–300 GHz | 61 | 0,16 | 10 |
 
-Son valores eficaces y se promedian en seis minutos, como las restricciones básicas. Si consultas el PDF original del BOE de 2001, verás que la celda de $H$ entre 10 y 400 MHz dice «0,73/f»: es una errata, corregida en el [BOE núm. 91 de 2002](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7198) y en el [núm. 93](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7364). El valor vigente es 0,073 A/m (comprobado en noviembre de 2026).
+Son valores eficaces. Entre 100 kHz y 10 GHz se promedian en cualquier periodo de seis minutos, como las restricciones básicas. Por encima de 10 GHz el periodo se acorta con la frecuencia: $68 / f^{1{,}05}$ minutos, con $f$ en GHz, lo que da unos 6 minutos a 10 GHz y unos 10 segundos a 300 GHz (notas 2 y 3 del cuadro de niveles de referencia). Si consultas el PDF original del BOE de 2001, verás que la celda de $H$ entre 10 y 400 MHz dice «0,73/f»: es una errata, corregida en el [BOE núm. 91 de 2002](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7198) y en el [núm. 93](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7364). El valor vigente es 0,073 A/m (comprobado en noviembre de 2026).
 
 ![Gráfica del nivel de referencia de campo eléctrico frente a la frecuencia: 87 V/m hasta 1 MHz, desciende hasta 28 V/m entre 10 y 400 MHz y vuelve a subir hasta 61 V/m por encima de 2 GHz; están marcadas las bandas de 80 m, 40 m, 20 m, 6 m, 2 m, 70 cm y 23 cm](assets/figuras/03-niveles-referencia.svg)
 
@@ -298,7 +298,7 @@ La causa de muchos accidentes graves de radioaficionados no es la electricidad n
 
 - La radiofrecuencia es **radiación no ionizante**: su efecto comprobado es el **calentamiento** de los tejidos, que se mide con la tasa de absorción específica (SAR) en W/kg.
 - El cuerpo absorbe más entre unos 30 y 300 MHz; por eso los niveles de referencia más estrictos están entre **10 y 400 MHz**: 28 V/m o 2 W/m².
-- Los límites aplicables en España son los del **anexo II del RD 1066/2001**, que sigue en vigor tras el RD 123/2017 (comprobado en noviembre de 2026). Se promedian en **seis minutos** y deben cumplirse donde puedan permanecer personas.
+- Los límites aplicables en España son los del **anexo II del RD 1066/2001**, que sigue en vigor tras el RD 123/2017 (comprobado en noviembre de 2026). Hasta 10 GHz se promedian en **seis minutos** (por encima, en un periodo más corto) y deben cumplirse donde puedan permanecer personas.
 - La densidad de potencia en campo lejano es $S = \text{PIRE} / (4 \pi d^2)$: baja con el **cuadrado de la distancia**. En campo cercano hay que dejar un margen o medir.
 - Para reducir la exposición: menos potencia, antena más lejos y más alta, y nunca tocar una antena que transmite.
 - Daña la **corriente**: de unos 50–100 mA a 50 Hz a través del pecho pueden provocar fibrilación. El **diferencial** de 30 mA protege a las personas; el **magnetotérmico**, los cables; la **toma de tierra** da salida a las fugas.

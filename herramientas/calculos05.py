@@ -127,6 +127,7 @@ comprueba("6 m: 50 % de 600 W p.c.e.", 0.5 * 600, 300)
 comprueba("4 m: 50 % de 600 W p.c.e.", 0.5 * 600, 300)
 comprueba("160 m (1 810-1 830 kHz): 50 % de 1 000 W p.c.e.", 0.5 * 1000, 500)
 comprueba("23, 13, 6, 3 cm y 24,05-24,25 GHz: 50 % de 1 000 W p.i.r.e.", 0.5 * 1000, 500)
+comprueba("longitud de onda en 24 GHz (cm)", C / 24e9 * 100, 1.25)
 
 # Ciclo solar (SILSO)
 comprueba("caída del suavizado de oct-2024 a abr-2026 (%)", (160.9 - 88.6) / 160.9 * 100, 45, tol=0.01)

@@ -294,7 +294,7 @@ El Doppler también explica por qué el eco lunar y las señales de la aurora ll
 
 ### Qué es una radiobaliza
 
-Una **radiobaliza** del servicio de aficionados es, según el anexo I de la Orden IET/1311/2013, una estación automática desatendida destinada a hacer estudios de propagación, que emite de forma automática señales de identificación (comprobado en noviembre de 2026). Emite siempre desde el mismo sitio, con una potencia y una antena conocidas, en una frecuencia fija. Si la oyes, la banda está abierta hacia ese lugar; si no, probablemente no. En España solo las asociaciones de radioaficionados reconocidas pueden tener estaciones automáticas desatendidas, que deben identificarse al menos cada tres minutos y, en HF, no superar los 50 W de salida, según los artículos 18, 24 y 25 de la misma orden (comprobado en noviembre de 2026).
+Una **radiobaliza** del servicio de aficionados es, según el anexo I de la Orden IET/1311/2013, una estación automática desatendida destinada a hacer estudios de propagación, que emite de forma automática señales de identificación (comprobado en noviembre de 2026). Emite siempre desde el mismo sitio, con una potencia y una antena conocidas, en una frecuencia fija. Si la oyes, la banda está abierta hacia ese lugar; si no, probablemente no. En España solo las asociaciones de radioaficionados reconocidas pueden tener estaciones automáticas desatendidas, como las radiobalizas y los repetidores, que en HF no pueden superar los 50 W de salida. Las radiobalizas deben transmitir su distintivo al menos cada tres minutos; los repetidores analógicos, al menos cada diez minutos mientras emiten. Todo ello lo fijan los artículos 18, 24 y 25 de la misma orden (comprobado en noviembre de 2026).
 
 El plan de bandas de la IARU Región 1 reserva segmentos para balizas en casi todas las bandas. Los de VHF y UHF están en sus [planes de bandas](https://www.iaru-r1.org/reference/band-plans/) (comprobado en noviembre de 2026):
 
@@ -427,6 +427,9 @@ Esta tabla resume las bandas del servicio de aficionados en la columna de atribu
 Hay más bandas de aficionado por encima de 24 GHz (47 GHz, 76 – 81 GHz, 122 GHz, 134 – 141 GHz y otras), recogidas en el mismo CNAF.
 
 La banda de 60 m no aparece en la tabla de potencias de la orden. Su límite, 15 W p. i. r. e., lo fija la nota 5.133B del Reglamento de Radiocomunicaciones, que recoge el CNAF (comprobado en noviembre de 2026).
+
+!!! tip "Para el examen"
+    La tabla del apartado 3.1 del anexo I de la Orden IET/1311/2013 llama a la banda de 24 GHz «1,5 cm» (comprobado en noviembre de 2026). Aquí se usa «1,2 cm», que se acerca más a su longitud de onda real, $\lambda = 300 / 24\,000\ \text{m} = 1{,}25\ \text{cm}$. Si en el examen aparece «1,5 cm», se refiere a la misma banda.
 
 ### La regla del 50 % en las bandas secundarias
 
