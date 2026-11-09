@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" role="img" aria-labelledby="t">
+<title id="t">Número de manchas solares suavizado de 2008 a abril de 2026, según SILSO. Mínimo en diciembre de 2008, máximo del ciclo 24 en abril de 2014 con 116,4, mínimo en diciembre de 2019 con 1,8, máximo del ciclo 25 en octubre de 2024 con 160,9 y descenso hasta 88,6 en abril de 2026.</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="flecha-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/>
+  </marker>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<line x1="70.0" y1="300.0" x2="640.0" y2="300.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="62.0" y="304.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >0</text>
+<line x1="70.0" y1="242.2" x2="640.0" y2="242.2" stroke="#e0e0e0" stroke-width="1"/>
+<text x="62.0" y="246.2" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >40</text>
+<line x1="70.0" y1="184.4" x2="640.0" y2="184.4" stroke="#e0e0e0" stroke-width="1"/>
+<text x="62.0" y="188.4" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >80</text>
+<line x1="70.0" y1="126.7" x2="640.0" y2="126.7" stroke="#e0e0e0" stroke-width="1"/>
+<text x="62.0" y="130.7" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >120</text>
+<line x1="70.0" y1="68.9" x2="640.0" y2="68.9" stroke="#e0e0e0" stroke-width="1"/>
+<text x="62.0" y="72.9" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >160</text>
+<line x1="70.0" y1="300.0" x2="70.0" y2="305.0" />
+<text x="70.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2008</text>
+<line x1="130.0" y1="300.0" x2="130.0" y2="305.0" />
+<text x="130.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2010</text>
+<line x1="190.0" y1="300.0" x2="190.0" y2="305.0" />
+<text x="190.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2012</text>
+<line x1="250.0" y1="300.0" x2="250.0" y2="305.0" />
+<text x="250.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2014</text>
+<line x1="310.0" y1="300.0" x2="310.0" y2="305.0" />
+<text x="310.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2016</text>
+<line x1="370.0" y1="300.0" x2="370.0" y2="305.0" />
+<text x="370.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2018</text>
+<line x1="430.0" y1="300.0" x2="430.0" y2="305.0" />
+<text x="430.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2020</text>
+<line x1="490.0" y1="300.0" x2="490.0" y2="305.0" />
+<text x="490.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2022</text>
+<line x1="550.0" y1="300.0" x2="550.0" y2="305.0" />
+<text x="550.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2024</text>
+<line x1="610.0" y1="300.0" x2="610.0" y2="305.0" />
+<text x="610.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >2026</text>
+<line x1="70.0" y1="300.0" x2="640.0" y2="300.0" />
+<line x1="70.0" y1="300.0" x2="70.0" y2="40.0" />
+<text x="70.0" y="26.0" font-size="13" text-anchor="start" fill="#1a1a1a" stroke="none" >número de manchas suavizado (13 meses)</text>
+<polyline points="71.3,290.5 78.8,292.6 86.3,294.2 93.8,296.5 98.7,296.8 101.3,296.4 108.8,295.2 116.3,292.1 123.8,284.3 131.3,279.8 138.8,270.0 146.3,263.6 153.8,250.2 161.3,234.0 168.8,211.7 176.3,179.2 183.8,173.8 191.3,162.1 198.8,162.6 206.3,177.9 213.8,176.1 221.3,174.6 228.8,178.2 236.3,163.4 243.8,145.4 251.3,142.1 258.8,131.9 266.3,137.4 273.8,159.5 281.3,171.0 288.8,186.0 296.3,201.3 303.8,207.1 311.3,221.4 318.8,231.0 326.3,244.4 333.8,254.5 341.3,259.8 348.8,264.2 356.3,269.7 363.8,275.9 371.3,279.5 378.8,288.7 386.3,289.9 393.8,290.2 401.3,292.2 408.8,293.8 416.3,294.9 423.8,296.2 428.7,297.4 431.3,296.8 438.8,294.8 446.3,287.0 453.8,282.8 461.3,275.0 468.8,264.2 476.3,254.6 483.8,234.7 491.3,213.2 498.8,194.6 506.3,174.8 513.8,157.1 521.3,136.3 528.8,122.5 536.3,120.0 543.8,119.7 551.3,110.5 558.8,91.4 566.3,76.1 573.8,67.6 581.3,88.8 588.8,107.5 596.3,123.1 603.8,143.3 611.3,149.6 618.8,172.0" stroke="#1565c0" stroke-width="2.5"/>
+<circle cx="98.7" cy="296.8" r="4" fill="#c62828" stroke="none"/>
+<text x="106.7" y="286.8" font-size="12" text-anchor="start" fill="#1a1a1a" stroke="none" >mínimo</text>
+<circle cx="258.8" cy="131.9" r="4" fill="#c62828" stroke="none"/>
+<text x="258.8" y="119.9" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >máximo del ciclo 24</text>
+<circle cx="428.7" cy="297.4" r="4" fill="#c62828" stroke="none"/>
+<text x="436.7" y="287.4" font-size="12" text-anchor="start" fill="#1a1a1a" stroke="none" >mínimo</text>
+<circle cx="573.8" cy="67.6" r="4" fill="#c62828" stroke="none"/>
+<text x="567.8" y="55.6" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >máximo del ciclo 25: 160,9</text>
+<circle cx="618.8" cy="172.0" r="4" fill="#c62828" stroke="none"/>
+<text x="610.8" y="194.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >abril de 2026: 88,6</text>
+<text x="173.7" y="160.0" font-size="14" text-anchor="middle" fill="#1565c0" stroke="none" font-weight="600">ciclo 24</text>
+<text x="481.2" y="160.0" font-size="14" text-anchor="middle" fill="#1565c0" stroke="none" font-weight="600">ciclo 25</text>
+</g>
+</svg>

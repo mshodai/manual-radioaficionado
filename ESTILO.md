@@ -126,3 +126,8 @@ Antes de dar un capítulo por terminado:
 ```
 
 Debe compilar sin avisos. Revisa en `zensical serve` que se ven las fórmulas, los Mermaid y las figuras en modo claro y oscuro.
+
+## 10. Comandos de terminal
+
+- **Los comandos con `rm` usan rutas absolutas.** Nunca `cd directorio && rm ruta/relativa`: si el `cd` falla o el directorio de trabajo no es el esperado, el borrado cae en otro sitio. Escribe `rm -f /ruta/completa/al/fichero` en una sola orden.
+- La regla vale tanto para el trabajo en el repositorio y en los directorios temporales como para los ejemplos de comandos que aparezcan en los capítulos.

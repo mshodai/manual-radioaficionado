@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 370" width="660" height="370" role="img" aria-labelledby="t">
+<title id="t">Capas de la ionosfera. De día hay cuatro: D entre 60 y 90 km, E entre 90 y 130 km, F1 entre 150 y 220 km y F2 entre 250 y 400 km. De noche desaparece la D, la E se debilita y F1 y F2 se funden en una sola capa F.</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="flecha-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/>
+  </marker>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<line x1="70.0" y1="330.0" x2="70.0" y2="24.5" stroke="#1a1a1a" marker-end="url(#flecha)"/>
+<text x="62.0" y="28.5" font-size="13" text-anchor="end" fill="#1a1a1a" stroke="none" >km</text>
+<line x1="65.0" y1="330.0" x2="70.0" y2="330.0" />
+<text x="61.0" y="335.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >0</text>
+<line x1="65.0" y1="265.0" x2="70.0" y2="265.0" />
+<text x="61.0" y="270.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >100</text>
+<line x1="65.0" y1="200.0" x2="70.0" y2="200.0" />
+<text x="61.0" y="205.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >200</text>
+<line x1="65.0" y1="135.0" x2="70.0" y2="135.0" />
+<text x="61.0" y="140.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >300</text>
+<line x1="65.0" y1="70.0" x2="70.0" y2="70.0" />
+<text x="61.0" y="75.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >400</text>
+<line x1="70.0" y1="330.0" x2="640.0" y2="330.0" stroke="#1a1a1a"/>
+<text x="225.0" y="22.0" font-size="16" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">De día</text>
+<rect x="110.0" y="271.5" width="230.0" height="19.5" fill="#fff3e0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="225.0" y="286.2" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >D</text>
+<rect x="110.0" y="245.5" width="230.0" height="26.0" fill="#ffe0b2" stroke="#9e9e9e" stroke-width="1"/>
+<text x="225.0" y="263.5" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >E</text>
+<rect x="110.0" y="187.0" width="230.0" height="45.5" fill="#bbdefb" stroke="#9e9e9e" stroke-width="1"/>
+<text x="225.0" y="214.8" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >F1</text>
+<rect x="110.0" y="70.0" width="230.0" height="97.5" fill="#90caf9" stroke="#9e9e9e" stroke-width="1"/>
+<text x="225.0" y="123.8" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >F2</text>
+<text x="505.0" y="22.0" font-size="16" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">De noche</text>
+<rect x="390.0" y="248.8" width="230.0" height="19.5" fill="#fff3e0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="505.0" y="263.5" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >E (débil)</text>
+<rect x="390.0" y="70.0" width="230.0" height="97.5" fill="#bbdefb" stroke="#9e9e9e" stroke-width="1"/>
+<text x="505.0" y="123.8" font-size="14" text-anchor="middle" fill="#1a1a1a" stroke="none" >F</text>
+<text x="225.0" y="354.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >la D absorbe las frecuencias bajas</text>
+<text x="505.0" y="354.0" font-size="12" text-anchor="middle" fill="#2e7d32" stroke="none" >sin D: las bandas bajas llegan lejos</text>
+</g>
+</svg>

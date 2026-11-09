@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470" width="660" height="470" role="img" aria-labelledby="t">
+<title id="t">Tabla de turnos del IBP: 18 franjas de 10 segundos en filas y las cinco frecuencias en columnas. Cada baliza sube de frecuencia en cada franja; CS3B, en Madeira, está resaltada: suena de 140 a 180 segundos en las cuatro primeras frecuencias y en 28 200 kHz durante los 10 primeros segundos del ciclo.</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="flecha-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/>
+  </marker>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<text x="20.0" y="22.0" font-size="13" text-anchor="start" fill="#1a1a1a" stroke="none" >Segundos desde el inicio del ciclo y baliza que suena en cada frecuencia (kHz)</text>
+<text x="80.0" y="48.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">segundos</text>
+<text x="192.0" y="48.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">14 100</text>
+<text x="296.0" y="48.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">18 110</text>
+<text x="400.0" y="48.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">21 150</text>
+<text x="504.0" y="48.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">24 930</text>
+<text x="608.0" y="48.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">28 200</text>
+<rect x="20.0" y="58.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="73.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >0–10</text>
+<text x="192.0" y="73.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4U1UN</text>
+<text x="296.0" y="73.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >YV5B</text>
+<text x="400.0" y="73.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OA4B</text>
+<text x="504.0" y="73.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >LU4AA</text>
+<rect x="558.0" y="60.0" width="100.0" height="17.0" fill="#ffcdd2" stroke="none" rx="3"/>
+<text x="608.0" y="73.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >CS3B</text>
+<rect x="20.0" y="79.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="94.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10–20</text>
+<text x="192.0" y="94.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VE8AT</text>
+<text x="296.0" y="94.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4U1UN</text>
+<text x="400.0" y="94.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >YV5B</text>
+<text x="504.0" y="94.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OA4B</text>
+<text x="608.0" y="94.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >LU4AA</text>
+<rect x="20.0" y="100.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="115.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >20–30</text>
+<text x="192.0" y="115.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >W6WX</text>
+<text x="296.0" y="115.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VE8AT</text>
+<text x="400.0" y="115.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4U1UN</text>
+<text x="504.0" y="115.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >YV5B</text>
+<text x="608.0" y="115.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OA4B</text>
+<rect x="20.0" y="121.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="136.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >30–40</text>
+<text x="192.0" y="136.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >KH6RS</text>
+<text x="296.0" y="136.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >W6WX</text>
+<text x="400.0" y="136.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VE8AT</text>
+<text x="504.0" y="136.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4U1UN</text>
+<text x="608.0" y="136.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >YV5B</text>
+<rect x="20.0" y="142.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="157.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >40–50</text>
+<text x="192.0" y="157.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZL6B</text>
+<text x="296.0" y="157.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >KH6RS</text>
+<text x="400.0" y="157.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >W6WX</text>
+<text x="504.0" y="157.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VE8AT</text>
+<text x="608.0" y="157.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4U1UN</text>
+<rect x="20.0" y="163.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="178.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >50–60</text>
+<text x="192.0" y="178.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VK6RBP</text>
+<text x="296.0" y="178.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZL6B</text>
+<text x="400.0" y="178.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >KH6RS</text>
+<text x="504.0" y="178.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >W6WX</text>
+<text x="608.0" y="178.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VE8AT</text>
+<rect x="20.0" y="184.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="199.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >60–70</text>
+<text x="192.0" y="199.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >JA2IGY</text>
+<text x="296.0" y="199.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VK6RBP</text>
+<text x="400.0" y="199.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZL6B</text>
+<text x="504.0" y="199.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >KH6RS</text>
+<text x="608.0" y="199.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >W6WX</text>
+<rect x="20.0" y="205.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="220.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >70–80</text>
+<text x="192.0" y="220.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >RR9O</text>
+<text x="296.0" y="220.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >JA2IGY</text>
+<text x="400.0" y="220.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VK6RBP</text>
+<text x="504.0" y="220.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZL6B</text>
+<text x="608.0" y="220.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >KH6RS</text>
+<rect x="20.0" y="226.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="241.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >80–90</text>
+<text x="192.0" y="241.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VR2B</text>
+<text x="296.0" y="241.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >RR9O</text>
+<text x="400.0" y="241.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >JA2IGY</text>
+<text x="504.0" y="241.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VK6RBP</text>
+<text x="608.0" y="241.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZL6B</text>
+<rect x="20.0" y="247.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="262.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >90–100</text>
+<text x="192.0" y="262.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4S7B</text>
+<text x="296.0" y="262.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VR2B</text>
+<text x="400.0" y="262.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >RR9O</text>
+<text x="504.0" y="262.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >JA2IGY</text>
+<text x="608.0" y="262.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VK6RBP</text>
+<rect x="20.0" y="268.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="283.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >100–110</text>
+<text x="192.0" y="283.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZS6DN</text>
+<text x="296.0" y="283.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4S7B</text>
+<text x="400.0" y="283.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VR2B</text>
+<text x="504.0" y="283.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >RR9O</text>
+<text x="608.0" y="283.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >JA2IGY</text>
+<rect x="20.0" y="289.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="304.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >110–120</text>
+<text x="192.0" y="304.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >5Z4B</text>
+<text x="296.0" y="304.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZS6DN</text>
+<text x="400.0" y="304.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4S7B</text>
+<text x="504.0" y="304.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VR2B</text>
+<text x="608.0" y="304.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >RR9O</text>
+<rect x="20.0" y="310.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="325.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >120–130</text>
+<text x="192.0" y="325.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4X6TU</text>
+<text x="296.0" y="325.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >5Z4B</text>
+<text x="400.0" y="325.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZS6DN</text>
+<text x="504.0" y="325.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4S7B</text>
+<text x="608.0" y="325.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >VR2B</text>
+<rect x="20.0" y="331.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="346.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >130–140</text>
+<text x="192.0" y="346.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OH2B</text>
+<text x="296.0" y="346.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4X6TU</text>
+<text x="400.0" y="346.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >5Z4B</text>
+<text x="504.0" y="346.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZS6DN</text>
+<text x="608.0" y="346.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4S7B</text>
+<rect x="20.0" y="352.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="367.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >140–150</text>
+<rect x="142.0" y="354.0" width="100.0" height="17.0" fill="#ffcdd2" stroke="none" rx="3"/>
+<text x="192.0" y="367.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >CS3B</text>
+<text x="296.0" y="367.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OH2B</text>
+<text x="400.0" y="367.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4X6TU</text>
+<text x="504.0" y="367.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >5Z4B</text>
+<text x="608.0" y="367.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >ZS6DN</text>
+<rect x="20.0" y="373.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="388.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >150–160</text>
+<text x="192.0" y="388.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >LU4AA</text>
+<rect x="246.0" y="375.0" width="100.0" height="17.0" fill="#ffcdd2" stroke="none" rx="3"/>
+<text x="296.0" y="388.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >CS3B</text>
+<text x="400.0" y="388.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OH2B</text>
+<text x="504.0" y="388.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4X6TU</text>
+<text x="608.0" y="388.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >5Z4B</text>
+<rect x="20.0" y="394.0" width="640.0" height="21.0" fill="#ffffff" stroke="none"/>
+<text x="80.0" y="409.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >160–170</text>
+<text x="192.0" y="409.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OA4B</text>
+<text x="296.0" y="409.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >LU4AA</text>
+<rect x="350.0" y="396.0" width="100.0" height="17.0" fill="#ffcdd2" stroke="none" rx="3"/>
+<text x="400.0" y="409.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >CS3B</text>
+<text x="504.0" y="409.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OH2B</text>
+<text x="608.0" y="409.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >4X6TU</text>
+<rect x="20.0" y="415.0" width="640.0" height="21.0" fill="#f5f5f5" stroke="none"/>
+<text x="80.0" y="430.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >170–180</text>
+<text x="192.0" y="430.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >YV5B</text>
+<text x="296.0" y="430.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OA4B</text>
+<text x="400.0" y="430.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >LU4AA</text>
+<rect x="454.0" y="417.0" width="100.0" height="17.0" fill="#ffcdd2" stroke="none" rx="3"/>
+<text x="504.0" y="430.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >CS3B</text>
+<text x="608.0" y="430.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >OH2B</text>
+<line x1="20.0" y1="58.0" x2="660.0" y2="58.0" stroke-width="1"/>
+<line x1="20.0" y1="436.0" x2="660.0" y2="436.0" stroke-width="1"/>
+<text x="20.0" y="458.0" font-size="12" text-anchor="start" fill="#1a1a1a" stroke="none" >El ciclo dura 3 minutos y vuelve a empezar en el segundo 0 de cada minuto múltiplo de 3 (UTC).</text>
+</g>
+</svg>
