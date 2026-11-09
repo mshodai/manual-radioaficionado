@@ -448,7 +448,7 @@ Algunas precisiones que conviene conocer, todas comprobadas en noviembre de 2026
 - **Bandas ICM.** En 433,05 – 434,79 MHz, 2 400 – 2 450 MHz, 5 725 – 5 800 MHz y 24,00 – 24,25 GHz funcionan aplicaciones industriales, científicas y médicas, como mandos a distancia y hornos de microondas. Según el apartado 3.4 del anexo I, tu estación tiene que aceptar las interferencias que causen.
 - **EME y dispersión meteórica.** Con las condiciones vistas antes, se permiten hasta 1 000 W p. c. e. (apartado 3.3 del anexo I).
 
-Dentro de cada banda, qué modo va en cada tramo lo recomienda el plan de bandas de la IARU Región 1, que el anexo I toma como referencia para los anchos de banda de las emisiones. Lo verás en el capítulo 9, junto con el resto de la normativa.
+Dentro de cada banda, qué modo va en cada tramo lo recomienda el plan de bandas de la IARU Región 1, que el anexo I toma como referencia para los anchos de banda de las emisiones. Lo verás en el [capítulo 9](09-reglamentacion/index.md#los-planes-de-bandas-de-la-iaru), junto con el resto de la normativa.
 
 !!! tip "Para el examen"
     Aprende los márgenes de las bandas de HF y de 2 m y 70 cm, y cuáles son **secundarias**: 160 m en su tramo bajo, 60 m, 30 m, 6 m, 4 m y las de microondas hasta 10 GHz. En una banda secundaria no puedes interferir al servicio primario y debes aceptar sus interferencias.

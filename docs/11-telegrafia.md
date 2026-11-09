@@ -396,14 +396,14 @@ Tres notas del plan de 2020 importan a quien opera en CW:
 - **No se hacen concursos en 60, 30, 17 y 12 m.** Son las bandas a las que conviene ir durante los grandes concursos si no participas.
 - En España, la banda de 160 m solo va de 1 810 a 1 850 kHz (CNAF, ver capítulo 5), así que el tramo de CW completo cae dentro de lo autorizado.
 
-En VHF y UHF, según los planes de la IARU Región 1 en vigor desde diciembre de 2020 ([VHF](https://www.iaru-r1.org/wp-content/uploads/2020/12/VHF-Bandplan.pdf) y [UHF](https://www.iaru-r1.org/wp-content/uploads/2021/03/UHF-Bandplan.pdf); comprobado en noviembre de 2026):
+En VHF y UHF, según los planes de la IARU Región 1 recogidos en su *VHF Handbook*, versión 10.03, de febrero de 2026, apartados 7.2 a 7.5 ([PDF del *VHF Handbook*](https://www.iaru-r1.org/wp-content/uploads/2026/02/VHF_Handbook_V10_03_final.pdf); comprobado en noviembre de 2026):
 
 | Banda | Tramo | Uso |
 |---|---|---|
 | 6 m | 50,000 – 50,100 MHz | Telegrafía (500 Hz máx.). Centro de actividad en 50,050 MHz y de actividad intercontinental en 50,090 MHz |
 | 4 m | 70,100 – 70,250 MHz | BLU, telegrafía y modos digitales. Llamada de CW y BLU en 70,200 MHz. En España la banda empieza en 70,150 MHz |
 | 2 m | 144,025 – 144,100 MHz | Solo telegrafía (500 Hz máx.). Llamada de CW en 144,050 MHz |
-| 70 cm | 432,000 – 432,100 MHz | Telegrafía y modos digitales de banda estrecha. Centro de actividad de CW en 432,050 MHz |
+| 70 cm | 432,000 – 432,400 MHz | Todos los modos (2 700 Hz máx.). Centros de actividad de CW en 432,050 MHz y de BLU en 432,200 MHz |
 
 En VHF y UHF la CW se usa sobre todo para trabajar señales débiles: contactos a larga distancia por propagación troposférica, dispersión meteórica y rebote lunar.
 

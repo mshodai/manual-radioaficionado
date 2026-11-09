@@ -15,7 +15,7 @@ Manual libre en español para preparar la autorización de radioaficionado en Es
 - [6. Antenas y líneas de transmisión](06-antenas-lineas.md)
 - [7. Equipos](07-equipos.md)
 - [8. Interferencias](08-interferencias.md)
-- [9. Reglamentación](09-reglamentacion.md)
+- [9. Reglamentación](09-reglamentacion/index.md)
 - [10. Operación](10-operacion.md)
 - [11. Telegrafía](11-telegrafia.md)
 - [12. Modos digitales](12-modos-digitales.md)
