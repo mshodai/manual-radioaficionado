@@ -131,3 +131,14 @@ Debe compilar sin avisos. Revisa en `zensical serve` que se ven las fórmulas, l
 
 - **Los comandos con `rm` usan rutas absolutas.** Nunca `cd directorio && rm ruta/relativa`: si el `cd` falla o el directorio de trabajo no es el esperado, el borrado cae en otro sitio. Escribe `rm -f /ruta/completa/al/fichero` en una sola orden.
 - La regla vale tanto para el trabajo en el repositorio y en los directorios temporales como para los ejemplos de comandos que aparezcan en los capítulos.
+
+## 11. Privacidad
+
+El manual es público. **No contiene datos personales del autor ni de su entorno**:
+
+- Ni equipos presentados como propios («mi equipo», «los míos», «el que uso en casa»).
+- Ni la ubicación concreta de la estación o del domicilio (municipio, barrio, calle, coordenadas, localizador de cuadrícula).
+- Ni indicativos reales, salvo los oficiales o institucionales que se citen como referencia pública.
+- Ni frecuencias, canales, tonos, protocolos, horarios o nombres de personas de su grupo de emergencias o de cualquier otro grupo al que pertenezca.
+
+Los equipos se presentan como **ejemplos genéricos de equipos habituales** («un portátil bibanda de VHF/UHF de gama económica», «un receptor de onda corta de bolsillo»). Si hace falta nombrar un modelo concreto, se presenta como un equipo frecuente en el mercado, no como el del autor. Los ejemplos de indicativos usan formatos ficticios y se dicen ficticios.

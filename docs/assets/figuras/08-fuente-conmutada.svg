@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="800" height="370" role="img" aria-labelledby="t">
+<title id="t">Espectro entre 6,7 y 7,5 megahercios con la banda de 40 metros sombreada. Aparece una fila de rayas separadas 70 kilohercios, los armónicos de una fuente conmutada que trabaja a esa frecuencia; los armónicos 101 y 102 caen en 7,070 y 7,140 megahercios, dentro de la banda. Las rayas son anchas porque la frecuencia de conmutación varía con la carga. Los niveles son ilustrativos.</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="flecha-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/>
+  </marker>
+  <marker id="flecha-alt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c62828"/>
+  </marker>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<rect x="341.2" y="70.0" width="167.5" height="230.0" fill="#fff3e0" stroke="none"/>
+<text x="425.0" y="62.0" font-size="12" text-anchor="middle" fill="#e65100" stroke="none" >banda de 40 m (7,0 a 7,2 MHz)</text>
+<line x1="90.0" y1="300.0" x2="760.0" y2="300.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="82.0" y="304.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >0</text>
+<line x1="90.0" y1="242.5" x2="760.0" y2="242.5" stroke="#e0e0e0" stroke-width="1"/>
+<text x="82.0" y="246.5" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >10</text>
+<line x1="90.0" y1="185.0" x2="760.0" y2="185.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="82.0" y="189.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >20</text>
+<line x1="90.0" y1="127.5" x2="760.0" y2="127.5" stroke="#e0e0e0" stroke-width="1"/>
+<text x="82.0" y="131.5" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >30</text>
+<line x1="90.0" y1="70.0" x2="760.0" y2="70.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="82.0" y="74.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >40</text>
+<line x1="90.0" y1="300.0" x2="760.0" y2="300.0" />
+<line x1="90.0" y1="300.0" x2="90.0" y2="70.0" />
+<text x="46.0" y="185.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" transform="rotate(-90 46.0 185.0)">nivel sobre el ruido (dB)</text>
+<line x1="90.0" y1="300.0" x2="90.0" y2="305.0" />
+<text x="90.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >6,7</text>
+<line x1="173.7" y1="300.0" x2="173.7" y2="305.0" />
+<text x="173.7" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >6,8</text>
+<line x1="257.5" y1="300.0" x2="257.5" y2="305.0" />
+<text x="257.5" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >6,9</text>
+<line x1="341.2" y1="300.0" x2="341.2" y2="305.0" />
+<text x="341.2" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >7,0</text>
+<line x1="425.0" y1="300.0" x2="425.0" y2="305.0" />
+<text x="425.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >7,1</text>
+<line x1="508.8" y1="300.0" x2="508.8" y2="305.0" />
+<text x="508.8" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >7,2</text>
+<line x1="592.5" y1="300.0" x2="592.5" y2="305.0" />
+<text x="592.5" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >7,3</text>
+<line x1="676.3" y1="300.0" x2="676.3" y2="305.0" />
+<text x="676.3" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >7,4</text>
+<line x1="760.0" y1="300.0" x2="760.0" y2="305.0" />
+<text x="760.0" y="320.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >7,5</text>
+<text x="425.0" y="342.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >frecuencia (MHz)</text>
+<rect x="103.8" y="140.6" width="6.0" height="159.4" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="162.4" y="138.2" width="6.0" height="161.8" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="221.0" y="135.8" width="6.0" height="164.2" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="279.6" y="133.4" width="6.0" height="166.6" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="338.3" y="130.9" width="6.0" height="169.1" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="396.9" y="128.5" width="6.0" height="171.5" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<text x="393.9" y="120.5" font-size="11" text-anchor="end" fill="#c62828" stroke="none" >101 × 70 kHz</text>
+<rect x="455.5" y="128.9" width="6.0" height="171.1" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<text x="464.5" y="120.9" font-size="11" text-anchor="start" fill="#c62828" stroke="none" >102 × 70 kHz</text>
+<rect x="514.1" y="131.3" width="6.0" height="168.7" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="572.8" y="133.7" width="6.0" height="166.3" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="631.4" y="136.1" width="6.0" height="163.9" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="690.0" y="138.5" width="6.0" height="161.5" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<rect x="748.6" y="141.0" width="6.0" height="159.0" fill="#c62828" stroke="none" fill-opacity="0.85"/>
+<line x1="399.9" y1="93.0" x2="458.5" y2="93.0" stroke="#1a1a1a" marker-start="url(#flecha)" marker-end="url(#flecha)" stroke-width="1.2"/>
+<text x="429.2" y="87.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >70 kHz</text>
+<text x="425.0" y="30.0" font-size="15" text-anchor="middle" fill="#1a1a1a" stroke="none" font-weight="600">Armónicos de una fuente conmutada de 70 kHz</text>
+</g>
+</svg>

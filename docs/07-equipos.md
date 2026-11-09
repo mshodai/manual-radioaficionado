@@ -7,6 +7,6 @@
 
 ## Transceptores
 
-## Caso práctico: Baofeng UV-5RH
+## Ejemplo: portátil bibanda de iniciación (Baofeng UV-5R y similares)
 
-## Caso práctico: Tecsun PL-330
+## Ejemplo: receptor portátil multibanda con SSB (Tecsun PL-330 y similares)

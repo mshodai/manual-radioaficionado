@@ -9,6 +9,7 @@ Manual libre (CC BY-SA 4.0) en español para preparar la autorización de radioa
 - Redacción propia: las fuentes solo indican qué temas tratar; no se copian, traducen ni parafrasean, ni se toman sus preguntas o figuras.
 - Español de España, tuteo, unidades SI, fórmulas en LaTeX, figuras propias en SVG o Mermaid.
 - Normativa siempre enlazada a la fuente oficial.
+- Privacidad: el manual es público; nada de datos personales del autor ni de su entorno (ver ESTILO.md §11).
 
 Las fuentes están en `../manual-radioaficionado-fuentes/` (privado, con derechos de autor); su `FUENTES.md` indica qué secciones consultar para cada capítulo.
 
