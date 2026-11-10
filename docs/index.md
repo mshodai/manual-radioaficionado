@@ -15,9 +15,6 @@ A quien quiere presentarse al examen y parte de cero, sin conocimientos previos 
 
 El [glosario](17-glosario.md) del capítulo 17 reúne los términos, las siglas, el código Q y las abreviaturas de telegrafía, cada uno con un enlace al apartado que lo explica.
 
-!!! note "En preparación"
-    El [apéndice A, Proyectos con Arduino y montajes](apendice-a-proyectos.md), todavía no tiene contenido. No forma parte del temario del examen.
-
 ## Contenido
 
 - [1. La autorización en España](01-autorizacion.md)
@@ -38,7 +35,6 @@ El [glosario](17-glosario.md) del capítulo 17 reúne los términos, las siglas,
     - [Meshtastic (LoRa, no radioafición)](15-emergencias/meshtastic.md)
 - [16. Autoevaluación](16-autoevaluacion.md)
 - [17. Glosario](17-glosario.md)
-- [Apéndice A. Proyectos con Arduino y montajes](apendice-a-proyectos.md) (en preparación)
 
 ## Fuentes y criterio
 

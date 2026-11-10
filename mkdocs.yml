@@ -64,7 +64,6 @@ nav:
       - Meshtastic (LoRa, no radioafición): 15-emergencias/meshtastic.md
   - "16. Autoevaluación": 16-autoevaluacion.md
   - "17. Glosario": 17-glosario.md
-  - "Apéndice A. Proyectos con Arduino y montajes": apendice-a-proyectos.md
 
 markdown_extensions:
   - abbr
