@@ -54,17 +54,17 @@
 <text x="40.0" y="292.0" font-size="12" text-anchor="start" fill="#555555" stroke="none" >Bajada (MHz)</text>
 <line x1="40.0" y1="352.0" x2="660.0" y2="352.0" stroke="#555555"/>
 <line x1="40.0" y1="352.0" x2="40.0" y2="358.0" stroke="#555555"/>
-<text x="40.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,000</text>
+<text x="40.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2400,000</text>
 <line x1="164.0" y1="352.0" x2="164.0" y2="358.0" stroke="#555555"/>
-<text x="164.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,100</text>
+<text x="164.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2400,100</text>
 <line x1="288.0" y1="352.0" x2="288.0" y2="358.0" stroke="#555555"/>
-<text x="288.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,200</text>
+<text x="288.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2400,200</text>
 <line x1="412.0" y1="352.0" x2="412.0" y2="358.0" stroke="#555555"/>
-<text x="412.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,300</text>
+<text x="412.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2400,300</text>
 <line x1="536.0" y1="352.0" x2="536.0" y2="358.0" stroke="#555555"/>
-<text x="536.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,400</text>
+<text x="536.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2400,400</text>
 <line x1="660.0" y1="352.0" x2="660.0" y2="358.0" stroke="#555555"/>
-<text x="660.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,500</text>
+<text x="660.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2400,500</text>
 <text x="40.0" y="342.0" font-size="12" text-anchor="start" fill="#555555" stroke="none" >Subida (MHz)</text>
 <text x="40.0" y="36.0" font-size="14" text-anchor="start" fill="#1a1a1a" stroke="none" font-weight="600">QO-100, transpondedor de banda estrecha</text>
 </g>

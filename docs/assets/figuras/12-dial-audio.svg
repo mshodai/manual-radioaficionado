@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300" role="img" aria-labelledby="t">
-<title id="t">Dial en 14 074 kHz, paso de audio de 200 a 3 000 Hz y señales de FT8 dentro del tramo de modos digitales de 14 070 a 14 089 kHz</title>
+<title id="t">Dial en 14 074 kHz, paso de audio de 200 a 3000 Hz y señales de FT8 dentro del tramo de modos digitales de 14 070 a 14 089 kHz</title>
 <defs>
   <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
     <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
@@ -43,7 +43,7 @@
 <text x="224.8" y="136.0" font-size="13" text-anchor="end" fill="#c62828" stroke="none" >Dial: 14 074 kHz</text>
 <rect x="235.5" y="150.0" width="66.8" height="80.0" fill="#bbdefb" stroke="none" opacity="0.7"/>
 <text x="310.3" y="160.0" font-size="12" text-anchor="start" fill="#1565c0" stroke="none" >Paso de audio del receptor:</text>
-<text x="310.3" y="175.0" font-size="12" text-anchor="start" fill="#1565c0" stroke="none" >de 200 a 3 000 Hz sobre el dial</text>
+<text x="310.3" y="175.0" font-size="12" text-anchor="start" fill="#1565c0" stroke="none" >de 200 a 3000 Hz sobre el dial</text>
 <rect x="242.1" y="200.0" width="6.0" height="30.0" fill="#1565c0" stroke="none"/>
 <rect x="256.4" y="192.0" width="6.0" height="38.0" fill="#1565c0" stroke="none"/>
 <rect x="273.1" y="208.0" width="6.0" height="22.0" fill="#1565c0" stroke="none"/>

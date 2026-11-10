@@ -48,7 +48,7 @@ Con demasiado audio pasan dos cosas, las dos malas para tus vecinos de frecuenci
 - **El amplificador deja de ser lineal.** Un modo como el PSK31 tiene una envolvente que sube y baja (su especificación lo describe como BPSK con modulación de amplitud en coseno alzado), así que necesita un amplificador lineal. Si lo saturas, la señal se ensancha y salpica a ambos lados, igual que una BLU sobreexcitada. Son las **salpicaduras** del [capítulo 8](08-interferencias.md#otras-emisiones-no-deseadas).
 - **El audio se distorsiona antes de llegar a la radio.** Si saturas la tarjeta de sonido o la entrada de modulación, el tono sale recortado y aparecen sus **armónicos de audio**, que la radio transmite como si fueran señales legítimas. El FT8 tiene envolvente constante, y el artículo que lo describe destaca que por eso la amplificación no lineal no le produce intermodulación ([«The FT4 and FT8 Communication Protocols», QEX, julio/agosto de 2020](https://wsjt.sourceforge.io/FT4_FT8_QEX.pdf), enlazado desde la guía de WSJT-X; comprobado en noviembre de 2026); pero un tono ya distorsionado en el ordenador sale con sus armónicos igualmente.
 
-**Ejemplo.** Tienes el dial en 14 074 kHz y el programa emite un tono de 700 Hz. Tu señal sale en $14\,074 + 0{,}7 = 14\,074{,}7\ \text{kHz}$. Si el audio va saturado, el segundo armónico del tono (1 400 Hz) sale en 14 075,4 kHz y el tercero (2 100 Hz) en 14 076,1 kHz. Los dos caben en el filtro de BLU, de unos 3 kHz, y aparecen como dos señales fantasma encima de las de otras estaciones. Con un tono de 1 600 Hz, el segundo armónico estaría en 3 200 Hz y el filtro de la radio lo eliminaría. Por eso la guía de WSJT-X recomienda emitir con tonos entre **1 500 y 2 000 Hz** y mover el dial si hace falta (modo *Split*), para que los armónicos de audio no pasen el filtro (comprobado en noviembre de 2026).
+**Ejemplo.** Tienes el dial en 14 074 kHz y el programa emite un tono de 700 Hz. Tu señal sale en $14\,074 + 0{,}7 = 14\,074{,}7\ \text{kHz}$. Si el audio va saturado, el segundo armónico del tono (1400 Hz) sale en 14 075,4 kHz y el tercero (2100 Hz) en 14 076,1 kHz. Los dos caben en el filtro de BLU, de unos 3 kHz, y aparecen como dos señales fantasma encima de las de otras estaciones. Con un tono de 1600 Hz, el segundo armónico estaría en 3200 Hz y el filtro de la radio lo eliminaría. Por eso la guía de WSJT-X recomienda emitir con tonos entre **1500 y 2000 Hz** y mover el dial si hace falta (modo *Split*), para que los armónicos de audio no pasen el filtro (comprobado en noviembre de 2026).
 
 Estas emisiones caen muy cerca de la tuya, dentro o al lado del canal, y son emisiones no deseadas en el sentido del anexo I de la Orden IET/1311/2013, cuyos límites viste en el [capítulo 8](08-interferencias.md#limites-legales-de-las-espurias).
 
@@ -77,7 +77,7 @@ Los datos técnicos de la guía de WSJT-X (comprobados en noviembre de 2026):
 | Duración de cada emisión | 12,6 s | 5,04 s |
 | Ancho ocupado | 50 Hz | 83,3 Hz |
 | Información por mensaje | 77 bits | 77 bits |
-| Umbral de descodificación (relación señal/ruido en 2 500 Hz) | −21 dB | −17,5 dB |
+| Umbral de descodificación (relación señal/ruido en 2500 Hz) | −21 dB | −17,5 dB |
 
 Comprueba los números. En FT8 cada símbolo dura $1/6{,}25 = 0{,}16\ \text{s}$ y un mensaje son 79 símbolos (58 de datos y 21 de sincronismo), así que la emisión dura $79 \cdot 0{,}16 = 12{,}64\ \text{s}$; los 2,36 s que sobran del periodo de 15 s dan tiempo a la propagación y a que el programa descodifique. Con 8 tonos separados 6,25 Hz, la señal ocupa $8 \cdot 6{,}25 = 50\ \text{Hz}$, y cada símbolo lleva $\log_2 8 = 3$ bits.
 
@@ -85,7 +85,7 @@ Comprueba los números. En FT8 cada símbolo dura $1/6{,}25 = 0{,}16\ \text{s}$ 
 
 *Figura 12.2. Los periodos de FT8. Una estación emite en los pares y la otra contesta en los impares.*
 
-**Ejemplo: señales «por debajo del ruido».** El umbral de −21 dB se refiere al ruido que cabe en 2 500 Hz, el ancho de un canal de BLU. Pero la señal de FT8 solo ocupa 50 Hz, y en 50 Hz entra 50 veces menos ruido: $10 \log_{10}(2\,500/50) \approx 17\ \text{dB}$ menos. Medida en su propio ancho, la señal más débil que se descodifica está a unos $-21 + 17 = -4\ \text{dB}$. No hay magia: es la ventaja de estrechar mucho el ancho de banda y transmitir despacio, más la corrección de errores.
+**Ejemplo: señales «por debajo del ruido».** El umbral de −21 dB se refiere al ruido que cabe en 2500 Hz, el ancho de un canal de BLU. Pero la señal de FT8 solo ocupa 50 Hz, y en 50 Hz entra 50 veces menos ruido: $10 \log_{10}(2500/50) \approx 17\ \text{dB}$ menos. Medida en su propio ancho, la señal más débil que se descodifica está a unos $-21 + 17 = -4\ \text{dB}$. No hay magia: es la ventaja de estrechar mucho el ancho de banda y transmitir despacio, más la corrección de errores.
 
 **WSJT-X** es software libre bajo la licencia GNU GPL, con versiones para Windows 10 y posteriores (64 bits), macOS y Linux. La última versión estable es la **3.0.2, de junio de 2026**; hay una versión candidata, la 3.2.0-rc1, que la propia web reserva para quien quiera probarla ([web de WSJT-X](https://wsjtx.github.io/wsjtx/index.html); comprobado en noviembre de 2026). Además de FT8 y FT4 trae otros modos de señal débil, como JT65, JT9, Q65, MSK144 (dispersión meteórica), FST4 y WSPR (balizas de propagación).
 
@@ -98,10 +98,10 @@ Los programas no eligen la frecuencia solos: traen una lista de **frecuencias de
 
 | Banda | FT8 (kHz) | FT4 (kHz) |
 |---|---|---|
-| 160 m | 1 840 | — |
-| 80 m | 3 573 | 3 575 |
-| 60 m | 5 357 | 5 357 |
-| 40 m | 7 074 | 7 047,5 |
+| 160 m | 1840 | — |
+| 80 m | 3573 | 3575 |
+| 60 m | 5357 | 5357 |
+| 40 m | 7074 | 7047,5 |
 | 30 m | 10 136 | 10 140 |
 | 20 m | 14 074 | 14 080 |
 | 17 m | 18 100 | 18 104 |
@@ -110,20 +110,20 @@ Los programas no eligen la frecuencia solos: traen una lista de **frecuencias de
 | 10 m | 28 074 | 28 180 |
 | 6 m | 50 313 | 50 318 |
 
-Recuerda que el dial **no** es la frecuencia emitida: en USB tu señal sale en el dial más el tono de audio, que el programa sitúa entre unos 200 y 3 000 Hz.
+Recuerda que el dial **no** es la frecuencia emitida: en USB tu señal sale en el dial más el tono de audio, que el programa sitúa entre unos 200 y 3000 Hz.
 
 ![Plan de 20 m con los tramos de CW, modos digitales de 14 070 a 14 089 kHz y estaciones automáticas; el dial en 14 074 kHz y las señales de FT8 entre 14 074,2 y 14 077 kHz](assets/figuras/12-dial-audio.svg)
 
 *Figura 12.3. En 20 m, las señales de FT8 ocupan de 14 074,2 a 14 077 kHz, dentro del tramo de modos digitales.*
 
-**Ejemplo.** Con el dial en 14 074 kHz, un tono de 1 200 Hz sale en $14\,074 + 1{,}2 = 14\,075{,}2\ \text{kHz}$, y todo el paso de audio va de 14 074,2 a 14 077 kHz. Ese margen está dentro del tramo de **14 070 a 14 089 kHz** que el plan de HF de la IARU Región 1 reserva a modos digitales de hasta 500 Hz. En 40 m pasa algo distinto: de 7 074,2 a 7 077 kHz caes en el tramo de **todos los modos** (7 060 – 7 100 kHz), no en el de banda estrecha (7 040 – 7 050 kHz). Cada señal de FT8 sigue ocupando 50 Hz, pero ahí convives con la fonía.
+**Ejemplo.** Con el dial en 14 074 kHz, un tono de 1200 Hz sale en $14\,074 + 1{,}2 = 14\,075{,}2\ \text{kHz}$, y todo el paso de audio va de 14 074,2 a 14 077 kHz. Ese margen está dentro del tramo de **14 070 a 14 089 kHz** que el plan de HF de la IARU Región 1 reserva a modos digitales de hasta 500 Hz. En 40 m pasa algo distinto: de 7074,2 a 7077 kHz caes en el tramo de **todos los modos** (7060 – 7100 kHz), no en el de banda estrecha (7040 – 7050 kHz). Cada señal de FT8 sigue ocupando 50 Hz, pero ahí convives con la fonía.
 
 Los modos digitales tienen su sitio en cada banda del [plan de HF de la IARU Región 1](https://www.iaru-r1.org/wp-content/uploads/2021/06/hf_r1_bandplan.pdf), en vigor desde el 16 de octubre de 2020, que ya viste en el [capítulo 9](09-reglamentacion/index.md#el-plan-de-hf). Lo que interesa aquí (comprobado en noviembre de 2026):
 
 - El plan llama ***digimodes*** a cualquier modo digital dentro del ancho permitido, como el RTTY, el PSK o el MFSK, y **modos de banda estrecha** a los de hasta 500 Hz.
-- Cada banda tiene, a continuación de la telegrafía, un tramo de banda estrecha para modos digitales: 3 570 – 3 600, 7 040 – 7 050, 10 130 – 10 150, 14 070 – 14 099, 18 095 – 18 109, 21 070 – 21 110, 24 915 – 24 929 y 28 070 – 28 150 kHz. El ancho máximo es de 500 Hz, salvo en 3 570 – 3 580 kHz, donde el plan da 200 Hz.
-- La parte alta de esos tramos, y algún margen de 2 700 Hz justo encima, admite también **estaciones de datos de control automático** (*automatically controlled data stations*), las que trabajan sin operador, como los buzones de almacenamiento y reenvío.
-- Hay **centros de actividad de imagen** (SSTV y fax) en 3 735, 7 165, 14 230, 21 340 y 28 680 kHz, dentro de los tramos de todos los modos.
+- Cada banda tiene, a continuación de la telegrafía, un tramo de banda estrecha para modos digitales: 3570 – 3600, 7040 – 7050, 10 130 – 10 150, 14 070 – 14 099, 18 095 – 18 109, 21 070 – 21 110, 24 915 – 24 929 y 28 070 – 28 150 kHz. El ancho máximo es de 500 Hz, salvo en 3570 – 3580 kHz, donde el plan da 200 Hz.
+- La parte alta de esos tramos, y algún margen de 2700 Hz justo encima, admite también **estaciones de datos de control automático** (*automatically controlled data stations*), las que trabajan sin operador, como los buzones de almacenamiento y reenvío.
+- Hay **centros de actividad de imagen** (SSTV y fax) en 3735, 7165, 14 230, 21 340 y 28 680 kHz, dentro de los tramos de todos los modos.
 - Recuerda que las bandas en sí, y sus potencias, las fija el CNAF y la Orden IET/1311/2013 ([capítulo 5](05-propagacion-bandas.md#tabla-de-bandas)); el plan solo reparte los usos dentro de ellas.
 
 En VHF, WSJT-X propone 144,174 MHz para FT8 y 144,170 MHz para FT4 (comprobado en noviembre de 2026). El [*VHF Handbook*](https://www.iaru-r1.org/wp-content/uploads/2026/02/VHF_Handbook_V10_03_final.pdf) de la IARU Región 1 (versión 10.03, página 38) sitúa en 2 m un centro de actividad de datos en 144,600 MHz y uno de imagen en 144,500 MHz, y llama **MGM** (*machine generated modes*, modos generados por máquina) a esta familia de modos (comprobado en noviembre de 2026).
@@ -158,7 +158,7 @@ Dos reglas del capítulo 9 pesan aquí más que en ningún otro modo: el conteni
 
 ### Qué es
 
-El **APRS** (*Automatic Packet Reporting System*) es una red de datos en la que las estaciones envían paquetes cortos con su **posición**, el estado de una estación meteorológica, un mensaje breve o un aviso. Usa el protocolo **AX.25** a **1 200 bit/s** con modulación AFSK, la forma más común en VHF y UHF según la documentación del módem Dire Wolf ([README de Dire Wolf](https://github.com/wb2osz/direwolf); comprobado en noviembre de 2026). Un portátil con APRS, un GPS y una antena en el coche dibujan tu recorrido en un mapa de Internet al cabo de unos segundos.
+El **APRS** (*Automatic Packet Reporting System*) es una red de datos en la que las estaciones envían paquetes cortos con su **posición**, el estado de una estación meteorológica, un mensaje breve o un aviso. Usa el protocolo **AX.25** a **1200 bit/s** con modulación AFSK, la forma más común en VHF y UHF según la documentación del módem Dire Wolf ([README de Dire Wolf](https://github.com/wb2osz/direwolf); comprobado en noviembre de 2026). Un portátil con APRS, un GPS y una antena en el coche dibujan tu recorrido en un mapa de Internet al cabo de unos segundos.
 
 En Europa todo el APRS de 2 m va en una sola frecuencia, **144,800 MHz**. En 70 cm el *VHF Handbook* recoge **432,500 MHz** como «nueva frecuencia de APRS» (versión 10.03, páginas 38 y 41; comprobado en noviembre de 2026). Al ser una frecuencia compartida por todos, cada paquete tiene que ser corto y no repetirse más de lo necesario.
 
@@ -184,7 +184,7 @@ flowchart TB
 - Un **iGate** (pasarela a Internet) recibe los paquetes de radio y los pasa a la red **APRS-IS**, que interconecta por Internet las redes de radio de APRS de todo el mundo ([APRS-IS](http://www.aprs-is.net/); comprobado en noviembre de 2026). De ahí salen los mapas que ves en la web.
 - El paquete lleva una **ruta** que le dice a los digipeaters cuántas veces puede repetirse. La IARU Región 1 adoptó en 2008 el sistema llamado *New-N Paradigm*: la red solo acepta rutas del tipo **WIDEn-N** y cada usuario limita el número de saltos al mínimo que necesita en su zona (*VHF Handbook*, página 98; comprobado en noviembre de 2026).
 
-**Ejemplo: por qué importa la ruta.** Un paquete de 75 bytes son 600 bits, que a 1 200 bit/s ocupan el canal $600/1\,200 = 0{,}5\ \text{s}$. Si en tu zona hay 40 estaciones y cada una envía un paquete por minuto, ocupan $40 \cdot 0{,}5 = 20\ \text{s}$ de cada minuto, un 33 %. Si cada paquete pide además un salto de digipeater, suena dos veces y la ocupación sube a 40 s, un 67 %. Con dos o tres saltos, el canal se colapsa y empiezan las colisiones. Por eso se pide el mínimo de saltos y no transmitir la posición más a menudo de lo necesario (por ejemplo, con el coche parado).
+**Ejemplo: por qué importa la ruta.** Un paquete de 75 bytes son 600 bits, que a 1200 bit/s ocupan el canal $600/1200 = 0{,}5\ \text{s}$. Si en tu zona hay 40 estaciones y cada una envía un paquete por minuto, ocupan $40 \cdot 0{,}5 = 20\ \text{s}$ de cada minuto, un 33 %. Si cada paquete pide además un salto de digipeater, suena dos veces y la ocupación sube a 40 s, un 67 %. Con dos o tres saltos, el canal se colapsa y empiezan las colisiones. Por eso se pide el mínimo de saltos y no transmitir la posición más a menudo de lo necesario (por ejemplo, con el coche parado).
 
 !!! example "En la práctica"
     Para empezar basta un móvil con Android y la aplicación APRSdroid, cuya web ofrece como última versión la 1.6.3d, de abril de 2024 ([web de APRSdroid](https://aprsdroid.org/)), conectada a la radio con un cable o una interfaz de audio. En un ordenador, **Dire Wolf** hace de módem por software con la tarjeta de sonido y puede funcionar como digipeater o iGate; va por la versión 1.8.1, de noviembre de 2025, bajo licencia GPL v2 ([versiones de Dire Wolf](https://github.com/wb2osz/direwolf/releases)). Ambos comprobados en noviembre de 2026. Sobre las estaciones que funcionan solas, sin operador, mira lo que dice la normativa al final del capítulo.
@@ -202,7 +202,7 @@ El *VHF Handbook* reparte la voz digital con la FM: los canales de repetidores d
 El **DMR** (*Digital Mobile Radio*) es una norma del ETSI pensada para las radios profesionales, que los radioaficionados aprovechan porque los equipos son baratos y abundantes. Según la norma ETSI TS 102 361-1, versión 2.6.1 de mayo de 2023 ([norma en el ETSI](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf); comprobado en noviembre de 2026):
 
 - Usa **acceso múltiple por división en el tiempo** (*TDMA*) con **dos ranuras** en un canal de **12,5 kHz**: una trama de 60 ms se divide en dos ranuras de 30 ms.
-- Modula en **4FSK** a 4 800 símbolos por segundo, con 2 bits por símbolo: $4\,800 \cdot 2 = 9\,600\ \text{bit/s}$ brutos.
+- Modula en **4FSK** a 4800 símbolos por segundo, con 2 bits por símbolo: $4800 \cdot 2 = 9600\ \text{bit/s}$ brutos.
 - Cada repetidor lleva un **código de color** (*colour code*, de 0 a 15) que distingue repetidores que comparten frecuencia; no sirve para direccionar llamadas.
 
 ![Una línea de tiempo con tramas de 60 ms divididas en dos ranuras de 30 ms que se alternan, la 1 en azul y la 2 en verde](assets/figuras/12-dmr-ranuras.svg)
@@ -232,7 +232,7 @@ En D-STAR las llamadas se dirigen **por indicativo**: en la radio escribes a qui
 
 ### System Fusion (C4FM)
 
-**System Fusion** es la versión de Yaesu, presentada en 2013. Usa **C4FM**, una FSK de 4 niveles, en un canal de 12,5 kHz. Tiene cuatro modos: **V/D** o **DN**, voz y datos a la vez; **Voice FR** o **VW**, que usa todo el ancho de banda para una voz de mayor calidad; datos a alta velocidad, hasta 9 600 bit/s, para imágenes y mensajes; y **FM analógica**. La función **AMS** (*Automatic Mode Select*) reconoce si la señal que llega es C4FM o FM y cambia de modo sola, de modo que en un repetidor Fusion conviven usuarios digitales y analógicos ([qué es System Fusion, web de Yaesu](https://systemfusion.yaesu.com/what-is-system-fusion/); comprobado en noviembre de 2026).
+**System Fusion** es la versión de Yaesu, presentada en 2013. Usa **C4FM**, una FSK de 4 niveles, en un canal de 12,5 kHz. Tiene cuatro modos: **V/D** o **DN**, voz y datos a la vez; **Voice FR** o **VW**, que usa todo el ancho de banda para una voz de mayor calidad; datos a alta velocidad, hasta 9600 bit/s, para imágenes y mensajes; y **FM analógica**. La función **AMS** (*Automatic Mode Select*) reconoce si la señal que llega es C4FM o FM y cambia de modo sola, de modo que en un repetidor Fusion conviven usuarios digitales y analógicos ([qué es System Fusion, web de Yaesu](https://systemfusion.yaesu.com/what-is-system-fusion/); comprobado en noviembre de 2026).
 
 La red de Yaesu por Internet es **WIRES-X**: un **nodo** es una radio conectada a un ordenador con Internet que hace de punto de acceso, y una **sala** (*room*) es un punto de reunión al que se conectan varios nodos a la vez, igual que un reflector de D-STAR.
 
@@ -301,17 +301,17 @@ En HF, el plan de la IARU Región 1 recomienda que las estaciones sin operador e
 - El ordenador hace de módem: tonos de audio en USB, más control **CAT** y **PTT** (por CAT, DTR, RTS o VOX). La frecuencia emitida es el **dial más el tono**.
 - Recepción con el ruido de fondo moderado y el AGC apagado; emisión con el audio justo por debajo del punto en que la potencia deja de subir y el **ALC** casi sin actuar. El audio saturado produce **salpicaduras** y **armónicos de audio** ([capítulo 8](08-interferencias.md#otras-emisiones-no-deseadas)).
 - FT8 y FT4 exigen el reloj del ordenador a **±1 s** del UTC, sincronizado de forma continua (NTP).
-- **FT8**: periodos de 15 s, 8-GFSK, 50 Hz, umbral −21 dB en 2 500 Hz; **FT4**: 7,5 s, 83,3 Hz, −17,5 dB. WSJT-X 3.0.2, de junio de 2026. En 20 m, dial en 14 074 kHz; en 40 m, 7 074 kHz.
+- **FT8**: periodos de 15 s, 8-GFSK, 50 Hz, umbral −21 dB en 2500 Hz; **FT4**: 7,5 s, 83,3 Hz, −17,5 dB. WSJT-X 3.0.2, de junio de 2026. En 20 m, dial en 14 074 kHz; en 40 m, 7074 kHz.
 - **PSK31**: 31,25 baudios y unos 60 Hz. **RTTY**: Baudot de 5 bits, 45,45 baudios, desplazamiento de 170 Hz. **SSTV**: imágenes, en 14 230 kHz y otros centros de imagen. **Winlink**: correo por radio, a menudo con el módem VARA.
 - En el plan de HF de la IARU Región 1 los modos digitales van en los tramos de **500 Hz** junto a la telegrafía, y las estaciones automáticas en su parte alta.
-- **APRS**: AX.25 a 1 200 bit/s en **144,800 MHz**; los **digipeaters** repiten en la misma frecuencia y los **iGates** pasan los paquetes a **APRS-IS**. Rutas **WIDEn-N** con el mínimo de saltos.
-- **DMR**: norma ETSI, TDMA de **dos ranuras** de 30 ms en 12,5 kHz, 4FSK a 9 600 bit/s, código de color y **grupos de conversación**. **D-STAR**: JARL, GMSK a 4,8 kbit/s, AMBE, llamadas por indicativo y **reflectores**. **System Fusion**: C4FM, modos DN y VW, **AMS** para convivir con la FM, salas de **WIRES-X**.
+- **APRS**: AX.25 a 1200 bit/s en **144,800 MHz**; los **digipeaters** repiten en la misma frecuencia y los **iGates** pasan los paquetes a **APRS-IS**. Rutas **WIDEn-N** con el mínimo de saltos.
+- **DMR**: norma ETSI, TDMA de **dos ranuras** de 30 ms en 12,5 kHz, 4FSK a 9600 bit/s, código de color y **grupos de conversación**. **D-STAR**: JARL, GMSK a 4,8 kbit/s, AMBE, llamadas por indicativo y **reflectores**. **System Fusion**: C4FM, modos DN y VW, **AMS** para convivir con la FM, salas de **WIRES-X**.
 - Un **hotspot** es un repetidor personal de pocos milivatios con MMDVM; ponlo en símplex y nunca en 436 – 438 MHz.
 - La Orden IET/1311/2013 permite interconectar estaciones por otras redes **con fines de radioafición**; el acceso a un repetidor analógico-digital desde una red pública exige **código personal e indicativo** (artículo 23). Las estaciones **automáticas desatendidas** son siempre colectivas (anexo I) (comprobado en noviembre de 2026).
 
 ## Autoevaluación
 
-**1.** Trabajas FT8 en 20 m con el dial en 14 074 kHz en USB y el programa emite un tono de 2 000 Hz. ¿En qué frecuencia sale tu señal?
+**1.** Trabajas FT8 en 20 m con el dial en 14 074 kHz en USB y el programa emite un tono de 2000 Hz. ¿En qué frecuencia sale tu señal?
 
 a) 14 074 kHz  
 b) 14 072 kHz  
@@ -351,7 +351,7 @@ d) La señal se desplaza de frecuencia.
 ??? success "Solución"
     **b)** El PSK31 tiene una envolvente de amplitud variable (coseno alzado) y necesita un amplificador lineal. Saturado, se ensancha y produce salpicaduras, como una BLU sobreexcitada; en un tramo donde caben decenas de señales de 60 Hz, tapas a varias.
 
-**5.** El umbral de descodificación del FT8 es de −21 dB de relación señal/ruido medida en 2 500 Hz. ¿Cuánto vale esa relación medida en los 50 Hz que ocupa la señal?
+**5.** El umbral de descodificación del FT8 es de −21 dB de relación señal/ruido medida en 2500 Hz. ¿Cuánto vale esa relación medida en los 50 Hz que ocupa la señal?
 
 a) −21 dB  
 b) −38 dB  
@@ -359,7 +359,7 @@ c) Unos −4 dB
 d) Unos +29 dB
 
 ??? success "Solución"
-    **c)** En 50 Hz entra 50 veces menos ruido que en 2 500 Hz: $10 \log_{10}(2\,500/50) \approx 17\ \text{dB}$. La relación en el ancho de la señal es $-21 + 17 = -4\ \text{dB}$. La señal no está «17 dB bajo el ruido»: lo está si comparas con el ruido de todo un canal de BLU.
+    **c)** En 50 Hz entra 50 veces menos ruido que en 2500 Hz: $10 \log_{10}(2500/50) \approx 17\ \text{dB}$. La relación en el ancho de la señal es $-21 + 17 = -4\ \text{dB}$. La señal no está «17 dB bajo el ruido»: lo está si comparas con el ruido de todo un canal de BLU.
 
 **6.** ¿Cuántas conversaciones independientes puede llevar a la vez un repetidor DMR en un canal de 12,5 kHz?
 

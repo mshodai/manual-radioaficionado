@@ -220,7 +220,7 @@ Todas estas herramientas se comprobaron en sus páginas oficiales el 9 de noviem
 | [URE, descargas](https://www.ure.es/descargas/?categoria=lecciones-de-cw&su=1) | La Unión de Radioaficionados Españoles ofrece lecciones de telegrafía en español, en audio y PDF, de descarga libre. | Audios y PDF |
 
 !!! example "En la práctica"
-    Un plan realista: Koch en LCWO con caracteres a 20 ppm y Farnsworth hasta copiar todo el alfabeto, las cifras y `? / . , =` (dos o tres meses a veinte minutos diarios). Después, audios de palabras y QSO de práctica, y escucha de contactos reales en los centros de actividad **QRS** del plan de bandas (3 555, 14 055, 21 055 y 28 055 kHz), donde se transmite despacio para quien empieza.
+    Un plan realista: Koch en LCWO con caracteres a 20 ppm y Farnsworth hasta copiar todo el alfabeto, las cifras y `? / . , =` (dos o tres meses a veinte minutos diarios). Después, audios de palabras y QSO de práctica, y escucha de contactos reales en los centros de actividad **QRS** del plan de bandas (3555, 14 055, 21 055 y 28 055 kHz), donde se transmite despacio para quien empieza.
 
 ## Manipuladores
 
@@ -379,10 +379,10 @@ Los datos de HF son los del **plan de 2020**, en vigor desde el **16 de octubre 
 
 | Banda | Tramo de CW, plan de 2020 (200 Hz máx.) | Centros de actividad y notas |
 |---|---|---|
-| 160 m | 1 810 – 1 838 kHz | QRP: 1 836 kHz |
-| 80 m | 3 500 – 3 570 kHz | 3 500 – 3 510: prioridad para contactos intercontinentales. QRS: 3 555 kHz; QRP: 3 560 kHz |
-| 60 m | 5 351,5 – 5 354,0 kHz | CW y modos de banda estrecha; uso propuesto |
-| 40 m | 7 000 – 7 040 kHz | QRP: 7 030 kHz |
+| 160 m | 1810 – 1838 kHz | QRP: 1836 kHz |
+| 80 m | 3500 – 3570 kHz | 3500 – 3510: prioridad para contactos intercontinentales. QRS: 3555 kHz; QRP: 3560 kHz |
+| 60 m | 5351,5 – 5354,0 kHz | CW y modos de banda estrecha; uso propuesto |
+| 40 m | 7000 – 7040 kHz | QRP: 7030 kHz |
 | 30 m | 10 100 – 10 130 kHz | QRP: 10 116 kHz |
 | 20 m | 14 000 – 14 070 kHz | QRS: 14 055 kHz; QRP: 14 060 kHz |
 | 17 m | 18 068 – 18 095 kHz | QRP: 18 086 kHz |
@@ -394,7 +394,7 @@ Tres notas del plan de 2020 importan a quien opera en CW:
 
 - **La telegrafía se acepta en toda la banda**, no solo en su tramo, salvo en los segmentos reservados a las balizas (como 14 099 – 14 101 kHz).
 - **No se hacen concursos en 60, 30, 17 y 12 m.** Son las bandas a las que conviene ir durante los grandes concursos si no participas.
-- En España, la banda de 160 m solo va de 1 810 a 1 850 kHz (CNAF, ver capítulo 5), así que el tramo de CW completo cae dentro de lo autorizado.
+- En España, la banda de 160 m solo va de 1810 a 1850 kHz (CNAF, ver capítulo 5), así que el tramo de CW completo cae dentro de lo autorizado.
 
 En VHF y UHF, según los planes de la IARU Región 1 recogidos en su *VHF Handbook*, versión 10.03, de febrero de 2026, apartados 7.2 a 7.5 ([PDF del *VHF Handbook*](https://www.iaru-r1.org/wp-content/uploads/2026/02/VHF_Handbook_V10_03_final.pdf); comprobado en noviembre de 2026):
 
@@ -403,12 +403,12 @@ En VHF y UHF, según los planes de la IARU Región 1 recogidos en su *VHF Handbo
 | 6 m | 50,000 – 50,100 MHz | Telegrafía (500 Hz máx.). Centro de actividad en 50,050 MHz y de actividad intercontinental en 50,090 MHz |
 | 4 m | 70,100 – 70,250 MHz | BLU, telegrafía y modos digitales. Llamada de CW y BLU en 70,200 MHz. En España la banda empieza en 70,150 MHz |
 | 2 m | 144,025 – 144,100 MHz | Solo telegrafía (500 Hz máx.). Llamada de CW en 144,050 MHz |
-| 70 cm | 432,000 – 432,400 MHz | Todos los modos (2 700 Hz máx.). Centros de actividad de CW en 432,050 MHz y de BLU en 432,200 MHz |
+| 70 cm | 432,000 – 432,400 MHz | Todos los modos (2700 Hz máx.). Centros de actividad de CW en 432,050 MHz y de BLU en 432,200 MHz |
 
 En VHF y UHF la CW se usa sobre todo para trabajar señales débiles: contactos a larga distancia por propagación troposférica, dispersión meteórica y rebote lunar.
 
 !!! tip "Para el examen"
-    El programa incluye los planes de bandas de la IARU y sus objetivos. Recuerda que en HF la telegrafía va en el **extremo inferior** de cada banda, con 200 Hz de ancho máximo; en 40 m, de 7 000 a 7 040 kHz, y en 20 m, de 14 000 a 14 070 kHz. En 2 m, el tramo solo de telegrafía es 144,025 – 144,100 MHz.
+    El programa incluye los planes de bandas de la IARU y sus objetivos. Recuerda que en HF la telegrafía va en el **extremo inferior** de cada banda, con 200 Hz de ancho máximo; en 40 m, de 7000 a 7040 kHz, y en 20 m, de 14 000 a 14 070 kHz. En 2 m, el tramo solo de telegrafía es 144,025 – 144,100 MHz.
 
 ## Los clics de manipulación
 
@@ -461,7 +461,7 @@ Es decir, no te van a pedir que copies Morse, pero sí que sepas cómo funciona,
 - **Manipuladores**: vertical, de palas con *keyer* electrónico y yámbico, con los **modos A y B**, que difieren en el elemento que se añade al soltar.
 - Prosignos clave: `K` (adelante), `<KN>` (solo tú), `<AR>` (fin de mensaje), `<SK>` (fin de contacto), `<BT>` (separador). En CW el RST lleva **tono** (T).
 - Un contacto: escuchar, `QRL?`, CQ, intercambio de RST, nombre y QTH repetidos, cambios con `KN` y despedida con `73` y `<SK>`, identificándote al principio y al final.
-- Plan de la **IARU Región 1** (HF: plan de 2020): CW en el extremo inferior de cada banda con 200 Hz como máximo; en 40 m, 7 000 – 7 040 kHz. En 2 m, 144,025 – 144,100 MHz solo telegrafía.
+- Plan de la **IARU Región 1** (HF: plan de 2020): CW en el extremo inferior de cada banda con 200 Hz como máximo; en 40 m, 7000 – 7040 kHz. En 2 m, 144,025 – 144,100 MHz solo telegrafía.
 - Los **clics de manipulación** salen de flancos demasiado bruscos; se evitan con un tiempo de subida de unos milisegundos.
 - El examen español **no exige Morse**: son 60 preguntas tipo test sobre técnica y normativa. Sí entran la técnica de la CW, el código Q, las abreviaturas y los planes de bandas (Orden IET/1311/2013, artículo 10 y anexo II, y Resolución de 3 de junio de 2014; comprobado en noviembre de 2026).
 
@@ -519,13 +519,13 @@ d) 2,77 s
 
 **6.** Según el plan de bandas de HF de la IARU Región 1, ¿qué tramo de la banda de 40 m se reserva a la telegrafía, con un ancho de banda máximo de 200 Hz?
 
-a) 7 000 – 7 025 kHz  
-b) 7 000 – 7 040 kHz  
-c) 7 040 – 7 050 kHz  
-d) 7 000 – 7 100 kHz
+a) 7000 – 7025 kHz  
+b) 7000 – 7040 kHz  
+c) 7040 – 7050 kHz  
+d) 7000 – 7100 kHz
 
 ??? success "Solución"
-    **b)** De 7 000 a 7 040 kHz, con el centro de actividad QRP en 7 030 kHz. El tramo de 7 000 a 7 025 kHz fue durante unos años el preferido para concursos de CW, pero se retiró del plan. De 7 040 a 7 050 kHz va a modos de banda estrecha de hasta 500 Hz.
+    **b)** De 7000 a 7040 kHz, con el centro de actividad QRP en 7030 kHz. El tramo de 7000 a 7025 kHz fue durante unos años el preferido para concursos de CW, pero se retiró del plan. De 7040 a 7050 kHz va a modos de banda estrecha de hasta 500 Hz.
 
 **7.** Un corresponsal te dice que tu señal de CW produce chasquidos a 2 kHz de tu frecuencia. ¿Qué es lo primero que debes revisar?
 

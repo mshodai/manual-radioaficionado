@@ -46,7 +46,7 @@ Cuál domina depende sobre todo de la frecuencia: la onda de superficie manda en
 
 La **onda de superficie** se propaga pegada a la Tierra, con polarización vertical, y sigue su curvatura. Al rozar el suelo le induce corrientes y pierde energía en ellas. Esas pérdidas aumentan con la frecuencia y disminuyen cuanto mejor conductor es el terreno: el agua del mar es el mejor, la tierra húmeda y fértil es intermedia, y la roca y la arena seca son las peores.
 
-Por eso la onda de superficie es la propia de las ondas largas y medias: las emisoras de radiodifusión en onda media cubren de día cientos de kilómetros con ella. En las bandas de aficionado solo tiene importancia práctica en las más bajas, 2 200 m, 630 m y 160 m, y algo en 80 m. En 20 m y por encima se apaga en pocos kilómetros, y lo que llega más lejos es ya onda ionosférica o directa.
+Por eso la onda de superficie es la propia de las ondas largas y medias: las emisoras de radiodifusión en onda media cubren de día cientos de kilómetros con ella. En las bandas de aficionado solo tiene importancia práctica en las más bajas, 2200 m, 630 m y 160 m, y algo en 80 m. En 20 m y por encima se apaga en pocos kilómetros, y lo que llega más lejos es ya onda ionosférica o directa.
 
 ## La ionosfera
 
@@ -63,7 +63,7 @@ La ionización no es uniforme: se concentra en varias **capas** a distintas altu
 Las alturas que siguen son también aproximadas:
 
 - **Capa D**, de unos 60 a 90 km. Aparece con el sol y desaparece casi por completo poco después de anochecer. No devuelve las ondas a la Tierra, pero **absorbe** las de frecuencia baja que la atraviesan: por eso de día 160 m y 80 m solo dan contactos cercanos. La absorción disminuye mucho al subir de frecuencia.
-- **Capa E**, de unos 90 a 130 km. Sigue al Sol: es máxima a mediodía y casi desaparece de noche. Permite saltos de hasta unos 2 000 km.
+- **Capa E**, de unos 90 a 130 km. Sigue al Sol: es máxima a mediodía y casi desaparece de noche. Permite saltos de hasta unos 2000 km.
 - **Capa F1**, de unos 150 a 220 km. Solo existe de día, sobre todo en verano, y tiene poca importancia para el radioaficionado.
 - **Capa F2**, de unos 250 a 400 km. Es la más alta y la más ionizada, y la responsable de casi todos los contactos a larga distancia en HF. De noche se une con la F1 en una sola **capa F**, que se mantiene, aunque debilitada, hasta el amanecer.
 
@@ -88,9 +88,9 @@ $$
 
 donde $f_c$ es la frecuencia crítica de la capa y $\theta$ el **ángulo de incidencia**, el que forma la onda con la vertical al llegar a la capa. Con $f_c$ en megahercios, la MUF sale en megahercios. Como $\cos \theta$ es menor que 1, la MUF es siempre mayor que la frecuencia crítica, y lo es más cuanto más largo es el salto.
 
-**Ejemplo.** Una tarde de invierno, la ionosonda más cercana mide una foF2 de 6 MHz. Para un salto de 2 000 km reflejado a unos 300 km de altura, la onda sale con unos 12° de elevación y llega a la capa con un ángulo de incidencia de unos 69°. La MUF vale $6 / \cos 69{,}2° \approx 16{,}9\ \text{MHz}$. La banda de 20 m, en 14 MHz, sirve para ese trayecto; la de 15 m, en 21 MHz, no.
+**Ejemplo.** Una tarde de invierno, la ionosonda más cercana mide una foF2 de 6 MHz. Para un salto de 2000 km reflejado a unos 300 km de altura, la onda sale con unos 12° de elevación y llega a la capa con un ángulo de incidencia de unos 69°. La MUF vale $6 / \cos 69{,}2° \approx 16{,}9\ \text{MHz}$. La banda de 20 m, en 14 MHz, sirve para ese trayecto; la de 15 m, en 21 MHz, no.
 
-En los programas y mapas de propagación verás a menudo la **MUF(3000)F2**, la de un salto de 3 000 km por la capa F2, que es una referencia cómoda para comparar.
+En los programas y mapas de propagación verás a menudo la **MUF(3000)F2**, la de un salto de 3000 km por la capa F2, que es una referencia cómoda para comparar.
 
 La MUF no es un límite nítido: varía de minuto en minuto. Por eso se recomienda trabajar algo por debajo, en la **frecuencia óptima de trabajo** (*FOT*), que se suele tomar como el 85 % de la MUF. En el ejemplo anterior, la FOT es $0{,}85 \cdot 16{,}9 \approx 14{,}4\ \text{MHz}$.
 
@@ -107,9 +107,9 @@ Una antena no lanza un único rayo, sino un haz con muchos ángulos de elevació
 
 *Figura 5.2. Distancia de salto y zona de silencio.*
 
-Si la onda de superficie se apaga antes de esa distancia, entre los dos queda una franja que no recibe nada: la **zona de silencio** (*skip zone*). Por eso, en 20 m, puede ocurrir que te oiga perfectamente una estación a 1 500 km y no te oiga nadie a 200 km. Cuanto más alta es la frecuencia respecto a la frecuencia crítica, más larga es la distancia de salto.
+Si la onda de superficie se apaga antes de esa distancia, entre los dos queda una franja que no recibe nada: la **zona de silencio** (*skip zone*). Por eso, en 20 m, puede ocurrir que te oiga perfectamente una estación a 1500 km y no te oiga nadie a 200 km. Cuanto más alta es la frecuencia respecto a la frecuencia crítica, más larga es la distancia de salto.
 
-El alcance de un solo salto tiene un tope, que se alcanza cuando la onda sale rasante. Con la curvatura de la Tierra, por la capa E, a unos 110 km de altura, es de unos 2 350 km, y por la capa F2, a unos 300 km, de unos 3 800 km. Las distancias mayores se cubren con **saltos múltiples**: la onda vuelve a la Tierra, se refleja en el suelo o en el mar y sube de nuevo. Cada salto añade pérdidas, sobre todo en la capa D si es de día y en la reflexión en el suelo, así que conviene que sean pocos y largos. De ahí la importancia de las antenas que concentran la radiación en **ángulos de elevación bajos**, como las directivas a buena altura.
+El alcance de un solo salto tiene un tope, que se alcanza cuando la onda sale rasante. Con la curvatura de la Tierra, por la capa E, a unos 110 km de altura, es de unos 2350 km, y por la capa F2, a unos 300 km, de unos 3800 km. Las distancias mayores se cubren con **saltos múltiples**: la onda vuelve a la Tierra, se refleja en el suelo o en el mar y sube de nuevo. Cada salto añade pérdidas, sobre todo en la capa D si es de día y en la reflexión en el suelo, así que conviene que sean pocos y largos. De ahí la importancia de las antenas que concentran la radiación en **ángulos de elevación bajos**, como las directivas a buena altura.
 
 ### Incidencia casi vertical (NVIS)
 
@@ -136,7 +136,7 @@ La señal ionosférica casi nunca es estable. Sube y baja en pocos segundos, por
 La radiación ultravioleta que ioniza la capa F2 procede de las regiones activas del Sol, que se ven desde la Tierra como **manchas solares**. Cuantas más hay, más intensa es la radiación, más densa la ionosfera y más alta la MUF. La actividad se mide con dos índices:
 
 - El **número de manchas solares** (*SSN*, *sunspot number*), que combina el número de grupos y de manchas individuales observados. La serie de referencia internacional la mantiene [SILSO](https://www.sidc.be/SILSO/home), en el Real Observatorio de Bélgica (comprobado en noviembre de 2026). Como el valor diario oscila mucho, para seguir el ciclo se usa el **número suavizado**, una media de 13 meses.
-- El **flujo solar**, que es la potencia de la emisión de radio del Sol en 2 800 MHz, es decir, en 10,7 cm de longitud de onda. Por eso se escribe **F10.7**. Se mide a diario en Canadá, en el observatorio de Penticton, y se expresa en **unidades de flujo solar**: 1 sfu equivale a $10^{-22}\ \text{W/(m}^2 \cdot \text{Hz)}$, según el [glosario de clima espacial de la NOAA](https://www.spaceweather.gov/content/space-weather-glossary) (comprobado en noviembre de 2026). La NOAA indica que puede ir de menos de 50 sfu a más de 300 sfu ([página sobre el F10.7](https://www.spaceweather.gov/phenomena/f107-cm-radio-emissions), comprobado en noviembre de 2026).
+- El **flujo solar**, que es la potencia de la emisión de radio del Sol en 2800 MHz, es decir, en 10,7 cm de longitud de onda. Por eso se escribe **F10.7**. Se mide a diario en Canadá, en el observatorio de Penticton, y se expresa en **unidades de flujo solar**: 1 sfu equivale a $10^{-22}\ \text{W/(m}^2 \cdot \text{Hz)}$, según el [glosario de clima espacial de la NOAA](https://www.spaceweather.gov/content/space-weather-glossary) (comprobado en noviembre de 2026). La NOAA indica que puede ir de menos de 50 sfu a más de 300 sfu ([página sobre el F10.7](https://www.spaceweather.gov/phenomena/f107-cm-radio-emissions), comprobado en noviembre de 2026).
 
 Como orientación, cuanto más alto es el flujo, más arriba llega la MUF: con flujos altos, por encima de unas 150 sfu, las bandas de 15, 12 y 10 m se abren casi a diario, y con flujos bajos, por debajo de unas 80 sfu, solo de forma ocasional. Estos umbrales son aproximados y no marcan un límite exacto.
 
@@ -201,7 +201,7 @@ Por encima de unos 50 MHz, la ionosfera ya casi nunca devuelve las ondas: la ond
 
 ### Visión directa y horizonte radioeléctrico
 
-Una antena «ve» hasta el horizonte, y el horizonte está más lejos cuanto más alta es la antena. La atmósfera, además, curva ligeramente las ondas hacia el suelo, porque su índice de refracción disminuye con la altura. El efecto equivale a una Tierra algo mayor, con un radio efectivo de 4/3 del real, unos 8 500 km, como indica la [Recomendación UIT-R P.834](https://www.itu.int/rec/R-REC-P.834/es) para la atmósfera de referencia (comprobado en noviembre de 2026). Con ese radio, la distancia al **horizonte radioeléctrico** desde una antena a $h$ metros es
+Una antena «ve» hasta el horizonte, y el horizonte está más lejos cuanto más alta es la antena. La atmósfera, además, curva ligeramente las ondas hacia el suelo, porque su índice de refracción disminuye con la altura. El efecto equivale a una Tierra algo mayor, con un radio efectivo de 4/3 del real, unos 8500 km, como indica la [Recomendación UIT-R P.834](https://www.itu.int/rec/R-REC-P.834/es) para la atmósfera de referencia (comprobado en noviembre de 2026). Con ese radio, la distancia al **horizonte radioeléctrico** desde una antena a $h$ metros es
 
 $$
 d\,(\text{km}) \approx 4{,}12 \sqrt{h\,(\text{m})}
@@ -238,11 +238,11 @@ En microondas, a partir de unos 10 GHz, la lluvia ya no es transparente: atenúa
 
 La **esporádica E** (**Es**) es la formación de nubes muy densas de ionización en la altura de la capa E, de unos cientos de kilómetros de extensión. Aparecen y desaparecen en minutos u horas, y su causa no se conoce del todo: se relacionan con los vientos de la alta atmósfera y con los iones metálicos que dejan los meteoros. Lo que sí se sabe bien es cuándo aparecen. En Europa son sobre todo un fenómeno de **finales de primavera y verano**, de mayo a agosto, con un máximo cerca del solsticio de junio, y un segundo máximo menor alrededor del solsticio de invierno.
 
-Las nubes de Es reflejan frecuencias mucho más altas que la capa E normal. Producen aperturas repentinas en 10 m, 6 m y 4 m, y en las más intensas, también en 2 m. Como están a unos 100 km de altura, cada salto alcanza de unos 500 a unos 2 300 km; con dos saltos se llega más lejos. La esporádica E **no depende del ciclo solar**, así que en los años de mínimo es la principal fuente de contactos lejanos en 6 m.
+Las nubes de Es reflejan frecuencias mucho más altas que la capa E normal. Producen aperturas repentinas en 10 m, 6 m y 4 m, y en las más intensas, también en 2 m. Como están a unos 100 km de altura, cada salto alcanza de unos 500 a unos 2300 km; con dos saltos se llega más lejos. La esporádica E **no depende del ciclo solar**, así que en los años de mínimo es la principal fuente de contactos lejanos en 6 m.
 
 ### Dispersión meteórica
 
-Cada día entran en la atmósfera millones de meteoros, casi todos del tamaño de un grano de arena. Al quemarse, entre unos 80 y 120 km de altura, dejan un **rastro ionizado** que refleja durante una fracción de segundo, o unos pocos segundos los más grandes, las ondas de VHF. Es la **dispersión meteórica** (*meteor scatter*, MS), que permite contactos de hasta unos 2 000 km en 6 m y 2 m.
+Cada día entran en la atmósfera millones de meteoros, casi todos del tamaño de un grano de arena. Al quemarse, entre unos 80 y 120 km de altura, dejan un **rastro ionizado** que refleja durante una fracción de segundo, o unos pocos segundos los más grandes, las ondas de VHF. Es la **dispersión meteórica** (*meteor scatter*, MS), que permite contactos de hasta unos 2000 km en 6 m y 2 m.
 
 Como cada reflexión es muy breve, se usan modos digitales que transmiten los datos en ráfagas cortas y repetidas, como el MSK144 del programa WSJT-X. Según la [guía de usuario de WSJT-X](https://wsjtx.github.io/wsjtx/guide.html), el MSK144 repite el mensaje a gran velocidad durante todo el periodo de transmisión, para el que recomienda 15 s, y así aprovecha hasta los reflejos más breves (comprobado en noviembre de 2026). Las estaciones se turnan en esos periodos fijos y reconstruyen el mensaje a partir de los fragmentos.
 
@@ -274,7 +274,7 @@ En el **rebote lunar** (**EME**, *Earth-Moon-Earth*) se usa la Luna como reflect
 
 **Ejemplo.** La señal tarda en ir y volver $2 \cdot 384\,400\ \text{km} / 300\,000\ \text{km/s} \approx 2{,}56\ \text{s}$. Si transmites un punto de CW hacia la Luna, oirás tu propio eco dos segundos y medio después.
 
-El anexo I de la Orden IET/1311/2013, que se cita completa al final del capítulo, permite usar en EME y en dispersión meteórica hasta **1 000 W** de potencia de cresta de la envolvente, en las subbandas que recomienda la IARU y siempre fuera de los cascos urbanos (comprobado en noviembre de 2026).
+El anexo I de la Orden IET/1311/2013, que se cita completa al final del capítulo, permite usar en EME y en dispersión meteórica hasta **1000 W** de potencia de cresta de la envolvente, en las subbandas que recomienda la IARU y siempre fuera de los cascos urbanos (comprobado en noviembre de 2026).
 
 ### Efecto Doppler y satélites
 
@@ -286,7 +286,7 @@ $$
 
 donde $\Delta f$ es el desplazamiento, $f$ la frecuencia emitida, $v$ la velocidad con que se acercan o alejan, en la línea que los une, y $c$ la velocidad de la luz. Si se acercan, la frecuencia recibida sube; si se alejan, baja.
 
-**Ejemplo.** Un satélite de órbita baja puede acercarse a una estación a unos 7 km/s. En 437 MHz, el desplazamiento llega a $437 \cdot 10^{6} \cdot 7\,000 / (3 \cdot 10^{8}) \approx 10{,}2\ \text{kHz}$; en 145,8 MHz, a solo 3,4 kHz. Por eso, durante el paso del satélite, hay que ir corrigiendo la sintonía, sobre todo en UHF. Lo verás con detalle en el capítulo 13.
+**Ejemplo.** Un satélite de órbita baja puede acercarse a una estación a unos 7 km/s. En 437 MHz, el desplazamiento llega a $437 \cdot 10^{6} \cdot 7000 / (3 \cdot 10^{8}) \approx 10{,}2\ \text{kHz}$; en 145,8 MHz, a solo 3,4 kHz. Por eso, durante el paso del satélite, hay que ir corrigiendo la sintonía, sobre todo en UHF. Lo verás con detalle en el capítulo 13.
 
 El Doppler también explica por qué el eco lunar y las señales de la aurora llegan desplazadas o ensanchadas.
 
@@ -400,29 +400,29 @@ Esta tabla resume las bandas del servicio de aficionados en la columna de atribu
 
 | Banda | Márgenes (CNAF) | Categoría | Potencia máxima en el anexo I |
 |---|---|---|---|
-| 2 200 m | 135,7 – 137,8 kHz | Secundaria | 1 W p. i. r. e. (secundaria: dudoso si se reduce, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 2200 m | 135,7 – 137,8 kHz | Secundaria | 1 W p. i. r. e. (secundaria: dudoso si se reduce, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
 | 630 m | 472 – 479 kHz | Secundaria | 1 W p. i. r. e.; hasta 5 W en zonas a más de 800 km de la frontera con países africanos (secundaria: dudoso si se reduce, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| 160 m | 1 810 – 1 830 kHz | Secundaria | 1 000 W p. c. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| | 1 830 – 1 850 kHz | Primaria | 1 000 W p. c. e. |
-| 80 m | 3 500 – 3 800 kHz | Primaria | 1 000 W p. c. e. |
-| 60 m | 5 351,5 – 5 366,5 kHz | Secundaria | No figura en la orden; 15 W p. i. r. e. por la nota 5.133B del RR (véase la nota bajo la tabla) |
-| 40 m | 7 000 – 7 200 kHz | Primaria | 1 000 W p. c. e. |
-| 30 m | 10 100 – 10 150 kHz | Secundaria | 1 000 W p. c. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| 20 m | 14 000 – 14 350 kHz | Primaria | 1 000 W p. c. e. |
-| 17 m | 18 068 – 18 168 kHz | Primaria | 1 000 W p. c. e. |
-| 15 m | 21 000 – 21 450 kHz | Primaria | 1 000 W p. c. e. |
-| 12 m | 24 890 – 24 990 kHz | Primaria | 1 000 W p. c. e. |
-| 10 m | 28 000 – 29 700 kHz | Primaria | 1 000 W p. c. e. |
+| 160 m | 1810 – 1830 kHz | Secundaria | 1000 W p. c. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| | 1830 – 1850 kHz | Primaria | 1000 W p. c. e. |
+| 80 m | 3500 – 3800 kHz | Primaria | 1000 W p. c. e. |
+| 60 m | 5351,5 – 5366,5 kHz | Secundaria | No figura en la orden; 15 W p. i. r. e. por la nota 5.133B del RR (véase la nota bajo la tabla) |
+| 40 m | 7000 – 7200 kHz | Primaria | 1000 W p. c. e. |
+| 30 m | 10 100 – 10 150 kHz | Secundaria | 1000 W p. c. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 20 m | 14 000 – 14 350 kHz | Primaria | 1000 W p. c. e. |
+| 17 m | 18 068 – 18 168 kHz | Primaria | 1000 W p. c. e. |
+| 15 m | 21 000 – 21 450 kHz | Primaria | 1000 W p. c. e. |
+| 12 m | 24 890 – 24 990 kHz | Primaria | 1000 W p. c. e. |
+| 10 m | 28 000 – 29 700 kHz | Primaria | 1000 W p. c. e. |
 | 6 m | 50 – 52 MHz | Secundaria | 600 W p. c. e. (secundaria: 300 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
 | 4 m | 70,150 – 70,250 MHz | Secundaria | 600 W p. c. e. (secundaria: 300 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
 | 2 m | 144 – 146 MHz | Primaria | 600 W p. c. e. |
 | 70 cm | 430 – 440 MHz | Primaria | 300 W p. c. e. |
-| 23 cm | 1 240 – 1 300 MHz | Secundaria | 1 000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| 13 cm | 2 300 – 2 450 MHz | Secundaria | 1 000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| 6 cm | 5 650 – 5 850 MHz | Secundaria | 1 000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| 3 cm | 10,0 – 10,5 GHz | Secundaria | 1 000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
-| 1,2 cm | 24,00 – 24,05 GHz | Primaria | 1 000 W p. i. r. e. |
-| | 24,05 – 24,25 GHz | Secundaria | 1 000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 23 cm | 1240 – 1300 MHz | Secundaria | 1000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 13 cm | 2300 – 2450 MHz | Secundaria | 1000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 6 cm | 5650 – 5850 MHz | Secundaria | 1000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 3 cm | 10,0 – 10,5 GHz | Secundaria | 1000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
+| 1,2 cm | 24,00 – 24,05 GHz | Primaria | 1000 W p. i. r. e. |
+| | 24,05 – 24,25 GHz | Secundaria | 1000 W p. i. r. e. (secundaria: 500 W, [ver 3.2](#la-regla-del-50-en-las-bandas-secundarias)) |
 
 Hay más bandas de aficionado por encima de 24 GHz (47 GHz, 76 – 81 GHz, 122 GHz, 134 – 141 GHz y otras), recogidas en el mismo CNAF.
 
@@ -435,18 +435,18 @@ La banda de 60 m no aparece en la tabla de potencias de la orden. Su límite, 15
 
 El apartado 3.2 del anexo I de la [Orden IET/1311/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-7624) establece que, en las bandas atribuidas al servicio de radioaficionados con carácter secundario, la potencia máxima de las emisiones no puede superar el 50 % de los valores de la tabla del apartado 3.1 (comprobado en noviembre de 2026). La orden no da esa cifra reducida banda por banda: la tienes que calcular tú a partir de la tabla anterior y de la categoría que el CNAF da a cada banda.
 
-**Ejemplo de cálculo.** La banda de 30 m es secundaria en el CNAF y la tabla del anexo I le asigna, como a toda la HF, 1 000 W p. c. e. Aplicando el apartado 3.2, en 30 m puedes emitir como máximo $0{,}5 \cdot 1\,000 = 500\ \text{W}$ p. c. e. Con el mismo cálculo, en 6 m, también secundaria, el límite queda en $0{,}5 \cdot 600 = 300\ \text{W}$ p. c. e.
+**Ejemplo de cálculo.** La banda de 30 m es secundaria en el CNAF y la tabla del anexo I le asigna, como a toda la HF, 1000 W p. c. e. Aplicando el apartado 3.2, en 30 m puedes emitir como máximo $0{,}5 \cdot 1000 = 500\ \text{W}$ p. c. e. Con el mismo cálculo, en 6 m, también secundaria, el límite queda en $0{,}5 \cdot 600 = 300\ \text{W}$ p. c. e.
 
-Las bandas de 2 200 m y 630 m tienen en la tabla un límite propio, expresado en p. i. r. e. La orden no aclara si el 50 % se aplica también sobre esas cifras. Ante la duda, consulta a la Jefatura Provincial de Inspección de Telecomunicaciones antes de emitir en ellas con el límite completo.
+Las bandas de 2200 m y 630 m tienen en la tabla un límite propio, expresado en p. i. r. e. La orden no aclara si el 50 % se aplica también sobre esas cifras. Ante la duda, consulta a la Jefatura Provincial de Inspección de Telecomunicaciones antes de emitir en ellas con el límite completo.
 
 Algunas precisiones que conviene conocer, todas comprobadas en noviembre de 2026:
 
 - **6 m.** La nota UN-100 del CNAF permite a los radioaficionados usar 50 – 52 MHz como uso especial, sin causar interferencias a la televisión de los países vecinos ni reclamar protección frente a ella.
 - **4 m.** La nota UN-132 del CNAF abre a los radioaficionados, a título secundario, el tramo de 70,150 a 70,250 MHz.
-- **2 200 m.** La nota UN-108 del CNAF limita la potencia radiada a 1 W p. i. r. e. y obliga a no interferir a los servicios móvil marítimo y fijo de la banda.
-- **Bandas de microondas con autorización especial.** Para usar 2 300 – 2 450 MHz, salvo el tramo de 2 316 a 2 332 MHz; 5 650 – 5 850 MHz, salvo los tramos de 5 700 a 5 720 MHz y de 5 760 a 5 762 MHz; y 24,050 – 24,250 GHz, necesitas una autorización especial de la Administración, según la disposición adicional segunda de la Orden IET/1311/2013, modificada por la Orden IET/614/2015. Para subir al satélite QO-100 en 2 400 – 2 410 MHz hay, además, una autorización temporal general que cubre a todos los radioaficionados, con sus propias condiciones; la verás en el [capítulo 13](13-satelites.md#la-transmision).
-- **Bandas ICM.** En 433,05 – 434,79 MHz, 2 400 – 2 450 MHz, 5 725 – 5 800 MHz y 24,00 – 24,25 GHz funcionan aplicaciones industriales, científicas y médicas, como mandos a distancia y hornos de microondas. Según el apartado 3.4 del anexo I, tu estación tiene que aceptar las interferencias que causen.
-- **EME y dispersión meteórica.** Con las condiciones vistas antes, se permiten hasta 1 000 W p. c. e. (apartado 3.3 del anexo I).
+- **2200 m.** La nota UN-108 del CNAF limita la potencia radiada a 1 W p. i. r. e. y obliga a no interferir a los servicios móvil marítimo y fijo de la banda.
+- **Bandas de microondas con autorización especial.** Para usar 2300 – 2450 MHz, salvo el tramo de 2316 a 2332 MHz; 5650 – 5850 MHz, salvo los tramos de 5700 a 5720 MHz y de 5760 a 5762 MHz; y 24,050 – 24,250 GHz, necesitas una autorización especial de la Administración, según la disposición adicional segunda de la Orden IET/1311/2013, modificada por la Orden IET/614/2015. Para subir al satélite QO-100 en 2400 – 2410 MHz hay, además, una autorización temporal general que cubre a todos los radioaficionados, con sus propias condiciones; la verás en el [capítulo 13](13-satelites.md#la-transmision).
+- **Bandas ICM.** En 433,05 – 434,79 MHz, 2400 – 2450 MHz, 5725 – 5800 MHz y 24,00 – 24,25 GHz funcionan aplicaciones industriales, científicas y médicas, como mandos a distancia y hornos de microondas. Según el apartado 3.4 del anexo I, tu estación tiene que aceptar las interferencias que causen.
+- **EME y dispersión meteórica.** Con las condiciones vistas antes, se permiten hasta 1000 W p. c. e. (apartado 3.3 del anexo I).
 
 Dentro de cada banda, qué modo va en cada tramo lo recomienda el plan de bandas de la IARU Región 1, que el anexo I toma como referencia para los anchos de banda de las emisiones. Lo verás en el [capítulo 9](09-reglamentacion/index.md#los-planes-de-bandas-de-la-iaru), junto con el resto de la normativa.
 
@@ -481,7 +481,7 @@ Esta tabla es una guía general, para latitudes como las de España. Las condici
 - Hay tres caminos: la onda de superficie (frecuencias bajas, mejor sobre el mar), la ionosférica (HF) y la directa (VHF y superiores).
 - La ionosfera tiene de día las capas D (absorbe), E, F1 y F2, y de noche solo la E débil y la F. La F2 da casi todo el DX.
 - La frecuencia crítica es la máxima que vuelve en vertical; la MUF, la máxima para un trayecto: $\text{MUF} = f_c / \cos \theta$. Se trabaja algo por debajo, cerca del 85 % de la MUF. Por debajo de la LUF, la capa D se come la señal.
-- Entre la onda de superficie y el primer salto queda la zona de silencio. Un salto llega hasta unos 2 350 km por la capa E y unos 3 800 km por la F2. Con frecuencias por debajo de la foF2 se trabaja en NVIS.
+- Entre la onda de superficie y el primer salto queda la zona de silencio. Un salto llega hasta unos 2350 km por la capa E y unos 3800 km por la F2. Con frecuencias por debajo de la foF2 se trabaja en NVIS.
 - El ciclo solar dura unos 11 años. El 25 tuvo su máximo en octubre de 2024 (160,9 de número suavizado, según SILSO) y en noviembre de 2026 está en fase descendente (comprobado en noviembre de 2026).
 - Flujo solar alto favorece las bandas altas; índices K y A altos perjudican a toda la HF. Fulguración: apagón en minutos. Protones: absorción polar. Eyección de masa coronal: tormenta geomagnética en días.
 - En VHF y UHF, el horizonte radioeléctrico es $d \approx 4{,}12 (\sqrt{h_1} + \sqrt{h_2})$ km. Más allá llegan la troposférica, la esporádica E, la dispersión meteórica, la aurora, la transecuatorial y el rebote lunar.
@@ -546,10 +546,10 @@ d) 4X6TU
 a) 3 dB  
 b) 10 dB  
 c) 30 dB  
-d) 1 000 dB
+d) 1000 dB
 
 ??? success "Solución"
-    **c)** La relación de potencias es $100 / 0{,}1 = 1\,000$, y $10 \log 1\,000 = 30\ \text{dB}$: 10 dB por cada raya. Si solo oyes la primera, el trayecto tiene menos de 10 dB de margen.
+    **c)** La relación de potencias es $100 / 0{,}1 = 1000$, y $10 \log 1000 = 30\ \text{dB}$: 10 dB por cada raya. Si solo oyes la primera, el trayecto tiene menos de 10 dB de margen.
 
 **7.** Un día, los ocho índices K de tres horas son 3, 4, 5, 6, 6, 5, 4 y 3. Con la tabla de conversión de K a ak, ¿cuánto vale el índice A?
 
@@ -563,7 +563,7 @@ d) 340
 
 **8.** ¿Cuál de estas bandas está atribuida al servicio de aficionados con carácter **secundario** en España?
 
-a) 7 000 – 7 200 kHz  
+a) 7000 – 7200 kHz  
 b) 10 100 – 10 150 kHz  
 c) 14 000 – 14 350 kHz  
 d) 144 – 146 MHz
@@ -589,4 +589,4 @@ c) 8,7 kHz hacia abajo
 d) 8,7 kHz hacia arriba
 
 ??? success "Solución"
-    **d)** $\Delta f = 435 \cdot 10^{6} \cdot 6\,000 / (3 \cdot 10^{8}) = 8\,700\ \text{Hz}$. Mientras se acerca, la frecuencia recibida es más alta que la emitida; cuando se aleje, será más baja. Los 2,9 kHz corresponderían a 145 MHz, porque el desplazamiento es proporcional a la frecuencia.
+    **d)** $\Delta f = 435 \cdot 10^{6} \cdot 6000 / (3 \cdot 10^{8}) = 8700\ \text{Hz}$. Mientras se acerca, la frecuencia recibida es más alta que la emitida; cuando se aleje, será más baja. Los 2,9 kHz corresponderían a 145 MHz, porque el desplazamiento es proporcional a la frecuencia.

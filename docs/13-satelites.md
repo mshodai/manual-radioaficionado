@@ -16,19 +16,19 @@ $$
 v = \sqrt{\frac{\mu}{r}} \qquad\qquad T = 2\pi \sqrt{\frac{r^3}{\mu}}
 $$
 
-donde $r$ es el radio de la órbita medido desde el centro de la Tierra, en kilómetros (el radio terrestre, unos 6 371 km, más la altura); $\mu = 398\,600\ \text{km}^3/\text{s}^2$ es la constante gravitatoria de la Tierra; $v$ sale en km/s y $T$ en segundos. Cuanto más alta es la órbita, más despacio va el satélite y más tarda en dar la vuelta.
+donde $r$ es el radio de la órbita medido desde el centro de la Tierra, en kilómetros (el radio terrestre, unos 6371 km, más la altura); $\mu = 398\,600\ \text{km}^3/\text{s}^2$ es la constante gravitatoria de la Tierra; $v$ sale en km/s y $T$ en segundos. Cuanto más alta es la órbita, más despacio va el satélite y más tarda en dar la vuelta.
 
-**Ejemplo.** Un satélite a 800 km de altura tiene $r = 6\,371 + 800 = 7\,171\ \text{km}$. Su velocidad es $v = \sqrt{398\,600 / 7\,171} \approx 7{,}46\ \text{km/s}$ y su periodo, $T = 2\pi \sqrt{7\,171^3 / 398\,600} \approx 6\,040\ \text{s}$, unos **101 minutos**. Da unas 14 vueltas al día.
+**Ejemplo.** Un satélite a 800 km de altura tiene $r = 6371 + 800 = 7171\ \text{km}$. Su velocidad es $v = \sqrt{398\,600 / 7171} \approx 7{,}46\ \text{km/s}$ y su periodo, $T = 2\pi \sqrt{7171^3 / 398\,600} \approx 6040\ \text{s}$, unos **101 minutos**. Da unas 14 vueltas al día.
 
 ### La órbita baja
 
-Casi todos los satélites de aficionado están en **órbita baja** (*LEO*, *low Earth orbit*), entre unos 400 y 1 000 km de altura. Muchos son **cubesats**, satélites pequeños construidos por universidades y asociaciones, y suelen ir en órbitas casi polares, que con el giro de la Tierra los hacen pasar sobre cualquier punto del planeta varias veces al día.
+Casi todos los satélites de aficionado están en **órbita baja** (*LEO*, *low Earth orbit*), entre unos 400 y 1000 km de altura. Muchos son **cubesats**, satélites pequeños construidos por universidades y asociaciones, y suelen ir en órbitas casi polares, que con el giro de la Tierra los hacen pasar sobre cualquier punto del planeta varias veces al día.
 
 Desde tu estación, un satélite de órbita baja solo se ve durante un **pase**: aparece por el horizonte (la **adquisición de señal**, *AOS*, de *acquisition of signal*), sube hasta una elevación máxima y desaparece por el lado contrario (la **pérdida de señal**, *LOS*, de *loss of signal*). El pase más largo es el que pasa justo por encima de tu cabeza. Mientras dura, tú y el satélite estáis dentro de su **huella**, la zona de la Tierra que lo ve sobre el horizonte; dos estaciones dentro de la huella a la vez pueden comunicar a través de él.
 
 Si desprecias el giro de la Tierra, la huella tiene un radio, medido sobre la superficie, de $R \arccos(R/r)$, y el pase cenital dura la fracción $2\arccos(R/r)/360°$ del periodo, con $R$ el radio terrestre.
 
-**Ejemplo.** Para el satélite anterior, $\arccos(6\,371/7\,171) \approx 27{,}3°$. La huella tiene un radio de $6\,371 \cdot 27{,}3° \cdot \pi/180° \approx 3\,040\ \text{km}$: desde la Península alcanza buena parte de Europa y el norte de África. Un pase cenital dura $2 \cdot 27{,}3/360 \cdot 101 \approx 15\ \text{min}$. Para una órbita de 400 km, del orden de la de la Estación Espacial Internacional (ISS, *International Space Station*), el pase cenital se queda en unos 10 minutos y la huella en unos 2 200 km. Los pases bajos, que apenas asoman sobre el horizonte, duran mucho menos.
+**Ejemplo.** Para el satélite anterior, $\arccos(6371/7171) \approx 27{,}3°$. La huella tiene un radio de $6371 \cdot 27{,}3° \cdot \pi/180° \approx 3040\ \text{km}$: desde la Península alcanza buena parte de Europa y el norte de África. Un pase cenital dura $2 \cdot 27{,}3/360 \cdot 101 \approx 15\ \text{min}$. Para una órbita de 400 km, del orden de la de la Estación Espacial Internacional (ISS, *International Space Station*), el pase cenital se queda en unos 10 minutos y la huella en unos 2200 km. Los pases bajos, que apenas asoman sobre el horizonte, duran mucho menos.
 
 ### La órbita geoestacionaria
 
@@ -44,7 +44,7 @@ Un satélite geoestacionario ve casi un hemisferio entero y no se mueve, así qu
 
 | | Órbita baja | Órbita geoestacionaria |
 |---|---|---|
-| Altura | 400 – 1 000 km | 35 786 km |
+| Altura | 400 – 1000 km | 35 786 km |
 | Visibilidad | Pases de 5 a 15 minutos | Permanente |
 | Antena | Hay que seguir al satélite | Fija, apuntada una vez |
 | Distancia y pérdidas | Pocas: basta un portátil | Muchas: parabólica y microondas |
@@ -59,7 +59,7 @@ Un satélite geoestacionario ve casi un hemisferio entero y no se mueve, así qu
 
 ### En qué bandas trabajan
 
-Los satélites usan las bandas de aficionado que ya viste en el [capítulo 5](05-propagacion-bandas.md#tabla-de-bandas). La [Orden IET/1311/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-7624) te autoriza a emitir en las bandas del servicio de aficionados y del de aficionados por satélite, pero limita las emisiones de este último a las bandas que el CNAF le atribuye (artículo 5.3 de la Orden IET/1311/2013; comprobado en noviembre de 2026). La nota 5.282 del CNAF ([Cuadro Nacional de Atribución de Frecuencias](https://www.boe.es/buscar/act.php?id=BOE-A-2026-15661), aprobado por la Orden TDF/732/2026) permite el servicio de aficionados por satélite en 435 – 438 MHz, 1 260 – 1 270 MHz y 2 400 – 2 450 MHz, entre otras, siempre que no cause interferencias a otros servicios; en 1 260 – 1 270 MHz, solo en sentido Tierra-espacio (comprobado en noviembre de 2026).
+Los satélites usan las bandas de aficionado que ya viste en el [capítulo 5](05-propagacion-bandas.md#tabla-de-bandas). La [Orden IET/1311/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-7624) te autoriza a emitir en las bandas del servicio de aficionados y del de aficionados por satélite, pero limita las emisiones de este último a las bandas que el CNAF le atribuye (artículo 5.3 de la Orden IET/1311/2013; comprobado en noviembre de 2026). La nota 5.282 del CNAF ([Cuadro Nacional de Atribución de Frecuencias](https://www.boe.es/buscar/act.php?id=BOE-A-2026-15661), aprobado por la Orden TDF/732/2026) permite el servicio de aficionados por satélite en 435 – 438 MHz, 1260 – 1270 MHz y 2400 – 2450 MHz, entre otras, siempre que no cause interferencias a otros servicios; en 1260 – 1270 MHz, solo en sentido Tierra-espacio (comprobado en noviembre de 2026).
 
 Dentro de cada banda, el plan de la IARU Región 1 reserva tramos para los satélites, que viste en el [capítulo 9](09-reglamentacion/index.md#los-planes-de-2-m-y-70-cm): **145,806 – 146,000 MHz** en 2 m y **435 – 438 MHz** en 70 cm. No pongas ahí repetidores, hotspots ni contactos terrestres: un satélite oye media Europa a la vez, y tu señal le llega a él igual que a tu corresponsal.
 
@@ -96,7 +96,7 @@ $$
 
 con $v$ la velocidad orbital, $R$ el radio terrestre y $r$ el radio de la órbita, en las mismas unidades.
 
-**Ejemplo.** Para el satélite a 800 km, $v_{\text{r,máx}} = 7{,}46 \cdot 6\,371 / 7\,171 \approx 6{,}6\ \text{km/s}$. Si su bajada está en 436,795 MHz, al aparecer la recibes $436{,}795 \cdot 10^6 \cdot 6{,}62 / 299\,792 \approx 9{,}6\ \text{kHz}$ por **encima** de la nominal; al desaparecer, 9,6 kHz por **debajo**. En su subida de 145,850 MHz el desplazamiento es tres veces menor, unos 3,2 kHz.
+**Ejemplo.** Para el satélite a 800 km, $v_{\text{r,máx}} = 7{,}46 \cdot 6371 / 7171 \approx 6{,}6\ \text{km/s}$. Si su bajada está en 436,795 MHz, al aparecer la recibes $436{,}795 \cdot 10^6 \cdot 6{,}62 / 299\,792 \approx 9{,}6\ \text{kHz}$ por **encima** de la nominal; al desaparecer, 9,6 kHz por **debajo**. En su subida de 145,850 MHz el desplazamiento es tres veces menor, unos 3,2 kHz.
 
 Lo que más se nota no es el desplazamiento en sí, sino lo deprisa que cambia cerca del punto más alto de un pase cenital: en un par de minutos la frecuencia salta de un extremo a otro.
 
@@ -153,7 +153,7 @@ Para empezar te basta con:
 
 Con la antena en la mano sigues al satélite por el cielo y, además, giras la antena sobre su eje cuando la señal se desvanece. La polarización de la onda que llega cambia a lo largo del pase, porque el satélite gira sobre sí mismo y porque la ionosfera hace rotar el plano de polarización (**efecto Faraday**). Una antena de polarización circular, como las del [capítulo 6](06-antenas-lineas.md#antenas-de-apertura-parabolicas-y-bocinas), reduce el problema; con la Yagi de mano lo resuelves con la muñeca.
 
-**Ejemplo: por qué importa la elevación.** La distancia al satélite de 800 km es de 800 km cuando está en la vertical y de unos 3 290 km cuando asoma por el horizonte. La pérdida en el espacio libre del [capítulo 5](05-propagacion-bandas.md#atenuacion-en-el-espacio-libre) en 145,85 MHz pasa de $32{,}44 + 20 \log 800 + 20 \log 145{,}85 \approx 133{,}8\ \text{dB}$ a 146,1 dB: **12,3 dB** más, casi como pasar de 5 W a 0,3 W. Por eso los primeros y los últimos minutos del pase son los más difíciles, y una Yagi de unos 7 dBi frente a la antena de goma del portátil marca la diferencia.
+**Ejemplo: por qué importa la elevación.** La distancia al satélite de 800 km es de 800 km cuando está en la vertical y de unos 3290 km cuando asoma por el horizonte. La pérdida en el espacio libre del [capítulo 5](05-propagacion-bandas.md#atenuacion-en-el-espacio-libre) en 145,85 MHz pasa de $32{,}44 + 20 \log 800 + 20 \log 145{,}85 \approx 133{,}8\ \text{dB}$ a 146,1 dB: **12,3 dB** más, casi como pasar de 5 W a 0,3 W. Por eso los primeros y los últimos minutos del pase son los más difíciles, y una Yagi de unos 7 dBi frente a la antena de goma del portátil marca la diferencia.
 
 ### El seguimiento del pase
 
@@ -215,23 +215,23 @@ Tiene dos transpondedores, que suben en 13 cm y bajan en 3 cm (modo S/x). Los da
 | | Banda estrecha (NB) | Banda ancha (WB) |
 |---|---|---|
 | Uso | BLU, CW y modos digitales estrechos | Televisión digital de aficionado (DATV) |
-| Subida | 2 400,000 – 2 400,500 MHz | 2 401,500 – 2 409,500 MHz |
+| Subida | 2400,000 – 2400,500 MHz | 2401,500 – 2409,500 MHz |
 | Bajada | 10 489,500 – 10 490,000 MHz | 10 491,000 – 10 499,000 MHz |
 | Polarización | Subida circular a derechas; bajada vertical | — |
 | Balizas | 10 489,500 y 10 490,000 MHz (CW); 10 489,750 MHz (BPSK) | 10 491,5 MHz (DVB-S2) |
 
-El transpondedor de banda estrecha **no es inversor**: la diferencia entre bajada y subida es constante, de 8 089,5 MHz. Si subes en 2 400,200 MHz en USB, te oyes en $2\,400{,}200 + 8\,089{,}5 = 10\,489{,}700\ \text{MHz}$, también en USB.
+El transpondedor de banda estrecha **no es inversor**: la diferencia entre bajada y subida es constante, de 8089,5 MHz. Si subes en 2400,200 MHz en USB, te oyes en $2400{,}200 + 8089{,}5 = 10\,489{,}700\ \text{MHz}$, también en USB.
 
 ![Plan de banda del transpondedor estrecho del QO-100: una barra de 10 489,5 a 10 490 MHz dividida en tramos de CW, modos digitales, BLU, difusión, emergencia y modos mixtos, con las balizas en los extremos y en el centro y la frecuencia de subida equivalente debajo](assets/figuras/13-qo100-plan.svg)
 
-*Figura 13.3. Plan de banda del transpondedor estrecho del QO-100, según AMSAT-DL. «Dig.» son los modos digitales de hasta 500 Hz de ancho; «Digital», los de hasta 2 700 Hz.*
+*Figura 13.3. Plan de banda del transpondedor estrecho del QO-100, según AMSAT-DL. «Dig.» son los modos digitales de hasta 500 Hz de ancho; «Digital», los de hasta 2700 Hz.*
 
 ### Las normas del transpondedor estrecho
 
 AMSAT-DL publica unas normas de operación que conviene saberse antes de transmitir (comprobadas en noviembre de 2026):
 
 - Tu señal en la bajada **no puede ser más fuerte que la baliza**. Si lo es, el transpondedor se satura y perjudica a todos; un sistema automático marca con una señal de alarma a las estaciones demasiado fuertes, que tienen que bajar potencia en el acto.
-- **Nada de FM** ni de ninguna modulación de más de 2 700 Hz de ancho, ni de voz digital del tipo C4FM o D-STAR.
+- **Nada de FM** ni de ninguna modulación de más de 2700 Hz de ancho, ni de voz digital del tipo C4FM o D-STAR.
 - No transmitas por debajo de la baliza inferior ni por encima de la superior, y deja libres las bandas de guarda de las balizas.
 - **Dúplex completo obligatorio**: tienes que poder oír tu propia bajada mientras transmites.
 - Nada de pasarelas ni de retransmitir otras señales, salvo en comunicaciones de socorro. El plan reserva en la bajada una **frecuencia de emergencia** en 10 489,860 MHz.
@@ -259,16 +259,16 @@ El azimut se mide desde el norte geográfico, no desde el magnético. Con una br
 La bajada se recibe con el mismo material que la televisión por satélite:
 
 - Una **parabólica** de 60 cm a 1 m. En el [capítulo 6](06-antenas-lineas.md#antenas-de-apertura-parabolicas-y-bocinas) calculaste que un plato de 80 cm tiene unos 36,7 dBi en 10 489,5 MHz.
-- Un **LNB** (*low noise block*), el conversor de bajo ruido que va en el foco del plato. Amplifica la señal y la baja a una **frecuencia intermedia** que se lleva por cable coaxial al receptor; con un oscilador local de 9 750 MHz, la baliza inferior sale en $10\,489{,}5 - 9\,750 = 739{,}5\ \text{MHz}$. El LNB se alimenta por el mismo coaxial, con una **T de polarización** (*bias tee*) que inyecta la tensión continua.
+- Un **LNB** (*low noise block*), el conversor de bajo ruido que va en el foco del plato. Amplifica la señal y la baja a una **frecuencia intermedia** que se lleva por cable coaxial al receptor; con un oscilador local de 9750 MHz, la baliza inferior sale en $10\,489{,}5 - 9750 = 739{,}5\ \text{MHz}$. El LNB se alimenta por el mismo coaxial, con una **T de polarización** (*bias tee*) que inyecta la tensión continua.
 - Un **receptor SDR** que cubra esa frecuencia intermedia, conectado al ordenador.
 
-El problema es la estabilidad. Un error de solo 25 partes por millón en el oscilador de 9 750 MHz desplaza la señal $9\,750 \cdot 10^6 \cdot 25 \cdot 10^{-6} \approx 244\ \text{kHz}$, la mitad del transpondedor, y además deriva con la temperatura. En BLU necesitas acertar en unas decenas de hercios. Por eso se usan LNB con oscilador enganchado a una referencia externa, a menudo un oscilador disciplinado por GPS, y programas que miden la **baliza** y corrigen automáticamente cualquier desviación.
+El problema es la estabilidad. Un error de solo 25 partes por millón en el oscilador de 9750 MHz desplaza la señal $9750 \cdot 10^6 \cdot 25 \cdot 10^{-6} \approx 244\ \text{kHz}$, la mitad del transpondedor, y además deriva con la temperatura. En BLU necesitas acertar en unas decenas de hercios. Por eso se usan LNB con oscilador enganchado a una referencia externa, a menudo un oscilador disciplinado por GPS, y programas que miden la **baliza** y corrigen automáticamente cualquier desviación.
 
 Antes de montar nada, puedes oír el transpondedor por Internet en el [receptor web del BATC](https://eshail.batc.org.uk/), que muestra en directo el de banda estrecha y el espectro del de banda ancha (comprobado en noviembre de 2026).
 
 ### La transmisión
 
-Para subir en 2 400 MHz necesitas un transmisor de 13 cm: un **transversor** o **conversor de subida** que lleve a esa banda la señal de un transceptor o de un SDR, un amplificador de algunos vatios y una antena que ilumine el mismo plato con polarización circular a derechas. Es habitual un **alimentador doble** en el foco: una hélice o un parche para la subida de 2,4 GHz y la bocina del LNB para la bajada.
+Para subir en 2400 MHz necesitas un transmisor de 13 cm: un **transversor** o **conversor de subida** que lleve a esa banda la señal de un transceptor o de un SDR, un amplificador de algunos vatios y una antena que ilumine el mismo plato con polarización circular a derechas. Es habitual un **alimentador doble** en el foco: una hélice o un parche para la subida de 2,4 GHz y la bocina del LNB para la bajada.
 
 ```mermaid
 flowchart TB
@@ -293,21 +293,21 @@ flowchart TB
 
 Antes de transmitir, ten en cuenta qué te permite la normativa española en 13 cm.
 
-**El régimen general.** La disposición adicional segunda de la [Orden IET/1311/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-7624), en la redacción de la Orden IET/614/2015, incluye la banda de 2 300 – 2 450 MHz, salvo el tramo de 2 316 a 2 332 MHz, entre las que solo puedes usar con una **autorización especial**, como prevé el artículo 16 de la Orden IET/1311/2013 para las bandas secundarias con riesgo de interferencia ([capítulo 9](09-reglamentacion/espanol.md#autorizaciones-especiales)). La subida del QO-100, en 2 400 MHz, cae dentro. Como la banda es secundaria, su límite de potencia es de 500 W de p. i. r. e., la mitad de los 1 000 W de la tabla del apartado 3.1 del anexo I de la Orden IET/1311/2013, por el apartado 3.2 del anexo I de la Orden IET/1311/2013 ([capítulo 5](05-propagacion-bandas.md#la-regla-del-50-en-las-bandas-secundarias)) (comprobado en noviembre de 2026).
+**El régimen general.** La disposición adicional segunda de la [Orden IET/1311/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-7624), en la redacción de la Orden IET/614/2015, incluye la banda de 2300 – 2450 MHz, salvo el tramo de 2316 a 2332 MHz, entre las que solo puedes usar con una **autorización especial**, como prevé el artículo 16 de la Orden IET/1311/2013 para las bandas secundarias con riesgo de interferencia ([capítulo 9](09-reglamentacion/espanol.md#autorizaciones-especiales)). La subida del QO-100, en 2400 MHz, cae dentro. Como la banda es secundaria, su límite de potencia es de 500 W de p. i. r. e., la mitad de los 1000 W de la tabla del apartado 3.1 del anexo I de la Orden IET/1311/2013, por el apartado 3.2 del anexo I de la Orden IET/1311/2013 ([capítulo 5](05-propagacion-bandas.md#la-regla-del-50-en-las-bandas-secundarias)) (comprobado en noviembre de 2026).
 
 **La autorización para el QO-100.** Para la subida al satélite, el Ministerio no te pide que solicites nada por tu cuenta: desde 2009 dicta cada año una resolución de uso temporal y experimental que vale para **todos los titulares** de una autorización de radioaficionado. La vigente es de diciembre de 2025 y te permite transmitir, desde cualquier punto de España y **hasta el 26 de diciembre de 2026**, con estas condiciones:
 
-- solo en **2 400 – 2 410 MHz**;
-- con **1 500 W de p. i. r. e.** como máximo;
+- solo en **2400 – 2410 MHz**;
+- con **1500 W de p. i. r. e.** como máximo;
 - con antenas directivas de **21,5 dBi o más**;
 - solo hacia el **QO-100**, en 25,9° E;
 - sin causar interferencias a otros servicios ni reclamar protección frente a ellas.
 
 Antes de transmitir, comprueba que la resolución se ha prorrogado para el año en curso en la página de [autorizaciones de uso temporal y experimental](https://digital.gob.es/telecomunicaciones-infraestructuras-digitales/areas-interes/espectro-radioelectrico/radioaficionados-cb27/autorizaciones/autorizacion-uso-temporal) del Ministerio para la Transformación Digital y de la Función Pública. Fuera de esa autorización, por ejemplo en otra parte de la banda o hacia otro destino, se aplica el régimen general: autorización especial y 500 W de p. i. r. e. (comprobado en noviembre de 2026).
 
-**Interferencias ICM.** La banda de 2 400 – 2 450 MHz está destinada a aplicaciones industriales, científicas y médicas, como el wifi o los hornos de microondas, y por el apartado 3.4 del anexo I de la Orden IET/1311/2013 tienes que aceptar sus interferencias (comprobado en noviembre de 2026).
+**Interferencias ICM.** La banda de 2400 – 2450 MHz está destinada a aplicaciones industriales, científicas y médicas, como el wifi o los hornos de microondas, y por el apartado 3.4 del anexo I de la Orden IET/1311/2013 tienes que aceptar sus interferencias (comprobado en noviembre de 2026).
 
-**Ejemplo: la p. i. r. e. de tu estación.** La ganancia de un plato es $G = \eta\,(\pi D/\lambda)^2$, como en el [capítulo 6](06-antenas-lineas.md#antenas-de-apertura-parabolicas-y-bocinas), con $\eta$ su rendimiento, $D$ su diámetro y $\lambda$ la longitud de onda, en las mismas unidades. En 2 400 MHz, $\lambda \approx 12{,}5\ \text{cm}$. Un plato de 75 cm con $\eta = 0{,}6$ tiene $G = 0{,}6 \cdot (\pi \cdot 75 / 12{,}5)^2 \approx 213$, unos 23,3 dBi. Supera los 21,5 dBi que exige la autorización, y con 2 W la p. i. r. e. es $2 \cdot 213 \approx 427\ \text{W}$, dentro del límite de 1 500 W. Con un plato de 1,2 m (27,4 dBi) y 10 W llegarías a unos 5 470 W, más de tres veces y media el límite; con ese plato, la potencia máxima es $1\,500 / 549 \approx 2{,}7\ \text{W}$. En microondas, la ganancia de la antena hace casi todo el trabajo.
+**Ejemplo: la p. i. r. e. de tu estación.** La ganancia de un plato es $G = \eta\,(\pi D/\lambda)^2$, como en el [capítulo 6](06-antenas-lineas.md#antenas-de-apertura-parabolicas-y-bocinas), con $\eta$ su rendimiento, $D$ su diámetro y $\lambda$ la longitud de onda, en las mismas unidades. En 2400 MHz, $\lambda \approx 12{,}5\ \text{cm}$. Un plato de 75 cm con $\eta = 0{,}6$ tiene $G = 0{,}6 \cdot (\pi \cdot 75 / 12{,}5)^2 \approx 213$, unos 23,3 dBi. Supera los 21,5 dBi que exige la autorización, y con 2 W la p. i. r. e. es $2 \cdot 213 \approx 427\ \text{W}$, dentro del límite de 1500 W. Con un plato de 1,2 m (27,4 dBi) y 10 W llegarías a unos 5470 W, más de tres veces y media el límite; con ese plato, la potencia máxima es $1500 / 549 \approx 2{,}7\ \text{W}$. En microondas, la ganancia de la antena hace casi todo el trabajo.
 
 La ganancia mínima también cuenta. Un plato de 60 cm, con el mismo rendimiento, da $G = 0{,}6 \cdot (\pi \cdot 60 / 12{,}5)^2 \approx 137$, unos 21,4 dBi: justo en el límite, una décima por debajo. Cumplirlo depende de su rendimiento real, que tendría que ser del 62 % como mínimo. Con un plato algo mayor, de 75 cm o más, no tienes esa duda.
 
@@ -320,7 +320,7 @@ La ganancia mínima también cuenta. Un plato de 60 cm, con el mismo rendimiento
 
 La **Estación Espacial Internacional** (ISS) lleva estaciones de radioaficionado gestionadas por el programa internacional **ARISS** (*Amateur Radio on the International Space Station*). A 4 de noviembre de 2026, según la [página de estado de ARISS](https://www.ariss.org/current-status-of-iss-stations.html), estaban instalados (comprobado en noviembre de 2026):
 
-- En el laboratorio europeo **Columbus**, un transceptor Kenwood D710GA, con el indicativo NA1SS, **en modo repetidor de voz**, y un sistema de televisión de aficionado (HamTV) emitiendo una señal de prueba en 2 395 MHz.
+- En el laboratorio europeo **Columbus**, un transceptor Kenwood D710GA, con el indicativo NA1SS, **en modo repetidor de voz**, y un sistema de televisión de aficionado (HamTV) emitiendo una señal de prueba en 2395 MHz.
 - En el módulo de servicio ruso **Zvezda**, otro D710GA, con el indicativo RS0ISS, todavía en pruebas, con el **APRS activo en 437,825 MHz**.
 
 Los informes de estaciones de tierra en la [página de estado de AMSAT](https://status.amsat.org/) confirman entre el 5 y el 10 de noviembre de 2026 el repetidor, el APRS en 70 cm y la SSTV; el digipeater de 2 m no se oía (comprobado el 10 de noviembre de 2026).
@@ -390,18 +390,18 @@ Un satélite oye y emite sobre medio continente, así que sus frecuencias no se 
 
 ## Resumen
 
-- Los satélites de **órbita baja** (400 – 1 000 km) dan una vuelta en 90 a 100 minutos y se ven en **pases** de 5 a 15 minutos; los **geoestacionarios**, a 35 786 km sobre el ecuador, están fijos en el cielo.
+- Los satélites de **órbita baja** (400 – 1000 km) dan una vuelta en 90 a 100 minutos y se ven en **pases** de 5 a 15 minutos; los **geoestacionarios**, a 35 786 km sobre el ecuador, están fijos en el cielo.
 - El modo se nombra con la banda de subida en mayúscula y la de bajada en minúscula: **V/u** sube en 2 m y baja en 70 cm. Los tramos de satélites del plan de la IARU son 145,806 – 146,000 MHz y 435 – 438 MHz.
 - Un **repetidor FM** atiende un contacto a la vez; un **transpondedor lineal** retransmite un pasabanda entero en BLU y CW, y si es **inversor** reduce el Doppler total.
 - El **Doppler** es máximo al aparecer y al desaparecer el satélite, cero en el punto más cercano, y tres veces mayor en 70 cm que en 2 m. En FM se corrige con memorias en pasos de 5 kHz; en los lineales, mejor con el ordenador.
 - Para los satélites FM bastan un **portátil bibanda**, una **Yagi de mano**, auriculares y una tabla de pases. Contactos cortos: indicativo y localizador; no transmitas si no oyes el satélite.
-- El **QO-100** está a 25,9° E. Su transpondedor estrecho sube en 2 400,0 – 2 400,5 MHz y baja en 10 489,5 – 10 490,0 MHz, sin invertir. Desde España se ve hacia el sureste a unos 30° – 40°. Tu señal no debe superar la baliza. En España, una resolución anual del Ministerio autoriza a todos los radioaficionados a subir al QO-100 en 2 400 – 2 410 MHz con hasta **1 500 W de p. i. r. e.** y antenas de **21,5 dBi** o más; la vigente vale hasta el 26 de diciembre de 2026. Fuera de ella, 13 cm requiere **autorización especial** y su límite es de 500 W de p. i. r. e.
+- El **QO-100** está a 25,9° E. Su transpondedor estrecho sube en 2400,0 – 2400,5 MHz y baja en 10 489,5 – 10 490,0 MHz, sin invertir. Desde España se ve hacia el sureste a unos 30° – 40°. Tu señal no debe superar la baliza. En España, una resolución anual del Ministerio autoriza a todos los radioaficionados a subir al QO-100 en 2400 – 2410 MHz con hasta **1500 W de p. i. r. e.** y antenas de **21,5 dBi** o más; la vigente vale hasta el 26 de diciembre de 2026. Fuera de ella, 13 cm requiere **autorización especial** y su límite es de 500 W de p. i. r. e.
 - La **ISS** lleva un repetidor FM (145,990 / 437,800 MHz), APRS, SSTV y voz; **nunca transmitas en 145,800 MHz**. ARISS organiza contactos con escuelas.
 - Los programas de seguimiento necesitan **elementos orbitales** actualizados (TLE u OMM). **AMSAT**, con sus organizaciones nacionales como AMSAT-EA, construye y mantiene los satélites, y la **IARU** coordina sus frecuencias.
 
 ## Autoevaluación
 
-**1.** Un satélite está en una órbita circular a 800 km de altura. ¿Cuál es aproximadamente su periodo? (Radio terrestre 6 371 km; $\mu = 398\,600\ \text{km}^3/\text{s}^2$.)
+**1.** Un satélite está en una órbita circular a 800 km de altura. ¿Cuál es aproximadamente su periodo? (Radio terrestre 6371 km; $\mu = 398\,600\ \text{km}^3/\text{s}^2$.)
 
 a) 24 horas  
 b) 101 minutos  
@@ -409,7 +409,7 @@ c) 45 minutos
 d) 12 horas
 
 ??? success "Solución"
-    **b)** $r = 7\,171\ \text{km}$ y $T = 2\pi\sqrt{7\,171^3/398\,600} \approx 6\,040\ \text{s}$, unos 101 minutos. Las 24 horas corresponden, más exactamente, a un día sidéreo en la órbita geoestacionaria, a 35 786 km; ninguna órbita alrededor de la Tierra tiene un periodo de 45 minutos, porque incluso rozando la superficie el periodo es de unos 84 minutos.
+    **b)** $r = 7171\ \text{km}$ y $T = 2\pi\sqrt{7171^3/398\,600} \approx 6040\ \text{s}$, unos 101 minutos. Las 24 horas corresponden, más exactamente, a un día sidéreo en la órbita geoestacionaria, a 35 786 km; ninguna órbita alrededor de la Tierra tiene un periodo de 45 minutos, porque incluso rozando la superficie el periodo es de unos 84 minutos.
 
 **2.** Escuchas el repetidor de la ISS en 437,800 MHz cuando la estación aparece por el horizonte y se acerca a unos 7 km/s. ¿Dónde la oyes?
 
@@ -441,7 +441,7 @@ d) 145,995 MHz
 ??? success "Solución"
     **a)** En un inversor la suma es constante: $145{,}935 + 435{,}670 = 581{,}605\ \text{MHz}$, así que subes en $581{,}605 - 435{,}655 = 145{,}950\ \text{MHz}$. La b) sale de suponer que no invierte (desplazar la subida en el mismo sentido que la bajada); la c) es el centro del pasabanda.
 
-**5.** Un satélite FM de órbita baja está en tu vertical a 800 km. Al principio del pase estaba a unos 3 290 km. ¿Cuántos decibelios más de pérdida en el espacio libre tenías al principio?
+**5.** Un satélite FM de órbita baja está en tu vertical a 800 km. Al principio del pase estaba a unos 3290 km. ¿Cuántos decibelios más de pérdida en el espacio libre tenías al principio?
 
 a) Unos 6 dB  
 b) Unos 12 dB  
@@ -449,7 +449,7 @@ c) Unos 24 dB
 d) Ninguno, porque la frecuencia es la misma
 
 ??? success "Solución"
-    **b)** La pérdida crece con $20 \log d$: $20 \log (3\,290 / 800) \approx 12{,}3\ \text{dB}$. La frecuencia es la misma, pero la distancia no. Por eso los pases altos son los más fáciles y por eso conviene una antena directiva.
+    **b)** La pérdida crece con $20 \log d$: $20 \log (3290 / 800) \approx 12{,}3\ \text{dB}$. La frecuencia es la misma, pero la distancia no. Por eso los pases altos son los más fáciles y por eso conviene una antena directiva.
 
 **6.** Estás en un pase del SO-50 y no oyes el satélite. ¿Qué haces?
 
@@ -471,15 +471,15 @@ d) Al este, a 10° de elevación.
 ??? success "Solución"
     **b)** El QO-100 está sobre el ecuador a 25,9° E, al este de Madrid, así que lo ves hacia el sureste: unos 139° de azimut y 34° de elevación. Desde cualquier punto de España lo verás hacia el sureste, entre unos 30° y 40° de elevación.
 
-**8.** Usas para la subida del QO-100 un plato de 1,2 m con 27,4 dBi en 2 400 MHz. Si la autorización para el QO-100 fija un límite de 1 500 W de p. i. r. e., ¿qué potencia máxima puedes aplicar a la antena?
+**8.** Usas para la subida del QO-100 un plato de 1,2 m con 27,4 dBi en 2400 MHz. Si la autorización para el QO-100 fija un límite de 1500 W de p. i. r. e., ¿qué potencia máxima puedes aplicar a la antena?
 
-a) Unos 1 500 W  
+a) Unos 1500 W  
 b) Unos 0,9 W  
 c) Unos 2,7 W  
 d) Unos 55 W
 
 ??? success "Solución"
-    **c)** 27,4 dBi equivalen a $10^{2{,}74} \approx 549$ veces, y la p. i. r. e. es la potencia por la ganancia: $1\,500 / 549 \approx 2{,}7\ \text{W}$. La a) olvida la ganancia de la antena; la b) aplica los 500 W del régimen general, que no es el de esta autorización; la d) divide entre 27,4 dB como si fueran veces. En microondas, con platos grandes, el límite de p. i. r. e. se alcanza con muy poca potencia.
+    **c)** 27,4 dBi equivalen a $10^{2{,}74} \approx 549$ veces, y la p. i. r. e. es la potencia por la ganancia: $1500 / 549 \approx 2{,}7\ \text{W}$. La a) olvida la ganancia de la antena; la b) aplica los 500 W del régimen general, que no es el de esta autorización; la d) divide entre 27,4 dB como si fueran veces. En microondas, con platos grandes, el límite de p. i. r. e. se alcanza con muy poca potencia.
 
 **9.** ¿Para qué sirven los elementos orbitales (TLE u OMM) en un programa de seguimiento?
 

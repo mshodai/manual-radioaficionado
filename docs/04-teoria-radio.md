@@ -53,7 +53,7 @@ El conjunto de frecuencias que se usan para radiocomunicaciones es el **espectro
 
 *Figura 4.2. Bandas de la nomenclatura de la UIT que más te interesan, según el artículo 2 del Reglamento de Radiocomunicaciones (comprobado en noviembre de 2026). El límite inferior de cada banda queda fuera y el superior, dentro.*
 
-Las que más vas a usar son la **HF** (*high frequency*, 3 a 30 MHz, ondas decamétricas), donde están las bandas que permiten contactos a miles de kilómetros, y la **VHF** (*very high frequency*) y la **UHF** (*ultra high frequency*), de 30 a 3 000 MHz,, donde operan los portátiles y los repetidores. La propagación de cada una se estudia en el capítulo 5.
+Las que más vas a usar son la **HF** (*high frequency*, 3 a 30 MHz, ondas decamétricas), donde están las bandas que permiten contactos a miles de kilómetros, y la **VHF** (*very high frequency*) y la **UHF** (*ultra high frequency*), de 30 a 3000 MHz,, donde operan los portátiles y los repetidores. La propagación de cada una se estudia en el capítulo 5.
 
 ## Información, ruido y ancho de banda
 
@@ -81,7 +81,7 @@ Además de la señal, a la antena llega **ruido**: el de la atmósfera y las tor
 
 **Ejemplo.** Si en la entrada del receptor la señal tiene 2 µV y el ruido 0,5 µV, la relación de tensiones es 4 y la relación señal/ruido vale $20 \log 4 \approx 12\ \text{dB}$.
 
-El ruido se reparte por todas las frecuencias, así que un filtro más estrecho deja pasar menos ruido. La potencia de ruido es proporcional al ancho de banda: si en CW cambias un filtro de 2,4 kHz por uno de 500 Hz, el ruido baja en $10 \log (2\,400 / 500) \approx 6{,}8\ \text{dB}$ y la señal, que cabe entera en el filtro estrecho, no pierde nada. Por eso las modulaciones estrechas llegan más lejos con la misma potencia.
+El ruido se reparte por todas las frecuencias, así que un filtro más estrecho deja pasar menos ruido. La potencia de ruido es proporcional al ancho de banda: si en CW cambias un filtro de 2,4 kHz por uno de 500 Hz, el ruido baja en $10 \log (2400 / 500) \approx 6{,}8\ \text{dB}$ y la señal, que cabe entera en el filtro estrecho, no pierde nada. Por eso las modulaciones estrechas llegan más lejos con la misma potencia.
 
 ## Modulaciones
 
@@ -109,7 +109,7 @@ $$
 B_{\text{AM}} = 2 \cdot f_{\text{máx}}
 $$
 
-**Ejemplo.** Una portadora de 7 120 kHz modulada con audio de hasta 3,4 kHz ocupa $2 \cdot 3{,}4 = 6{,}8\ \text{kHz}$, de 7 116,6 a 7 123,4 kHz.
+**Ejemplo.** Una portadora de 7120 kHz modulada con audio de hasta 3,4 kHz ocupa $2 \cdot 3{,}4 = 6{,}8\ \text{kHz}$, de 7116,6 a 7123,4 kHz.
 
 La AM desperdicia potencia. La portadora no lleva información y, sin embargo, se queda con la mayor parte. Con una portadora de potencia $P_c$, la potencia total es
 
@@ -133,7 +133,7 @@ Las ventajas son grandes:
 
 A cambio, el receptor tiene que reponer la portadora con su BFO, y si no está bien sintonizado la voz suena aguda o grave, como de pato. Para eso sirve el mando de sintonía fina.
 
-**Ejemplo.** Si sintonizas 14 250 kHz en USB y el audio va de 300 a 2 800 Hz, la emisión ocupa de 14 250,3 a 14 252,8 kHz, todo por encima de la frecuencia que marca el equipo. En LSB, en 3 690 kHz, ocuparía de 3 687,2 a 3 689,7 kHz, todo por debajo.
+**Ejemplo.** Si sintonizas 14 250 kHz en USB y el audio va de 300 a 2800 Hz, la emisión ocupa de 14 250,3 a 14 252,8 kHz, todo por encima de la frecuencia que marca el equipo. En LSB, en 3690 kHz, ocuparía de 3687,2 a 3689,7 kHz, todo por debajo.
 
 Por costumbre, en HF se usa LSB por debajo de 10 MHz (bandas de 160, 80 y 40 m) y USB por encima (20 m y superiores), y también en VHF y UHF. La excepción es la banda de 60 m, en 5 MHz: aunque está por debajo de 10 MHz, en ella se usa USB. Así lo recomienda el plan de bandas de HF de la IARU Región 1, recogido en su [manual para los responsables de HF](https://www.iaru-r1.org/reference/handbooks/) (*HF Manager's Handbook*) (comprobado en noviembre de 2026).
 
@@ -265,7 +265,7 @@ $$
 
 Es la pieza que permite cambiar una señal de frecuencia sin alterar la información que lleva. Un filtro a la salida se queda con el producto que interesa.
 
-**Ejemplo.** Si mezclas una señal de 14 200 kHz con un oscilador de 5 200 kHz, salen 9 000 kHz y 19 400 kHz. Con un filtro de 9 MHz te quedas con la diferencia, que lleva la misma modulación que la señal original.
+**Ejemplo.** Si mezclas una señal de 14 200 kHz con un oscilador de 5200 kHz, salen 9000 kHz y 19 400 kHz. Con un filtro de 9 MHz te quedas con la diferencia, que lleva la misma modulación que la señal original.
 
 Un **modulador equilibrado** es un mezclador que, además, anula a su salida la señal del oscilador. Si le entra audio, entrega las dos bandas laterales sin portadora: es el primer paso para generar BLU.
 
@@ -351,11 +351,11 @@ flowchart TB
 6. El **detector** recupera el audio, con la ayuda del BFO en BLU y CW.
 7. El **control automático de ganancia** (CAG, en inglés *AGC*, de *automatic gain control*) mide la intensidad de la señal y reduce la ganancia cuando es fuerte, para que el volumen no cambie con cada estación.
 
-**Ejemplo.** Para recibir 14 200 kHz con una FI de 9 MHz, el oscilador local puede ir por encima, en $14\,200 + 9\,000 = 23\,200\ \text{kHz}$. El mezclador entrega $23\,200 - 14\,200 = 9\,000\ \text{kHz}$, que pasa por el filtro, y la suma, 37 400 kHz, que el filtro rechaza.
+**Ejemplo.** Para recibir 14 200 kHz con una FI de 9 MHz, el oscilador local puede ir por encima, en $14\,200 + 9000 = 23\,200\ \text{kHz}$. El mezclador entrega $23\,200 - 14\,200 = 9000\ \text{kHz}$, que pasa por el filtro, y la suma, 37 400 kHz, que el filtro rechaza.
 
 ### La frecuencia imagen
 
-El mezclador no distingue de qué lado del oscilador está la señal. En el ejemplo anterior, una emisión en 32 200 kHz también daría una diferencia de $32\,200 - 23\,200 = 9\,000\ \text{kHz}$ y pasaría por el filtro de FI como si fuera la buena. Esa segunda frecuencia es la **frecuencia imagen**, y está siempre a dos veces la FI de la deseada, al otro lado del oscilador local:
+El mezclador no distingue de qué lado del oscilador está la señal. En el ejemplo anterior, una emisión en 32 200 kHz también daría una diferencia de $32\,200 - 23\,200 = 9000\ \text{kHz}$ y pasaría por el filtro de FI como si fuera la buena. Esa segunda frecuencia es la **frecuencia imagen**, y está siempre a dos veces la FI de la deseada, al otro lado del oscilador local:
 
 $$
 f_{\text{imagen}} = f_{\text{señal}} \pm 2 \cdot \text{FI}
@@ -516,7 +516,7 @@ Si se usa un multiplicador, este multiplica también la desviación.
 
 Todo transmisor genera, además de su señal, algo de energía en otras frecuencias. Son las **emisiones no esenciales** o **espurias**:
 
-- **Armónicos**: múltiplos enteros de la frecuencia de trabajo, producidos por cualquier amplificador que no sea perfectamente lineal. Una emisión en 7 050 kHz tiene el segundo armónico en 14 100 kHz y el tercero en 21 150 kHz, que caen de lleno en las bandas de 20 y 15 m.
+- **Armónicos**: múltiplos enteros de la frecuencia de trabajo, producidos por cualquier amplificador que no sea perfectamente lineal. Una emisión en 7050 kHz tiene el segundo armónico en 14 100 kHz y el tercero en 21 150 kHz, que caen de lleno en las bandas de 20 y 15 m.
 - **Productos de mezcla** indeseados, cuando el filtro que sigue al mezclador no es suficiente.
 - **Ensanchamiento** de la emisión por sobremodulación, sobredesviación, excitación excesiva o clics de manipulación.
 - **Oscilaciones parásitas**, cuando una etapa amplificadora oscila por su cuenta a una frecuencia cualquiera.
@@ -532,7 +532,7 @@ Casi todos los equipos actuales son **transceptores**: un receptor y un transmis
 
 ## Resumen
 
-- La longitud de onda y la frecuencia son inversamente proporcionales: $\lambda\,(\text{m}) \approx 300 / f\,(\text{MHz})$. La UIT divide el espectro en bandas que van de diez en diez: HF (3 a 30 MHz), VHF (30 a 300 MHz) y UHF (300 a 3 000 MHz) (comprobado en noviembre de 2026).
+- La longitud de onda y la frecuencia son inversamente proporcionales: $\lambda\,(\text{m}) \approx 300 / f\,(\text{MHz})$. La UIT divide el espectro en bandas que van de diez en diez: HF (3 a 30 MHz), VHF (30 a 300 MHz) y UHF (300 a 3000 MHz) (comprobado en noviembre de 2026).
 - Modular es variar la amplitud, la frecuencia o la fase de una portadora. Al hacerlo aparecen bandas laterales, que fijan el ancho de banda.
 - La AM ocupa el doble de la frecuencia de audio más alta y gasta la mayor parte de la potencia en la portadora. La BLU elimina la portadora y una banda lateral: ocupa la mitad y aprovecha toda la potencia.
 - La FM ocupa más, unos $2 \cdot (\Delta f + f_m)$ según la regla de Carson, pero rechaza el ruido de amplitud y tiene efecto captura.

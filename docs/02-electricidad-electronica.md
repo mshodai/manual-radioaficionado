@@ -45,16 +45,16 @@ En radio aparecen a la vez valores enormes y diminutos: frecuencias de cientos d
 |---|---|---|---|
 | giga | G | $10^{9}$ | 1,2 GHz (banda de 23 cm) |
 | mega | M | $10^{6}$ | 145 MHz (banda de 2 m) |
-| kilo | k | $10^{3}$ | 4,7 kΩ; 7 100 kHz |
+| kilo | k | $10^{3}$ | 4,7 kΩ; 7100 kHz |
 | mili | m | $10^{-3}$ | 250 mA de consumo en escucha |
 | micro | µ | $10^{-6}$ | 10 µH; 1 µV de señal en antena |
 | nano | n | $10^{-9}$ | 100 nF |
 | pico | p | $10^{-12}$ | 47 pF |
 
-Cada salto de prefijo equivale a mil: 1 MHz son 1 000 kHz y 1 nF son 1 000 pF.
+Cada salto de prefijo equivale a mil: 1 MHz son 1000 kHz y 1 nF son 1000 pF.
 
 !!! tip "Para el examen"
-    Muchos fallos en los cálculos no son de fórmula, sino de prefijos. Antes de operar, pasa todo a la unidad base (A, V, Ω, Hz, F, H) usando potencias de diez, y al final elige el prefijo que deje un número cómodo. Practica conversiones como 0,022 µF = 22 nF o 3 500 kHz = 3,5 MHz hasta hacerlas sin pensar.
+    Muchos fallos en los cálculos no son de fórmula, sino de prefijos. Antes de operar, pasa todo a la unidad base (A, V, Ω, Hz, F, H) usando potencias de diez, y al final elige el prefijo que deje un número cómodo. Practica conversiones como 0,022 µF = 22 nF o 3500 kHz = 3,5 MHz hasta hacerlas sin pensar.
 
 ## Ley de Ohm
 
@@ -81,7 +81,7 @@ $$
 **Ejemplo 2.** Por una resistencia de 2,2 kΩ pasan 5 mA. ¿Qué tensión hay entre sus extremos?
 
 $$
-V = 0{,}005\ \text{A} \cdot 2\,200\ \Omega = 11\ \text{V}
+V = 0{,}005\ \text{A} \cdot 2200\ \Omega = 11\ \text{V}
 $$
 
 **Ejemplo 3.** Un receptor alimentado a 13,8 V consume 0,6 A. Visto desde la fuente, se comporta como una resistencia de
@@ -145,7 +145,7 @@ Toda resistencia tiene una **potencia nominal**, la máxima que puede disipar si
 La **energía** es potencia por tiempo. En el ámbito eléctrico se mide en **vatios hora** (Wh) o kilovatios hora (kWh). La capacidad de una batería suele indicarse en **amperios hora** (Ah) o miliamperios hora (mAh); multiplicada por la tensión da la energía almacenada.
 
 - Una batería de plomo de 12 V y 7 Ah guarda unos $12 \cdot 7 = 84\ \text{Wh}$.
-- La batería de 7,4 V y 1 800 mAh de un portátil de mano guarda unos $7{,}4 \cdot 1{,}8 \approx 13{,}3\ \text{Wh}$.
+- La batería de 7,4 V y 1800 mAh de un portátil de mano guarda unos $7{,}4 \cdot 1{,}8 \approx 13{,}3\ \text{Wh}$.
 
 Si un equipo consume de media 1,5 A, una batería de 7 Ah le dura en teoría unas 4,7 horas. En la práctica, menos: no conviene descargar del todo una batería de plomo y la capacidad baja con el frío y con las corrientes altas.
 
@@ -184,7 +184,7 @@ $$
 
 La resistencia total en paralelo siempre es **menor** que la menor de las resistencias. Si las dos son iguales, el resultado es la mitad de una de ellas: dos de 100 Ω en paralelo dan 50 Ω.
 
-**Ejemplo 6.** Dos resistencias de 1 kΩ en paralelo y, en serie con el conjunto, otra de 500 Ω. El paralelo vale 500 Ω y, sumado a la de 500 Ω, da 1 000 Ω en total.
+**Ejemplo 6.** Dos resistencias de 1 kΩ en paralelo y, en serie con el conjunto, otra de 500 Ω. El paralelo vale 500 Ω y, sumado a la de 500 Ω, da 1000 Ω en total.
 
 ### Las leyes de Kirchhoff
 
@@ -267,7 +267,7 @@ La ventaja es que las ganancias y pérdidas en cadena, que en potencias se multi
 | 10 dB | ×10 |
 | 13 dB | ×20 |
 | 20 dB | ×100 |
-| 30 dB | ×1 000 |
+| 30 dB | ×1000 |
 | −3 dB | ×0,5 (la mitad) |
 | −10 dB | ×0,1 (la décima parte) |
 
@@ -316,7 +316,7 @@ En las resistencias con patillas, el valor se indica con bandas de colores; las 
 | negro | 0 | ×1 | |
 | marrón | 1 | ×10 | ±1 % |
 | rojo | 2 | ×100 | ±2 % |
-| naranja | 3 | ×1 000 | |
+| naranja | 3 | ×1000 | |
 | amarillo | 4 | ×10 000 | |
 | verde | 5 | ×100 000 | |
 | azul | 6 | ×1 000 000 | |
@@ -326,7 +326,7 @@ En las resistencias con patillas, el valor se indica con bandas de colores; las 
 | oro | | ×0,1 | ±5 % |
 | plata | | ×0,01 | ±10 % |
 
-En el código de cuatro bandas, las dos primeras son cifras, la tercera es el multiplicador y la cuarta, separada de las demás, la tolerancia. Una resistencia **amarillo, violeta, rojo, oro** vale $47 \cdot 100 = 4\,700\ \Omega = 4{,}7\ \text{k}\Omega$, con una tolerancia de ±5 %.
+En el código de cuatro bandas, las dos primeras son cifras, la tercera es el multiplicador y la cuarta, separada de las demás, la tolerancia. Una resistencia **amarillo, violeta, rojo, oro** vale $47 \cdot 100 = 4700\ \Omega = 4{,}7\ \text{k}\Omega$, con una tolerancia de ±5 %.
 
 ### Condensadores
 
@@ -418,7 +418,7 @@ Un **diodo** es un semiconductor con una unión entre dos zonas, P y N, que deja
 **Ejemplo 12.** Para encender un LED rojo (2 V, 10 mA) con 12 V, la resistencia en serie debe absorber los 10 V sobrantes:
 
 $$
-R = \frac{12 - 2}{0{,}010} = 1\,000\ \Omega
+R = \frac{12 - 2}{0{,}010} = 1000\ \Omega
 $$
 
 y disipará $P = 10 \cdot 0{,}010 = 0{,}1\ \text{W}$: una de 0,25 W va sobrada.
@@ -505,12 +505,12 @@ d) 200 W
 **3.** Dos resistencias de 1 kΩ se conectan en paralelo y el conjunto se pone en serie con otra de 500 Ω. ¿Cuál es la resistencia total?
 
 a) 500 Ω  
-b) 1 000 Ω  
-c) 1 500 Ω  
-d) 2 500 Ω
+b) 1000 Ω  
+c) 1500 Ω  
+d) 2500 Ω
 
 ??? success "Solución"
-    **b)** Dos resistencias iguales en paralelo equivalen a la mitad de una: 500 Ω. En serie con otros 500 Ω, el total es 1 000 Ω.
+    **b)** Dos resistencias iguales en paralelo equivalen a la mitad de una: 500 Ω. En serie con otros 500 Ω, el total es 1000 Ω.
 
 **4.** ¿Cómo se conecta un amperímetro para medir la corriente que consume un equipo?
 
@@ -560,7 +560,7 @@ c) 10 kΩ ±5 %
 d) 100 kΩ ±5 %
 
 ??? success "Solución"
-    **c)** Marrón = 1 y negro = 0 dan 10; naranja es el multiplicador ×1 000. El resultado es $10 \cdot 1\,000 = 10\,000\ \Omega = 10\ \text{k}\Omega$, y el oro indica ±5 %.
+    **c)** Marrón = 1 y negro = 0 dan 10; naranja es el multiplicador ×1000. El resultado es $10 \cdot 1000 = 10\,000\ \Omega = 10\ \text{k}\Omega$, y el oro indica ±5 %.
 
 **9.** En un circuito resonante formado por una bobina y un condensador, se cuadruplica la capacidad del condensador. ¿Qué pasa con la frecuencia de resonancia?
 
@@ -572,12 +572,12 @@ d) No cambia.
 ??? success "Solución"
     **a)** La frecuencia depende de $1/\sqrt{LC}$. Si $C$ se multiplica por 4, la raíz se multiplica por 2 y la frecuencia queda dividida por 2.
 
-**10.** Un transformador tiene 1 000 espiras en el primario y 100 en el secundario. Si se conecta el primario a 230 V de alterna, ¿qué tensión hay en el secundario?
+**10.** Un transformador tiene 1000 espiras en el primario y 100 en el secundario. Si se conecta el primario a 230 V de alterna, ¿qué tensión hay en el secundario?
 
 a) 2,3 V  
 b) 23 V  
 c) 230 V  
-d) 2 300 V
+d) 2300 V
 
 ??? success "Solución"
-    **b)** La relación de tensiones es la de espiras, 100/1 000 = 1/10. Por tanto, $V_2 = 230 / 10 = 23\ \text{V}$. Si lo conectaras a una batería de continua, no daría nada en el secundario.
+    **b)** La relación de tensiones es la de espiras, 100/1000 = 1/10. Por tanto, $V_2 = 230 / 10 = 23\ \text{V}$. Si lo conectaras a una batería de continua, no daría nada en el secundario.

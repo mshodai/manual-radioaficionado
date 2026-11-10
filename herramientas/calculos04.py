@@ -48,9 +48,9 @@ comprueba("AM: 6K00A3E con audio hasta 3 kHz (kHz)", 2 * 3, 6.0)
 # BLU
 comprueba("USB 14 250 kHz, borde inferior (kHz)", 14250 + 0.3, 14250.3)
 comprueba("USB 14 250 kHz, borde superior (kHz)", 14250 + 2.8, 14252.8)
-comprueba("LSB 3 690 kHz, borde inferior (kHz)", 3690 - 2.8, 3687.2)
-comprueba("LSB 3 690 kHz, borde superior (kHz)", 3690 - 0.3, 3689.7)
-comprueba("BLU: ancho ocupado 300-2 800 Hz (kHz)", 2.8 - 0.3, 2.5)
+comprueba("LSB 3690 kHz, borde inferior (kHz)", 3690 - 2.8, 3687.2)
+comprueba("LSB 3690 kHz, borde superior (kHz)", 3690 - 0.3, 3689.7)
+comprueba("BLU: ancho ocupado 300-2800 Hz (kHz)", 2.8 - 0.3, 2.5)
 
 # FM
 df, fmod = 2.5, 3.0
@@ -62,9 +62,9 @@ comprueba("multiplicador ×12: frecuencia de salida (MHz)", 12.15 * 12, 145.8)
 comprueba("multiplicador ×12: desviación de salida (kHz)", 0.25 * 12, 3)
 
 # Mezclador y frecuencia imagen
-comprueba("mezcla 14 200 − 5 200 kHz", 14200 - 5200, 9000)
-comprueba("mezcla 14 200 + 5 200 kHz", 14200 + 5200, 19400)
-comprueba("OL por encima: 14 200 + 9 000 kHz", 14200 + 9000, 23200)
+comprueba("mezcla 14 200 − 5200 kHz", 14200 - 5200, 9000)
+comprueba("mezcla 14 200 + 5200 kHz", 14200 + 5200, 19400)
+comprueba("OL por encima: 14 200 + 9000 kHz", 14200 + 9000, 23200)
 comprueba("OL por encima: suma 14 200 + 23 200 kHz", 14200 + 23200, 37400)
 comprueba("imagen con OL 23,2 MHz y FI 9 MHz (MHz)", 23.2 + 9, 32.2)
 comprueba("imagen = f + 2·FI (MHz)", 14.2 + 2 * 9, 32.2)
@@ -73,8 +73,8 @@ comprueba("VHF: imagen 145,6 − 2·10,7 (MHz)", 145.6 - 2 * 10.7, 124.2)
 assert 117.975 < 124.2 <= 137, "la imagen debería caer en la banda aeronáutica"
 
 # Armónicos
-comprueba("2.º armónico de 7 050 kHz", 2 * 7050, 14100)
-comprueba("3.er armónico de 7 050 kHz", 3 * 7050, 21150)
+comprueba("2.º armónico de 7050 kHz", 2 * 7050, 14100)
+comprueba("3.er armónico de 7050 kHz", 3 * 7050, 21150)
 assert 14000 <= 14100 <= 14350 and 21000 <= 21150 <= 21450
 
 # Rendimiento de un amplificador

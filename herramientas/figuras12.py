@@ -101,13 +101,13 @@ def dial_audio():
         c.append(T(X(f), ye + 22, f"{f // 1000} {f % 1000:03d}", 12))
     c.append(T(x1, ye + 44, "kHz emitidos", 12, "end", fill="#555555"))
 
-    # Dial y paso de audio (200 a 3 000 Hz)
+    # Dial y paso de audio (200 a 3000 Hz)
     xd = X(14074)
     c.append(L(xd, 120, xd, ye, f'stroke="{ALT}" stroke-dasharray="5 4"'))
     c.append(T(xd - 6, 136, "Dial: 14 074 kHz", 13, "end", fill=ALT))
     c.append(rect(X(14074.2), 150, X(14077.0) - X(14074.2), ye - 150, "#bbdefb", 'stroke="none" opacity="0.7"'))
     c.append(T(X(14077.0) + 8, 160, "Paso de audio del receptor:", 12, "start", fill=ACC))
-    c.append(T(X(14077.0) + 8, 175, "de 200 a 3 000 Hz sobre el dial", 12, "start", fill=ACC))
+    c.append(T(X(14077.0) + 8, 175, "de 200 a 3000 Hz sobre el dial", 12, "start", fill=ACC))
 
     # Señales de FT8 (50 Hz de ancho, dibujadas algo más anchas para que se vean)
     for f, h in ((14074.6, 30), (14075.2, 38), (14075.9, 22), (14076.5, 34)):
@@ -117,7 +117,7 @@ def dial_audio():
     c.append(T(X(14078.7), 225, "dial + tono de audio", 13, "start"))
 
     guarda("12-dial-audio.svg", W, H, "\n".join(c),
-           "Dial en 14 074 kHz, paso de audio de 200 a 3 000 Hz y señales de FT8 dentro del tramo de modos digitales de 14 070 a 14 089 kHz")
+           "Dial en 14 074 kHz, paso de audio de 200 a 3000 Hz y señales de FT8 dentro del tramo de modos digitales de 14 070 a 14 089 kHz")
 
 
 # ---------------------------------------------------------------------------

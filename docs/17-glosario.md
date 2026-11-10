@@ -279,7 +279,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Frecuencia que el plan de bandas de la IARU señala como punto de encuentro de un modo o una actividad, como QRP o QRS en CW. [Cap. 11, «Para qué sirve el plan»](11-telegrafia.md#para-que-sirve-el-plan).
 
 **Centros de actividad de emergencia**
-:   Frecuencias de HF que la IARU señala como punto de encuentro del tráfico de emergencia: 3 760 y 7 110 kHz en la Región 1, y 14 300, 18 160 y 21 360 kHz. No son exclusivas, pero hay que dejarlas libres. [Cap. 15, «Los centros de actividad de emergencia de la IARU»](15-emergencias/index.md#los-centros-de-actividad-de-emergencia-de-la-iaru).
+:   Frecuencias de HF que la IARU señala como punto de encuentro del tráfico de emergencia: 3760 y 7110 kHz en la Región 1, y 14 300, 18 160 y 21 360 kHz. No son exclusivas, pero hay que dejarlas libres. [Cap. 15, «Los centros de actividad de emergencia de la IARU»](15-emergencias/index.md#los-centros-de-actividad-de-emergencia-de-la-iaru).
 
 **CEPT**
 :   Conferencia Europea de Administraciones de Correos y Telecomunicaciones. Sus recomendaciones T/R 61-01 y T/R 61-02 regulan la licencia CEPT y el HAREC. [Cap. 9, «La CEPT y sus recomendaciones»](09-reglamentacion/europeo.md#la-cept-y-sus-recomendaciones).
@@ -381,7 +381,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Para representar fielmente una señal hay que tomar más de dos muestras por ciclo de su componente más alta. La mitad de la frecuencia de muestreo es la frecuencia de Nyquist. [Cap. 4, «El teorema de muestreo»](04-teoria-radio.md#el-teorema-de-muestreo).
 
 **CTCSS**
-:   *Continuous Tone-Coded Squelch System*. Tono subaudible, entre 67,0 y 250,3 Hz, que se suma a la voz para abrir un repetidor o el silenciador de otro equipo. [Cap. 10, «Tonos de acceso: CTCSS y 1 750 Hz»](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz).
+:   *Continuous Tone-Coded Squelch System*. Tono subaudible, entre 67,0 y 250,3 Hz, que se suma a la voz para abrir un repetidor o el silenciador de otro equipo. [Cap. 10, «Tonos de acceso: CTCSS y 1750 Hz»](10-operacion.md#tonos-de-acceso-ctcss-y-1750-hz).
 
 **Cuadrado del localizador**
 :   Zona en que está una estación, como IN80. Se intercambia en los contactos por satélite y es lo que cuenta para los diplomas. [Cap. 13, «Cómo es un contacto»](13-satelites.md#como-es-un-contacto).
@@ -413,7 +413,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Decibelios respecto a 1 W. Expresa una potencia absoluta: 0 dBW = 1 W. [Cap. 2, «Valores absolutos: dBm y dBW»](02-electricidad-electronica.md#valores-absolutos-dbm-y-dbw).
 
 **DCS**
-:   *Digital-Coded Squelch*, silenciador por código digital: código subaudible de tres cifras (023, 754…) que se suma a la voz para abrir el silenciador. Es habitual en PMR446; la FM.24 de la IARU no lo admite para los repetidores. [Cap. 10, «Tonos de acceso: CTCSS y 1 750 Hz»](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz).
+:   *Digital-Coded Squelch*, silenciador por código digital: código subaudible de tres cifras (023, 754…) que se suma a la voz para abrir el silenciador. Es habitual en PMR446; la FM.24 de la IARU no lo admite para los repetidores. [Cap. 10, «Tonos de acceso: CTCSS y 1750 Hz»](10-operacion.md#tonos-de-acceso-ctcss-y-1750-hz).
 
 **DDS**
 :   Sintetizador digital directo (*direct digital synthesizer*): calcula la senoide muestra a muestra y la convierte en tensión. [Cap. 4, «Osciladores»](04-teoria-radio.md#osciladores).
@@ -479,7 +479,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Elemento parásito de una Yagi, algo más corto que el excitado, que se coloca delante y empuja la radiación hacia delante. [Cap. 6, «Antena Yagi»](06-antenas-lineas.md#antena-yagi).
 
 **Dispersión meteórica**
-:   Propagación en VHF por reflexión en los rastros ionizados de los meteoros, que duran fracciones de segundo (en inglés, *meteor scatter*, MS). Permite contactos de hasta unos 2 000 km. [Cap. 5, «Dispersión meteórica»](05-propagacion-bandas.md#dispersion-meteorica).
+:   Propagación en VHF por reflexión en los rastros ionizados de los meteoros, que duran fracciones de segundo (en inglés, *meteor scatter*, MS). Permite contactos de hasta unos 2000 km. [Cap. 5, «Dispersión meteórica»](05-propagacion-bandas.md#dispersion-meteorica).
 
 **Distancia de salto**
 :   Distancia mínima a la que vuelve a la Tierra la onda ionosférica. [Cap. 5, «Salto y zona de silencio»](05-propagacion-bandas.md#salto-y-zona-de-silencio).
@@ -535,7 +535,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Concentración de la corriente de RF en la superficie de los conductores, que hace crecer su resistencia con la frecuencia. [Cap. 6, «Pérdidas en la línea»](06-antenas-lineas.md#perdidas-en-la-linea).
 
 **EFHW**
-:   *End-fed half-wave*: hilo de media onda alimentado en una punta, donde la impedancia es muy alta (de 2 000 a 4 000 Ω), con un transformador 49:1. [Cap. 6, «Media onda alimentada en un extremo»](06-antenas-lineas.md#media-onda-alimentada-en-un-extremo).
+:   *End-fed half-wave*: hilo de media onda alimentado en una punta, donde la impedancia es muy alta (de 2000 a 4000 Ω), con un transformador 49:1. [Cap. 6, «Media onda alimentada en un extremo»](06-antenas-lineas.md#media-onda-alimentada-en-un-extremo).
 
 **Eficiencia**
 :   Fracción de la potencia que recibe una antena que acaba radiada. El resto se pierde en calor. [Cap. 6, «Impedancia, resistencia de radiación y eficiencia»](06-antenas-lineas.md#impedancia-resistencia-de-radiacion-y-eficiencia).
@@ -583,7 +583,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Conjunto de frecuencias que se usan para radiocomunicaciones. La UIT lo divide en bandas como la HF, la VHF y la UHF. [Cap. 4, «El espectro radioeléctrico»](04-teoria-radio.md#el-espectro-radioelectrico).
 
 **Esporádica E**
-:   Nubes muy densas de ionización a la altura de la capa E que producen aperturas repentinas en 10 m, 6 m y 4 m, y en las más intensas en 2 m, con saltos de unos 500 a 2 300 km. Se abrevia Es. [Cap. 5, «Esporádica E»](05-propagacion-bandas.md#esporadica-e).
+:   Nubes muy densas de ionización a la altura de la capa E que producen aperturas repentinas en 10 m, 6 m y 4 m, y en las más intensas en 2 m, con saltos de unos 500 a 2300 km. Se abrevia Es. [Cap. 5, «Esporádica E»](05-propagacion-bandas.md#esporadica-e).
 
 **Espurias**
 :   Véase **Emisiones no esenciales**. [Cap. 8, «Causas en el transmisor»](08-interferencias.md#causas-en-el-transmisor).
@@ -651,7 +651,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Filtro que deja pasar un margen alrededor de una frecuencia central. Es el filtro de FI de un receptor. [Cap. 4, «Filtros»](04-teoria-radio.md#filtros).
 
 **Flujo solar**
-:   Potencia de la emisión de radio del Sol en 2 800 MHz (10,7 cm), en unidades de flujo solar (sfu). Se escribe F10.7. [Cap. 5, «Manchas solares y flujo solar»](05-propagacion-bandas.md#manchas-solares-y-flujo-solar).
+:   Potencia de la emisión de radio del Sol en 2800 MHz (10,7 cm), en unidades de flujo solar (sfu). Se escribe F10.7. [Cap. 5, «Manchas solares y flujo solar»](05-propagacion-bandas.md#manchas-solares-y-flujo-solar).
 
 **FM**
 :   Modulación de frecuencia: la amplitud no cambia y la frecuencia instantánea de la portadora sube y baja al ritmo del audio. [Cap. 4, «Modulación de frecuencia (FM) y de fase (PM)»](04-teoria-radio.md#modulacion-de-frecuencia-fm-y-de-fase-pm).
@@ -684,7 +684,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   *Frequency shift keying*: modulación digital que cambia entre dos o más frecuencias. La usan el RTTY y el FT8. [Cap. 4, «Modulaciones digitales»](04-teoria-radio.md#modulaciones-digitales).
 
 **FT8**
-:   Modo digital de HF con mensajes cortos y estructurados en periodos fijos de 15 s, con corrección de errores, que descodifica señales de hasta −21 dB en 2 500 Hz. El FT4 es una variante más rápida para concursos. [Cap. 12, «FT8 y FT4»](12-modos-digitales.md#ft8-y-ft4).
+:   Modo digital de HF con mensajes cortos y estructurados en periodos fijos de 15 s, con corrección de errores, que descodifica señales de hasta −21 dB en 2500 Hz. El FT4 es una variante más rápida para concursos. [Cap. 12, «FT8 y FT4»](12-modos-digitales.md#ft8-y-ft4).
 
 **Fuente conmutada**
 :   Fuente de alimentación que convierte la tensión de red abriendo y cerrando un transistor a decenas o cientos de kilohercios. Es ligera, pero puede generar un peine de interferencias. [Cap. 8, «Fuentes de alimentación conmutadas»](08-interferencias.md#fuentes-de-alimentacion-conmutadas).
@@ -843,7 +843,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 ## L
 
 **LEO**
-:   Órbita baja (*low Earth orbit*), entre unos 400 y 1 000 km de altura, en la que están casi todos los satélites de aficionado. [Cap. 13, «La órbita baja»](13-satelites.md#la-orbita-baja).
+:   Órbita baja (*low Earth orbit*), entre unos 400 y 1000 km de altura, en la que están casi todos los satélites de aficionado. [Cap. 13, «La órbita baja»](13-satelites.md#la-orbita-baja).
 
 **Ley de la secante**
 :   Relación entre la MUF de un trayecto y la frecuencia crítica: la MUF es la frecuencia crítica dividida por el coseno del ángulo de incidencia. [Cap. 5, «Frecuencia crítica y frecuencia máxima utilizable»](05-propagacion-bandas.md#frecuencia-critica-y-frecuencia-maxima-utilizable).
@@ -1341,8 +1341,8 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Toma de tierra**
 :   Unión de las carcasas metálicas de los aparatos con el terreno, para proteger a las personas. Su conductor es el amarillo y verde. [Cap. 3, «La instalación eléctrica de la estación»](03-seguridad.md#la-instalacion-electrica-de-la-estacion).
 
-**Tono de 1 750 Hz**
-:   Pitido corto y audible que se envía al empezar para abrir un repetidor (en inglés, *tone burst*). Es el sistema antiguo; el actual es el CTCSS. [Cap. 10, «Tonos de acceso: CTCSS y 1 750 Hz»](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz).
+**Tono de 1750 Hz**
+:   Pitido corto y audible que se envía al empezar para abrir un repetidor (en inglés, *tone burst*). Es el sistema antiguo; el actual es el CTCSS. [Cap. 10, «Tonos de acceso: CTCSS y 1750 Hz»](10-operacion.md#tonos-de-acceso-ctcss-y-1750-hz).
 
 **Tormenta geomagnética**
 :   Perturbación del campo magnético terrestre causada por una eyección de masa coronal. La capa F2 se desordena y la MUF cae durante uno o varios días. [Cap. 5, «Perturbaciones solares»](05-propagacion-bandas.md#perturbaciones-solares).
@@ -1380,7 +1380,7 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 ## U
 
 **UHF**
-:   *Ultra high frequency*: banda de 300 a 3 000 MHz. Con la VHF, es donde operan los portátiles y los repetidores. [Cap. 4, «El espectro radioeléctrico»](04-teoria-radio.md#el-espectro-radioelectrico).
+:   *Ultra high frequency*: banda de 300 a 3000 MHz. Con la VHF, es donde operan los portátiles y los repetidores. [Cap. 4, «El espectro radioeléctrico»](04-teoria-radio.md#el-espectro-radioelectrico).
 
 **UIT**
 :   Unión Internacional de Telecomunicaciones: organismo de las Naciones Unidas que reparte el espectro y redacta el Reglamento de Radiocomunicaciones. [Cap. 9, «Nivel internacional: la UIT»](09-reglamentacion/internacional.md#nivel-internacional-la-uit).

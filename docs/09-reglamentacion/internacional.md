@@ -41,10 +41,10 @@ La línea B, que separa la Región 1 de la Región 2, baja por el meridiano 10°
 
 Las regiones importan porque las atribuciones no son iguales en todas. Un ejemplo, del cuadro del artículo 5 (comprobado en noviembre de 2026):
 
-- De 7 000 a 7 200 kHz, la banda de 40 m es de aficionados en las tres regiones.
-- De 7 200 a 7 300 kHz es de aficionados **solo en la Región 2**. En las Regiones 1 y 3 es de radiodifusión.
+- De 7000 a 7200 kHz, la banda de 40 m es de aficionados en las tres regiones.
+- De 7200 a 7300 kHz es de aficionados **solo en la Región 2**. En las Regiones 1 y 3 es de radiodifusión.
 
-Por eso oyes a estaciones de América hablando en 7 250 kHz, y por eso tú, desde España, no puedes contestarles en esa frecuencia: les llamas en tu parte de la banda y ellos te escuchan en la suya. Es lo que se llama trabajar en **dúplex de frecuencias separadas** (*split*).
+Por eso oyes a estaciones de América hablando en 7250 kHz, y por eso tú, desde España, no puedes contestarles en esa frecuencia: les llamas en tu parte de la banda y ellos te escuchan en la suya. Es lo que se llama trabajar en **dúplex de frecuencias separadas** (*split*).
 
 El mapa del número 5.2 muestra también una **Zona Tropical**: el RR la define en los números 5.16 a 5.21 y la usa en el artículo 23 para la radiodifusión.
 
@@ -122,7 +122,7 @@ Fíjate en que varias de estas reglas dejan la decisión a cada país: el Morse 
 
 - El **Reglamento de Radiocomunicaciones** de la UIT es un tratado que revisan las conferencias mundiales; la edición vigente es la de 2024, con los acuerdos de la CMR-23. Obliga a los Estados, que lo trasladan a su normativa (comprobado en noviembre de 2026).
 - El **servicio de aficionados** (número 1.56) tiene por objeto la instrucción individual, la intercomunicación y los estudios técnicos, por personas autorizadas, a título personal y sin ánimo de lucro. El servicio por satélite (1.57) persigue los mismos fines con satélites.
-- El mundo se divide en **tres regiones**. España, con Canarias, está en la **Región 1**. Las atribuciones cambian de una región a otra: 7 200 – 7 300 kHz es de aficionados solo en la Región 2.
+- El mundo se divide en **tres regiones**. España, con Canarias, está en la **Región 1**. Las atribuciones cambian de una región a otra: 7200 – 7300 kHz es de aficionados solo en la Región 2.
 - Un distintivo de aficionado tiene uno o dos caracteres de nacionalidad, **una cifra** y un grupo de **hasta cuatro caracteres**, el último una letra (número 19.68). A España le corresponden las series **AMA – AOZ** y **EAA – EHZ** (apéndice 42).
 - El **artículo 25** permite las comunicaciones internacionales salvo oposición de un país, prohíbe **cifrar** los mensajes entre países distintos (en España lo prohíbe en general el artículo 30.2 de la orden), limita el **tráfico de terceros** a emergencias y desastres, exige **identificarse a intervalos cortos** y deja a cada país el Morse, la potencia y la operación de visitantes (comprobado en noviembre de 2026).
 
@@ -138,15 +138,15 @@ d) Aprender a montar un receptor siguiendo un curso de tu radioclub.
 ??? success "Solución"
     **c)** El servicio de aficionados es personal y sin ánimo de lucro. Prestar un servicio de comunicaciones a cambio de dinero queda fuera de su objeto y, en España, emitir con fines lucrativos es causa de revocación de la autorización (artículo 8.1.b) del reglamento aprobado por la Orden IET/1311/2013). Las otras tres son estudios técnicos, intercomunicación e instrucción individual.
 
-**2.** Un aficionado ficticio de la Región 2 te llama en 7 250 kHz. ¿Puedes contestarle en esa misma frecuencia desde España?
+**2.** Un aficionado ficticio de la Región 2 te llama en 7250 kHz. ¿Puedes contestarle en esa misma frecuencia desde España?
 
 a) Sí, porque la banda de 40 m es igual en todo el mundo.  
-b) No, porque de 7 200 a 7 300 kHz la Región 1 tiene la banda atribuida a la radiodifusión; tienes que transmitir dentro de tu parte de la banda.  
+b) No, porque de 7200 a 7300 kHz la Región 1 tiene la banda atribuida a la radiodifusión; tienes que transmitir dentro de tu parte de la banda.  
 c) Sí, siempre que uses menos de 100 W.  
 d) No, porque en la Región 2 no hay banda de 40 m.
 
 ??? success "Solución"
-    **b)** El cuadro del artículo 5 del RR atribuye 7 200 – 7 300 kHz a los aficionados solo en la Región 2; en la Región 1, donde está España, es de radiodifusión. Le contestas en una frecuencia de tu banda (hasta 7 200 kHz) y él te escucha allí, en *split*. La potencia no cambia nada: el problema es la frecuencia.
+    **b)** El cuadro del artículo 5 del RR atribuye 7200 – 7300 kHz a los aficionados solo en la Región 2; en la Región 1, donde está España, es de radiodifusión. Le contestas en una frecuencia de tu banda (hasta 7200 kHz) y él te escucha allí, en *split*. La potencia no cambia nada: el problema es la frecuencia.
 
 **3.** ¿Cuál de estos indicativos **no** cumple el formato del número 19.68 del Reglamento de Radiocomunicaciones? (Todos son ficticios.)
 

@@ -38,10 +38,10 @@ El firmware cuenta el tiempo de emisión en una hora móvil y, al llegar al 10 %
 
 Todos los nodos tienen que usar el mismo **preajuste de módem** para entenderse. El de fábrica es **LONG_FAST**: factor de ensanchamiento 11, 250 kHz de ancho de banda y una velocidad máxima teórica de **1,07 kbit/s**, que según la misma documentación no tiene en cuenta las cabeceras, los saltos ni las retransmisiones (comprobado en noviembre de 2026).
 
-**Ejemplo.** Un mensaje de texto largo, de 200 bytes, son $200 \cdot 8 = 1\,600$ bits. A 1,07 kbit/s ocupa el canal durante al menos
+**Ejemplo.** Un mensaje de texto largo, de 200 bytes, son $200 \cdot 8 = 1600$ bits. A 1,07 kbit/s ocupa el canal durante al menos
 
 $$
-t = \frac{1\,600\ \text{bit}}{1\,070\ \text{bit/s}} \approx 1{,}5\ \text{s}
+t = \frac{1600\ \text{bit}}{1070\ \text{bit/s}} \approx 1{,}5\ \text{s}
 $$
 
 Con el 10 % de una hora, 360 s, un nodo podría enviar como mucho unos $360 / 1{,}5 = 240$ mensajes así por hora, y bastantes menos en la práctica, porque cada nodo también gasta su tiempo en retransmitir los mensajes de los demás, en anunciar su posición y en enviar datos de su batería. Y el canal es **uno solo para todos**: mientras un nodo transmite, los que lo oyen esperan. Una malla con muchos nodos activos se satura mucho antes de que ninguno llegue a su 10 %.
@@ -121,7 +121,7 @@ d) Porque los mensajes de texto no se consideran radioafición.
 a) 27 mW  
 b) 270 mW  
 c) 500 mW  
-d) 1 000 mW
+d) 1000 mW
 
 ??? success "Solución"
     **c)** $10^{27/10} = 10^{2{,}7} \approx 501$ mW, es decir, 500 mW: el máximo de la nota UN-39 para la subbanda de 869,400 a 869,650 MHz. Cada 10 dB multiplican por 10 y cada 3 dB, por 2 aproximadamente: 20 dBm son 100 mW, y 7 dB más (10 dB menos 3 dB) son unas cinco veces más.
@@ -134,7 +134,7 @@ c) Unos 1,5 s
 d) Unos 7,5 s
 
 ??? success "Solución"
-    **b)** 100 bytes son 800 bits, y $800 / 1\,070 \approx 0{,}75$ s. Es un mínimo: la cabecera del paquete y cada retransmisión en la malla añaden tiempo. La c) es la de un mensaje de 200 bytes.
+    **b)** 100 bytes son 800 bits, y $800 / 1070 \approx 0{,}75$ s. Es un mínimo: la cabecera del paquete y cada retransmisión en la malla añaden tiempo. La c) es la de un mensaje de 200 bytes.
 
 **4.** Activas el modo con licencia de Meshtastic para usarlo en 70 cm. ¿Qué cambia en el cifrado y por qué?
 

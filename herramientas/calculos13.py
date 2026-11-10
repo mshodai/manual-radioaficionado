@@ -6,7 +6,7 @@ en el texto. Si alguna cifra del capítulo cambia, hay que cambiarla también aq
 Uso, desde la raíz del repositorio:
     python3 herramientas/calculos13.py
 
-Modelo: órbitas circulares, Tierra esférica de 6 371 km de radio (6 378,137 km,
+Modelo: órbitas circulares, Tierra esférica de 6371 km de radio (6378,137 km,
 el ecuatorial, para la órbita geoestacionaria y el apuntado al QO-100), sin el
 giro de la Tierra en los pases de órbita baja. Las alturas de 400 y 800 km son
 supuestos de los ejemplos, no datos de ningún satélite concreto.
@@ -15,14 +15,14 @@ Datos de partida (todos comprobados en noviembre de 2026):
 - Frecuencias de SO-50, AO-123, RS-44, FO-29, AO-7, JO-97, AO-73 e ISS: listas de
   satélites FM y lineales de AMSAT (actualizadas el 31-10-2026).
 - QO-100: posición 25,9° E (web del receptor del BATC); transpondedor estrecho,
-  subida 2 400,000-2 400,500 MHz y bajada 10 489,500-10 490,000 MHz, sin invertir
+  subida 2400,000-2400,500 MHz y bajada 10 489,500-10 490,000 MHz, sin invertir
   (plan de banda de AMSAT-DL).
-- Régimen general de 13 cm: 1 000 W p. i. r. e. en el apartado 3.1 del anexo I
+- Régimen general de 13 cm: 1000 W p. i. r. e. en el apartado 3.1 del anexo I
   de la Orden IET/1311/2013, al 50 % por ser banda secundaria (apartado 3.2).
 - Autorización para el QO-100: resolución de la Secretaría de Estado de
   Telecomunicaciones e Infraestructuras Digitales de 4-12-2025, vigente hasta el
   26-12-2026 (página de autorizaciones de uso temporal del Ministerio):
-  2 400-2 410 MHz, 1 500 W p. i. r. e. y antenas directivas de 21,5 dBi o más.
+  2400-2410 MHz, 1500 W p. i. r. e. y antenas directivas de 21,5 dBi o más.
 - Fórmula de la pérdida en el espacio libre con la constante 32,44 del capítulo 5.
 """
 import math
@@ -140,16 +140,16 @@ comprueba("RS-44: subida para bajar en 435,640 (MHz)", 581.605 - 435.640, 145.96
 comprueba("Distancia en el horizonte (km)", distancia(800, 0), 3290, tol=0.002)
 comprueba("Distancia en la vertical (km)", distancia(800, 90), 800, tol=1e-9)
 comprueba("Pérdida en 145,85 MHz a 800 km (dB)", l_el(800, 145.85), 133.8, tol=0.001)
-comprueba("Pérdida en 145,85 MHz a 3 290 km (dB)", l_el(distancia(800, 0), 145.85), 146.1, tol=0.001)
+comprueba("Pérdida en 145,85 MHz a 3290 km (dB)", l_el(distancia(800, 0), 145.85), 146.1, tol=0.001)
 comprueba("Diferencia (dB)", 20 * math.log10(distancia(800, 0) / 800), 12.3, tol=0.005)
 comprueba("5 W con 12,3 dB menos (W)", 5 / 10 ** 1.23, 0.3, tol=0.05)
 
 # ---------- QO-100 ----------
 comprueba("NB: bajada menos subida (MHz)", 10489.500 - 2400.000, 8089.5, tol=1e-9)
 comprueba("NB: lo mismo en el otro extremo (MHz)", 10490.000 - 2400.500, 8089.5, tol=1e-9)
-comprueba("NB: subida 2 400,200 se oye en (MHz)", 2400.200 + 8089.5, 10489.700, tol=1e-9)
+comprueba("NB: subida 2400,200 se oye en (MHz)", 2400.200 + 8089.5, 10489.700, tol=1e-9)
 comprueba("Baliza inferior en frecuencia intermedia (MHz)", 10489.5 - 9750, 739.5, tol=1e-9)
-comprueba("Error de 25 ppm en 9 750 MHz (kHz)", 9750e3 * 25e-6, 244, tol=0.002)
+comprueba("Error de 25 ppm en 9750 MHz (kHz)", 9750e3 * 25e-6, 244, tol=0.002)
 
 lugares = {
     "A Coruña": (43.37, -8.40, 135, 29, 38670),
@@ -172,13 +172,13 @@ comprueba("Madrid: retardo (s)", 2 * d_mad / C, 0.26, tol=0.02)
 comprueba("Madrid: pérdida en 10 489,75 MHz (dB)", l_el(38240, 10489.75), 204.5, tol=0.001)
 
 # Ganancias de plato (rendimiento 0,6)
-comprueba("Longitud de onda en 2 400 MHz (cm)", C * 1e5 / 2400e6, 12.5, tol=0.002)
+comprueba("Longitud de onda en 2400 MHz (cm)", C * 1e5 / 2400e6, 12.5, tol=0.002)
 g75 = ganancia_plato(0.75, 2400)
-comprueba("Plato de 75 cm en 2 400 MHz (veces)", g75, 213, tol=0.005)
+comprueba("Plato de 75 cm en 2400 MHz (veces)", g75, 213, tol=0.005)
 comprueba("... en dBi", 10 * math.log10(g75), 23.3, tol=0.003)
 comprueba("p. i. r. e. con 2 W (W)", 2 * g75, 427, tol=0.005)
 g120 = ganancia_plato(1.2, 2400)
-comprueba("Plato de 1,2 m en 2 400 MHz (dBi)", 10 * math.log10(g120), 27.4, tol=0.003)
+comprueba("Plato de 1,2 m en 2400 MHz (dBi)", 10 * math.log10(g120), 27.4, tol=0.003)
 comprueba("p. i. r. e. con 10 W (W)", 10 * g120, 5470, tol=0.005)
 general = 0.5 * 1000
 comprueba("Régimen general de 13 cm, banda secundaria (W p. i. r. e.)", general, 500)
@@ -186,17 +186,17 @@ limite = 1500           # autorización para el QO-100
 G_MIN = 21.5            # dBi, ganancia mínima de la autorización
 cierto("Plato de 75 cm: 23,3 dBi, por encima de 21,5 dBi", 10 * math.log10(g75) >= G_MIN)
 cierto("Plato de 1,2 m: 27,4 dBi, por encima de 21,5 dBi", 10 * math.log10(g120) >= G_MIN)
-cierto("427 W con el plato de 75 cm, dentro de 1 500 W", 2 * g75 <= limite)
-comprueba("... veces el límite de 1 500 W ('más de tres veces y media')", 10 * g120 / limite, 3.6, tol=0.02)
+cierto("427 W con el plato de 75 cm, dentro de 1500 W", 2 * g75 <= limite)
+comprueba("... veces el límite de 1500 W ('más de tres veces y media')", 10 * g120 / limite, 3.6, tol=0.02)
 cierto("... entre 3,5 y 4 veces", 3.5 < 10 * g120 / limite < 4)
 comprueba("27,4 dBi en veces", 10 ** 2.74, 549, tol=0.002)
 comprueba("Potencia máxima con el plato de 1,2 m (W)", limite / 10 ** 2.74, 2.7, tol=0.02)
 g60 = ganancia_plato(0.6, 2400)
-comprueba("Plato de 60 cm en 2 400 MHz (veces)", g60, 137, tol=0.005)
+comprueba("Plato de 60 cm en 2400 MHz (veces)", g60, 137, tol=0.005)
 comprueba("... en dBi ('unos 21,4 dBi')", 10 * math.log10(g60), 21.4, tol=0.003)
 cierto("... por debajo de 21,5 dBi, a menos de dos décimas",
        0 < G_MIN - 10 * math.log10(g60) < 0.2)
-cierto("... también en 2 410 MHz, el borde superior de la autorización",
+cierto("... también en 2410 MHz, el borde superior de la autorización",
        10 * math.log10(ganancia_plato(0.6, 2410)) < G_MIN)
 eta_min = 10 ** (G_MIN / 10) / (math.pi * 0.6 / (C * 1e5 / 2400e6 / 100)) ** 2
 comprueba("Rendimiento mínimo del plato de 60 cm para 21,5 dBi", eta_min, 0.62, tol=0.01)
@@ -204,9 +204,9 @@ cierto("Capítulo 6: plato de 80 cm en 10 489,5 MHz, unos 36,7 dBi",
        abs(10 * math.log10(ganancia_plato(0.8, 10489.5)) - 36.7) < 0.1)
 
 # ---------- Autorización especial en 13 cm ----------
-cierto("La subida de 2 400 MHz cae en 2 300-2 450 MHz y fuera de 2 316-2 332 MHz",
+cierto("La subida de 2400 MHz cae en 2300-2450 MHz y fuera de 2316-2332 MHz",
        2300 <= 2400.0 <= 2450 and not (2316 <= 2400.0 <= 2332))
-cierto("El transpondedor estrecho (2 400,0-2 400,5 MHz) cabe en 2 400-2 410 MHz",
+cierto("El transpondedor estrecho (2400,0-2400,5 MHz) cabe en 2400-2410 MHz",
        2400 <= 2400.0 and 2400.5 <= 2410)
 
 # ---------- Autoevaluación ----------
@@ -214,13 +214,13 @@ comprueba("P1: periodo a 800 km (min)", periodo(r800) / 60, 101, tol=0.005)
 comprueba("P2: Doppler en 437,8 MHz a 7 km/s (kHz)", doppler_khz(437.8, 7), 10.2, tol=0.005)
 comprueba("P2: lo mismo en 145,99 MHz (kHz)", doppler_khz(145.99, 7), 3.4, tol=0.01)
 comprueba("P4: subida para bajar en 435,655 (MHz)", 581.605 - 435.655, 145.950, tol=1e-9)
-comprueba("P5: 20 log(3 290/800) (dB)", 20 * math.log10(3290 / 800), 12.3, tol=0.005)
+comprueba("P5: 20 log(3290/800) (dB)", 20 * math.log10(3290 / 800), 12.3, tol=0.005)
 az, el, _ = apuntado(40.42, -3.70)
 comprueba("P7: Madrid, azimut (°)", az, 139, tol=0.005)
 comprueba("P7: Madrid, elevación (°)", el, 34, tol=0.02)
 comprueba("P8: potencia máxima (W)", 1500 / 10 ** 2.74, 2.7, tol=0.02)
 comprueba("P8, distractor b): 500 W del régimen general (W)", 500 / 10 ** 2.74, 0.9, tol=0.02)
-comprueba("P8, distractor d): 1 500 / 27,4 (W)", 1500 / 27.4, 55, tol=0.01)
+comprueba("P8, distractor d): 1500 / 27,4 (W)", 1500 / 27.4, 55, tol=0.01)
 
 print()
 print("Todo correcto." if fallos == 0 else f"{fallos} comprobaciones fallidas.")

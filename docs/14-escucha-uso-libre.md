@@ -38,13 +38,13 @@ Los receptores web son perfectos para comprobar si tu propia señal llega lejos:
 
 | Banda | Márgenes en el CNAF |
 |---|---|
-| 49 m | 5 900 – 6 200 kHz |
-| 41 m | 7 200 – 7 450 kHz |
-| 31 m | 9 400 – 9 900 kHz |
+| 49 m | 5900 – 6200 kHz |
+| 41 m | 7200 – 7450 kHz |
+| 31 m | 9400 – 9900 kHz |
 | 25 m | 11 650 – 12 050 kHz |
 | 19 m | 15 100 – 15 600 kHz |
 
-Comprueba la relación con la fórmula del [capítulo 4](04-teoria-radio.md): en 9 650 kHz, $\lambda = 300 / 9{,}65 \approx 31\ \text{m}$. Las bandas bajas (49 y 41 m) se oyen mejor de noche y las altas (25 y 19 m), de día, por lo que viste en el [capítulo 5](05-propagacion-bandas.md#variaciones-diarias-y-estacionales). La de 41 m empieza justo donde acaba la de aficionados de 40 m: de noche oirás emisoras potentes pegadas al borde superior de la banda.
+Comprueba la relación con la fórmula del [capítulo 4](04-teoria-radio.md): en 9650 kHz, $\lambda = 300 / 9{,}65 \approx 31\ \text{m}$. Las bandas bajas (49 y 41 m) se oyen mejor de noche y las altas (25 y 19 m), de día, por lo que viste en el [capítulo 5](05-propagacion-bandas.md#variaciones-diarias-y-estacionales). La de 41 m empieza justo donde acaba la de aficionados de 40 m: de noche oirás emisoras potentes pegadas al borde superior de la banda.
 
 **Radioaficionados.** Fonía en BLU, telegrafía, modos digitales, satélites y repetidores. Es lo que más te enseña para el examen y para tu futura estación. Escucha cómo se estructura un contacto ([capítulo 10](10-operacion.md)), descodifica FT8 con el ordenador ([capítulo 12](12-modos-digitales.md)) o sigue un concurso un fin de semana: en pocas horas oirás decenas de países.
 
@@ -64,7 +64,7 @@ Una **tarjeta QSL de escucha** (*SWL card*) es la que envía un escucha a una es
 Puedes enviarlas por las mismas vías que viste en el [capítulo 10](10-operacion.md#las-tres-vias): directa por correo, por bureau si una asociación te da ese servicio, o por un sistema electrónico que admita escuchas.
 
 !!! example "En la práctica"
-    Ejemplo de datos para una QSL de escucha a una estación ficticia: «EA0ZZZ oída el 14-3 a las 19:42 UTC en 7 155 kHz, LSB, en contacto con EA0YYY. RS 57, desvanecimiento lento. Receptor portátil con BLU y 10 m de hilo». Con eso la estación lo comprueba en su libro de guardia en un minuto.
+    Ejemplo de datos para una QSL de escucha a una estación ficticia: «EA0ZZZ oída el 14-3 a las 19:42 UTC en 7155 kHz, LSB, en contacto con EA0YYY. RS 57, desvanecimiento lento. Receptor portátil con BLU y 10 m de hilo». Con eso la estación lo comprueba en su libro de guardia en un minuto.
 
 ### Lo que dice la ley sobre escuchar
 
@@ -111,7 +111,7 @@ donde $n$ va de 1 a 16 y 0,0125 MHz son los 12,5 kHz de separación.
 
 **Ejemplo.** El canal 8 está en $446{,}00625 + 7 \cdot 0{,}0125 = 446{,}09375\ \text{MHz}$, y el 16, el último, en $446{,}00625 + 15 \cdot 0{,}0125 = 446{,}19375\ \text{MHz}$, a 6,25 kHz del borde de la banda, la mitad de un canal.
 
-Los equipos analógicos suelen añadir **subtonos** CTCSS o códigos DCS ([capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz)), que muchos fabricantes llaman «códigos de privacidad». No son privados: solo silencian el altavoz mientras no llega el tono elegido, como viste con los repetidores en el [capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz). Cualquiera en el mismo canal te oye.
+Los equipos analógicos suelen añadir **subtonos** CTCSS o códigos DCS ([capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1750-hz)), que muchos fabricantes llaman «códigos de privacidad». No son privados: solo silencian el altavoz mientras no llega el tono elegido, como viste con los repetidores en el [capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1750-hz). Cualquiera en el mismo canal te oye.
 
 ### Modos digitales
 
@@ -231,7 +231,7 @@ Los huecos entre subbandas son para alarmas fiables y de teleasistencia, con sus
 
 El **ciclo de trabajo** es la fracción de tiempo que un dispositivo transmite. La Decisión 2025/105 lo define sobre un periodo de observación de una hora, salvo que se diga otra cosa (comprobado en noviembre de 2026). Los límites solo se aplican si el equipo no usa técnicas de acceso al medio y de mitigación de interferencias equivalentes a las de las normas armonizadas, como escuchar antes de transmitir.
 
-**Ejemplo.** En la subbanda de 869,400 a 869,650 MHz, un 10 % de una hora son $0{,}10 \cdot 3\,600 = 360\ \text{s}$: seis minutos de emisión por hora como máximo. En la de 868,000 a 868,600 MHz, el 1 % deja solo $0{,}01 \cdot 3\,600 = 36\ \text{s}$ por hora.
+**Ejemplo.** En la subbanda de 869,400 a 869,650 MHz, un 10 % de una hora son $0{,}10 \cdot 3600 = 360\ \text{s}$: seis minutos de emisión por hora como máximo. En la de 868,000 a 868,600 MHz, el 1 % deja solo $0{,}01 \cdot 3600 = 36\ \text{s}$ por hora.
 
 **LoRa** es una modulación de espectro ensanchado muy usada en esta banda para enviar pocos datos a varios kilómetros con muy poca potencia. Sobre ella funciona **Meshtastic**, una red en malla de mensajería que no es radioafición: la verás en el [capítulo 15](15-emergencias/meshtastic.md).
 
@@ -241,7 +241,7 @@ El **ciclo de trabajo** es la fracción de tiempo que un dispositivo transmite. 
 |---|---|---|---|
 | **Título** | Autorización individual tras examen ([capítulo 1](01-autorizacion.md)) | Ninguno, uso común | Ninguno, uso común (desde abril de 2015) |
 | **Frecuencias** | Bandas de aficionado del CNAF, de 135,7 kHz a más de 24 GHz | 446,0 – 446,2 MHz | 26 960 – 27 410 kHz, 40 canales |
-| **Potencia máxima** | Según la banda: 1 000 W p. c. e. en la mayoría de la HF, 600 W en 2 m, 300 W en 70 cm | 500 mW p. r. a. | 4 W en FM y AM; 12 W p. c. e. en BLU |
+| **Potencia máxima** | Según la banda: 1000 W p. c. e. en la mayoría de la HF, 600 W en 2 m, 300 W en 70 cm | 500 mW p. r. a. | 4 W en FM y AM; 12 W p. c. e. en BLU |
 | **Antena** | Libre, dentro de las normas de instalación | Incorporada, no se puede cambiar | Exterior permitida, ≤ 6 dB y no directiva |
 | **Estaciones** | Fijas, móviles, portátiles, portables, repetidores, satélites | Solo portátiles de mano | Fijas, móviles y portátiles; sin repetidores |
 | **Alcance típico** | Local o mundial, según la banda y la propagación | De unos cientos de metros en ciudad a pocos kilómetros en campo abierto | De pocos kilómetros a decenas por onda directa; miles con propagación ionosférica |
@@ -270,7 +270,7 @@ d) Que tenga antena telescópica
 ??? success "Solución"
     **b)** La fonía de aficionado en HF se hace en BLU; con un receptor de AM solo oirás un ruido ininteligible. La FM estéreo es de radiodifusión en VHF, 446 MHz es la banda de PMR446 y la antena telescópica sirve, pero se mejora mucho con un hilo exterior.
 
-**2.** Oyes en 9 650 kHz una emisora internacional. ¿En qué banda de radiodifusión está?
+**2.** Oyes en 9650 kHz una emisora internacional. ¿En qué banda de radiodifusión está?
 
 a) 49 m  
 b) 41 m  
@@ -278,7 +278,7 @@ c) 31 m
 d) 25 m
 
 ??? success "Solución"
-    **c)** $\lambda = 300 / 9{,}65 \approx 31\ \text{m}$. Además, 9 650 kHz está dentro de los márgenes de 9 400 a 9 900 kHz que el CNAF atribuye a la radiodifusión.
+    **c)** $\lambda = 300 / 9{,}65 \approx 31\ \text{m}$. Además, 9650 kHz está dentro de los márgenes de 9400 a 9900 kHz que el CNAF atribuye a la radiodifusión.
 
 **3.** Con un receptor de banda ancha captas una conversación de un servicio profesional que no es de radiodifusión ni de aficionados. ¿Qué dice la Ley 11/2022?
 
@@ -338,4 +338,4 @@ c) 3,6 s
 d) Sin límite
 
 ??? success "Solución"
-    **b)** 869,525 MHz está en la subbanda de 869,400 a 869,650 MHz, donde la nota UN-39 del CNAF permite 500 mW p. r. a. con un ciclo de trabajo del 10 %: $0{,}10 \cdot 3\,600 = 360\ \text{s}$. La a) es el 1 % de la subbanda de 868,000 a 868,600 MHz.
+    **b)** 869,525 MHz está en la subbanda de 869,400 a 869,650 MHz, donde la nota UN-39 del CNAF permite 500 mW p. r. a. con un ciclo de trabajo del 10 %: $0{,}10 \cdot 3600 = 360\ \text{s}$. La a) es el 1 % de la subbanda de 868,000 a 868,600 MHz.

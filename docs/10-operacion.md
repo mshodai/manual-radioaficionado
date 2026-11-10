@@ -192,7 +192,7 @@ Fíjate en cuatro costumbres:
 Algunas frecuencias tienen un uso especial que conviene respetar aunque estén libres:
 
 - Las **frecuencias de llamada** de VHF y UHF (145,500 MHz y 433,500 MHz en FM) sirven para establecer el contacto. En cuanto contesten, pasáis a otra frecuencia simplex libre («QSY a 145,450»).
-- Los **centros de actividad de emergencia** que recomienda la IARU: 3 760 y 7 110 kHz en la Región 1, y 14 300, 18 160 y 21 360 kHz en todo el mundo, según el apartado 2.1.5 del [HF Manager's Handbook](https://www.iaru-r1.org/reference/handbooks/) (comprobado en noviembre de 2026). No son frecuencias reservadas, pero no llames CQ en ellas y déjalas libres si hay tráfico de emergencia. Lo verás en el [capítulo 15](15-emergencias/index.md).
+- Los **centros de actividad de emergencia** que recomienda la IARU: 3760 y 7110 kHz en la Región 1, y 14 300, 18 160 y 21 360 kHz en todo el mundo, según el apartado 2.1.5 del [HF Manager's Handbook](https://www.iaru-r1.org/reference/handbooks/) (comprobado en noviembre de 2026). No son frecuencias reservadas, pero no llames CQ en ellas y déjalas libres si hay tráfico de emergencia. Lo verás en el [capítulo 15](15-emergencias/index.md).
 - Si oyes **MAYDAY** (socorro), **PAN PAN** (urgencia) o **SÉCURITÉ** (seguridad), deja de transmitir y escucha. Qué significa cada señal y qué tienes que hacer lo tienes en el [capítulo 15](15-emergencias/index.md#las-senales-de-socorro-urgencia-y-seguridad).
 
 ## Un contacto en los modos digitales
@@ -212,7 +212,7 @@ EA0ZZZ   →  EB0QQQ EA0ZZZ RR73          (recibido todo, saludos)
 EB0QQQ   →  EA0ZZZ EB0QQQ 73            (cortesía final)
 ```
 
-Los indicativos y los cuadrados de localizador del ejemplo son ficticios. Fíjate en que el informe ya no es RST sino la **relación señal/ruido en decibelios** que mide el programa, normalmente negativa: −12 dB significa que la señal está 12 dB por debajo del ruido en un ancho de 2 500 Hz, y aun así se descodifica. El contacto termina cuando las dos estaciones tienen los dos indicativos, los dos informes y la confirmación de que el otro los recibió; los mensajes de cortesía no añaden nada.
+Los indicativos y los cuadrados de localizador del ejemplo son ficticios. Fíjate en que el informe ya no es RST sino la **relación señal/ruido en decibelios** que mide el programa, normalmente negativa: −12 dB significa que la señal está 12 dB por debajo del ruido en un ancho de 2500 Hz, y aun así se descodifica. El contacto termina cuando las dos estaciones tienen los dos indicativos, los dos informes y la confirmación de que el otro los recibió; los mensajes de cortesía no añaden nada.
 
 Cómo funciona el FT8 y cómo se configura lo verás en el [capítulo 12](12-modos-digitales.md).
 
@@ -245,12 +245,12 @@ Los canales tienen además un **nombre** normalizado. Según el apartado «Chann
 
 **Ejemplo.** El canal **RV56** es un repetidor cuya salida está en $145{,}000 + 56 \cdot 0{,}0125 = 145{,}700\ \text{MHz}$. Con −600 kHz, su entrada está en $145{,}700 - 0{,}600 = 145{,}100\ \text{MHz}$. El **RU690** sale en $430{,}000 + 690 \cdot 0{,}0125 = 438{,}625\ \text{MHz}$ y, si usa −7,6 MHz, escucha en $438{,}625 - 7{,}6 = 431{,}025\ \text{MHz}$.
 
-### Tonos de acceso: CTCSS y 1 750 Hz
+### Tonos de acceso: CTCSS y 1750 Hz
 
 Para que el repetidor no se active con cualquier ruido o con la señal de otra estación lejana que usa el mismo canal, la entrada solo se abre si tu señal lleva un **tono de acceso**:
 
 - El **CTCSS** (*Continuous Tone-Coded Squelch System*) es un tono subaudible, entre 67,0 y 250,3 Hz, que tu equipo suma a la voz durante toda la transmisión. El receptor del repetidor lo filtra y solo se abre si reconoce el suyo. Cada repetidor tiene asignado uno.
-- El **tono de 1 750 Hz** (*tone burst*) es un pitido audible y corto, de menos de un segundo, que se envía al empezar para «despertar» el repetidor. Es el sistema antiguo.
+- El **tono de 1750 Hz** (*tone burst*) es un pitido audible y corto, de menos de un segundo, que se envía al empezar para «despertar» el repetidor. Es el sistema antiguo.
 
 La Recomendación técnica FM.24 de la IARU Región 1, recogida en el [VHF Handbook](https://www.iaru-r1.org/reference/handbooks/) (versión 10.03, páginas 119 y 120; comprobado en noviembre de 2026), admite los dos sistemas, prefiere el CTCSS para los repetidores nuevos, pide que desde 2015 los repetidores FM nuevos lo usen tanto en recepción como en transmisión y fija la lista de 38 frecuencias normalizadas, de 67,0 a 250,3 Hz. Si el repetidor también **emite** su tono, puedes activar el CTCSS en tu receptor y solo lo oirás a él, no a otras estaciones del mismo canal.
 
@@ -434,7 +434,7 @@ Las bandas de aficionado son un espacio compartido, sin canales asignados ni un 
 - **Código Q**: Rec. UIT-R M.1172, series de QOA a QUZ. Los imprescindibles: QRM (interferencia), QRN (ruido), QRO/QRP (más/menos potencia), QRS/QRQ (más despacio/más deprisa), QRT (cierro), QRX (espera), QRZ (¿quién me llama?), QSB (desvanecimiento), QSL (recibido; tarjeta), QSO (contacto), QSY (cambio de frecuencia), QTH (lugar). QAP es un uso hispano, no de la UIT.
 - **Informe RS(T)**: R de 1 a 5 (legibilidad), S de 1 a 9 (intensidad) y, en CW, T de 1 a 9 (tono). En fonía, RS: «5 y 9». En FT8, relación señal/ruido en dB.
 - **Contacto en fonía**: escuchar, preguntar si está libre, CQ con el indicativo deletreado; al llamar a alguien, **su indicativo primero y el tuyo después**; informe, nombre y QTH en el primer cambio; identificación al principio y al final de cada cambio.
-- **Repetidores**: desplazamiento de −600 kHz en 2 m y −1,6 o −7,6 MHz en 70 cm; acceso con **CTCSS** (preferido, de 67,0 a 250,3 Hz) o 1 750 Hz; pausas entre cambios, identificación al entrar, simplex si os oís directamente y potencia mínima.
+- **Repetidores**: desplazamiento de −600 kHz en 2 m y −1,6 o −7,6 MHz en 70 cm; acceso con **CTCSS** (preferido, de 67,0 a 250,3 Hz) o 1750 Hz; pausas entre cambios, identificación al entrar, simplex si os oís directamente y potencia mínima.
 - **QSL**: fecha y hora UTC, banda, modo e informe. Vías directa, bureau (en España, la URE) y electrónica. Para el DXCC solo vale LoTW, no eQSL.
 - **Libro de guardia**: la normativa española no lo exige, pero es imprescindible para QSL, diplomas, concursos y para defenderte ante una acusación de interferencia. Siempre en UTC.
 - **Pile-ups**: escuchar, llamar poco, respetar el *split* y no ajustar el equipo en la frecuencia del DX.

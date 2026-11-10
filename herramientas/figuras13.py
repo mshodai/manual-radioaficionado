@@ -282,7 +282,7 @@ def qo100():
     c.append(L(x0, ys, x1, ys, f'stroke="{GRIS_T}"'))
     for f in range(500, 1001, 100):
         c.append(L(X(f), ys, X(f), ys + 6, f'stroke="{GRIS_T}"'))
-        c.append(T(X(f), ys + 22, f"2 400,{f - 500:03d}", 12, fill=GRIS_T))
+        c.append(T(X(f), ys + 22, f"2400,{f - 500:03d}", 12, fill=GRIS_T))
     c.append(T(x0, ys - 10, "Subida (MHz)", 12, "start", fill=GRIS_T))
     c.append(T(x0, 36, "QO-100, transpondedor de banda estrecha", 14, "start", 'font-weight="600"'))
     guarda("13-qo100-plan.svg", W, H, "\n".join(c),

@@ -69,8 +69,8 @@ cierto("316 µW supera el límite de 100 µW (30-235 MHz, P > 25 W)", 316e-6 > l
 
 # ---------- Límites del anexo I ----------
 comprueba("HF, 400 W: límite (mW)", limite_espuria(14, 400) * 1e3, 40)
-comprueba("HF, 1 000 W: límite (mW)", limite_espuria(14, 1000) * 1e3, 50)
-comprueba("HF, 1 000 W: equivale a dB por debajo", db(1000 / 50e-3), 43, tol=0.002)
+comprueba("HF, 1000 W: límite (mW)", limite_espuria(14, 1000) * 1e3, 50)
+comprueba("HF, 1000 W: equivale a dB por debajo", db(1000 / 50e-3), 43, tol=0.002)
 comprueba("VHF, 50 W: límite (µW)", limite_espuria(145, 50) * 1e6, 50)
 comprueba("VHF, 5 W: límite (µW)", limite_espuria(145, 5) * 1e6, 25)
 comprueba("VHF, 5 W: −40 dB serían (µW)", 5 * 1e-4 * 1e6, 500)
@@ -98,7 +98,7 @@ comprueba("diferencia 9,62 − 5,95 (2.º orden)", 9.62 - 5.95, 3.67)
 # ---------- Fuente conmutada a 70 kHz (figura 8.4) ----------
 fsw = 70  # kHz
 en_40 = [n * fsw for n in range(1, 1000) if 7000 <= n * fsw <= 7200]
-cierto("armónicos de 70 kHz en 7 000-7 200 kHz: 7 000, 7 070, 7 140", en_40 == [7000, 7070, 7140])
+cierto("armónicos de 70 kHz en 7000-7200 kHz: 7000, 7070, 7140", en_40 == [7000, 7070, 7140])
 comprueba("101 × 70 kHz", 101 * fsw, 7070)
 comprueba("102 × 70 kHz", 102 * fsw, 7140)
 en_20 = [n * fsw for n in range(1, 1000) if 14000 <= n * fsw <= 14350]

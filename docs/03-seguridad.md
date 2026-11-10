@@ -127,7 +127,7 @@ Estos son los niveles de referencia en las gamas donde están las bandas de afic
 |---|---|---|---|
 | 1–10 MHz | $87 / \sqrt{f}$ | $0{,}73 / f$ | — |
 | 10–400 MHz | 28 | 0,073 | 2 |
-| 400–2 000 MHz | $1{,}375 \sqrt{f}$ | $0{,}0037 \sqrt{f}$ | $f / 200$ |
+| 400–2000 MHz | $1{,}375 \sqrt{f}$ | $0{,}0037 \sqrt{f}$ | $f / 200$ |
 | 2–300 GHz | 61 | 0,16 | 10 |
 
 Son valores eficaces. Entre 100 kHz y 10 GHz se promedian en cualquier periodo de seis minutos, como las restricciones básicas. Por encima de 10 GHz el periodo se acorta con la frecuencia: $68 / f^{1{,}05}$ minutos, con $f$ en GHz, lo que da unos 6 minutos a 10 GHz y unos 10 segundos a 300 GHz (notas 2 y 3 del cuadro de niveles de referencia). Si consultas el PDF original del BOE de 2001, verás que la celda de $H$ entre 10 y 400 MHz dice «0,73/f»: es una errata, corregida en el [BOE núm. 91 de 2002](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7198) y en el [núm. 93](https://www.boe.es/buscar/doc.php?id=BOE-A-2002-7364). El valor vigente es 0,073 A/m (comprobado en noviembre de 2026).
@@ -192,10 +192,10 @@ La gravedad depende también del **tiempo** que dure el paso de corriente y del 
 
 La resistencia del cuerpo cambia mucho. Con la piel seca puede ser de varios kilohmios; con la piel mojada, sudada o si el contacto es amplio, puede bajar a alrededor de 1 kΩ.
 
-**Ejemplo 5.** Tocas la fase de la red con la mano mojada mientras estás descalzo sobre un suelo húmedo, y la resistencia total del camino es de 1 300 Ω. La corriente es
+**Ejemplo 5.** Tocas la fase de la red con la mano mojada mientras estás descalzo sobre un suelo húmedo, y la resistencia total del camino es de 1300 Ω. La corriente es
 
 $$
-I = \frac{230\ \text{V}}{1\,300\ \Omega} \approx 0{,}18\ \text{A} = 180\ \text{mA}
+I = \frac{230\ \text{V}}{1300\ \Omega} \approx 0{,}18\ \text{A} = 180\ \text{mA}
 $$
 
 Muy por encima del umbral de fibrilación. Con la misma red y la piel seca, calzado aislante y suelo seco, la resistencia podría ser diez veces mayor y la corriente, diez veces menor. Por eso nunca se trabaja en instalaciones eléctricas con los pies mojados.
@@ -333,7 +333,7 @@ d) 100 W
 
 a) Entre 1 y 10 MHz  
 b) Entre 10 y 400 MHz  
-c) Entre 400 y 2 000 MHz  
+c) Entre 400 y 2000 MHz  
 d) Por encima de 2 GHz
 
 ??? success "Solución"
@@ -369,7 +369,7 @@ d) Que el aparato no tiene toma de tierra.
 ??? success "Solución"
     **c)** Si una parte de la corriente se va por otro camino, por ejemplo a tierra a través de una persona, la fase y el neutro dejan de llevar la misma corriente y el diferencial corta. La a) describe el magnetotérmico, que protege los cables pero no a las personas.
 
-**7.** Una persona con las manos mojadas toca un conductor de 230 V, y la resistencia total del camino que sigue la corriente es de 1 150 Ω. ¿Qué corriente la atraviesa y qué riesgo supone?
+**7.** Una persona con las manos mojadas toca un conductor de 230 V, y la resistencia total del camino que sigue la corriente es de 1150 Ω. ¿Qué corriente la atraviesa y qué riesgo supone?
 
 a) 2 mA; apenas se percibe.  
 b) 20 mA; no puede soltar el conductor, pero no hay riesgo vital.  
@@ -377,7 +377,7 @@ c) 200 mA; riesgo de fibrilación ventricular.
 d) 2 A; solo produce quemaduras en la piel.
 
 ??? success "Solución"
-    **c)** $I = 230 / 1\,150 = 0{,}2\ \text{A} = 200\ \text{mA}$, por encima del umbral de fibrilación, que está en torno a 50–100 mA. Es el motivo por el que se insiste en no trabajar con la red con la piel o el suelo mojados.
+    **c)** $I = 230 / 1150 = 0{,}2\ \text{A} = 200\ \text{mA}$, por encima del umbral de fibrilación, que está en torno a 50–100 mA. Es el motivo por el que se insiste en no trabajar con la red con la piel o el suelo mojados.
 
 **8.** Vas a alimentar una emisora en el coche directamente desde la batería. ¿Dónde pones el fusible del positivo?
 

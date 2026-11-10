@@ -132,7 +132,7 @@ El **dipolo plegado** es un dipolo de media onda formado por un bucle estrecho: 
 
 ### Media onda alimentada en un extremo
 
-Un hilo de media onda también se puede alimentar en una punta, en lugar de en el centro. Allí la tensión es máxima y la corriente mínima, así que la impedancia es muy alta: valores típicos de 2 000 a 4 000 Ω, según la altura, el grosor del hilo y el entorno. Para conectarle un cable de 50 Ω se usa un transformador con un núcleo de ferrita, con una relación de impedancias de 49:1 o 64:1. Como la relación de impedancias es el cuadrado de la relación de espiras, un transformador 49:1 tiene 7 espiras en un lado por cada una en el otro, y convierte 2 450 Ω en $2\,450 / 49 = 50\ \Omega$.
+Un hilo de media onda también se puede alimentar en una punta, en lugar de en el centro. Allí la tensión es máxima y la corriente mínima, así que la impedancia es muy alta: valores típicos de 2000 a 4000 Ω, según la altura, el grosor del hilo y el entorno. Para conectarle un cable de 50 Ω se usa un transformador con un núcleo de ferrita, con una relación de impedancias de 49:1 o 64:1. Como la relación de impedancias es el cuadrado de la relación de espiras, un transformador 49:1 tiene 7 espiras en un lado por cada una en el otro, y convierte 2450 Ω en $2450 / 49 = 50\ \Omega$.
 
 Esta antena, que en la banda se conoce por sus siglas inglesas, *EFHW* (*end-fed half-wave*), es muy popular para operar en portable: se tiende un solo hilo desde el equipo hasta un árbol, sin tener que subir nada pesado al centro. Funciona en la banda para la que mide media onda y en sus armónicos: un hilo de media onda en 40 m sirve también en 20, 15 y 10 m.
 
@@ -208,7 +208,7 @@ $$
 
 donde $D$ es el diámetro del plato y $\lambda$ la longitud de onda, en la misma unidad, y $\eta$ el **rendimiento de apertura**, con valores típicos de 0,5 a 0,7 en un plato bien alimentado.
 
-**Ejemplo 9.** El satélite geoestacionario QO-100 transmite en la banda de 10 GHz. En 10 489,5 MHz, $\lambda \approx 2{,}86\ \text{cm}$. Un plato de 80 cm con un rendimiento de 0,6 tiene $G = 0{,}6 \cdot (\pi \cdot 80 / 2{,}86)^2 \approx 4\,640$, es decir, unos 36,7 dBi. Si pasas a un plato de 1,2 m, la ganancia sube $20 \log (1{,}2 / 0{,}8) \approx 3{,}5\ \text{dB}$: duplicar el área duplica la ganancia.
+**Ejemplo 9.** El satélite geoestacionario QO-100 transmite en la banda de 10 GHz. En 10 489,5 MHz, $\lambda \approx 2{,}86\ \text{cm}$. Un plato de 80 cm con un rendimiento de 0,6 tiene $G = 0{,}6 \cdot (\pi \cdot 80 / 2{,}86)^2 \approx 4640$, es decir, unos 36,7 dBi. Si pasas a un plato de 1,2 m, la ganancia sube $20 \log (1{,}2 / 0{,}8) \approx 3{,}5\ \text{dB}$: duplicar el área duplica la ganancia.
 
 !!! danger "Peligro"
     Delante de una parabólica o de una bocina que transmiten, la densidad de potencia puede ser muy alta incluso con pocos vatios. No te pongas nunca delante ni mires dentro de una guía de ondas con el transmisor conectado: puede lesionar los ojos sin que notes calor, como se explica en el [capítulo 3](03-seguridad.md).
@@ -294,7 +294,7 @@ La línea paralela pierde mucho menos que cualquier coaxial de precio parecido. 
 
 Esta tabla resume los datos de varios cables de 50 Ω muy usados en radioafición, tal como los publica su fabricante en la hoja de datos, consultada el 9 de noviembre de 2026. Belden da la atenuación en dB por cada 100 pies; aquí está convertida a dB/100 m y redondeada a un decimal. SSB-Electronic y Messi & Paoloni la dan a 20 °C; Belden no indica la temperatura.
 
-| Cable (fabricante y referencia) | $Z_0$ | FV | Ø exterior | 10 MHz | 50 MHz | 100 MHz | 144 MHz | 400–432 MHz | 1 000 MHz |
+| Cable (fabricante y referencia) | $Z_0$ | FV | Ø exterior | 10 MHz | 50 MHz | 100 MHz | 144 MHz | 400–432 MHz | 1000 MHz |
 |---|---|---|---|---|---|---|---|---|---|
 | RG-58, [Belden 8240](https://catalog.belden.com/techdata/en/8240_techdata.pdf) | 52 Ω | 0,66 | 4,9 mm | 3,6 | 8,2 | 12,5 | — | 27,6 (400) | 47,6 |
 | H155, [SSB-Electronic](https://www.ssb.de/media/h155ssb-de.pdf) | 50 Ω | 0,80 | 5,4 mm | 3,2 | 6,9 | 9,1 | 10,6 | 18,7 (432) | 29,6 |

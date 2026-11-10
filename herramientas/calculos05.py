@@ -78,10 +78,10 @@ comprueba("constante 32,44 = 20 log(4π·10⁹/c)", 20 * math.log10(4 * math.pi 
 comprueba("salto máximo por la capa E, 110 km (km)", salto_maximo(110), 2350, tol=0.01)
 comprueba("salto máximo por la capa F2, 300 km (km)", salto_maximo(300), 3800, tol=0.02)
 
-# Ley de la secante: foF2 = 6 MHz, salto de 2 000 km, capa a 300 km
+# Ley de la secante: foF2 = 6 MHz, salto de 2000 km, capa a 300 km
 i, elev = incidencia(2000, 300)
-comprueba("incidencia para 2 000 km y 300 km (grados)", i, 69, tol=0.01)
-comprueba("elevación de salida para 2 000 km (grados)", elev, 12, tol=0.02)
+comprueba("incidencia para 2000 km y 300 km (grados)", i, 69, tol=0.01)
+comprueba("elevación de salida para 2000 km (grados)", elev, 12, tol=0.02)
 muf = 6 / math.cos(math.radians(i))
 comprueba("MUF con foF2 = 6 MHz (MHz)", muf, 16.9)
 comprueba("MUF con el ángulo redondeado a 69° (MHz)", 6 / math.cos(math.radians(69)), 16.7, tol=0.01)
@@ -122,11 +122,11 @@ ks = [2, 2, 3, 4, 3, 3, 2, 1]
 comprueba("A diario del ejemplo", sum(AK[k] for k in ks) / 8, 12)
 
 # Regla del 50 % en bandas secundarias (apartado 3.2 del anexo I de la Orden IET/1311/2013)
-comprueba("30 m: 50 % de 1 000 W p.c.e.", 0.5 * 1000, 500)
+comprueba("30 m: 50 % de 1000 W p.c.e.", 0.5 * 1000, 500)
 comprueba("6 m: 50 % de 600 W p.c.e.", 0.5 * 600, 300)
 comprueba("4 m: 50 % de 600 W p.c.e.", 0.5 * 600, 300)
-comprueba("160 m (1 810-1 830 kHz): 50 % de 1 000 W p.c.e.", 0.5 * 1000, 500)
-comprueba("23, 13, 6, 3 cm y 24,05-24,25 GHz: 50 % de 1 000 W p.i.r.e.", 0.5 * 1000, 500)
+comprueba("160 m (1810-1830 kHz): 50 % de 1000 W p.c.e.", 0.5 * 1000, 500)
+comprueba("23, 13, 6, 3 cm y 24,05-24,25 GHz: 50 % de 1000 W p.i.r.e.", 0.5 * 1000, 500)
 comprueba("longitud de onda en 24 GHz (cm)", C / 24e9 * 100, 1.25)
 
 # Ciclo solar (SILSO)

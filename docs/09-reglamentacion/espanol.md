@@ -68,7 +68,7 @@ Las estaciones colectivas tienen un uso especial que no tiene la tuya: pueden se
 - Las emisiones se identifican con el distintivo de la estación colectiva seguido, tras el sufijo, de **dos o tres letras** de libre elección.
 - La potencia no puede superar el **40 %** de la máxima de la banda, y en ningún caso **100 W p. i. r. e.**
 
-**Ejemplo de cálculo.** En una demostración en un instituto se usa la banda de 20 m con un dipolo de media onda, de ganancia 2,15 dBi. El 40 % de los 1 000 W p. c. e. de la banda son 400 W, pero el tope absoluto es de 100 W p. i. r. e., que es más restrictivo. Como la p. i. r. e. es la potencia entregada a la antena multiplicada por su ganancia isótropa (anexo I), la potencia máxima en la antena es:
+**Ejemplo de cálculo.** En una demostración en un instituto se usa la banda de 20 m con un dipolo de media onda, de ganancia 2,15 dBi. El 40 % de los 1000 W p. c. e. de la banda son 400 W, pero el tope absoluto es de 100 W p. i. r. e., que es más restrictivo. Como la p. i. r. e. es la potencia entregada a la antena multiplicada por su ganancia isótropa (anexo I), la potencia máxima en la antena es:
 
 $$
 P_\text{antena} = \frac{\text{PIRE}}{10^{G/10}} = \frac{100\ \text{W}}{10^{2{,}15/10}} \approx \frac{100\ \text{W}}{1{,}64} \approx 61\ \text{W}
@@ -94,7 +94,7 @@ Si un repetidor se conecta a otras redes, como Internet, se aplica el artículo 
 
 Hay dos casos en que necesitas una autorización especial, además de la ordinaria (comprobado en noviembre de 2026):
 
-- **Bandas secundarias con riesgo de interferir.** Cuando en una banda secundaria se constata ese riesgo frente a los servicios primarios, su uso requiere una autorización especial con las limitaciones geográficas o técnicas que se fijen (artículo 16). Las bandas afectadas están en la disposición adicional segunda de la orden y las viste en el [capítulo 5](../05-propagacion-bandas.md#la-regla-del-50-en-las-bandas-secundarias). Para el satélite QO-100, en 2 400 – 2 410 MHz, no tienes que pedirla: el Ministerio dicta cada año una autorización temporal general para todos los titulares, que se trata en el [capítulo 13](../13-satelites.md#la-transmision).
+- **Bandas secundarias con riesgo de interferir.** Cuando en una banda secundaria se constata ese riesgo frente a los servicios primarios, su uso requiere una autorización especial con las limitaciones geográficas o técnicas que se fijen (artículo 16). Las bandas afectadas están en la disposición adicional segunda de la orden y las viste en el [capítulo 5](../05-propagacion-bandas.md#la-regla-del-50-en-las-bandas-secundarias). Para el satélite QO-100, en 2400 – 2410 MHz, no tienes que pedirla: el Ministerio dicta cada año una autorización temporal general para todos los titulares, que se trata en el [capítulo 13](../13-satelites.md#la-transmision).
 - **Usos experimentales.** Para usar las bandas de aficionado con características técnicas distintas de las de la orden necesitas una autorización especial. La pides **con un mes de antelación** como mínimo, con una memoria que describe el experimento, los equipos si son de construcción propia, el lugar con sus coordenadas, el periodo, la banda, la clase de emisión, la potencia y la antena. Es nominativa, dura lo necesario hasta un máximo inicial de **dieciocho meses**, ampliable, y obliga a suspender las emisiones en cuanto interfieran, en especial a la televisión. Las emisiones se identifican con tu propio distintivo (artículo 17.2 y 17.3).
 
 ## Bandas, potencias y condiciones técnicas
@@ -274,7 +274,7 @@ d) Una vez por minuto.
 
 **2.** Tu radioclub organiza una demostración en un colegio con su estación colectiva, en 20 m, con una antena directiva de 8 dBi. ¿Qué potencia máxima puede llegar a la antena?
 
-a) 400 W, el 40 % de los 1 000 W de la banda.  
+a) 400 W, el 40 % de los 1000 W de la banda.  
 b) 100 W.  
 c) Unos 16 W.  
 d) Unos 63 W.
@@ -325,7 +325,7 @@ d) No es infracción, porque la estación no ha llegado a emitir.
 **7.** ¿Cuál de estas afirmaciones es **una obligación legal** y no una simple recomendación?
 
 a) Llevar un libro de guardia con todos tus contactos.  
-b) Hacer la telegrafía en el tramo de 7 000 a 7 040 kHz, como indica el plan de la IARU.  
+b) Hacer la telegrafía en el tramo de 7000 a 7040 kHz, como indica el plan de la IARU.  
 c) Colaborar con tus medios radioeléctricos cuando te lo requiera la Dirección General de Protección Civil y Emergencias en caso de catástrofe.  
 d) Confirmar los contactos con tarjeta QSL.
 

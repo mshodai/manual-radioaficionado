@@ -66,7 +66,7 @@ p_necesaria = i_movil * 24 * 12.8 / (3 * 0.75)
 comprueba("Potencia de panel para 528 Wh/día (W)", p_necesaria, 235)
 
 # ---------- Ejemplo 3: portátil de mano con pilas ----------
-# Supuestos: batería de 7,4 V y 2 000 mAh; 1,5 A transmitiendo, 0,15 A recibiendo; 10 %.
+# Supuestos: batería de 7,4 V y 2000 mAh; 1,5 A transmitiendo, 0,15 A recibiendo; 10 %.
 i_port = corriente_media(1.5, 0.15, 0.10)
 comprueba("Portátil: corriente media (A)", i_port, 0.285)
 comprueba("Portátil: autonomía con 2 Ah al 90 % (h)", autonomia(2, 0.9, i_port), 6.3)

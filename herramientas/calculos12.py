@@ -16,7 +16,7 @@ Datos de partida (todos comprobados en noviembre de 2026):
 - PSK31: especificación publicada por la ARRL (https://www.arrl.org/psk31-spec).
 - RTTY: ayuda de fldigi (https://www.w1hkj.org/FldigiHelp/rtty_page.html).
 - APRS: 1200 bit/s AFSK según el README de Dire Wolf.
-- DMR: ETSI TS 102 361-1 V2.6.1 (2023-05): 4 800 símbolos/s de 2 bits, ranuras de
+- DMR: ETSI TS 102 361-1 V2.6.1 (2023-05): 4800 símbolos/s de 2 bits, ranuras de
   30 ms, trama de 60 ms, canal de 12,5 kHz.
 - D-STAR: norma de la JARL (STD6_0_E): 4,8 kbit/s como máximo; voz AMBE de
   2,4 kbit/s, 3,6 kbit/s con la corrección de errores.
@@ -63,20 +63,20 @@ comprueba("FT4: ancho ocupado (Hz)", 4 * ft4_baudios, 83.3)
 comprueba("FT8: bits por símbolo con 8 tonos", math.log2(8), 3)
 
 # ---------- Ejemplo: frecuencia emitida y plan de bandas ----------
-comprueba("Dial 14 074 kHz + 1 200 Hz", emitida(14074, 1200), 14075.2)
+comprueba("Dial 14 074 kHz + 1200 Hz", emitida(14074, 1200), 14075.2)
 comprueba("Dial 14 074 kHz + 200 Hz", emitida(14074, 200), 14074.2)
-comprueba("Dial 14 074 kHz + 3 000 Hz", emitida(14074, 3000), 14077.0)
+comprueba("Dial 14 074 kHz + 3000 Hz", emitida(14074, 3000), 14077.0)
 cierto("14 074,2 a 14 077,0 kHz dentro del tramo 14 070-14 089 kHz (500 Hz, digimodes)",
        14070 <= emitida(14074, 200) and emitida(14074, 3000) <= 14089)
-comprueba("Dial 7 074 kHz + 200 Hz", emitida(7074, 200), 7074.2)
-comprueba("Dial 7 074 kHz + 3 000 Hz", emitida(7074, 3000), 7077.0)
-cierto("7 074,2 a 7 077,0 kHz dentro del tramo de todos los modos 7 060-7 100 kHz",
+comprueba("Dial 7074 kHz + 200 Hz", emitida(7074, 200), 7074.2)
+comprueba("Dial 7074 kHz + 3000 Hz", emitida(7074, 3000), 7077.0)
+cierto("7074,2 a 7077,0 kHz dentro del tramo de todos los modos 7060-7100 kHz",
        7060 <= emitida(7074, 200) and emitida(7074, 3000) <= 7100)
-cierto("7 074 kHz queda fuera del tramo de 500 Hz 7 040-7 050 kHz", emitida(7074, 200) > 7050)
+cierto("7074 kHz queda fuera del tramo de 500 Hz 7040-7050 kHz", emitida(7074, 200) > 7050)
 
-# ---------- Ejemplo: relación señal/ruido en 2 500 Hz y en 50 Hz ----------
-comprueba("10·log(2 500/50) (dB)", 10 * math.log10(2500 / 50), 17.0)
-comprueba("-21 dB en 2 500 Hz equivalen en 50 Hz a", -21 + 10 * math.log10(2500 / 50), -4.0, tol=0.01)
+# ---------- Ejemplo: relación señal/ruido en 2500 Hz y en 50 Hz ----------
+comprueba("10·log(2500/50) (dB)", 10 * math.log10(2500 / 50), 17.0)
+comprueba("-21 dB en 2500 Hz equivalen en 50 Hz a", -21 + 10 * math.log10(2500 / 50), -4.0, tol=0.01)
 
 # ---------- Ejemplo: deriva del reloj ----------
 deriva_dia = 20e-6 * 86400
@@ -87,9 +87,9 @@ comprueba("Horas hasta desviarse 1 s con 20 ppm", 1 / 20e-6 / 3600, 13.9, tol=0.
 comprueba("Tono de 700 Hz con dial en 14 074 kHz", emitida(14074, 700), 14074.7)
 comprueba("2.º armónico del tono de 700 Hz (kHz emitidos)", emitida(14074, 2 * 700), 14075.4)
 comprueba("3.er armónico del tono de 700 Hz (kHz emitidos)", emitida(14074, 3 * 700), 14076.1)
-cierto("1 400 y 2 100 Hz caben en un filtro de BLU de unos 3 kHz", 2 * 700 < 3000 and 3 * 700 < 3000)
-comprueba("2.º armónico de un tono de 1 600 Hz", 2 * 1600, 3200)
-cierto("3 200 Hz queda fuera de un filtro de BLU de unos 3 kHz", 2 * 1600 > 3000)
+cierto("1400 y 2100 Hz caben en un filtro de BLU de unos 3 kHz", 2 * 700 < 3000 and 3 * 700 < 3000)
+comprueba("2.º armónico de un tono de 1600 Hz", 2 * 1600, 3200)
+cierto("3200 Hz queda fuera de un filtro de BLU de unos 3 kHz", 2 * 1600 > 3000)
 
 # ---------- PSK31 y RTTY ----------
 comprueba("PSK31: duración de símbolo (ms)", 1000 / 31.25, 32)
@@ -97,7 +97,7 @@ comprueba("RTTY: duración de bit a 45,45 baudios (ms)", 1000 / 45.45, 22.0)
 
 # ---------- APRS: ocupación del canal ----------
 t_paquete = 75 * 8 / 1200
-comprueba("Paquete APRS de 75 bytes a 1 200 bit/s (s)", t_paquete, 0.5)
+comprueba("Paquete APRS de 75 bytes a 1200 bit/s (s)", t_paquete, 0.5)
 comprueba("40 estaciones, un paquete por minuto: s ocupados", 40 * t_paquete, 20)
 comprueba("... en porcentaje del minuto", 40 * t_paquete / 60 * 100, 33, tol=0.02)
 comprueba("Con un salto de digipeater cada paquete suena dos veces: s", 2 * 40 * t_paquete, 40)
@@ -114,11 +114,11 @@ comprueba("D-STAR: voz con corrección de errores (kbit/s)", 2.4 + 1.2, 3.6)
 comprueba("D-STAR: lo que queda para datos y sincronismo (kbit/s)", 4.8 - 3.6, 1.2)
 
 # ---------- Autoevaluación ----------
-comprueba("P1: dial 14 074 kHz, tono 2 000 Hz", emitida(14074, 2000), 14076.0)
+comprueba("P1: dial 14 074 kHz, tono 2000 Hz", emitida(14074, 2000), 14076.0)
 cierto("P1: 14 076 kHz dentro del tramo 14 070-14 089 kHz", 14070 <= 14076 <= 14089)
-comprueba("P5: -21 dB en 2 500 Hz, en 50 Hz", -21 + 10 * math.log10(2500 / 50), -4.0, tol=0.01)
+comprueba("P5: -21 dB en 2500 Hz, en 50 Hz", -21 + 10 * math.log10(2500 / 50), -4.0, tol=0.01)
 comprueba("P5: ancho de FT8", 8 * 6.25, 50)
-comprueba("P6: DMR, 4 800 símbolos/s de 2 bits", 4800 * 2, 9600)
+comprueba("P6: DMR, 4800 símbolos/s de 2 bits", 4800 * 2, 9600)
 
 print()
 print("Todo correcto." if fallos == 0 else f"{fallos} comprobaciones fallidas.")

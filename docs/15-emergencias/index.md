@@ -50,8 +50,8 @@ El plan de HF de la IARU Región 1, en vigor desde el 16 de octubre de 2020, se�
 
 | Frecuencia | Ámbito |
 |---|---|
-| 3 760 kHz | Región 1 |
-| 7 110 kHz | Región 1 |
+| 3760 kHz | Región 1 |
+| 7110 kHz | Región 1 |
 | 14 300 kHz | Mundial |
 | 18 160 kHz | Mundial |
 | 21 360 kHz | Mundial |
@@ -176,7 +176,7 @@ Entre el panel y la batería va siempre un **regulador de carga** adecuado a la 
 
 ### Los portátiles
 
-Un portátil de mano tiene la misma cuenta a menor escala. **Ejemplo.** Un portátil con una batería de 7,4 V y 2 000 mAh (unos 14,8 Wh) consume 1,5 A transmitiendo y 0,15 A recibiendo. Con un 10 % de transmisión, la corriente media es $0{,}10 \cdot 1{,}5 + 0{,}90 \cdot 0{,}15 = 0{,}285$ A, y descargando el 90 % de la batería dura $2 \cdot 0{,}9 / 0{,}285 \approx 6{,}3$ horas. Para una jornada completa, lleva una batería de repuesto cargada o un portapilas para pilas alcalinas, que se encuentran en cualquier tienda incluso cuando no hay electricidad.
+Un portátil de mano tiene la misma cuenta a menor escala. **Ejemplo.** Un portátil con una batería de 7,4 V y 2000 mAh (unos 14,8 Wh) consume 1,5 A transmitiendo y 0,15 A recibiendo. Con un 10 % de transmisión, la corriente media es $0{,}10 \cdot 1{,}5 + 0{,}90 \cdot 0{,}15 = 0{,}285$ A, y descargando el 90 % de la batería dura $2 \cdot 0{,}9 / 0{,}285 \approx 6{,}3$ horas. Para una jornada completa, lleva una batería de repuesto cargada o un portapilas para pilas alcalinas, que se encuentran en cualquier tienda incluso cuando no hay electricidad.
 
 !!! danger "Peligro"
     Una batería grande en un sitio improvisado es un riesgo. Pon siempre un **fusible** en el positivo, lo más cerca posible de la batería, y calculado para el consumo del equipo. Usa el cargador adecuado a su química, no la cargues sin vigilancia ni sobre superficies inflamables y, si es de plomo, cárgala en un lugar ventilado. Los detalles están en el [capítulo 3](../03-seguridad.md#baterias). Y nunca uses un grupo electrógeno en un espacio cerrado: el monóxido de carbono no se ve ni se huele.
@@ -307,7 +307,7 @@ En un simulacro, todos los mensajes llevan una marca que diga que son de ejercic
 
 - El artículo 30 de la **Orden IET/1311/2013** permite el tráfico **en nombre de terceros** solo en **emergencia o desastre**, **obliga** a colaborar con Protección Civil en las **bandas de aficionado** cuando lo requiera y obliga a hacerle llegar las llamadas de **socorro**. El cifrado sigue prohibido (comprobado en noviembre de 2026).
 - La **REMER** (Orden INT/1149/2018) es la red de radioaficionados voluntarios de Protección Civil: estación central en el CENEM, directoras provinciales y colaboradores con sus propios equipos. Usa sus propias frecuencias y, si hace falta, las bandas de aficionado. Desde abril de 2026 depende de la Secretaría General de Protección Civil y Emergencias (comprobado en noviembre de 2026).
-- Centros de actividad de emergencia de la IARU: **3 760 y 7 110 kHz** (Región 1), **14 300, 18 160 y 21 360 kHz** (mundiales). No son exclusivos, pero se dejan libres. Si oyes «emergency» o **QUF**, deja de transmitir y escucha.
+- Centros de actividad de emergencia de la IARU: **3760 y 7110 kHz** (Región 1), **14 300, 18 160 y 21 360 kHz** (mundiales). No son exclusivos, pero se dejan libres. Si oyes «emergency» o **QUF**, deja de transmitir y escucha.
 - Señales del RR: **MAYDAY** (socorro, peligro grave e inminente), **PAN PAN** (urgencia) y **SÉCURITÉ** (seguridad), tres veces cada una. **SILENCE MAYDAY** impone silencio y **QUF** significa «he recibido la señal de socorro». Si captas una, deja de transmitir, anótala y avisa al **112** (artículo 30.5 de la Orden IET/1311/2013).
 - Un **plan de comunicaciones** tiene varias vías escalonadas (repetidor, símplex, HF en NVIS, mensajero) y reglas claras para pasar de una a otra, en papel.
 - **Autonomía**: $I_\text{media} = D \cdot I_\text{TX} + (1-D) \cdot I_\text{RX}$ y $t = C \cdot p / I_\text{media}$. Plomo hasta el 50 %, LiFePO₄ en torno al 80 %. Panel solar: $E = P \cdot \text{HSP} \cdot \eta$. Siempre con fusible y regulador.
@@ -337,7 +337,7 @@ d) Que tienes que pedir antes una autorización especial a tu Jefatura Provincia
 ??? success "Solución"
     **b)** El artículo 30.4 de la Orden IET/1311/2013 obliga a todo titular de una autorización, no solo a los miembros de la REMER, y el artículo 8.4 de la Orden INT/1149/2018 permite incorporar de forma extraordinaria y temporal a radioaficionados que no pertenecen a la red en emergencias declaradas. Las frecuencias REMER (c) son de Protección Civil y se usan solo con los modos definidos para la red. En las bandas de aficionado no necesitas ninguna autorización especial (d).
 
-**3.** Estás haciendo un contacto en 7 110 kHz y oyes a una estación decir «emergency». ¿Qué haces?
+**3.** Estás haciendo un contacto en 7110 kHz y oyes a una estación decir «emergency». ¿Qué haces?
 
 a) Sigues con tu contacto, porque la frecuencia no está reservada.  
 b) Dejas de transmitir y escuchas, anotas lo que oyes y solo transmites si estás seguro de poder ayudar.  
@@ -345,7 +345,7 @@ c) Le preguntas a la estación qué ocurre.
 d) Cambias de banda.
 
 ??? success "Solución"
-    **b)** Es lo que pide el procedimiento de emergencia en HF de la IARU. 7 110 kHz es además un centro de actividad de emergencia de la Región 1. Preguntar (c) añade una transmisión más sin ayudar, y marcharte (d) puede dejar sin respuesta una llamada que quizá solo tú oyes.
+    **b)** Es lo que pide el procedimiento de emergencia en HF de la IARU. 7110 kHz es además un centro de actividad de emergencia de la Región 1. Preguntar (c) añade una transmisión más sin ayudar, y marcharte (d) puede dejar sin respuesta una llamada que quizá solo tú oyes.
 
 **4.** Un transceptor consume 8 A transmitiendo y 0,5 A recibiendo. Transmite el 20 % del tiempo. Lo alimentas con una batería LiFePO₄ de 30 Ah que descargas hasta el 80 %. ¿Cuánto dura aproximadamente?
 

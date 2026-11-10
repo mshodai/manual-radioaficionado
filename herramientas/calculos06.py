@@ -93,7 +93,7 @@ comprueba("subir de 7,1 a 7,15 MHz: recorte total (cm)", (20.14 - 20.14 * 7.1 / 
 comprueba("dipolo plegado 4·73 (Ω)", 4 * 73, 292)
 
 # Media onda alimentada en un extremo con transformador 49:1 (espiras 7:1)
-comprueba("EFHW: 2 450 Ω / 49 (Ω)", 2450 / 49, 50)
+comprueba("EFHW: 2450 Ω / 49 (Ω)", 2450 / 49, 50)
 comprueba("relación de espiras para 49:1", math.sqrt(49), 7)
 
 # Ganancia y PRA/PIRE

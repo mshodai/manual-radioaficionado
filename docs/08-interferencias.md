@@ -88,7 +88,7 @@ El apartado 4.1 del anexo I de la Orden IET/1311/2013 fija cuánta potencia pued
 
 El mismo apartado permite a la Administración exigir límites más estrictos para proteger la radioastronomía, los servicios espaciales u otras instalaciones concretas. Cada fila tiene dos condiciones, una relativa y otra absoluta, y se cumplen las dos a la vez: manda la que dé el valor más bajo.
 
-**Ejemplo 4.** En HF, con 400 W de potencia media, 40 dB por debajo son $400 \cdot 10^{-4} = 0{,}04\ \text{W} = 40\ \text{mW}$, que no llega a los 50 mW: el límite es 40 mW. Con 1 000 W, 40 dB por debajo serían 100 mW, por encima del tope; el límite es 50 mW, que equivale a 43 dB por debajo de la potencia media.
+**Ejemplo 4.** En HF, con 400 W de potencia media, 40 dB por debajo son $400 \cdot 10^{-4} = 0{,}04\ \text{W} = 40\ \text{mW}$, que no llega a los 50 mW: el límite es 40 mW. Con 1000 W, 40 dB por debajo serían 100 mW, por encima del tope; el límite es 50 mW, que equivale a 43 dB por debajo de la potencia media.
 
 **Ejemplo 5.** Un portátil de 5 W en 2 m. Por ser de 25 W o menos, la primera condición da $5 \cdot 10^{-4} = 500\ \mu\text{W}$; la segunda, 25 µW. Manda la segunda: cada espuria debe quedar 53 dB por debajo de la emisión, más de lo que parecería a primera vista. Con una emisora de 50 W en la misma banda, el límite es 60 dB por debajo, es decir, 50 µW.
 
@@ -163,7 +163,7 @@ Una **fuente conmutada** convierte la tensión de red en continua abriendo y cer
 
 Se reconocen bien: aparecen como un **peine** de portadoras separadas siempre la misma distancia, que es la frecuencia de conmutación. Las portadoras no son limpias: se ensanchan y se desplazan cuando cambia la carga de la fuente, por ejemplo cuando el móvil termina de cargar.
 
-**Ejemplo 9.** Una fuente conmuta a 70 kHz. Sus armónicos 100, 101 y 102 caen en 7 000, 7 070 y 7 140 kHz, dentro de la banda de 40 m. En la banda de 20 m, de 14 000 a 14 350 kHz, caben seis: los armónicos del 200 al 205. Si escuchas un peine de portadoras separadas 70 kHz, ya sabes qué tipo de aparato buscas.
+**Ejemplo 9.** Una fuente conmuta a 70 kHz. Sus armónicos 100, 101 y 102 caen en 7000, 7070 y 7140 kHz, dentro de la banda de 40 m. En la banda de 20 m, de 14 000 a 14 350 kHz, caben seis: los armónicos del 200 al 205. Si escuchas un peine de portadoras separadas 70 kHz, ya sabes qué tipo de aparato buscas.
 
 ![Fila de rayas rojas separadas 70 kHz entre 6,7 y 7,5 MHz; tres de ellas caen en la banda de 40 m](assets/figuras/08-fuente-conmutada.svg)
 
@@ -237,7 +237,7 @@ con $E$ en voltios por metro, la PIRE en vatios y $d$ en metros.
 **Ejemplo 11.** Emites 100 W con un dipolo de media onda, que tiene 2,15 dBi, un factor de 1,64. La PIRE es de $100 \cdot 1{,}64 = 164\ \text{W}$. El televisor del vecino está a 12 m de la antena, en la dirección de máxima radiación:
 
 $$
-E = \frac{\sqrt{30 \cdot 164}}{12} = \frac{\sqrt{4\,920}}{12} \approx 5{,}8\ \text{V/m}
+E = \frac{\sqrt{30 \cdot 164}}{12} = \frac{\sqrt{4920}}{12} \approx 5{,}8\ \text{V/m}
 $$
 
 Si alejas la antena hasta 24 m, el campo baja a la mitad, 2,9 V/m, es decir, 6 dB menos. Bajar la potencia de 100 a 25 W da el mismo resultado. Un portátil de 5 W a 1 m de un aparato produce, en cambio, unos $\sqrt{30 \cdot 5} \approx 12{,}2\ \text{V/m}$: mucho más que una estación de casa bien instalada. Son campos que los aparatos domésticos no siempre toleran, aunque cumplan la normativa.
@@ -282,11 +282,11 @@ $$
 
 donde $Z_\text{camino}$ es la impedancia del circuito por el que circula la corriente en modo común y $Z_\text{choque}$ la que añade el choque, las dos en ohmios.
 
-**Ejemplo 12.** La malla de un coaxial forma con el resto de la instalación un camino de unos 150 Ω en modo común. Le añades un choque de 1 500 Ω a esa frecuencia. La corriente queda en $150 / (150 + 1\,500) \approx 0{,}091$ veces la inicial: unos 21 dB menos.
+**Ejemplo 12.** La malla de un coaxial forma con el resto de la instalación un camino de unos 150 Ω en modo común. Le añades un choque de 1500 Ω a esa frecuencia. La corriente queda en $150 / (150 + 1500) \approx 0{,}091$ veces la inicial: unos 21 dB menos.
 
 Dos ideas prácticas:
 
-- **Las espiras cuentan.** La impedancia de un choque crece aproximadamente con el cuadrado del número de veces que el cable pasa por el núcleo, hasta que la capacidad entre espiras lo limita. Una ferrita partida que da 80 Ω con el cable pasado una vez puede llegar a unos 2 000 Ω con cinco vueltas: $80 \cdot 5^2 = 2\,000\ \Omega$. Una sola ferrita sin vueltas suele servir de poco en HF.
+- **Las espiras cuentan.** La impedancia de un choque crece aproximadamente con el cuadrado del número de veces que el cable pasa por el núcleo, hasta que la capacidad entre espiras lo limita. Una ferrita partida que da 80 Ω con el cable pasado una vez puede llegar a unos 2000 Ω con cinco vueltas: $80 \cdot 5^2 = 2000\ \Omega$. Una sola ferrita sin vueltas suele servir de poco en HF.
 - **El material importa.** Cada ferrita está pensada para un margen de frecuencias. Las de los cables de ordenador suelen trabajar bien en VHF y poco en HF. Elige la ferrita por la hoja de datos del fabricante, que da su impedancia en función de la frecuencia.
 
 Los sitios donde ponerlas, por orden de eficacia: en el coaxial junto a la antena (es el balun de corriente del capítulo 6), en el coaxial a la entrada de la casa, en los cables de la estación (red, micrófono, manipulador, USB del ordenador) y, por último, en los cables del aparato afectado, empezando por los más largos.
@@ -361,7 +361,7 @@ Son cifras máximas pensadas sobre todo para operadores, pero dejan claro que ig
 Antes de reclamar, recuerda en qué situación está tu servicio:
 
 - En muchas bandas el servicio de aficionados es **secundario**, como viste en el [capítulo 5](05-propagacion-bandas.md). Según las definiciones del apartado 1 del anexo I de la Orden IET/1311/2013, un servicio secundario no puede causar interferencias perjudiciales a los servicios primarios ni reclamar protección frente a ellos, aunque sí frente a estaciones del mismo servicio o de otros servicios secundarios a los que se asignen frecuencias más tarde (comprobado en noviembre de 2026).
-- En las bandas destinadas a aplicaciones **industriales, científicas y médicas** (ICM) que comparte el servicio de aficionados, sus estaciones tienen que **aceptar** la interferencia perjudicial que produzcan esas aplicaciones. El apartado 3.4 del anexo I de la orden enumera cuatro: 433,050 a 434,790 MHz, 2 400 a 2 450 MHz, 5 725 a 5 800 MHz y 24,00 a 24,25 GHz (comprobado en noviembre de 2026). Por eso no tiene sentido reclamar por los mandos de garaje o las estaciones meteorológicas que oyes en 433 MHz.
+- En las bandas destinadas a aplicaciones **industriales, científicas y médicas** (ICM) que comparte el servicio de aficionados, sus estaciones tienen que **aceptar** la interferencia perjudicial que produzcan esas aplicaciones. El apartado 3.4 del anexo I de la orden enumera cuatro: 433,050 a 434,790 MHz, 2400 a 2450 MHz, 5725 a 5800 MHz y 24,00 a 24,25 GHz (comprobado en noviembre de 2026). Por eso no tiene sentido reclamar por los mandos de garaje o las estaciones meteorológicas que oyes en 433 MHz.
 
 Si la interferencia viene de un **aparato eléctrico** (una fuente conmutada, una iluminación, un adaptador PLC, un inversor), el aparato debe cumplir los requisitos esenciales del RD 186/2016 que viste al principio. Para las **instalaciones fijas**, como la de un edificio o la de unas placas solares, el artículo 19 del mismo real decreto dispone que, cuando haya indicios de que no cumplen, en especial si hay quejas por las perturbaciones que generan, las autoridades pueden pedir pruebas de su conformidad e imponer medidas para que la cumplan; y que la conformidad de una instalación fija es responsabilidad de su propietario o, en su caso, de su titular (comprobado en noviembre de 2026). La vigilancia del mercado de los aparatos que regula ese real decreto corresponde a los órganos competentes de las comunidades autónomas (artículo 30.2; comprobado en noviembre de 2026).
 
@@ -446,7 +446,7 @@ d) Frecuencia imagen; cambiar de banda.
 ??? success "Solución"
     **b)** Si te oye también con un disco, la señal no entra por el sintonizador: los cables del equipo captan tu RF y un semiconductor la rectifica. Por eso se oye tu voz en BLU. Los armónicos de 3,7 MHz caen en múltiplos concretos, no en todo el dial ni en la reproducción de un disco, y un filtro en tu transmisor no cambiaría nada.
 
-**5.** Escuchas en 40 m un peine de portadoras ensanchadas, una cada 45 kHz, por ejemplo en 7 090 y 7 135 kHz. ¿Qué es lo más probable?
+**5.** Escuchas en 40 m un peine de portadoras ensanchadas, una cada 45 kHz, por ejemplo en 7090 y 7135 kHz. ¿Qué es lo más probable?
 
 a) Un adaptador PLC con muescas en las bandas de aficionado.  
 b) Una fuente conmutada que trabaja a 45 kHz.  
@@ -454,7 +454,7 @@ c) Una línea eléctrica con un aislador sucio.
 d) Un transmisor de aficionado con clics de manipulación.
 
 ??? success "Solución"
-    **b)** La separación fija entre las portadoras es la frecuencia de conmutación: $7\,135 - 7\,090 = 45\ \text{kHz}$. Que estén ensanchadas encaja con una fuente cuya frecuencia varía con la carga. El PLC da un ruido de banda ancha, y la línea eléctrica, un ruido con zumbido de 100 Hz.
+    **b)** La separación fija entre las portadoras es la frecuencia de conmutación: $7135 - 7090 = 45\ \text{kHz}$. Que estén ensanchadas encaja con una fuente cuya frecuencia varía con la carga. El PLC da un ruido de banda ancha, y la línea eléctrica, un ruido con zumbido de 100 Hz.
 
 **6.** Una corriente en modo común recorre un cable por un camino de unos 200 Ω. Le pones un choque que presenta 600 Ω a esa frecuencia. Tratando las dos impedancias como resistencias, ¿cuánto se reduce la corriente?
 
