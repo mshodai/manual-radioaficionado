@@ -112,11 +112,11 @@ Los programas no eligen la frecuencia solos: traen una lista de **frecuencias de
 
 Recuerda que el dial **no** es la frecuencia emitida: en USB tu señal sale en el dial más el tono de audio, que el programa sitúa entre unos 200 y 3000 Hz.
 
-![Plan de 20 m con los tramos de CW, modos digitales de 14 070 a 14 089 kHz y estaciones automáticas; el dial en 14 074 kHz y las señales de FT8 entre 14 074,2 y 14 077 kHz](assets/figuras/12-dial-audio.svg)
+![Plan de 20 m con el tramo de CW y el de banda estrecha de 14 070 a 14 099 kHz, dividido en la parte solo para modos digitales, de 14 070 a 14 089 kHz, y la que comparten con las estaciones automáticas, de 14 089 a 14 099 kHz; el dial en 14 074 kHz y las señales de FT8 entre 14 074,2 y 14 077 kHz](assets/figuras/12-dial-audio.svg)
 
-*Figura 12.3. En 20 m, las señales de FT8 ocupan de 14 074,2 a 14 077 kHz, dentro del tramo de modos digitales.*
+*Figura 12.3. En 20 m, las señales de FT8 ocupan de 14 074,2 a 14 077 kHz, en la parte del tramo de banda estrecha que no comparten con las estaciones automáticas.*
 
-**Ejemplo.** Con el dial en 14 074 kHz, un tono de 1200 Hz sale en $14\,074 + 1{,}2 = 14\,075{,}2\ \text{kHz}$, y todo el paso de audio va de 14 074,2 a 14 077 kHz. Ese margen está dentro del tramo de **14 070 a 14 089 kHz** que el plan de HF de la IARU Región 1 reserva a modos digitales de hasta 500 Hz. En 40 m pasa algo distinto: de 7074,2 a 7077 kHz caes en el tramo de **todos los modos** (7060 – 7100 kHz), no en el de banda estrecha (7040 – 7050 kHz). Cada señal de FT8 sigue ocupando 50 Hz, pero ahí convives con la fonía.
+**Ejemplo.** Con el dial en 14 074 kHz, un tono de 1200 Hz sale en $14\,074 + 1{,}2 = 14\,075{,}2\ \text{kHz}$, y todo el paso de audio va de 14 074,2 a 14 077 kHz. Ese margen está dentro del tramo de banda estrecha de **14 070 a 14 099 kHz**, que el plan de HF de la IARU Región 1 reserva a modos digitales de hasta 500 Hz, y en concreto en su parte baja, de **14 070 a 14 089 kHz**: la que es solo para modos digitales. De 14 089 a 14 099 kHz el plan admite además las estaciones de datos de control automático, que verás enseguida, y por eso el FT8 se queda por debajo de 14 089 kHz. En 40 m pasa algo distinto: de 7074,2 a 7077 kHz caes en el tramo de **todos los modos** (7060 – 7100 kHz), no en el de banda estrecha (7040 – 7050 kHz). Cada señal de FT8 sigue ocupando 50 Hz, pero ahí convives con la fonía.
 
 Los modos digitales tienen su sitio en cada banda del [plan de HF de la IARU Región 1](https://www.iaru-r1.org/wp-content/uploads/2021/06/hf_r1_bandplan.pdf), en vigor desde el 16 de octubre de 2020, que ya viste en el [capítulo 9](09-reglamentacion/index.md#el-plan-de-hf). Lo que interesa aquí (comprobado en noviembre de 2026):
 
@@ -319,7 +319,7 @@ c) 14 076 kHz
 d) 14 094 kHz
 
 ??? success "Solución"
-    **c)** En USB la señal emitida está por encima del dial, a la distancia del tono: $14\,074 + 2{,}0 = 14\,076\ \text{kHz}$. Cae dentro del tramo de modos digitales de 14 070 a 14 089 kHz del plan de la IARU Región 1. La b) sería en LSB, y la d) confunde hercios con kilohercios.
+    **c)** En USB la señal emitida está por encima del dial, a la distancia del tono: $14\,074 + 2{,}0 = 14\,076\ \text{kHz}$. Cae dentro del tramo de banda estrecha de 14 070 a 14 099 kHz del plan de la IARU Región 1, en su parte de 14 070 a 14 089 kHz, la que no comparten las estaciones automáticas. La b) sería en LSB, y la d) confunde hercios con kilohercios.
 
 **2.** Tu programa de FT8 ve las señales en la cascada pero no descodifica ninguna, y nadie contesta tus llamadas. Las demás estaciones de tu radio club sí trabajan con normalidad. ¿Qué es lo primero que compruebas?
 

@@ -53,7 +53,7 @@ El conjunto de frecuencias que se usan para radiocomunicaciones es el **espectro
 
 *Figura 4.2. Bandas de la nomenclatura de la UIT que más te interesan, según el artículo 2 del Reglamento de Radiocomunicaciones (comprobado en noviembre de 2026). El límite inferior de cada banda queda fuera y el superior, dentro.*
 
-Las que más vas a usar son la **HF** (*high frequency*, 3 a 30 MHz, ondas decamétricas), donde están las bandas que permiten contactos a miles de kilómetros, y la **VHF** (*very high frequency*) y la **UHF** (*ultra high frequency*), de 30 a 3000 MHz,, donde operan los portátiles y los repetidores. La propagación de cada una se estudia en el capítulo 5.
+Las que más vas a usar son la **HF** (*high frequency*, 3 a 30 MHz, ondas decamétricas), donde están las bandas que permiten contactos a miles de kilómetros, y la **VHF** (*very high frequency*) y la **UHF** (*ultra high frequency*), de 30 a 3000 MHz, donde operan los portátiles y los repetidores. La propagación de cada una se estudia en el capítulo 5.
 
 ## Información, ruido y ancho de banda
 

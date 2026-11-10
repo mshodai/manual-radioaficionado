@@ -273,7 +273,7 @@ $$
 FV = \frac{1}{\sqrt{\varepsilon_r}}
 $$
 
-Con polietileno macizo, $FV = 1 / \sqrt{2{,}25} \approx 0{,}66$; con polietileno espumado, entre 0,80 y 0,87; en una línea de escalera, casi toda de aire, por encima de 0,9.
+Con polietileno macizo, $FV = 1 / \sqrt{2{,}25} \approx 0{,}67$, aunque los fabricantes suelen dar 0,66; con polietileno espumado, entre 0,80 y 0,87; en una línea de escalera, casi toda de aire, por encima de 0,9.
 
 El factor de velocidad importa cuando cortas un tramo de línea con una longitud eléctrica concreta, como un transformador de cuarto de onda o una trampa. La **longitud física** es la longitud en el espacio libre multiplicada por el factor de velocidad.
 

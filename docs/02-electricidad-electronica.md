@@ -103,7 +103,7 @@ $$
 !!! example "En la práctica"
     El instrumento que usarás a diario es el **polímetro** (o multímetro), que reúne las tres funciones y suele añadir prueba de continuidad y de diodos. El error típico es dejarlo en la posición de amperímetro y luego medir la tensión de una batería: como un amperímetro es casi un cortocircuito, saltará el fusible interno del polímetro, si tiene suerte. Acostúmbrate a devolver el selector y las puntas a la posición de voltios al terminar.
 
-Además del polímetro, en la estación se usan el vatímetro y el medidor de ROE, que se presentan en el [capítulo 7](07-equipos.md).
+Además del polímetro, en la estación se usan el vatímetro y el medidor de ROE, que se explican en el apartado [«Medir la ROE»](06-antenas-lineas.md#medir-la-roe) del capítulo 6.
 
 ??? note "Para saber más: medir corriente con una resistencia *shunt*"
     Para medir corrientes grandes sin pasar todo por el polímetro se intercala en el circuito una resistencia muy pequeña y precisa, llamada *shunt* o derivación, y se mide la tensión que cae en ella. Con un *shunt* de 0,01 Ω, una corriente de 15 A produce $V = 15 \cdot 0{,}01 = 0{,}15\ \text{V}$, que cualquier voltímetro mide sin problema. Muchos amperímetros de panel y los medidores de consumo de las fuentes de alimentación funcionan así.

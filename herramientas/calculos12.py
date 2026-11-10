@@ -66,7 +66,7 @@ comprueba("FT8: bits por símbolo con 8 tonos", math.log2(8), 3)
 comprueba("Dial 14 074 kHz + 1200 Hz", emitida(14074, 1200), 14075.2)
 comprueba("Dial 14 074 kHz + 200 Hz", emitida(14074, 200), 14074.2)
 comprueba("Dial 14 074 kHz + 3000 Hz", emitida(14074, 3000), 14077.0)
-cierto("14 074,2 a 14 077,0 kHz dentro del tramo 14 070-14 089 kHz (500 Hz, digimodes)",
+cierto("14 074,2 a 14 077,0 kHz en 14 070-14 089 kHz, la parte solo de digimodes del tramo de 500 Hz 14 070-14 099",
        14070 <= emitida(14074, 200) and emitida(14074, 3000) <= 14089)
 comprueba("Dial 7074 kHz + 200 Hz", emitida(7074, 200), 7074.2)
 comprueba("Dial 7074 kHz + 3000 Hz", emitida(7074, 3000), 7077.0)

@@ -72,8 +72,8 @@ def guarda(nombre, w, h, cuerpo, titulo):
 # ---------------------------------------------------------------------------
 def dial_audio():
     W, H = 700, 300
-    x0, x1 = 40, 660            # 14 066 a 14 092 kHz
-    f0, f1 = 14066.0, 14092.0
+    x0, x1 = 40, 660            # 14 066 a 14 099 kHz
+    f0, f1 = 14066.0, 14099.0
 
     def X(f):
         return x0 + (f - f0) / (f1 - f0) * (x1 - x0)
@@ -83,8 +83,8 @@ def dial_audio():
     yb, hb = 60, 40
     tramos = [
         (14066, 14070, CLARO, "CW", "200 Hz"),
-        (14070, 14089, AZUL_CLARO, "Modos digitales (14 070–14 089)", "500 Hz"),
-        (14089, 14092, NARANJA, "Autom.", "500 Hz"),
+        (14070, 14089, AZUL_CLARO, "Solo modos digitales", "14 070–14 089 · 500 Hz"),
+        (14089, 14099, NARANJA, "Digitales y automáticas", "14 089–14 099 · 500 Hz"),
     ]
     for a, b, col, nom, anc in tramos:
         c.append(rect(X(a), yb, X(b) - X(a), hb, col, f'stroke="{GRIS}" stroke-width="1"'))
@@ -95,9 +95,9 @@ def dial_audio():
     # Eje de frecuencias
     ye = 230
     c.append(L(x0, ye, x1, ye))
-    for f in range(14066, 14093, 2):
+    for f in range(14066, 14100, 2):
         c.append(L(X(f), ye, X(f), ye + 6))
-    for f in (14068, 14072, 14076, 14080, 14084, 14088):
+    for f in (14068, 14072, 14076, 14080, 14084, 14088, 14092, 14096):
         c.append(T(X(f), ye + 22, f"{f // 1000} {f % 1000:03d}", 12))
     c.append(T(x1, ye + 44, "kHz emitidos", 12, "end", fill="#555555"))
 
@@ -117,7 +117,7 @@ def dial_audio():
     c.append(T(X(14078.7), 225, "dial + tono de audio", 13, "start"))
 
     guarda("12-dial-audio.svg", W, H, "\n".join(c),
-           "Dial en 14 074 kHz, paso de audio de 200 a 3000 Hz y señales de FT8 dentro del tramo de modos digitales de 14 070 a 14 089 kHz")
+           "Dial en 14 074 kHz, paso de audio de 200 a 3000 Hz y señales de FT8 en la parte del tramo de banda estrecha de 14 070 a 14 099 kHz que es solo para modos digitales, de 14 070 a 14 089 kHz")
 
 
 # ---------------------------------------------------------------------------
