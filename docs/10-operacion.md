@@ -193,6 +193,7 @@ Algunas frecuencias tienen un uso especial que conviene respetar aunque estén l
 
 - Las **frecuencias de llamada** de VHF y UHF (145,500 MHz y 433,500 MHz en FM) sirven para establecer el contacto. En cuanto contesten, pasáis a otra frecuencia simplex libre («QSY a 145,450»).
 - Los **centros de actividad de emergencia** que recomienda la IARU: 3 760 y 7 110 kHz en la Región 1, y 14 300, 18 160 y 21 360 kHz en todo el mundo, según el apartado 2.1.5 del [HF Manager's Handbook](https://www.iaru-r1.org/reference/handbooks/) (comprobado en noviembre de 2026). No son frecuencias reservadas, pero no llames CQ en ellas y déjalas libres si hay tráfico de emergencia. Lo verás en el [capítulo 15](15-emergencias/index.md).
+- Si oyes **MAYDAY** (socorro), **PAN PAN** (urgencia) o **SÉCURITÉ** (seguridad), deja de transmitir y escucha. Qué significa cada señal y qué tienes que hacer lo tienes en el [capítulo 15](15-emergencias/index.md#las-senales-de-socorro-urgencia-y-seguridad).
 
 ## Un contacto en los modos digitales
 

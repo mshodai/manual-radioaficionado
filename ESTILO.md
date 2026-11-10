@@ -130,13 +130,15 @@ No más de una caja seguida. Si un capítulo acumula cajas, sobran.
 
 ## 9. Comprobación
 
-Antes de dar un capítulo por terminado:
+Antes de dar un capítulo por terminado, compila una copia del proyecto en `/tmp/manual-build`, desde la raíz del repositorio:
 
 ```sh
-.venv/bin/zensical build --clean --strict
+rm -rf /tmp/manual-build
+rsync -a --exclude .git --exclude .venv --exclude site ./ /tmp/manual-build/
+.venv/bin/zensical build --clean --strict -f /tmp/manual-build/mkdocs.yml
 ```
 
-Debe compilar sin avisos. Revisa en `zensical serve` que se ven las fórmulas, los Mermaid y las figuras en modo claro y oscuro.
+Debe compilar sin avisos. El sitio queda en `/tmp/manual-build/site` y el repositorio no se ensucia. Se hace con una copia porque Zensical 0.0.72 no tiene opción para elegir la carpeta de salida (`zensical build` no admite `-d` ni `--site-dir`) y rechaza un `site_dir` o un `docs_dir` fuera de la carpeta del `mkdocs.yml` («must be within project root»). Repite la copia antes de cada compilación: si no, compilas la versión anterior. La CI (`.github/workflows/pages.yml`) ejecuta `zensical build --clean --strict` sobre el propio repositorio. Revisa en `zensical serve` que se ven las fórmulas, los Mermaid y las figuras en modo claro y oscuro.
 
 ## 10. Comandos de terminal
 

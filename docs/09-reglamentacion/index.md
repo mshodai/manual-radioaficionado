@@ -120,8 +120,9 @@ La Orden IET/1311/2013 es de 2013 y su texto consolidado no ha cambiado en lo es
 - **«La SETSI»**, la Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información. Hoy es la **Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales**, del Ministerio para la Transformación Digital y de la Función Pública. Es la que firma, por ejemplo, la [Resolución de 29 de julio de 2026 sobre los distintivos con sufijo de una letra](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-17504) (comprobado en noviembre de 2026).
 - **La Ley 32/2003, General de Telecomunicaciones**, ya derogada. Hoy rige la Ley 11/2022.
 - **El Real Decreto 863/2008**, que desarrollaba la ley en materia de espectro. Lo derogó el Real Decreto 123/2017 (letra a) de su disposición derogatoria única; comprobado en noviembre de 2026).
+- **«La Dirección General de Protección Civil y Emergencias»**, que cita el artículo 30 de la orden para la colaboración en catástrofes y las comunicaciones de socorro. Sigue existiendo, pero el [Real Decreto 328/2026, de 22 de abril](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-9079), creó en el Ministerio del Interior la **Secretaría General de Protección Civil y Emergencias**, que asume sus funciones y de la que pasa a depender (comprobado en noviembre de 2026). Lo verás en el [capítulo 15](../15-emergencias/index.md#lo-que-dice-la-orden).
 
-La orden sigue vigente con esas referencias. Cuando leas «SETSI» en un artículo, entiende la Secretaría de Estado actual. Tu interlocutor más cercano sigue siendo la Jefatura Provincial de Inspección de Telecomunicaciones de tu provincia.
+La orden sigue vigente con esas referencias. Cuando leas «SETSI» en un artículo, entiende la Secretaría de Estado actual, y cuando leas la Dirección General de Protección Civil y Emergencias, ten en cuenta que hoy depende de la Secretaría General. Tu interlocutor más cercano sigue siendo la Jefatura Provincial de Inspección de Telecomunicaciones de tu provincia.
 
 ## Cómo está organizado el capítulo
 
