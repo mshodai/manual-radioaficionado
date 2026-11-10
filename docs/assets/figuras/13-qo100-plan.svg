@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380" role="img" aria-labelledby="t">
+<title id="t">Plan de banda del transpondedor estrecho del QO-100 con sus balizas, tramos y frecuencias de subida y bajada</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+  </marker>
+
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#ffffff"/>
+<g fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<rect x="46.2" y="150.0" width="43.4" height="56.0" fill="#eeeeee" stroke="#9e9e9e" stroke-width="1"/>
+<text x="67.9" y="183.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >CW</text>
+<rect x="89.6" y="150.0" width="49.6" height="56.0" fill="#e3f2fd" stroke="#9e9e9e" stroke-width="1"/>
+<text x="114.4" y="183.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >Dig.</text>
+<rect x="139.2" y="150.0" width="86.8" height="56.0" fill="#e8f5e9" stroke="#9e9e9e" stroke-width="1"/>
+<text x="182.6" y="183.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >Digital</text>
+<rect x="226.0" y="150.0" width="117.8" height="56.0" fill="#fff3e0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="284.9" y="183.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >BLU</text>
+<rect x="356.2" y="150.0" width="117.8" height="56.0" fill="#fff3e0" stroke="#9e9e9e" stroke-width="1"/>
+<text x="415.1" y="183.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >BLU</text>
+<rect x="474.0" y="150.0" width="9.3" height="56.0" fill="#ffebee" stroke="#9e9e9e" stroke-width="1"/>
+<rect x="483.3" y="150.0" width="9.3" height="56.0" fill="#ffcdd2" stroke="#9e9e9e" stroke-width="1"/>
+<rect x="492.6" y="150.0" width="155.0" height="56.0" fill="#f3e5f5" stroke="#9e9e9e" stroke-width="1"/>
+<text x="570.1" y="183.0" font-size="13" text-anchor="middle" fill="#1a1a1a" stroke="none" >Mixto y concursos</text>
+<line x1="40.0" y1="144.0" x2="40.0" y2="212.0" stroke="#c62828" stroke-width="3"/>
+<line x1="350.0" y1="144.0" x2="350.0" y2="212.0" stroke="#c62828" stroke-width="3"/>
+<line x1="651.9" y1="144.0" x2="651.9" y2="212.0" stroke="#c62828" stroke-width="3"/>
+<line x1="660.0" y1="144.0" x2="660.0" y2="212.0" stroke="#c62828" stroke-width="3"/>
+<line x1="42.0" y1="100.0" x2="40.0" y2="142.0" marker-end="url(#flecha)" stroke="#c62828" stroke-width="1.2"/>
+<text x="36.0" y="94.0" font-size="12" text-anchor="start" fill="#c62828" stroke="none" >Baliza inferior (CW)</text>
+<line x1="350.0" y1="100.0" x2="350.0" y2="142.0" marker-end="url(#flecha)" stroke="#c62828" stroke-width="1.2"/>
+<text x="350.0" y="94.0" font-size="12" text-anchor="middle" fill="#c62828" stroke="none" >Baliza central (BPSK)</text>
+<line x1="658.0" y1="80.0" x2="660.0" y2="142.0" marker-end="url(#flecha)" stroke="#c62828" stroke-width="1.2"/>
+<text x="664.0" y="74.0" font-size="12" text-anchor="end" fill="#c62828" stroke="none" >Baliza superior (CW)</text>
+<line x1="649.9" y1="122.0" x2="651.9" y2="142.0" marker-end="url(#flecha)" stroke="#c62828" stroke-width="1.2"/>
+<text x="645.9" y="118.0" font-size="12" text-anchor="end" fill="#c62828" stroke="none" >Baliza multimedia</text>
+<line x1="449.2" y1="252.0" x2="478.7" y2="210.0" marker-end="url(#flecha)" stroke-width="1.2"/>
+<text x="446.7" y="266.0" font-size="12" text-anchor="end" fill="#1a1a1a" stroke="none" >Difusión</text>
+<line x1="511.2" y1="252.0" x2="488.0" y2="210.0" marker-end="url(#flecha)" stroke="#c62828" stroke-width="1.2"/>
+<text x="513.7" y="266.0" font-size="12" text-anchor="start" fill="#c62828" stroke="none" >Emergencia (10 489,860)</text>
+<line x1="40.0" y1="302.0" x2="660.0" y2="302.0" />
+<line x1="40.0" y1="302.0" x2="40.0" y2="308.0" />
+<text x="40.0" y="324.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10 489,500</text>
+<line x1="164.0" y1="302.0" x2="164.0" y2="308.0" />
+<text x="164.0" y="324.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10 489,600</text>
+<line x1="288.0" y1="302.0" x2="288.0" y2="308.0" />
+<text x="288.0" y="324.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10 489,700</text>
+<line x1="412.0" y1="302.0" x2="412.0" y2="308.0" />
+<text x="412.0" y="324.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10 489,800</text>
+<line x1="536.0" y1="302.0" x2="536.0" y2="308.0" />
+<text x="536.0" y="324.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10 489,900</text>
+<line x1="660.0" y1="302.0" x2="660.0" y2="308.0" />
+<text x="660.0" y="324.0" font-size="12" text-anchor="middle" fill="#1a1a1a" stroke="none" >10 490,000</text>
+<text x="40.0" y="292.0" font-size="12" text-anchor="start" fill="#555555" stroke="none" >Bajada (MHz)</text>
+<line x1="40.0" y1="352.0" x2="660.0" y2="352.0" stroke="#555555"/>
+<line x1="40.0" y1="352.0" x2="40.0" y2="358.0" stroke="#555555"/>
+<text x="40.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,000</text>
+<line x1="164.0" y1="352.0" x2="164.0" y2="358.0" stroke="#555555"/>
+<text x="164.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,100</text>
+<line x1="288.0" y1="352.0" x2="288.0" y2="358.0" stroke="#555555"/>
+<text x="288.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,200</text>
+<line x1="412.0" y1="352.0" x2="412.0" y2="358.0" stroke="#555555"/>
+<text x="412.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,300</text>
+<line x1="536.0" y1="352.0" x2="536.0" y2="358.0" stroke="#555555"/>
+<text x="536.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,400</text>
+<line x1="660.0" y1="352.0" x2="660.0" y2="358.0" stroke="#555555"/>
+<text x="660.0" y="374.0" font-size="12" text-anchor="middle" fill="#555555" stroke="none" >2 400,500</text>
+<text x="40.0" y="342.0" font-size="12" text-anchor="start" fill="#555555" stroke="none" >Subida (MHz)</text>
+<text x="40.0" y="36.0" font-size="14" text-anchor="start" fill="#1a1a1a" stroke="none" font-weight="600">QO-100, transpondedor de banda estrecha</text>
+</g>
+</svg>
