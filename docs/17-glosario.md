@@ -177,6 +177,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Banda ciudadana**
 :   Banda de 26 960 a 27 410 kHz que hoy no necesita autorización (en inglés, *Citizens' Band*, CB). No es del servicio de aficionados. [Cap. 14, «Qué es y qué norma la regula»](14-escucha-uso-libre.md#que-es-y-que-norma-la-regula).
 
+**Banda cruzada**
+:   Forma de trabajar de un repetidor o de un móvil bibanda que recibe en una banda y retransmite lo recibido en otra, por ejemplo de 70 cm a 2 m. [Cap. 7, «Banda cruzada»](07-equipos.md#banda-cruzada).
+
 **Banda lateral**
 :   Cada una de las franjas de frecuencias que aparecen a los lados de la portadora al modularla. [Cap. 4, «Ancho de banda»](04-teoria-radio.md#ancho-de-banda).
 
@@ -194,6 +197,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **BFO**
 :   Oscilador de batido (*beat frequency oscillator*): el receptor lo mezcla con la señal recibida para que la CW y la BLU se oigan como tono o como voz. [Cap. 4, «Onda continua (CW)»](04-teoria-radio.md#onda-continua-cw).
+
+**Bibanda**
+:   Equipo que cubre dos bandas, casi siempre 2 m y 70 cm. [Cap. 7, «Monobanda, bibanda y todo banda»](07-equipos.md#monobanda-bibanda-y-todo-banda).
 
 **Bit por segundo**
 :   Unidad de la velocidad binaria (bit/s). Si cada símbolo puede tomar $M$ estados, lleva $\log_2 M$ bits. [Cap. 4, «Modulaciones digitales»](04-teoria-radio.md#modulaciones-digitales).
@@ -264,13 +270,16 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 :   Capa más alta y más ionizada de la ionosfera, entre unos 250 y 400 km. Es la responsable de casi todos los contactos a larga distancia en HF. De noche se une con la F1 en una sola capa F. [Cap. 5, «Qué es y cómo se forma»](05-propagacion-bandas.md#que-es-y-como-se-forma).
 
 **Carga artificial**
-:   Resistencia que disipa la potencia del transmisor sin radiarla. Se usa para ajustes y pruebas, y para saber si una interferencia sale de la antena o del equipo. [Cap. 4, «Emisiones no deseadas»](04-teoria-radio.md#emisiones-no-deseadas).
+:   Resistencia de 50 Ω que disipa la potencia del transmisor sin radiarla (en inglés, *dummy load*). La orden la exige para los ensayos que no necesiten radiar. [Cap. 7, «Carga artificial»](07-equipos.md#carga-artificial).
 
 **Cascada**
 :   Representación del espectro que acumula las líneas en el tiempo y pinta la intensidad con colores (en inglés, *waterfall*). [Cap. 4, «La cascada»](04-teoria-radio.md#la-cascada).
 
 **CAT**
 :   *Computer aided transceiver*. Enlace de datos, por USB o puerto serie, con el que un programa lee y cambia la frecuencia y el modo de la radio. [Cap. 12, «La radio y el ordenador»](12-modos-digitales.md#la-radio-y-el-ordenador).
+
+**Cavidad resonante**
+:   Cilindro metálico con un conductor central ajustable que se comporta como un circuito resonante de Q altísimo. Varias forman el duplexor de un repetidor. [Cap. 7, «El duplexor»](07-equipos.md#el-duplexor).
 
 **CB**
 :   Véase **Banda ciudadana**. [Cap. 14, «Qué es y qué norma la regula»](14-escucha-uso-libre.md#que-es-y-que-norma-la-regula).
@@ -283,6 +292,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **CEPT**
 :   Conferencia Europea de Administraciones de Correos y Telecomunicaciones. Sus recomendaciones T/R 61-01 y T/R 61-02 regulan la licencia CEPT y el HAREC. [Cap. 9, «La CEPT y sus recomendaciones»](09-reglamentacion/europeo.md#la-cept-y-sus-recomendaciones).
+
+**CHIRP**
+:   Programa libre para programar desde el ordenador las memorias de muchos portátiles y móviles. [Cap. 7, «Programarlo con CHIRP»](07-equipos.md#programarlo-con-chirp).
 
 **Choque de modo común**
 :   Núcleo de ferrita sobre el que se enrolla un cable, o ferrita partida que se cierra a su alrededor, para frenar las corrientes en modo común. [Cap. 8, «Ferritas y choques de modo común»](08-interferencias.md#ferritas-y-choques-de-modo-comun).
@@ -427,6 +439,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Declaración responsable**
 :   Documento en que declaras que cumples los requisitos de una actuación. Sustituye a las licencias municipales que no se pueden exigir para instalar antenas. [Cap. 6, «Ayuntamientos y otras autorizaciones»](06-antenas-lineas.md#ayuntamientos-y-otras-autorizaciones).
 
+**Declaración UE de conformidad**
+:   Documento en el que el fabricante afirma que el equipo cumple los requisitos esenciales. Cada equipo la trae completa o simplificada, con la dirección de Internet del texto completo. [Cap. 7, «El Real Decreto 188/2016»](07-equipos.md#el-real-decreto-1882016).
+
 **Delta**
 :   Antena de bucle con forma de triángulo, variante del cuadro. [Cap. 6, «Cuadros y delta»](06-antenas-lineas.md#cuadros-y-delta).
 
@@ -472,6 +487,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Dipolo plegado**
 :   Dipolo de media onda formado por un bucle estrecho de dos conductores paralelos unidos en las puntas. Su impedancia es de unos 300 Ω. [Cap. 6, «Dipolo plegado»](06-antenas-lineas.md#dipolo-plegado).
 
+**Directiva de equipos radioeléctricos**
+:   Directiva 2014/53/UE, que fija los requisitos esenciales de los equipos de radio que se venden en la UE. En España la aplica el Real Decreto 188/2016. [Cap. 7, «La Directiva de equipos radioeléctricos»](07-equipos.md#la-directiva-de-equipos-radioelectricos).
+
 **Directividad**
 :   Cuánto más intensa es la radiación de una antena en la dirección de máximo que si la misma potencia se repartiera por igual en todas direcciones. [Cap. 6, «Ganancia, directividad y potencia radiada»](06-antenas-lineas.md#ganancia-directividad-y-potencia-radiada).
 
@@ -514,8 +532,14 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **D-STAR**
 :   Norma de voz digital de la Liga Japonesa de Radioaficionados (JARL), con modulación GMSK y llamadas dirigidas por indicativo. [Cap. 12, «D-STAR»](12-modos-digitales.md#d-star).
 
+**Dúplex**
+:   Forma de trabajar en la que se recibe y se transmite a la vez en frecuencias distintas, como hace un repetidor. [Cap. 7, «Dúplex y semidúplex»](07-equipos.md#duplex-y-semiduplex).
+
 **Dúplex completo**
 :   Forma de trabajar en la que transmites en una banda y escuchas a la vez en otra. En los satélites te permite oír tu propia bajada. [Cap. 13, «Oírte a ti mismo»](13-satelites.md#oirte-a-ti-mismo).
+
+**Duplexor**
+:   Conjunto de filtros que permite a un repetidor transmitir y recibir a la vez por una sola antena en dos frecuencias próximas. En VHF usa cavidades resonantes. [Cap. 7, «El duplexor»](07-equipos.md#el-duplexor).
 
 **DX**
 :   Contacto o estación lejana o difícil: otros continentes en HF, cientos de kilómetros en VHF o un país raro. [Cap. 10, «El DX»](10-operacion.md#el-dx).
@@ -570,6 +594,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Envolvente**
 :   Curva que une los picos de una señal modulada. En AM tiene la forma del audio. [Cap. 4, «Modulación de amplitud (AM)»](04-teoria-radio.md#modulacion-de-amplitud-am).
 
+**Equipo de base**
+:   Equipo pensado para la mesa de la estación fija, con alimentación externa de 13,8 V o de red. [Cap. 7, «Portátil, móvil y de base»](07-equipos.md#portatil-movil-y-de-base).
+
 **ERP**
 :   Sigla inglesa de la potencia radiada aparente (*effective radiated power*). Véase **p. r. a.** [Cap. 6, «Ganancia, directividad y potencia radiada»](06-antenas-lineas.md#ganancia-directividad-y-potencia-radiada).
 
@@ -614,6 +641,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Factor de calidad**
 :   Medida de lo selectivo que es un circuito resonante ($Q$). Cuanto mayor es, más estrecha es la banda que deja pasar: $B = f_0/Q$. [Cap. 2, «Reactancia, impedancia y resonancia»](02-electricidad-electronica.md#reactancia-impedancia-y-resonancia).
 
+**Factor de forma**
+:   Relación entre el ancho de un filtro a −60 dB y a −6 dB. Cuanto más se acerca a 1, mejor separa las señales vecinas. [Cap. 7, «Selectividad»](07-equipos.md#selectividad).
+
 **Factor de velocidad**
 :   Fracción de la velocidad de la luz a la que viaja la onda por una línea: $FV = 1/\sqrt{\varepsilon_r}$. Unos 0,66 en coaxial de polietileno macizo. [Cap. 6, «Factor de velocidad»](06-antenas-lineas.md#factor-de-velocidad).
 
@@ -631,6 +661,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **FI**
 :   Frecuencia intermedia: frecuencia fija a la que el receptor superheterodino convierte la señal sintonizada para filtrarla y amplificarla. [Cap. 4, «El receptor superheterodino»](04-teoria-radio.md#el-receptor-superheterodino).
+
+**Figura de ruido**
+:   Cuánto empeora un receptor el ruido térmico, en decibelios. Junto con el ancho del filtro, fija el ruido de fondo. [Cap. 7, «Sensibilidad»](07-equipos.md#sensibilidad).
 
 **Filtro**
 :   Circuito que deja pasar unas frecuencias y atenúa otras. Puede ser paso bajo, paso alto, paso banda o de banda eliminada. [Cap. 8, «Filtros»](08-interferencias.md#filtros).
@@ -818,6 +851,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Ionosonda**
 :   Equipo que emite pulsos en vertical barriendo frecuencias para medir la frecuencia crítica de las capas de la ionosfera. [Cap. 5, «Frecuencia crítica y frecuencia máxima utilizable»](05-propagacion-bandas.md#frecuencia-critica-y-frecuencia-maxima-utilizable).
 
+**IP3**
+:   Véase **Punto de intercepción de tercer orden**. [Cap. 7, «Rechazo de imagen y margen dinámico»](07-equipos.md#rechazo-de-imagen-y-margen-dinamico).
+
 **ISM**
 :   *Industrial, scientific and medical*: sigla inglesa de las bandas ICM. A la de 868 MHz se la suele llamar «banda ISM», pero en Europa es de dispositivos de corto alcance. [Cap. 15, «Meshtastic»](15-emergencias/meshtastic.md#meshtastic).
 
@@ -897,6 +933,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **Manipulador**
 :   Interruptor con el que se enciende y apaga la emisión en telegrafía. Puede ser vertical, de palas con manipulador electrónico (*keyer*), semiautomático o lateral. [Cap. 11, «Manipuladores»](11-telegrafia.md#manipuladores).
+
+**Marcado CE**
+:   Marca que coloca el fabricante para indicar que el equipo cumple la normativa de la UE. La llevan todos los equipos de radio que se venden, también los de aficionado. [Cap. 7, «El Real Decreto 188/2016»](07-equipos.md#el-real-decreto-1882016).
 
 **Margen dinámico**
 :   Capacidad de un receptor para recibir una señal débil junto a otra muy fuerte sin saturarse ni generar señales falsas. Se da en decibelios. [Cap. 4, «Qué se le pide a un receptor»](04-teoria-radio.md#que-se-le-pide-a-un-receptor).
@@ -1075,6 +1114,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **PTT**
 :   *Push to talk*: pulsador que pasa el transceptor de recepción a transmisión. [Cap. 4, «El transceptor»](04-teoria-radio.md#el-transceptor).
 
+**Punto de intercepción de tercer orden**
+:   *Third-order intercept point* (IP3): cifra en dBm que mide la resistencia de un receptor a la intermodulación. Cuanto más alta, mejor. [Cap. 7, «Rechazo de imagen y margen dinámico»](07-equipos.md#rechazo-de-imagen-y-margen-dinamico).
+
 ## Q
 
 **QAP**
@@ -1166,6 +1208,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Radiograma**
 :   Formato de mensaje de la IARU para el tráfico de emergencia, con cuatro partes: preámbulo, dirección, texto y firma. [Cap. 15, «El radiograma de la IARU»](15-emergencias/index.md#el-radiograma-de-la-iaru).
 
+**Rango dinámico**
+:   Véase **Margen dinámico**. [Cap. 7, «Rechazo de imagen y margen dinámico»](07-equipos.md#rechazo-de-imagen-y-margen-dinamico).
+
 **Reactancia**
 :   Oposición de bobinas y condensadores a la corriente alterna, en ohmios. No disipa energía: la almacena y la devuelve en cada ciclo. La inductiva es $X_L = 2\pi f L$ y la capacitiva, $X_C = 1/(2\pi f C)$. [Cap. 2, «Reactancia, impedancia y resonancia»](02-electricidad-electronica.md#reactancia-impedancia-y-resonancia).
 
@@ -1174,6 +1219,12 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **Receptor superheterodino**
 :   Receptor que convierte la señal sintonizada, mediante un mezclador y un oscilador local, en una frecuencia intermedia fija donde se filtra y amplifica. [Cap. 4, «El receptor superheterodino»](04-teoria-radio.md#el-receptor-superheterodino).
+
+**Rechazo de imagen**
+:   Atenuación, en dB, de una señal que llega en la frecuencia imagen respecto a una igual en la frecuencia sintonizada. La da el filtro de RF. [Cap. 7, «Rechazo de imagen y margen dinámico»](07-equipos.md#rechazo-de-imagen-y-margen-dinamico).
+
+**RED**
+:   *Radio Equipment Directive*. Véase **Directiva de equipos radioeléctricos**. [Cap. 7, «La Directiva de equipos radioeléctricos»](07-equipos.md#la-directiva-de-equipos-radioelectricos).
 
 **Red dirigida**
 :   Red en la que una estación de control (*net control station*, NCS) decide quién transmite y cuándo (en inglés, *directed net*). Lo contrario es una red abierta. [Cap. 15, «Por qué hace falta un director»](15-emergencias/index.md#por-que-hace-falta-un-director).
@@ -1201,6 +1252,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **Repetidor**
 :   Estación automática en un punto alto que recibe en una frecuencia (la entrada) y retransmite a la vez en otra (la salida). [Cap. 10, «Qué hacen»](10-operacion.md#que-hacen).
+
+**Repetidor símplex**
+:   Repetidor que graba lo que recibe y lo vuelve a emitir en la misma frecuencia. No necesita duplexor. [Cap. 7, «Repetidores símplex»](07-equipos.md#repetidores-simplex).
 
 **Resistencia**
 :   Oposición de un material al paso de la corriente ($R$), en ohmios (Ω). También, el componente que limita la corriente, reparte tensiones o sirve de carga. [Cap. 2, «Resistencias»](02-electricidad-electronica.md#resistencias).
@@ -1238,6 +1292,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Ruido de fase**
 :   Ruido que añade un oscilador poco limpio alrededor de su frecuencia. Ensucia tanto la recepción como la emisión. [Cap. 4, «Osciladores»](04-teoria-radio.md#osciladores).
 
+**Ruido de fondo**
+:   Nivel del ruido que genera el propio receptor en el ancho de su filtro, en dBm. Una señal más débil no se oye. [Cap. 7, «Sensibilidad»](07-equipos.md#sensibilidad).
+
 ## S
 
 **Salpicaduras**
@@ -1261,6 +1318,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 **Semiconductor**
 :   Material, como el silicio, cuya conducción está entre la de los conductores y la de los aislantes y se puede controlar. Con él se fabrican diodos y transistores. [Cap. 2, «Resistencia, conductores y aislantes»](02-electricidad-electronica.md#resistencia-conductores-y-aislantes).
 
+**Semidúplex**
+:   Forma de trabajar con dos frecuencias, una para recibir y otra para transmitir, pero no a la vez. Es la de tu equipo con un repetidor. [Cap. 7, «Dúplex y semidúplex»](07-equipos.md#duplex-y-semiduplex).
+
 **Sensibilidad**
 :   Capacidad de un receptor para recibir señales débiles. Se da como la tensión de entrada, en µV, que da una relación señal/ruido determinada. [Cap. 4, «Qué se le pide a un receptor»](04-teoria-radio.md#que-se-le-pide-a-un-receptor).
 
@@ -1275,6 +1335,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **Símplex**
 :   Funcionamiento en el que se transmite y se recibe en la misma frecuencia, sin repetidor. [Cap. 14, «Potencia y antena»](14-escucha-uso-libre.md#potencia-y-antena).
+
+**SINAD**
+:   *Signal to noise and distortion*, señal frente a ruido y distorsión. La sensibilidad en FM se da para 12 dB de SINAD. [Cap. 7, «Sensibilidad»](07-equipos.md#sensibilidad).
 
 **Sintetizador**
 :   Circuito que obtiene todas las frecuencias de un equipo a partir de un único oscilador de referencia de cuarzo, mediante un PLL o un DDS. [Cap. 4, «Osciladores»](04-teoria-radio.md#osciladores).
@@ -1337,6 +1400,9 @@ Las siglas llevan su desarrollo y, si son inglesas, su significado en español. 
 
 **TLE**
 :   *Two-line elements*: formato tradicional de los elementos orbitales, también llamados keplerianos. [Cap. 13, «Los elementos orbitales»](13-satelites.md#los-elementos-orbitales).
+
+**Todo banda**
+:   Transceptor que cubre de 1,8 a 50 MHz, y a menudo 144 y 430 MHz, en todos los modos (en inglés, *all band*). [Cap. 7, «Monobanda, bibanda y todo banda»](07-equipos.md#monobanda-bibanda-y-todo-banda).
 
 **Toma de tierra**
 :   Unión de las carcasas metálicas de los aparatos con el terreno, para proteger a las personas. Su conductor es el amarillo y verde. [Cap. 3, «La instalación eléctrica de la estación»](03-seguridad.md#la-instalacion-electrica-de-la-estacion).

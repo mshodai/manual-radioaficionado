@@ -80,7 +80,7 @@ Capa D @ 05-propagacion-bandas#que-es-y-como-se-forma @ Capa más baja de la ion
 Capa E @ 05-propagacion-bandas#que-es-y-como-se-forma @ Capa de la ionosfera entre unos 90 y 130 km. Sigue al Sol: es máxima a mediodía y casi desaparece de noche.
 Capa F2 @ 05-propagacion-bandas#que-es-y-como-se-forma @ Capa más alta y más ionizada de la ionosfera, entre unos 250 y 400 km. Es la responsable de casi todos los contactos a larga distancia en HF. De noche se une con la F1 en una sola capa F.
 Capacidad @ 02-electricidad-electronica#condensadores @ Magnitud de un condensador, que indica cuánta carga almacena. Se mide en faradios (F); en la práctica, en µF, nF y pF.
-Carga artificial @ 04-teoria-radio#emisiones-no-deseadas @ Resistencia que disipa la potencia del transmisor sin radiarla. Se usa para ajustes y pruebas, y para saber si una interferencia sale de la antena o del equipo.
+Carga artificial @ 07-equipos#carga-artificial @ Resistencia de 50 Ω que disipa la potencia del transmisor sin radiarla (en inglés, *dummy load*). La orden la exige para los ensayos que no necesiten radiar.
 Cascada @ 04-teoria-radio#la-cascada @ Representación del espectro que acumula las líneas en el tiempo y pinta la intensidad con colores (en inglés, *waterfall*).
 CAT @ 12-modos-digitales#la-radio-y-el-ordenador @ *Computer aided transceiver*. Enlace de datos, por USB o puerto serie, con el que un programa lee y cambia la frecuencia y el modo de la radio.
 CB @ 14-escucha-uso-libre#que-es-y-que-norma-la-regula @ Véase **Banda ciudadana**.
@@ -495,3 +495,27 @@ BNC @ 06-antenas-lineas#conectores @ Conector de bayoneta y enganche rápido (*B
 SMA @ 06-antenas-lineas#conectores @ Conector pequeño y roscado (*SubMiniature version A*) para cables finos. Lo llevan los portátiles actuales y los receptores SDR; muchos usan la variante SMA inversa.
 PL-259 @ 06-antenas-lineas#conectores @ Clavija (*plug*) del conector UHF, el clásico de los equipos de HF; la base es la SO-239. No mantiene una impedancia constante en UHF.
 Conector N @ 06-antenas-lineas#conectores @ Conector roscado, estanco y de impedancia constante, preferido a partir de 430 MHz y en instalaciones exteriores. La N es de Paul Neill, uno de sus inventores.
+
+# Capítulo 7
+Banda cruzada @ 07-equipos#banda-cruzada @ Forma de trabajar de un repetidor o de un móvil bibanda que recibe en una banda y retransmite lo recibido en otra, por ejemplo de 70 cm a 2 m.
+Bibanda @ 07-equipos#monobanda-bibanda-y-todo-banda @ Equipo que cubre dos bandas, casi siempre 2 m y 70 cm.
+Cavidad resonante @ 07-equipos#el-duplexor @ Cilindro metálico con un conductor central ajustable que se comporta como un circuito resonante de Q altísimo. Varias forman el duplexor de un repetidor.
+CHIRP @ 07-equipos#programarlo-con-chirp @ Programa libre para programar desde el ordenador las memorias de muchos portátiles y móviles.
+Declaración UE de conformidad @ 07-equipos#el-real-decreto-1882016 @ Documento en el que el fabricante afirma que el equipo cumple los requisitos esenciales. Cada equipo la trae completa o simplificada, con la dirección de Internet del texto completo.
+Directiva de equipos radioeléctricos @ 07-equipos#la-directiva-de-equipos-radioelectricos @ Directiva 2014/53/UE, que fija los requisitos esenciales de los equipos de radio que se venden en la UE. En España la aplica el Real Decreto 188/2016.
+Dúplex @ 07-equipos#duplex-y-semiduplex @ Forma de trabajar en la que se recibe y se transmite a la vez en frecuencias distintas, como hace un repetidor.
+Duplexor @ 07-equipos#el-duplexor @ Conjunto de filtros que permite a un repetidor transmitir y recibir a la vez por una sola antena en dos frecuencias próximas. En VHF usa cavidades resonantes.
+Equipo de base @ 07-equipos#portatil-movil-y-de-base @ Equipo pensado para la mesa de la estación fija, con alimentación externa de 13,8 V o de red.
+Factor de forma @ 07-equipos#selectividad @ Relación entre el ancho de un filtro a −60 dB y a −6 dB. Cuanto más se acerca a 1, mejor separa las señales vecinas.
+Figura de ruido @ 07-equipos#sensibilidad @ Cuánto empeora un receptor el ruido térmico, en decibelios. Junto con el ancho del filtro, fija el ruido de fondo.
+IP3 @ 07-equipos#rechazo-de-imagen-y-margen-dinamico @ Véase **Punto de intercepción de tercer orden**.
+Marcado CE @ 07-equipos#el-real-decreto-1882016 @ Marca que coloca el fabricante para indicar que el equipo cumple la normativa de la UE. La llevan todos los equipos de radio que se venden, también los de aficionado.
+Punto de intercepción de tercer orden @ 07-equipos#rechazo-de-imagen-y-margen-dinamico @ *Third-order intercept point* (IP3): cifra en dBm que mide la resistencia de un receptor a la intermodulación. Cuanto más alta, mejor.
+Rango dinámico @ 07-equipos#rechazo-de-imagen-y-margen-dinamico @ Véase **Margen dinámico**.
+Rechazo de imagen @ 07-equipos#rechazo-de-imagen-y-margen-dinamico @ Atenuación, en dB, de una señal que llega en la frecuencia imagen respecto a una igual en la frecuencia sintonizada. La da el filtro de RF.
+RED @ 07-equipos#la-directiva-de-equipos-radioelectricos @ *Radio Equipment Directive*. Véase **Directiva de equipos radioeléctricos**.
+Repetidor símplex @ 07-equipos#repetidores-simplex @ Repetidor que graba lo que recibe y lo vuelve a emitir en la misma frecuencia. No necesita duplexor.
+Ruido de fondo @ 07-equipos#sensibilidad @ Nivel del ruido que genera el propio receptor en el ancho de su filtro, en dBm. Una señal más débil no se oye.
+Semidúplex @ 07-equipos#duplex-y-semiduplex @ Forma de trabajar con dos frecuencias, una para recibir y otra para transmitir, pero no a la vez. Es la de tu equipo con un repetidor.
+SINAD @ 07-equipos#sensibilidad @ *Signal to noise and distortion*, señal frente a ruido y distorsión. La sensibilidad en FM se da para 12 dB de SINAD.
+Todo banda @ 07-equipos#monobanda-bibanda-y-todo-banda @ Transceptor que cubre de 1,8 a 50 MHz, y a menudo 144 y 430 MHz, en todos los modos (en inglés, *all band*).

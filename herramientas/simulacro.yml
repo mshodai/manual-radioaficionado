@@ -1279,6 +1279,144 @@
   calculo: true
 
 
+# --- Capítulo 7 ---
+
+- id: c07-001
+  parte: 1
+  materia: 5
+  pregunta: "El transmisor de un repetidor entrega 50 W, unos +47 dBm, y su receptor pierde sensibilidad si le llega más de −33 dBm. ¿Qué aislamiento mínimo tiene que dar el duplexor entre los dos?"
+  correcta: "80 dB"
+  incorrectas:
+    - "14 dB"
+    - "47 dB"
+    - "33 dB"
+  explicacion: "El aislamiento es la diferencia entre lo que entrega el transmisor y lo máximo que admite el receptor: 47 − (−33) = 80 dB. Los 14 dB salen de restar sin tener en cuenta el signo de −33 dBm."
+  enlace: 07-equipos#el-duplexor
+  calculo: true
+
+- id: c07-002
+  parte: 1
+  materia: 5
+  pregunta: "¿Qué función cumple el duplexor de un repetidor de VHF?"
+  correcta: "Permite transmitir y recibir a la vez por una sola antena en dos frecuencias próximas"
+  incorrectas:
+    - "Duplica la frecuencia del transmisor para pasar de 2 m a 70 cm"
+    - "Alterna la antena entre el receptor y el transmisor cada vez que llega una señal"
+    - "Decodifica el tono CTCSS y abre el transmisor del repetidor"
+  explicacion: "El duplexor tiene dos ramas de filtros: una deja pasar la salida hacia la antena y rechaza la entrada, y la otra hace lo contrario hacia el receptor. Así el repetidor trabaja en dúplex con una sola antena. El tono lo decodifica el controlador, y no hay conmutación de antena."
+  enlace: 07-equipos#el-duplexor
+
+- id: c07-003
+  parte: 1
+  materia: 5
+  pregunta: "¿Por qué los duplexores de los repetidores de 2 m usan cavidades resonantes en lugar de filtros corrientes de bobinas y condensadores?"
+  correcta: "Porque su factor Q altísimo permite separar frecuencias muy próximas, como dos a 600 kHz"
+  incorrectas:
+    - "Porque dejan pasar la corriente continua que alimenta el preamplificador de la antena"
+    - "Porque radian parte de la señal y aumentan la ganancia de la antena"
+    - "Porque son más pequeños y ligeros que los filtros de bobinas"
+  explicacion: "Las cavidades son circuitos resonantes de Q muy alto: atenúan mucho una frecuencia y casi nada la de al lado, que es lo que hace falta con solo 600 kHz de separación en 145 MHz. Son grandes y pesadas, y no radian."
+  enlace: 07-equipos#el-duplexor
+
+- id: c07-004
+  parte: 1
+  materia: 5
+  pregunta: "Hablas a través de un repetidor con tu portátil: escuchas en la salida y, al pulsar el PTT, transmites en la entrada. ¿Cómo se llama esa forma de trabajar de tu equipo?"
+  correcta: "Semidúplex"
+  incorrectas:
+    - "Dúplex completo"
+    - "Símplex"
+    - "Banda cruzada"
+  explicacion: "Usas dos frecuencias, pero nunca a la vez: eso es semidúplex. El repetidor sí recibe y transmite a la vez (dúplex). En símplex se usa la misma frecuencia para las dos cosas."
+  enlace: 07-equipos#duplex-y-semiduplex
+
+- id: c07-005
+  parte: 1
+  materia: 5
+  pregunta: "¿Qué es un repetidor de banda cruzada?"
+  correcta: "Un repetidor que recibe en una banda, por ejemplo 70 cm, y retransmite en otra, por ejemplo 2 m"
+  incorrectas:
+    - "Un repetidor que recibe y retransmite en la misma frecuencia después de grabar el mensaje"
+    - "Un repetidor que conmuta entre dos repetidores de la misma banda según cuál tenga mejor señal"
+    - "Un repetidor que cruza la polarización de la antena entre recepción y transmisión"
+  explicacion: "La entrada y la salida están en bandas distintas. Como quedan muy separadas, basta un diplexor sencillo y no hace falta un duplexor de cavidades. El que graba y repite en la misma frecuencia es el repetidor símplex."
+  enlace: 07-equipos#banda-cruzada
+
+- id: c07-006
+  parte: 1
+  materia: 5
+  pregunta: "¿Cuál es el principal inconveniente de un repetidor símplex, que graba lo que recibe y lo vuelve a emitir en la misma frecuencia?"
+  correcta: "Cada mensaje ocupa la frecuencia el doble de tiempo y nadie puede interrumpir a quien habla"
+  incorrectas:
+    - "Necesita un duplexor de cavidades mayor que el de un repetidor convencional"
+    - "Solo funciona con modos digitales, porque la FM no se puede grabar"
+    - "Obliga a programar en el equipo un desplazamiento de 600 kHz"
+  explicacion: "Como transmite en la misma frecuencia en la que recibe, primero escucha el mensaje entero y después lo repite: la frecuencia se ocupa dos veces y no se oye a nadie mientras dura la grabación. Precisamente por usar una sola frecuencia no necesita duplexor ni desplazamiento."
+  enlace: 07-equipos#repetidores-simplex
+
+- id: c07-007
+  parte: 1
+  materia: 5
+  pregunta: "Un móvil de 10 W en 2 m anuncia espurias a −60 dBc. ¿Qué potencia tiene cada espuria?"
+  correcta: "10 µW"
+  incorrectas:
+    - "100 µW"
+    - "1 µW"
+    - "10 mW"
+  explicacion: "−60 dBc es una millonésima de la potencia de la portadora: 10 W · 10⁻⁶ = 10 µW, por debajo del tope de 25 µW que fija la orden para 25 W o menos en esa banda. 100 µW sale de tomar −50 dBc, y 10 mW de tomar −30 dBc."
+  enlace: 07-equipos#emisiones-espurias
+  calculo: true
+
+- id: c07-008
+  parte: 1
+  materia: 5
+  pregunta: "Un transceptor de HF entrega 100 W de RF y consume 20 A con una alimentación de 13,8 V. ¿Cuál es su rendimiento?"
+  correcta: "36,2 %"
+  incorrectas:
+    - "72,5 %"
+    - "13,8 %"
+    - "27,6 %"
+  explicacion: "Consume 13,8 · 20 = 276 W, y el rendimiento es 100 / 276 ≈ 0,362, un 36,2 %. El 72,5 % sale de dividir entre 13,8 · 10, y el 27,6 % de dividir 276 entre 1000."
+  enlace: 07-equipos#consumo
+  calculo: true
+
+- id: c07-009
+  parte: 1
+  materia: 5
+  pregunta: "Un portátil consume 1,5 A mientras transmite. Si su batería es de 1800 mAh y transmites sin parar, ¿cuánto dura aproximadamente?"
+  correcta: "1,2 h"
+  incorrectas:
+    - "2,7 h"
+    - "0,8 h"
+    - "12 h"
+  explicacion: "La duración es la capacidad entre la corriente: 1,8 Ah / 1,5 A = 1,2 h. Los 0,8 h salen de dividir al revés y las 12 h, de olvidar pasar los miliamperios hora a amperios hora."
+  enlace: 07-equipos#consumo
+  calculo: true
+
+- id: c07-010
+  parte: 1
+  materia: 5
+  pregunta: "Vas a transmitir en FT8, un modo de portadora continua, con un transceptor de 100 W pensado sobre todo para BLU. ¿Qué es lo prudente?"
+  correcta: "Reducir la potencia, porque el amplificador trabaja al máximo todo el tiempo que transmites"
+  incorrectas:
+    - "Subir la potencia, porque en FT8 la potencia media es mucho menor que en BLU"
+    - "Desconectar el ventilador, porque el modo digital no calienta el amplificador"
+    - "Subir la ganancia del micrófono hasta que el ALC actúe a fondo"
+  explicacion: "En BLU la potencia de 100 W solo se alcanza en los picos de la voz; en FT8, FM o RTTY el amplificador entrega toda la potencia sin pausa, con un ciclo de trabajo mucho mayor. Muchos equipos solo aguantan así un tiempo limitado, y el manual aconseja reducirla."
+  enlace: 07-equipos#potencia
+
+- id: c07-011
+  parte: 1
+  materia: 5
+  pregunta: "¿Qué hace el controlador de un repetidor de FM?"
+  correcta: "Abre el transmisor solo con el tono de acceso, añade la identificación y corta las transmisiones largas"
+  incorrectas:
+    - "Separa la entrada de la salida para que el receptor no se bloquee"
+    - "Convierte la señal de la entrada a la frecuencia de salida mezclándola con un oscilador"
+    - "Ajusta la ROE de la antena cuando cambia la temperatura"
+  explicacion: "El controlador decide cuándo transmitir: reconoce el tono, añade la identificación automática y el pitido de fin de turno y aplica el temporizador. La separación entre entrada y salida es tarea del duplexor."
+  enlace: 07-equipos#las-piezas
+
 # --- Capítulo 8 ---
 
 - id: c08-001

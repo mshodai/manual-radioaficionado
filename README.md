@@ -19,9 +19,8 @@ El capítulo 17 es un glosario con enlaces al apartado que explica cada término
 
 ## Estado
 
-Están redactados los capítulos 1 a 6 y 8 a 17. **En preparación:**
+Están redactados los capítulos 1 a 17. **En preparación:**
 
-- Capítulo 7, Equipos.
 - Apéndice A, Proyectos con Arduino y montajes.
 
 ## Fuentes y criterio

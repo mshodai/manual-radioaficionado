@@ -82,8 +82,8 @@ Esta tabla resume los apartados del anexo II y dice qué capítulo del manual lo
 | 1. Teoría de la electricidad, electromagnetismo y radio | Magnitudes y leyes básicas, campos, ondas, señales, modulaciones, decibelios y procesado digital | Capítulos [2](02-electricidad-electronica.md) y [4](04-teoria-radio.md) |
 | 2. Componentes | Resistencias, condensadores, bobinas, transformadores, diodos, transistores, circuitos integrados | [Capítulo 2](02-electricidad-electronica.md#componentes) |
 | 3. Circuitos | Serie y paralelo, filtros, fuentes de alimentación, amplificadores, detectores, osciladores, sintetizadores, DSP | Capítulos [2](02-electricidad-electronica.md) y [4](04-teoria-radio.md#circuitos-basicos-de-radio) |
-| 4. Receptores | Tipos, diagramas de bloques, etapas y características | Capítulos [4](04-teoria-radio.md#receptores) y [7](07-equipos.md) (en preparación) |
-| 5. Transmisores | Tipos, diagramas de bloques, etapas y características; repetidores | Capítulos [4](04-teoria-radio.md#transmisores) y [7](07-equipos.md) (en preparación) |
+| 4. Receptores | Tipos, diagramas de bloques, etapas y características | Capítulos [4](04-teoria-radio.md#receptores) y [7](07-equipos.md#receptores) |
+| 5. Transmisores | Tipos, diagramas de bloques, etapas y características; repetidores | Capítulos [4](04-teoria-radio.md#transmisores) y [7](07-equipos.md#transceptores) |
 | 6. Antenas y líneas de transmisión | Tipos y características de antenas, líneas, ROE, acopladores | [Capítulo 6](06-antenas-lineas.md) |
 | 7. Propagación | Ionosfera, frecuencias crítica y máxima utilizable, salto, troposfera, modos esporádicos | [Capítulo 5](05-propagacion-bandas.md) |
 | 8. Medidas | Medida de tensión, corriente, potencia, ROE y frecuencia; instrumentos | Capítulos [2](02-electricidad-electronica.md) y [6](06-antenas-lineas.md#adaptacion-de-impedancias-y-roe) |

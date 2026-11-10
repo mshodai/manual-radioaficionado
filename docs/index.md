@@ -16,10 +16,7 @@ A quien quiere presentarse al examen y parte de cero, sin conocimientos previos 
 El [glosario](17-glosario.md) del capítulo 17 reúne los términos, las siglas, el código Q y las abreviaturas de telegrafía, cada uno con un enlace al apartado que lo explica.
 
 !!! note "En preparación"
-    Dos partes del manual todavía no tienen contenido:
-
-    - El [capítulo 7, Equipos](07-equipos.md): receptores, transceptores y ejemplos de equipos de iniciación. Mientras tanto, los diagramas de bloques y las etapas de receptores y transmisores, que entran en el examen, están en el [capítulo 4](04-teoria-radio.md#receptores).
-    - El [apéndice A, Proyectos con Arduino y montajes](apendice-a-proyectos.md). No forma parte del temario del examen.
+    El [apéndice A, Proyectos con Arduino y montajes](apendice-a-proyectos.md), todavía no tiene contenido. No forma parte del temario del examen.
 
 ## Contenido
 
@@ -29,7 +26,7 @@ El [glosario](17-glosario.md) del capítulo 17 reúne los términos, las siglas,
 - [4. Teoría de radio](04-teoria-radio.md)
 - [5. Propagación y bandas](05-propagacion-bandas.md)
 - [6. Antenas y líneas de transmisión](06-antenas-lineas.md)
-- [7. Equipos](07-equipos.md) (en preparación)
+- [7. Equipos](07-equipos.md)
 - [8. Interferencias](08-interferencias.md)
 - [9. Reglamentación](09-reglamentacion/index.md)
 - [10. Operación](10-operacion.md)

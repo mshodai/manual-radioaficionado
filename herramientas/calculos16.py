@@ -295,6 +295,30 @@ def _():
     return es(75 - 3, 0) + " W"
 
 
+@calculo("c07-001")
+def _():
+    # aislamiento = P_tx (dBm) − nivel máximo en el receptor (dBm) = 47 − (−33)
+    return es(47 - (-33), 0) + " dB"
+
+
+@calculo("c07-007")
+def _():
+    # P = 10 W · 10^(−60/10)
+    return es(10 * 10 ** (-60 / 10) * 1e6, 0) + " µW"
+
+
+@calculo("c07-008")
+def _():
+    # η = P_RF / (V · I) = 100 / (13,8 · 20)
+    return es(100 / (13.8 * 20) * 100, 1) + " %"
+
+
+@calculo("c07-009")
+def _():
+    # t = capacidad / corriente = 1,8 Ah / 1,5 A
+    return es(1.8 / 1.5, 1) + " h"
+
+
 @calculo("c08-001")
 def _():
     # f3 = 3 · 29,5 MHz

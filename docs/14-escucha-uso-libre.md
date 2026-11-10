@@ -16,7 +16,7 @@ Cualquier receptor sirve para empezar, pero conviene que tenga tres cosas:
 - **Banda lateral única** (BLU, *SSB*), sin la que no entenderás la fonía de los radioaficionados en HF ni las señales digitales. Un receptor que solo tiene AM y FM se queda en la radiodifusión.
 - **Toma de antena exterior**. La antena telescópica funciona, pero unos metros de hilo fuera de casa multiplican lo que oyes.
 
-Los tipos de receptor, sus etapas y lo que significan la sensibilidad y la selectividad se tratan en el [capítulo 7](07-equipos.md#receptores) (en preparación), con el ejemplo de un receptor portátil multibanda con BLU. Las antenas de hilo y la forma de alejarlas del ruido de la casa, en el [capítulo 6](06-antenas-lineas.md#antenas-de-hilo-no-resonantes).
+Los tipos de receptor, sus etapas y lo que significan la sensibilidad y la selectividad se tratan en el [capítulo 7](07-equipos.md#receptores), con el ejemplo de un receptor portátil multibanda con BLU. Las antenas de hilo y la forma de alejarlas del ruido de la casa, en el [capítulo 6](06-antenas-lineas.md#antenas-de-hilo-no-resonantes).
 
 Un **receptor SDR** (*software defined radio*) de bajo coste conectado a un ordenador es otra opción muy extendida: digitaliza una porción ancha del espectro y el programa la presenta como una **cascada**, en la que ves de un vistazo todas las señales de la banda.
 
