@@ -16,7 +16,7 @@ Las fuentes están en `../manual-radioaficionado-fuentes/` (privado, con derecho
 ## Estructura
 
 - `docs/`: contenido publicado, un archivo por capítulo (`NN-tema.md`); figuras en `docs/assets/figuras/`.
-- `docs/javascripts/`: configuración de MathJax (`mathjax.js`) y MathJax 3.2.2 incluido en el repositorio (`vendor/mathjax/`, Apache-2.0), sin CDN.
+- `docs/javascripts/`: MathJax 3.2.2 (`vendor/mathjax/`, Apache-2.0) y Mermaid 11.17.2 (`vendor/mermaid/`, MIT) incluidos en el repositorio, sin CDN; `mathjax.js` configura MathJax, `mermaid.js` ajusta el tamaño de letra de los diagramas y `figuras.js` el de las figuras SVG. Estilos en `docs/stylesheets/extra.css`.
 - `herramientas/`: scripts que generan contenido y no se publican. `figurasNN.py` dibuja los SVG del capítulo NN: `python3 herramientas/figurasNN.py docs/assets/figuras`.
 - `mkdocs.yml`: configuración y navegación.
 - `ESTILO.md` y `CLAUDE.md` están en la raíz, fuera de `docs/`, y no se publican.

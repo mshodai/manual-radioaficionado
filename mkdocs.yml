@@ -93,10 +93,9 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  # mermaid.js tiene que ir antes que la copia de Mermaid: intercepta el objeto
-  # global en el momento en que Mermaid lo publica.
+  # mermaid.js carga por su cuenta la copia de Mermaid de vendor/mermaid/, solo
+  # en las páginas con diagramas; por eso esa copia no figura en esta lista.
   - javascripts/mermaid.js
-  - javascripts/vendor/mermaid/mermaid.min.js
   - javascripts/figuras.js
   - javascripts/mathjax.js
   - javascripts/vendor/mathjax/tex-mml-chtml.js
