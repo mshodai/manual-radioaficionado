@@ -58,7 +58,7 @@ El plan de HF de la IARU Región 1, en vigor desde el 16 de octubre de 2020, se�
 
 Son los mismos del apartado 2.1.5 del [HF Manager's Handbook](https://www.iaru-r1.org/reference/handbooks/), que viste en el [capítulo 10](../10-operacion.md#si-la-frecuencia-es-de-todos), y los tienes en el plan de HF del [capítulo 9](../09-reglamentacion/index.md#el-plan-de-hf). No son frecuencias reservadas ni exclusivas: son puntos de encuentro para que las estaciones que manejan tráfico de emergencia se encuentren sin buscar. Si no participas en una emergencia, no llames CQ en ellas y déjalas libres si hay tráfico.
 
-El procedimiento de emergencia en HF de la IARU, adoptado por las tres regiones y publicado en la [página de procedimientos de emergencia de la IARU Región 1](https://www.iaru-r1.org/index.php/emergency-communications/emergency-operating-procedures), da una regla sencilla: si oyes la palabra «emergency» o la abreviatura **QUF**, **deja de transmitir y escucha**. Anota lo que oigas, no abandones la frecuencia hasta estar seguro de que no puedes ayudar y otro lo está haciendo, y no transmitas hasta estar seguro de que puedes ayudar (comprobado en noviembre de 2026).
+El procedimiento de emergencia en HF de la IARU, adoptado por las tres regiones y publicado en la [página de procedimientos de emergencia de la IARU Región 1](https://www.iaru-r1.org/about-us/committees-and-working-groups/emcomm/emergency-operating-procedures/), da una regla sencilla: si oyes la palabra «emergency» o la abreviatura **QUF**, **deja de transmitir y escucha**. Anota lo que oigas, no abandones la frecuencia hasta estar seguro de que no puedes ayudar y otro lo está haciendo, y no transmitas hasta estar seguro de que puedes ayudar (comprobado en noviembre de 2026).
 
 ## Las señales de socorro, urgencia y seguridad
 
@@ -251,7 +251,7 @@ En una red de emergencia no se charla: se pasan **mensajes**. Un mensaje bien fo
 
 ### El radiograma de la IARU
 
-El *HF International Emergency Operating Procedure* de la IARU, publicado en la [página de procedimientos de emergencia de la IARU Región 1](https://www.iaru-r1.org/index.php/emergency-communications/emergency-operating-procedures), define un mensaje con cuatro partes: **preámbulo**, **dirección**, **texto** y **firma** (comprobado en noviembre de 2026). El preámbulo lo compone la estación que mete el mensaje en la red de radioaficionados, y lleva estos datos **en este orden**:
+El *HF International Emergency Operating Procedure* de la IARU, publicado en la [página de procedimientos de emergencia de la IARU Región 1](https://www.iaru-r1.org/about-us/committees-and-working-groups/emcomm/emergency-operating-procedures/), define un mensaje con cuatro partes: **preámbulo**, **dirección**, **texto** y **firma** (comprobado en noviembre de 2026). El preámbulo lo compone la estación que mete el mensaje en la red de radioaficionados, y lleva estos datos **en este orden**:
 
 | Campo | Qué es |
 |---|---|

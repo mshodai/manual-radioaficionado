@@ -16,7 +16,7 @@ Cualquier receptor sirve para empezar, pero conviene que tenga tres cosas:
 - **Banda lateral única** (BLU, *SSB*), sin la que no entenderás la fonía de los radioaficionados en HF ni las señales digitales. Un receptor que solo tiene AM y FM se queda en la radiodifusión.
 - **Toma de antena exterior**. La antena telescópica funciona, pero unos metros de hilo fuera de casa multiplican lo que oyes.
 
-Los tipos de receptor, sus etapas y lo que significan la sensibilidad y la selectividad se tratan en el [capítulo 7](07-equipos.md#receptores), con el ejemplo de un receptor portátil multibanda con BLU. Las antenas de hilo y la forma de alejarlas del ruido de la casa, en el [capítulo 6](06-antenas-lineas.md#antenas-de-hilo-no-resonantes).
+Los tipos de receptor, sus etapas y lo que significan la sensibilidad y la selectividad se tratan en el [capítulo 7](07-equipos.md#receptores) (en preparación), con el ejemplo de un receptor portátil multibanda con BLU. Las antenas de hilo y la forma de alejarlas del ruido de la casa, en el [capítulo 6](06-antenas-lineas.md#antenas-de-hilo-no-resonantes).
 
 Un **receptor SDR** (*software defined radio*) de bajo coste conectado a un ordenador es otra opción muy extendida: digitaliza una porción ancha del espectro y el programa la presenta como una **cascada**, en la que ves de un vistazo todas las señales de la banda.
 
@@ -25,7 +25,7 @@ Un **receptor SDR** (*software defined radio*) de bajo coste conectado a un orde
 No necesitas tener receptor para empezar. Hay receptores SDR instalados por aficionados de todo el mundo que puedes sintonizar desde el navegador, cada uno con su antena y su ubicación:
 
 - **WebSDR.** Según [websdr.org](http://websdr.org/), es un receptor SDR conectado a Internet que permite a muchos oyentes escucharlo **a la vez y sintonizar cada uno por su cuenta**, a diferencia de los receptores clásicos accesibles por Internet. El programa es obra de PA3FWM, que mantiene esa página con la lista de servidores activos, filtrable por banda y por región (comprobado en noviembre de 2026).
-- **KiwiSDR.** Es un receptor de red que, según el [documento de diseño](http://kiwisdr.com/docs/KiwiSDR/KiwiSDR.design.review.pdf) que publica su web, cubre de **10 kHz a 30 MHz**, de la onda muy larga a la onda corta. La [web de KiwiSDR](http://kiwisdr.com/) enlaza la lista y el mapa de receptores públicos en [rx.kiwisdr.com](http://rx.kiwisdr.com/) y una función de radiogoniometría colectiva, **TDoA**, que estima de dónde viene una señal comparando cuándo llega a varios receptores (comprobado en noviembre de 2026).
+- **KiwiSDR.** Es un receptor de red que, según el [documento de diseño](http://kiwisdr.com/docs/KiwiSDR/KiwiSDR.design.review.pdf) que publica su web, cubre de **10 kHz a 30 MHz**, de la onda muy larga a la onda corta. La [web de KiwiSDR](http://kiwisdr.com/) enlaza la lista y el mapa de receptores públicos en [kiwisdr.com/public](http://kiwisdr.com/public/) y una función de radiogoniometría colectiva, **TDoA**, que estima de dónde viene una señal comparando cuándo llega a varios receptores (comprobado en noviembre de 2026).
 
 Los receptores web son perfectos para comprobar si tu propia señal llega lejos: llamas, y te escuchas en un receptor a mil kilómetros. También sirven para comparar la propagación desde distintos puntos, o para escuchar en HF si vives en un piso sin sitio para una antena.
 

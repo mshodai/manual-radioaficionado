@@ -176,7 +176,7 @@ c) Cada administración nacional.
 d) Nadie: desde 2003 está prohibido exigirlo.
 
 ??? success "Solución"
-    **c)** El número 25.5 deja a cada administración decidir si exige el Morse. En España no se exige, como viste en el [capítulo 11](../11-telegrafia.md). No es que esté prohibido exigirlo: algunos países europeos lo siguen pidiendo para ciertas bandas o clases de licencia. La IARU no tiene competencia para fijar requisitos de licencia.
+    **c)** El número 25.5 deja a cada administración decidir si exige el Morse. En España no se exige, como se explica en el [capítulo 11](../11-telegrafia.md). No es que esté prohibido exigirlo: algunos países europeos lo siguen pidiendo para ciertas bandas o clases de licencia. La IARU no tiene competencia para fijar requisitos de licencia.
 
 **6.** Según el artículo 25 del Reglamento de Radiocomunicaciones, ¿en qué caso puede una estación de aficionado transmitir una comunicación internacional en nombre de un tercero?
 

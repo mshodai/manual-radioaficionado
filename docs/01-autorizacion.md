@@ -71,7 +71,7 @@ La parte aprobada **no se pierde**. Si apruebas una parte y suspendes la otra, e
 
 ### El temario
 
-Las materias de las dos partes están en el **anexo II de la orden**. El artículo 10.2 dispone que el programa se ajuste al temario común del certificado HAREC, que viste en el [capítulo 9](09-reglamentacion/europeo.md#el-temario-comun) (comprobado en noviembre de 2026). La telegrafía no figura en él: el [capítulo 11](11-telegrafia.md#exige-el-examen-saber-telegrafia) lo explica.
+Las materias de las dos partes están en el **anexo II de la orden**. El artículo 10.2 dispone que el programa se ajuste al temario común del certificado HAREC, que se explica en el [capítulo 9](09-reglamentacion/europeo.md#el-temario-comun) (comprobado en noviembre de 2026). La telegrafía no figura en él: el [capítulo 11](11-telegrafia.md#exige-el-examen-saber-telegrafia) lo explica.
 
 Esta tabla resume los apartados del anexo II y dice qué capítulo del manual los trata (anexo II de la orden; comprobado en noviembre de 2026):
 
@@ -82,8 +82,8 @@ Esta tabla resume los apartados del anexo II y dice qué capítulo del manual lo
 | 1. Teoría de la electricidad, electromagnetismo y radio | Magnitudes y leyes básicas, campos, ondas, señales, modulaciones, decibelios y procesado digital | Capítulos [2](02-electricidad-electronica.md) y [4](04-teoria-radio.md) |
 | 2. Componentes | Resistencias, condensadores, bobinas, transformadores, diodos, transistores, circuitos integrados | [Capítulo 2](02-electricidad-electronica.md#componentes) |
 | 3. Circuitos | Serie y paralelo, filtros, fuentes de alimentación, amplificadores, detectores, osciladores, sintetizadores, DSP | Capítulos [2](02-electricidad-electronica.md) y [4](04-teoria-radio.md#circuitos-basicos-de-radio) |
-| 4. Receptores | Tipos, diagramas de bloques, etapas y características | Capítulos [4](04-teoria-radio.md#receptores) y [7](07-equipos.md) |
-| 5. Transmisores | Tipos, diagramas de bloques, etapas y características; repetidores | Capítulos [4](04-teoria-radio.md#transmisores) y [7](07-equipos.md) |
+| 4. Receptores | Tipos, diagramas de bloques, etapas y características | Capítulos [4](04-teoria-radio.md#receptores) y [7](07-equipos.md) (en preparación) |
+| 5. Transmisores | Tipos, diagramas de bloques, etapas y características; repetidores | Capítulos [4](04-teoria-radio.md#transmisores) y [7](07-equipos.md) (en preparación) |
 | 6. Antenas y líneas de transmisión | Tipos y características de antenas, líneas, ROE, acopladores | [Capítulo 6](06-antenas-lineas.md) |
 | 7. Propagación | Ionosfera, frecuencias crítica y máxima utilizable, salto, troposfera, modos esporádicos | [Capítulo 5](05-propagacion-bandas.md) |
 | 8. Medidas | Medida de tensión, corriente, potencia, ROE y frecuencia; instrumentos | Capítulos [2](02-electricidad-electronica.md) y [6](06-antenas-lineas.md#adaptacion-de-impedancias-y-roe) |
@@ -187,7 +187,7 @@ Tu indicativo tiene tres partes: **prefijo**, **cifra de distrito** y **sufijo**
 Hay nueve distritos, del 1 al 9, que agrupan provincias. La tabla completa, los prefijos temporales, los sufijos reservados y los distintivos temporales están en el [nivel español del capítulo 9](09-reglamentacion/espanol.md#el-distrito). Recuerda dos ideas:
 
 - La cifra depende de dónde vivías **al obtener** la autorización. Si te mudas a otro distrito, **tu indicativo no cambia**.
-- El formato general de los indicativos lo fija la UIT, como viste en el [nivel internacional del capítulo 9](09-reglamentacion/internacional.md#distintivos-de-llamada-y-prefijos).
+- El formato general de los indicativos lo fija la UIT, como verás en el [nivel internacional del capítulo 9](09-reglamentacion/internacional.md#distintivos-de-llamada-y-prefijos).
 
 ## Sufijos de una y dos letras
 

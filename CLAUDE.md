@@ -15,9 +15,18 @@ Las fuentes están en `../manual-radioaficionado-fuentes/` (privado, con derecho
 
 ## Estructura
 
-- `docs/`: contenido publicado, un archivo por capítulo (`NN-tema.md`); figuras en `docs/assets/figuras/`.
-- `docs/javascripts/`: MathJax 3.2.2 (`vendor/mathjax/`, Apache-2.0) y Mermaid 11.17.2 (`vendor/mermaid/`, MIT) incluidos en el repositorio, sin CDN; `mathjax.js` configura MathJax, `mermaid.js` ajusta el tamaño de letra de los diagramas y `figuras.js` el de las figuras SVG. Estilos en `docs/stylesheets/extra.css`.
-- `herramientas/`: scripts que generan contenido y no se publican. `figurasNN.py` dibuja los SVG del capítulo NN: `python3 herramientas/figurasNN.py docs/assets/figuras`. `glosario.py` genera el glosario (cap. 17) a partir de `glosario-entradas.txt` y valida sus anclas; ver ESTILO.md §12. `simulacro.py` valida el banco `simulacro.yml` y genera el simulacro (cap. 16); ver ESTILO.md §13.
+- `docs/`: contenido publicado, un archivo por capítulo (`NN-tema.md`); figuras en `docs/assets/figuras/` y audios en `docs/assets/audio/`.
+- `docs/javascripts/`: MathJax 3.2.2 (`vendor/mathjax/`, Apache-2.0) y Mermaid 11.17.2 (`vendor/mermaid/`, MIT) incluidos en el repositorio, sin CDN; `mathjax.js` configura MathJax, `mermaid.js` ajusta el tamaño de letra de los diagramas, `figuras.js` el de las figuras SVG y `simulacro.js` monta el simulacro del cap. 16. Estilos en `docs/stylesheets/extra.css`.
+- `herramientas/`: scripts que generan o comprueban contenido y no se publican. Se ejecutan desde la raíz del repositorio:
+    - `figurasNN.py`: dibuja los SVG del capítulo NN (`python3 herramientas/figurasNN.py docs/assets/figuras`).
+    - `calculosNN.py`: comprueba los ejemplos numéricos y las soluciones de la autoevaluación del capítulo NN.
+    - `morse11.py`: tabla Morse y temporización de la UIT, que importan los scripts del cap. 11; no se ejecuta solo.
+    - `audio11.py`: genera los audios Morse del cap. 11 en `docs/assets/audio` (requiere `lame`).
+    - `glosario.py`: genera el glosario (cap. 17) a partir de `glosario-entradas.txt` y valida sus anclas; ver ESTILO.md §12.
+    - `simulacro.py`: valida el banco `simulacro.yml` y genera el simulacro (cap. 16); ver ESTILO.md §13.
+    - `calculos16.py`: comprueba las cifras de las preguntas de cálculo del banco del simulacro.
+    - `prueba-simulacro.js`: prueba `simulacro.js` con jsdom, sin navegador; ver ESTILO.md §13.
+    - `enlaces.py`: comprueba en el sitio compilado los enlaces internos, las anclas y los externos; ver ESTILO.md §14.
 - `mkdocs.yml`: configuración y navegación.
 - `ESTILO.md` y `CLAUDE.md` están en la raíz, fuera de `docs/`, y no se publican.
 

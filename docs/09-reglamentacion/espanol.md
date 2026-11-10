@@ -82,7 +82,7 @@ Son los **repetidores** analógicos y digitales, los repetidores de portadora o 
 
 - Se autorizan según la cobertura ya existente y los canales disponibles.
 - El acceso a los repetidores analógicos y a los repetidores digitales finales es **libre**; si hay código de acceso, tiene que ser público.
-- Los **repetidores analógicos** emiten su distintivo automáticamente, en voz o en Morse a 10 palabras por minuto como máximo, cada **diez minutos** como máximo. Lo viste en el [capítulo 11](../11-telegrafia.md#la-velocidad-en-la-normativa-espanola).
+- Los **repetidores analógicos** emiten su distintivo automáticamente, en voz o en Morse a 10 palabras por minuto como máximo, cada **diez minutos** como máximo. Lo verás en el [capítulo 11](../11-telegrafia.md#la-velocidad-en-la-normativa-espanola).
 - Las **radiobalizas** transmiten su distintivo cada **tres minutos** como máximo, informan solo de su posición y su funcionamiento y usan, como norma general, una antena omnidireccional. Sobre las balizas, mira también el [capítulo 5](../05-propagacion-bandas.md#que-es-una-radiobaliza).
 - Repetidores y balizas necesitan **telemando** de encendido y apagado y una **alimentación ininterrumpida** para seis horas como mínimo.
 - En VHF y UHF, salvo circunstancias justificadas, la potencia de salida no pasa de **50 W fuera de casco urbano** ni de **10 W dentro**, con una antena de **6 dBd** como máximo. En HF, el máximo es **50 W**.

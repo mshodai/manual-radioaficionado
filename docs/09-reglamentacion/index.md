@@ -32,7 +32,7 @@ Varios temas normativos ya están en otros capítulos y aquí solo se enlazan:
 | Licencia de estación fija, derecho a instalar antenas y seguro | [Capítulo 6](../06-antenas-lineas.md#el-derecho-a-instalar-antenas-en-espana) |
 | Emisiones no esenciales, procedimiento si interfieres y reclamaciones | [Capítulo 8](../08-interferencias.md#la-interferencia-en-la-normativa-espanola) |
 | Límites de exposición a radiofrecuencias | [Capítulo 3](../03-seguridad.md#los-limites-en-espana) |
-| Identificación de repetidores en Morse y plan de bandas de la telegrafía | [Capítulo 11](../11-telegrafia.md#la-velocidad-en-la-normativa-espanola) |
+| Identificación de repetidores en Morse y plan de bandas de la telegrafía | Capítulo 11: [identificación de repetidores](../11-telegrafia.md#la-velocidad-en-la-normativa-espanola) y [plan de bandas](../11-telegrafia.md#la-telegrafia-en-el-plan-de-bandas) |
 | Examen, solicitud de la autorización, tasas y asignación del indicativo | [Capítulo 1](../01-autorizacion.md) |
 
 ## Obligación legal y recomendación

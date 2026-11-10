@@ -133,7 +133,7 @@ en un transpondedor inversor, frente a $\frac{v_r}{c}\,(f_{\text{bajada}} + f_{\
 
 ### Los que puedes trabajar
 
-Son la puerta de entrada a los satélites: se trabajan con equipo de FM normal. Estos son los repetidores FM de órbita baja con informes de escucha en los días anteriores al 10 de noviembre de 2026, con los datos de la [lista de satélites FM de AMSAT](https://www.amsat.org/fm-satellite-frequency-summary/) (actualizada el 31 de octubre de 2026; comprobado en noviembre de 2026):
+Son la puerta de entrada a los satélites: se trabajan con equipo de FM normal. Estos son los repetidores FM de órbita baja con informes de escucha en los días anteriores al 10 de noviembre de 2026, con los datos de la [lista de satélites FM de AMSAT](https://www.amsat.org/live-fm-satellites/) (actualizada el 31 de octubre de 2026; comprobado en noviembre de 2026):
 
 | Satélite | Subida (MHz) | Bajada (MHz) | Tono CTCSS | Observaciones |
 |---|---|---|---|---|
@@ -191,7 +191,7 @@ Como con cualquier BLU, la potencia se ajusta para que tu señal en la bajada no
 
 ### Los que puedes trabajar
 
-Estos tenían informes de escucha en los días anteriores al 10 de noviembre de 2026, con los datos de la [lista de satélites lineales de AMSAT](https://www.amsat.org/linear-satellite-frequency-summary/) (actualizada el 31 de octubre de 2026; comprobado en noviembre de 2026):
+Estos tenían informes de escucha en los días anteriores al 10 de noviembre de 2026, con los datos de la [lista de satélites lineales de AMSAT](https://www.amsat.org/live-linear-satellites/) (actualizada el 31 de octubre de 2026; comprobado en noviembre de 2026):
 
 | Satélite | Modo | Subida (MHz) | Bajada (MHz) | Inversor | Observaciones |
 |---|---|---|---|---|---|
@@ -210,7 +210,7 @@ Estos tenían informes de escucha en los días anteriores al 10 de noviembre de 
 
 El **QO-100** es un transpondedor de aficionado instalado en el satélite geoestacionario de comunicaciones **Es'hail-2**, de la empresa catarí Es'hailSat, fruto de un proyecto conjunto con la asociación de radioaficionados de Catar (QARS) y AMSAT-DL. Está en la órbita geoestacionaria a **25,9° Este** ([web del receptor del QO-100 del BATC](https://eshail.batc.org.uk/); comprobado en noviembre de 2026). Desde Europa, África, Oriente Medio, buena parte de Asia y el este de Brasil se ve las 24 horas, sin Doppler apreciable, con una antena fija.
 
-Tiene dos transpondedores, que suben en 13 cm y bajan en 3 cm (modo S/x). Los datos son del [plan de banda estrecha de AMSAT-DL](https://amsat-dl.org/en/p4-a-nb-transponder-bandplan-and-operating-guidelines/), del [plan de banda ancha de AMSAT-DL](https://amsat-dl.org/en/p4-a-wb-transponder-bandplan-and-operating-guidelines/) y de la [lista de satélites lineales de AMSAT](https://www.amsat.org/linear-satellite-frequency-summary/) (comprobados en noviembre de 2026):
+Tiene dos transpondedores, que suben en 13 cm y bajan en 3 cm (modo S/x). Los datos son del [plan de banda estrecha de AMSAT-DL](https://amsat-dl.org/en/p4-a-nb-transponder-bandplan-and-operating-guidelines/), del [plan de banda ancha de AMSAT-DL](https://amsat-dl.org/en/p4-a-wb-transponder-bandplan-and-operating-guidelines/) y de la [lista de satélites lineales de AMSAT](https://www.amsat.org/live-linear-satellites/) (comprobados en noviembre de 2026):
 
 | | Banda estrecha (NB) | Banda ancha (WB) |
 |---|---|---|
@@ -312,7 +312,7 @@ Antes de transmitir, comprueba que la resolución se ha prorrogado para el año 
 La ganancia mínima también cuenta. Un plato de 60 cm, con el mismo rendimiento, da $G = 0{,}6 \cdot (\pi \cdot 60 / 12{,}5)^2 \approx 137$, unos 21,4 dBi: justo en el límite, una décima por debajo. Cumplirlo depende de su rendimiento real, que tendría que ser del 62 % como mínimo. Con un plato algo mayor, de 75 cm o más, no tienes esa duda.
 
 !!! danger "Peligro"
-    Un plato concentra la potencia en un haz estrecho, y justo delante del alimentador la densidad de potencia es la más alta de toda la instalación. Comprueba con los cálculos del [capítulo 3](03-seguridad.md#los-limites-en-espana) que se respetan los niveles de referencia donde pueda haber personas, no te pongas delante del plato con el transmisor encendido y apágalo antes de tocar el alimentador.
+    Un plato concentra la potencia en un haz estrecho, y justo delante del alimentador la densidad de potencia es la más alta de toda la instalación. Comprueba con los cálculos del [capítulo 3](03-seguridad.md#pire-y-distancia-de-seguridad) que se respetan los niveles de referencia donde pueda haber personas, no te pongas delante del plato con el transmisor encendido y apágalo antes de tocar el alimentador.
 
 ## La Estación Espacial Internacional
 

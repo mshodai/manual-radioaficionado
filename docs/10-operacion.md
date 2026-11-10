@@ -4,7 +4,7 @@ Saber cómo funciona un transceptor no basta para salir al aire: hay que saber *
 
 Lo normativo ya lo viste en el [nivel español del capítulo 9](09-reglamentacion/espanol.md#como-identificas-tus-emisiones): la identificación al principio y al final de cada emisión y al menos cada diez minutos, los añadidos optativos «portable» y «móvil» (/P y /M en telegrafía) y los distintivos especiales y temporales. Aquí no se repite.
 
-Todos los indicativos de este capítulo son **ficticios**. Siguen la convención del [capítulo 11](11-telegrafia.md#un-ejemplo-completo): llevan la cifra de distrito 0, que en España solo se usa para distintivos temporales en circunstancias especiales, así que no pueden coincidir con el de ninguna estación permanente.
+Todos los indicativos de este capítulo son **ficticios**: llevan la cifra de distrito 0, que en España solo se usa para distintivos temporales en circunstancias especiales ([capítulo 9](09-reglamentacion/espanol.md#el-distrito)), así que no pueden coincidir con el de ninguna estación permanente.
 
 ## El alfabeto de deletreo
 
@@ -320,7 +320,7 @@ flowchart TB
 *Figura 10.3. Las tres vías para confirmar un contacto.*
 
 - **Directa.** Envías la tarjeta por correo postal a la dirección del corresponsal, con un sobre con tu dirección y el franqueo para la respuesta. Es la vía más rápida y la más cara. Muchas expediciones usan un **gestor de QSL** (*QSL manager*): otra estación que atiende sus tarjetas.
-- **Bureau.** Casi todas las asociaciones nacionales miembros de la IARU tienen un **servicio de QSL** (*bureau*) que agrupa las tarjetas de todos sus usuarios y las intercambia por lotes con los de otros países. Es lenta, puede tardar más de un año, pero cuesta muy poco. La IARU publica la [lista de bureaus por país](https://www.iaru.org/on-the-air/qsl-bureau-2/), y en ella el de España es la **Unión de Radioaficionados Españoles** (URE), sección española de la IARU (comprobado en noviembre de 2026).
+- **Bureau.** Casi todas las asociaciones nacionales miembros de la IARU tienen un **servicio de QSL** (*bureau*) que agrupa las tarjetas de todos sus usuarios y las intercambia por lotes con los de otros países. Es lenta, puede tardar más de un año, pero cuesta muy poco. La IARU publica la [lista de bureaus por país](https://www.iaru.org/reference/qsl-bureau-2/), y en ella el de España es la **Unión de Radioaficionados Españoles** (URE), sección española de la IARU (comprobado en noviembre de 2026).
 - **Electrónica.** Subes tu registro a un sistema en línea, y el contacto queda confirmado cuando tu corresponsal sube el suyo y los datos coinciden.
 
 ### El bureau de la URE

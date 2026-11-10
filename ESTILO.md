@@ -212,3 +212,29 @@ NODE_PATH=/tmp/jsdom/node_modules node herramientas/prueba-simulacro.js \
 ```
 
 Recorre un simulacro completo, la corrección y el cierre por tiempo, y comprueba en 300 simulacros por parte que siempre salen todas las materias. Todas las líneas tienen que empezar por «OK».
+
+## 14. Enlaces
+
+`herramientas/enlaces.py` comprueba los enlaces del sitio compilado: que existen las páginas y las anclas de los enlaces internos y que responden los externos, con una petición ligera y un tiempo de espera corto. No corrige nada; solo informa. Pásalo:
+
+- **Antes de publicar un cambio grande**: un capítulo nuevo, un apartado que se renombra o se mueve, o una revisión de la normativa.
+- **Como mínimo, una vez al mes**, aunque no hayas tocado nada: los enlaces externos caducan solos cuando las webs se reorganizan.
+
+Compila la copia como en el §9 y ejecútalo sobre ella:
+
+```sh
+rm -rf /tmp/manual-build
+rsync -a --exclude .git --exclude .venv --exclude site ./ /tmp/manual-build/
+.venv/bin/zensical build --clean --strict -f /tmp/manual-build/mkdocs.yml
+python3 herramientas/enlaces.py /tmp/manual-build/site
+```
+
+Con `--sin-externos` comprueba solo los internos, en un segundo y sin conexión. El informe separa tres grupos de enlaces externos:
+
+- **Rotos** (4xx, dominio inexistente): busca la nueva dirección en la propia web o sustitúyelo. Si es normativa, enlaza de nuevo la fuente oficial y actualiza la fecha de comprobación (§7).
+- **Dudosos** (tiempo agotado, error de certificado, 5xx): ábrelos en el navegador antes de tocar nada; casi siempre son fallos pasajeros del servidor o del almacén de certificados de Python.
+- **Redirigidos**: funcionan, pero conviene cambiar el enlace por el destino final, sobre todo si la redirección lleva a otra página y no solo de la portada a una subpágina.
+
+Los enlaces dudosos que ya has revisado y funcionan en el navegador van en la lista `EXCEPCIONES` de `enlaces.py`, con su motivo. Se informan aparte, con el resultado de cada pasada, y no cuentan como error. Quita una excepción cuando el enlace vuelva a responder bien.
+
+Si cambias un ancla, revisa también el glosario (§12) y el banco del simulacro (§13), que las validan por su cuenta.
