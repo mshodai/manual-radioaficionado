@@ -1,0 +1,16 @@
+/* Diagramas Mermaid: si un diagrama no cabe en la columna sin que su letra
+   baje de un tamaño legible, se desplaza en horizontal dentro de su propio
+   contenedor en lugar de encogerse. El ancho mínimo lo fija
+   javascripts/mermaid.js, porque el SVG vive en un shadow DOM cerrado. */
+.md-typeset .mermaid {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+/* Figuras SVG: lo mismo para las imágenes. El ancho mínimo de cada figura lo
+   fija javascripts/figuras.js a partir de su letra más pequeña. */
+.md-typeset p:has(> img[src$=".svg"]) {
+  overflow-x: auto;
+  overflow-y: hidden;
+}

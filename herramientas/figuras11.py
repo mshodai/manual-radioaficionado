@@ -87,7 +87,7 @@ for k in range(51):
     grueso = k % 5 == 0
     b.append(L(X0 + k * U, YB + 2, X0 + k * U, YB + (10 if grueso else 6), f'stroke="{GRIS}" stroke-width="1"'))
     if k % 10 == 0:
-        b.append(T(X0 + k * U, YB + 24, f"{k}", 11, fill=GRIS))
+        b.append(T(X0 + k * U, YB + 24, f"{k}", 12, fill=GRIS))
 b.append(L(X0, YB, X0 + 50 * U, YB, f'stroke="{CLARO}" stroke-width="1"'))
 # señal y espacios
 x = X0
@@ -153,7 +153,7 @@ b += tira(200, t_punto(20), farnsworth(20, 10), VERDE,
 for s in range(7):
     xx = X0 + s * esc
     b.append(L(xx, 222, xx, 228, f'stroke="{GRIS}" stroke-width="1"'))
-    b.append(T(xx, 244, f"{s} s", 11, fill=GRIS))
+    b.append(T(xx, 244, f"{s} s", 12, fill=GRIS))
 b.append(L(X0, 225, X0 + ANCHO, 225, f'stroke="{GRIS}" stroke-width="1"'))
 b.append(T(400, 28, "La misma palabra, la misma velocidad media: cambia dónde está el tiempo", 15, extra='font-weight="600"'))
 guarda("11-farnsworth.svg", 800, 262, b,
@@ -227,7 +227,7 @@ for tr, color, dy, nombre in [(0, ALT, 0, "flancos instantáneos"), (0.005, VERD
     b.append(poly(pts, f'stroke="{color}" stroke-width="2.5"'))
     b.append(T(PX0, y0 - 80, nombre, 13, "start", fill=color, extra='font-weight="600"'))
 for t in (0, 0.03, 0.06):
-    b.append(T(tx(t), PY0 + 128, f"{int(t * 1000)} ms", 11, fill=GRIS))
+    b.append(T(tx(t), PY0 + 128, f"{int(t * 1000)} ms", 12, fill=GRIS))
 b.append(T((PX0 + PX1) / 2, 50, "Envolvente de un punto a 20 ppm", 14, extra='font-weight="600"'))
 # panel derecho: espectro (0 a 3 kHz a cada lado, solo el lado superior)
 SX0, SX1, SY0, SYT = 430, 770, 280, 80
@@ -235,9 +235,9 @@ fx = lambda f: SX0 + f / 3000 * (SX1 - SX0)  # noqa: E731
 dy_ = lambda d: SYT + (-d) / 120 * (SY0 - SYT)  # noqa: E731
 for d in range(0, -121, -20):
     b.append(L(SX0, dy_(d), SX1, dy_(d), f'stroke="{CLARO}" stroke-width="1"'))
-    b.append(T(SX0 - 6, dy_(d) + 4, f"{d}".replace("-", "−"), 11, "end"))
+    b.append(T(SX0 - 6, dy_(d) + 4, f"{d}".replace("-", "−"), 12, "end"))
 for f in range(0, 3001, 1000):
-    b.append(T(fx(f), SY0 + 18, f"{f // 1000}", 11))
+    b.append(T(fx(f), SY0 + 18, f"{f // 1000}", 12))
 b.append(T((SX0 + SX1) / 2, SY0 + 36, "separación respecto a la portadora (kHz)", 12))
 b.append(T(SX0 - 40, (SY0 + SYT) / 2, "dB", 12, extra=f'transform="rotate(-90 {SX0 - 40} {(SY0 + SYT) / 2})"'))
 for tr, color in [(0, ALT), (0.005, VERDE)]:
@@ -245,7 +245,7 @@ for tr, color in [(0, ALT), (0.005, VERDE)]:
     pts = [(fx(f), dy_(espectro_db(f, tr))) for f in range(f_ini, 3001, 10)]
     b.append(poly(pts, f'stroke="{color}" stroke-width="2.5"'))
 b.append(T(fx(1500), dy_(-44), "flancos instantáneos", 12, fill=ALT))
-b.append(T(fx(1500), dy_(-100), "flancos de 5 ms", 12, fill=VERDE))
+b.append(T(fx(2300), dy_(-82), "flancos de 5 ms", 12, fill=VERDE))
 b.append(T((SX0 + SX1) / 2, 50, "Envolvente del espectro (modelo)", 14, extra='font-weight="600"'))
 b.append(L(380, 60, 380, 300, f'stroke="{CLARO}" stroke-width="1"'))
 guarda("11-clics.svg", 800, 330, b,

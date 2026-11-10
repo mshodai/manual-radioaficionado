@@ -324,7 +324,7 @@ La Recomendación UIT-R M.1677-1 fija en su parte II las reglas generales que si
 flowchart TD
     A["Escuchar y preguntar QRL?"] --> B["Llamada general:<br/>CQ CQ CQ DE indicativo K"]
     B --> C["Respuesta:<br/>indicativo llamado DE el suyo K"]
-    C --> D["Primer cambio: saludo, RST,<br/>nombre y QTH, terminado en KN"]
+    C --> D["Primer cambio: saludo,<br/>RST, nombre y QTH,<br/>terminado en KN"]
     D --> E["Respuesta con los mismos datos"]
     E --> F{"¿Seguir charlando?"}
     F -->|sí| G["Equipo, antena, potencia,<br/>tiempo… cambios con KN"]

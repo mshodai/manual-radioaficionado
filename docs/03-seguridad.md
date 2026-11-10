@@ -151,12 +151,12 @@ Y a 435 MHz, en la banda de 70 cm, la densidad de potencia de referencia es $S =
 
 ```mermaid
 flowchart TD
-    A["Potencia del transmisor, pérdidas del cable y ganancia de la antena"] --> B["PIRE de pico"]
-    B --> C["PIRE media en 6 minutos<br/>(ciclo de trabajo del modo × tiempo de emisión)"]
-    C --> D["Distancia mínima con el nivel de referencia de la banda"]
-    D --> E{"¿Puede haber personas más cerca,<br/>o están en el campo cercano?"}
-    E -- No --> F["Cumple. Repite el cálculo si cambias equipo, antena o modo"]
-    E -- Sí --> G["Reduce potencia, sube o aleja la antena,<br/>o mide con un medidor de campo"]
+    A["Potencia del transmisor,<br/>pérdidas del cable<br/>y ganancia de la antena"] --> B["PIRE de pico"]
+    B --> C["PIRE media en 6 minutos<br/>(ciclo de trabajo del modo<br/>× tiempo de emisión)"]
+    C --> D["Distancia mínima con<br/>el nivel de referencia<br/>de la banda"]
+    D --> E{"¿Puede haber personas<br/>más cerca, o están en<br/>el campo cercano?"}
+    E -- No --> F["Cumple. Repite el cálculo<br/>si cambias equipo,<br/>antena o modo"]
+    E -- Sí --> G["Reduce potencia,<br/>sube o aleja la antena,<br/>o mide con un medidor<br/>de campo"]
 ```
 
 *Figura 3.2. Pasos para estimar si una instalación respeta los niveles de referencia.*

@@ -1,0 +1,5 @@
+Mermaid 11.17.2 (https://mermaid.js.org), licencia MIT (ver LICENSE).
+Copiado sin cambios del paquete npm mermaid@11.17.2 (dist/mermaid.min.js), publicado el 25 de agosto de 2026.
+sha512 del paquete: V6K3C8EBdEsPFZXSKMJe6ppQOENxuHARr9GvHX4hh47lAbhMRD9qf4oEK7LoaRQxULMa80/qt5gHO73aCleBBg==
+Lo carga mkdocs.yml (extra_javascript) después de javascripts/mermaid.js; como el objeto global
+mermaid ya existe cuando Zensical lo busca, Zensical no lo descarga de unpkg.

@@ -141,7 +141,7 @@ def s_npn(cx, cy):
             + f'<line x1="{cx-8}" y1="{cy-14}" x2="{cx-8}" y2="{cy+14}" stroke-width="3"/>'
             + L(cx - 8, cy - 6, cx + 12, cy - 20) + L(cx + 12, cy - 20, cx + 12, cy - 38)
             + L(cx - 8, cy + 6, cx + 11, cy + 19, 'marker-end="url(#flecha)"') + L(cx + 12, cy + 20, cx + 12, cy + 38)
-            + T(cx - 44, cy - 6, "B", 11) + T(cx + 24, cy - 28, "C", 11) + T(cx + 24, cy + 34, "E", 11))
+            + T(cx - 44, cy - 6, "B", 12) + T(cx + 24, cy - 28, "C", 12) + T(cx + 24, cy + 34, "E", 12))
 def s_ant(cx, cy):
     return L(cx, cy + 32, cx, cy - 30) + f'<path d="M{cx-16},{cy-30} L{cx},{cy-8} L{cx+16},{cy-30}"/>'
 

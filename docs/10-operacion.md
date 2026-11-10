@@ -148,14 +148,14 @@ Lo mismo vale para responder a una CQ. No hace falta repetir el indicativo del o
 
 ```mermaid
 flowchart TD
-    A["Escuchar y preguntar<br/>si la frecuencia está libre"] --> B["Llamada general:<br/>CQ, indicativo deletreado, a la escucha"]
-    B --> C["Respuesta:<br/>indicativo llamado, de indicativo propio"]
-    C --> D["Primer cambio: saludo, informe RS,<br/>nombre y QTH; cambio"]
-    D --> E["Respuesta con los mismos datos"]
-    E --> F{"¿Seguir charlando?"}
-    F -->|sí| G["Equipo, antena, tiempo,<br/>QSL… cambios con indicativos"]
+    A["Escuchar y preguntar<br/>si la frecuencia está libre"] --> B["Llamada general:<br/>CQ e indicativo deletreado"]
+    B --> C["Respuesta: indicativo<br/>llamado y el propio"]
+    C --> D["Primer cambio: saludo,<br/>informe RS, nombre y QTH"]
+    D --> E["Respuesta con<br/>los mismos datos"]
+    E --> F{"¿Seguir<br/>charlando?"}
+    F -->|sí| G["Equipo, antena, tiempo,<br/>QSL… con indicativos<br/>en cada cambio"]
     G --> F
-    F -->|no| H["Despedida: 73,<br/>indicativos y a la escucha o QRT"]
+    F -->|no| H["Despedida: 73,<br/>indicativos y QRT<br/>o a la escucha"]
 ```
 
 *Figura 10.1. Estructura de un contacto en fonía.*
@@ -229,9 +229,9 @@ sequenceDiagram
     participant P as Tu portátil
     participant R as Repetidor RV56
     participant M as Otra estación
-    P->>R: Transmites en la entrada:<br/>145,100 MHz + tono CTCSS
-    R->>M: El repetidor retransmite en la salida:<br/>145,700 MHz
-    R->>P: Tú también te oyes en la salida
+    P->>R: Entrada: 145,100 MHz<br/>con su tono CTCSS
+    R->>M: Salida: 145,700 MHz
+    R->>P: Te oyes en la salida
 ```
 
 *Figura 10.2. Un repetidor de 2 m con desplazamiento de −600 kHz.*
@@ -304,10 +304,14 @@ Todos esos datos tienen que coincidir con el registro del corresponsal; si no, n
 ### Las tres vías
 
 ```mermaid
-flowchart LR
-    A["Tu estación"] -->|"Directa: por correo,<br/>con sobre y franqueo de vuelta"| B["Estación DX"]
-    A -->|"Bureau: tarjetas agrupadas"| C["Bureau de la URE"] --> D["Bureau del país<br/>del corresponsal"] --> B
-    A -->|"Electrónica: subes el registro"| E["LoTW, eQSL…"] --> B
+flowchart TB
+    A["Tu estación"]
+    A -->|"Directa<br/>(correo)"| B["Estación DX"]
+    A -->|"Bureau"| C["Bureau<br/>de la URE"]
+    C --> D["Bureau del país<br/>del corresponsal"]
+    D --> B
+    A -->|"Electrónica"| E["LoTW,<br/>eQSL…"]
+    E --> B
 ```
 
 *Figura 10.3. Las tres vías para confirmar un contacto.*

@@ -94,12 +94,12 @@ for i, (sim, rango, onda, ej) in enumerate(bandas):
     x = w0 + i * bw
     b.append(f'<rect x="{x}" y="{yb}" width="{bw}" height="60" fill="{tonos[i]}" stroke="{INK}"/>')
     b.append(T(x + bw / 2, yb + 27, sim, 18, extra='font-weight="600"'))
-    b.append(T(x + bw / 2, yb + 48, rango, 11.5))
+    b.append(T(x + bw / 2, yb + 48, rango, 12))
     b.append(T(x + bw / 2, yb + 85, "ondas", 12))
     b.append(T(x + bw / 2, yb + 101, onda, 12))
-    b.append(T(x + bw / 2, yb + 130, ej.split(", ")[0], 11.5, fill=ACC))
+    b.append(T(x + bw / 2, yb + 130, ej.split(", ")[0], 12, fill=ACC))
     if ", " in ej:
-        b.append(T(x + bw / 2, yb + 146, ", ".join(ej.split(", ")[1:]), 11.5, fill=ACC))
+        b.append(T(x + bw / 2, yb + 146, ", ".join(ej.split(", ")[1:]), 12, fill=ACC))
 b.append(flecha(w0, 35, w0 + 6 * bw, 35) + T(w0, 28, "frecuencia (escala logarítmica: cada casilla, ×10)", 13, "start"))
 b.append(flecha(w0 + 6 * bw, 228, w0, 228) + T(w0 + 6 * bw, 248, "longitud de onda", 13, "end"))
 guarda("04-bandas-uit.svg", 660, 262, b,
@@ -171,7 +171,7 @@ b.append(T(ox + 85, 30, "BLU superior (J3E)", 15, extra='font-weight="600"'))
 b += eje(ox, 180, ybase, "f")
 fc = ox + 90
 b.append(L(fc, ybase, fc, ybase - H, f'stroke="{GRIS}" stroke-dasharray="4 4"') + T(fc, ybase + 18, "fc", 12))
-b.append(T(fc, ybase - H - 6, "suprimida", 11, fill=GRIS))
+b.append(T(fc, ybase - H - 6, "suprimida", 12, fill=GRIS))
 b.append(f'<polygon points="{fc+12},{ybase} {fc+12},{ybase-90} {fc+62},{ybase-60} {fc+62},{ybase}" fill="{ACC}" fill-opacity="0.35" stroke="{ACC}"/>')
 b.append(T(fc + 40, ybase - 98, "BLS", 12))
 b.append(flecha(fc + 12, ybase + 34, fc + 62, ybase + 34, doble=True) + T(fc + 37, ybase + 52, "≈ fmáx", 12))

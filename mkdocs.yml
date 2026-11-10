@@ -89,6 +89,14 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+extra_css:
+  - stylesheets/extra.css
+
 extra_javascript:
+  # mermaid.js tiene que ir antes que la copia de Mermaid: intercepta el objeto
+  # global en el momento en que Mermaid lo publica.
+  - javascripts/mermaid.js
+  - javascripts/vendor/mermaid/mermaid.min.js
+  - javascripts/figuras.js
   - javascripts/mathjax.js
   - javascripts/vendor/mathjax/tex-mml-chtml.js

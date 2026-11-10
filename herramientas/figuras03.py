@@ -87,9 +87,11 @@ def niveles():
         e = e_ref(f)
         b.append(f'<circle cx="{X(f):.1f}" cy="{Y(e):.1f}" r="4.5" fill="{BAND}" stroke="none"/>')
         if f < 10:      # en el tramo descendente, la etiqueta a la izquierda
-            b.append(T(X(f) - 9, Y(e) + 4, lab, 11, "end", BAND))
+            b.append(T(X(f) - 9, Y(e) + 4, lab, 12, "end", BAND))
+        elif f > 1000:  # en el tramo ascendente, a la derecha, donde no pasa la curva
+            b.append(T(X(f) + 9, Y(e) + 4, lab, 12, "start", BAND))
         else:
-            b.append(T(X(f), Y(e) + 18, lab, 11, "middle", BAND))
+            b.append(T(X(f), Y(e) + 18, lab, 12, "middle", BAND))
 
     title = ("Niveles de referencia del campo eléctrico para el público según el anexo II del "
              "Real Decreto 1066/2001, entre 150 kHz y 10 GHz: 87 V/m hasta 1 MHz, bajan hasta 28 V/m "

@@ -10,9 +10,9 @@ Las normas que afectan al radioaficionado español se ordenan en tres niveles, d
 
 ```mermaid
 flowchart TD
-    UIT["<b>Internacional: UIT</b><br/>Reglamento de Radiocomunicaciones<br/>(tratado; obliga a los Estados)"]
-    CEPT["<b>Europeo: CEPT</b><br/>Recomendaciones T/R 61-01 y T/R 61-02<br/>(obligan en España porque la orden las recoge)"]
-    ES["<b>Español</b><br/>Ley 11/2022 · RD 123/2017 · CNAF<br/>Orden IET/1311/2013<br/>(obligan directamente)"]
+    UIT["<b>Internacional: UIT</b><br/>Reglamento de<br/>Radiocomunicaciones<br/>(tratado; obliga<br/>a los Estados)"]
+    CEPT["<b>Europeo: CEPT</b><br/>Recomendaciones<br/>T/R 61-01 y T/R 61-02<br/>(obligan en España porque<br/>la orden las recoge)"]
+    ES["<b>Español</b><br/>Ley 11/2022 · RD 123/2017<br/>CNAF · Orden IET/1311/2013<br/>(obligan directamente)"]
     IARU["<b>IARU Región 1</b><br/>Planes de bandas<br/>(recomendación; la orden<br/>los toma como norma general)"]
     UIT --> CEPT --> ES
     IARU -. "referencia" .-> ES

@@ -26,7 +26,7 @@ También pueden ser titulares las **asociaciones de radioaficionados**, para sus
 
 ```mermaid
 flowchart TD
-    A["Pagas la tasa del examen<br/>(modelo 790)"] --> B["Pides el examen en la sede electrónica<br/>(fecha y Jefatura orientativas)"]
+    A["Pagas la tasa del examen<br/>(modelo 790)"] --> B["Pides el examen en<br/>la sede electrónica (fecha<br/>y Jefatura orientativas)"]
     B --> C["La Jefatura te cita"]
     C --> D{"¿Apruebas<br/>las dos partes?"}
     D -- "No" --> E["Repites la parte suspendida<br/>(dos meses como mínimo)"]

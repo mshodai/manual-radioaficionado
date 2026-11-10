@@ -10,7 +10,7 @@ Toda interferencia tiene tres piezas: una **fuente** que produce energía de rad
 
 ```mermaid
 flowchart LR
-    F["Fuente<br/>transmisor, fuente conmutada,<br/>LED, PLC, motor…"] -->|"radiado<br/>(por el aire)"| V["Víctima<br/>receptor, televisor,<br/>equipo de audio…"]
+    F["Fuente<br/>transmisor, fuente<br/>conmutada, LED,<br/>PLC, motor…"] -->|"radiado<br/>(por el aire)"| V["Víctima<br/>receptor, televisor,<br/>equipo de audio…"]
     F -->|"conducido<br/>(por cables)"| V
 ```
 
@@ -210,10 +210,10 @@ Cuando alguien te dice que le interfieres, el primer paso es comprobarlo con cal
 
 ```mermaid
 flowchart TD
-    A["¿Desaparece la interferencia<br/>al transmitir sobre una<br/>carga artificial?"] -->|"Sí: entra por la antena"| B["¿Ocurre solo en<br/>frecuencias múltiplo<br/>de la tuya?"]
-    A -->|"No: entra por la red<br/>o por los cables de la estación"| C["Filtro de red, choques<br/>en los cables de la estación,<br/>tierra y equipotencialidad"]
+    A["¿Desaparece la interferencia<br/>al transmitir sobre una<br/>carga artificial?"] -->|"Sí: entra<br/>por la antena"| B["¿Ocurre solo en<br/>frecuencias múltiplo<br/>de la tuya?"]
+    A -->|"No: entra por<br/>la red o por los<br/>cables de la estación"| C["Filtro de red,<br/>choques en los cables<br/>de la estación, tierra<br/>y equipotencialidad"]
     B -->|"Sí"| D["Armónicos o espurias:<br/>filtro paso bajo en<br/>tu transmisor"]
-    B -->|"No, aparece en<br/>cualquier canal"| E["Saturación o detección<br/>en la víctima: filtro<br/>o ferritas en el aparato afectado"]
+    B -->|"No, aparece en<br/>cualquier canal"| E["Saturación o detección<br/>en la víctima: filtro<br/>o ferritas en el<br/>aparato afectado"]
 ```
 
 *Figura 8.5. Un camino de diagnóstico para la interferencia que causa tu estación.*

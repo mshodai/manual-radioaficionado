@@ -446,11 +446,11 @@ Un **circuito integrado** (CI) reúne en un solo encapsulado muchos transistores
 Casi todos los equipos de radioaficionado funcionan a **13,8 V** de continua, la tensión de una batería de plomo de «12 V» cargada. Para usarlos en casa hace falta una **fuente de alimentación** que obtenga esa tensión de la red de 230 V de alterna.
 
 ```mermaid
-flowchart LR
-    A["Red<br>230 V CA"] --> B["Transformador<br>reduce la tensión"]
-    B --> C["Rectificador<br>diodos: CA a CC pulsante"]
-    C --> D["Filtro<br>condensadores: alisa"]
-    D --> E["Regulador<br>tensión fija"]
+flowchart TB
+    A["Red<br>230 V CA"] --> B["Transformador:<br>reduce la tensión"]
+    B --> C["Rectificador (diodos):<br>CA a CC pulsante"]
+    C --> D["Filtro (condensadores):<br>alisa la tensión"]
+    D --> E["Regulador:<br>tensión fija"]
     E --> F["Salida<br>13,8 V CC"]
 ```
 

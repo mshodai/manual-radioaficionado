@@ -179,7 +179,7 @@ def polar(cx, cy, r, valores, color, titulo, nota):
     out.append(polygon(pts, f'stroke="{color}" stroke-width="2.5" fill="{color}" fill-opacity="0.12"'))
     out.append(T(cx, cy - r - 34, titulo, 15, extra='font-weight="600"'))
     out.append(T(cx, cy + r + 30, nota, 12))
-    out.append(T(cx + r * 0.5 + 4, cy + r * 0.5 + 14, "−3 dB", 11, "start", fill=GRIS))
+    out.append(T(cx + r * 0.5 + 4, cy + r * 0.5 + 14, "−3 dB", 12, "start", fill=GRIS))
     return out
 
 

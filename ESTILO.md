@@ -75,6 +75,17 @@ El capítulo [02 Electricidad y electrónica básica](docs/02-electricidad-elect
 - Mermaid para diagramas de bloques y flujos (etapas de un receptor, pasos de un trámite), en un bloque ` ```mermaid `.
 - Las figuras se numeran por capítulo (Figura 2.1, 2.2…).
 
+### Legibilidad de diagramas y figuras
+
+El texto de cualquier figura tiene que leerse **sin zoom**, en el móvil y en el escritorio (columna de unos 690 px).
+
+- **Diagramas Mermaid en vertical por defecto**: `flowchart TB` (o `TD`). `LR` solo si caben **como máximo 4 nodos por fila**; con más, en vertical.
+- **Etiquetas cortas**: unas 25 o 30 letras por línea como mucho. Si no caben, se parten con `<br/>` o se resume el texto; el detalle va en el párrafo, no en la caja. Lo mismo para las etiquetas de las flechas, que conviene reducir a una o dos palabras.
+- En pantalla, la letra de un diagrama Mermaid no baja de **12 px** y la de una figura SVG, de **10 px**. Si un diagrama o una figura no caben en la columna sin bajar de ese tamaño, se desplazan en horizontal dentro de su caja en lugar de encogerse. Lo hacen `docs/javascripts/mermaid.js`, `docs/javascripts/figuras.js` y `docs/stylesheets/extra.css`; no hay que hacer nada en cada figura.
+- **Figuras SVG nuevas**: letra de **12 px como mínimo** en el propio SVG y ancho natural (`viewBox`) de **800 px como máximo**, preferiblemente 700 o menos. Con eso se leen a más de 10 px en el escritorio sin desplazarse.
+- Antes de dar por buena una figura, mírala en `zensical serve` con la ventana estrecha (unos 390 px, como un móvil) y ancha.
+- **Al actualizar Zensical** (o la copia de Mermaid de `docs/javascripts/vendor/mermaid/`), comprueba que los diagramas Mermaid y las figuras siguen legibles en las dos anchuras. `mermaid.js` depende de cómo carga Zensical Mermaid: que use el objeto global `mermaid` si ya existe en lugar de descargarlo, que llame a `mermaid.initialize()` y `mermaid.render()` y que meta el SVG en un shadow DOM. Si una versión nueva cambia eso, el ajuste deja de aplicarse sin dar ningún error, y los diagramas vuelven a encogerse, o Zensical vuelve a descargar Mermaid de unpkg.
+
 ## 6. Avisos
 
 Se usan las cajas de `admonition` con estos tipos y títulos fijos:

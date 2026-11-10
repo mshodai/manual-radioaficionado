@@ -502,15 +502,15 @@ El Real Decreto 2623/1986 y los artículos 19 a 21 de la Orden IET/1311/2013 fij
 
 ```mermaid
 flowchart TD
-    A["Solicitud de licencia de estación fija,<br>con la memoria técnica de la antena"] --> B["La Administración revisa la memoria<br>y la comunica a la propiedad o a la comunidad"]
+    A["Solicitud de licencia<br>de estación fija, con la<br>memoria técnica de la antena"] --> B["La Administración revisa<br>la memoria y la comunica<br>a la propiedad o a la comunidad"]
     B --> C{"¿Alegaciones en dos meses?"}
     C -- No --> D["Aceptación tácita"]
-    C -- Sí --> E["La Administración las estudia"]
+    C -- Sí --> E["La Administración<br>las estudia"]
     D --> F["Autorización de montaje,<br>con sus condiciones"]
     E --> F
-    F --> G["Montaje, por un instalador inscrito<br>o por ti si se te autoriza"]
-    G --> H["Comunicación del fin de la instalación en 6 semanas,<br>con el seguro y, en su caso, el boletín del instalador"]
-    H --> I["Comprobación en un máximo de 30 días<br>y licencia de estación"]
+    F --> G["Montaje, por un instalador<br>inscrito o por ti<br>si se te autoriza"]
+    G --> H["Comunicación del fin<br>de la instalación en 6 semanas,<br>con el seguro y, en su caso,<br>el boletín del instalador"]
+    H --> I["Comprobación en un máximo<br>de 30 días y licencia<br>de estación"]
 ```
 
 *Figura 6.8. Pasos para obtener la licencia de una estación fija con antena exterior.*

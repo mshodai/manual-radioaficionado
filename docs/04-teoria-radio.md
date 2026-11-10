@@ -326,7 +326,7 @@ Un **detector** o **demodulador** recupera la información:
 Amplificar y filtrar con mucha selectividad a cualquier frecuencia es difícil. El **receptor superheterodino** lo resuelve con un mezclador: convierte la señal sintonizada, sea cual sea, en una **frecuencia intermedia** (FI) fija. Así, los filtros y los amplificadores más exigentes se diseñan para una sola frecuencia.
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Antena"] --> B["Filtro y<br>amplificador de RF"]
     B --> C["Mezclador"]
     D["Oscilador local<br>(sintonía)"] --> C
@@ -416,13 +416,13 @@ donde $f_s$ es la frecuencia de muestreo y $f_{\text{máx}}$, la frecuencia más
 ### Dos arquitecturas
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph D["Muestreo directo"]
-        direction LR
+        direction TB
         A1["Antena"] --> B1["Filtro<br>antisolapamiento"] --> C1["ADC rápido"]
     end
     subgraph Q["Conversión I/Q"]
-        direction LR
+        direction TB
         A2["Antena"] --> B2["Filtro y<br>amplificador de RF"] --> M2["Dos mezcladores<br>desfasados 90°"]
         O2["Oscilador<br>local"] --> M2
         M2 --> C2["Dos ADC<br>(I y Q)"]
@@ -465,7 +465,7 @@ Es el más sencillo: un oscilador estable, un manipulador que conecta y desconec
 ### Transmisor de BLU
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Micrófono"] --> B["Amplificador<br>de audio"]
     B --> C["Modulador<br>equilibrado"]
     D["Oscilador de<br>portadora"] --> C
@@ -494,7 +494,7 @@ Si subes demasiado la ganancia del micrófono o la excitación, el amplificador 
 ### Transmisor de FM
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["Micrófono"] --> B["Amplificador de audio,<br>preénfasis y limitador"]
     B --> C["Modulador<br>(oscilador controlado)"]
     S["Sintetizador<br>PLL"] --> C

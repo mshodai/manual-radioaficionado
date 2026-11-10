@@ -172,7 +172,7 @@ for f, db, color, nombre in rayas:
     x = x_de(f)
     b.append(L(x, Y0, x, y_de(db), f'stroke="{color}" stroke-width="5"'))
     b.append(T(x, y_de(db) - 24, nombre, 13, fill=color))
-    b.append(T(x, y_de(db) - 8, f"{f:.3f}".replace(".", ","), 11, fill=color))
+    b.append(T(x, y_de(db) - 8, f"{f:.3f}".replace(".", ","), 12, fill=color))
 b.append(T((X0 + X1) / 2, Y0 + 24, "frecuencia (MHz)", 13))
 # cotas de la separación Δ
 yc = Y0 - 18
@@ -197,13 +197,13 @@ b.append(T(xa - 10, yc + 5, "equipo", 13, "end"))
 b.append(T(xb + 10, yc + 5, "antena", 13, "start"))
 # corriente por el vivo hacia la antena
 b.append(flecha(260, yc - 10, 420, yc - 10, ACC, extra='stroke-width="2.5"'))
-b.append(T(340, yc - 16, "I₁ por el vivo", 12, fill=ACC))
+b.append(T(340, yc - 16, "I₁ por el vivo", 13, fill=ACC))
 # corriente de vuelta por la cara interior de la malla
 b.append(flecha(420, yc + 12, 260, yc + 12, ACC, extra='stroke-width="2.5"'))
-b.append(T(340, yc + 32, "I₂ por dentro de la malla", 12, fill=ACC))
+b.append(T(340, yc + 32, "I₂ por dentro de la malla", 13, fill=ACC))
 # corriente en modo común por fuera
 b.append(flecha(600, yc + 58, 440, yc + 58, ALT, extra='stroke-width="2.5"'))
-b.append(T(520, yc + 78, "I₃ por fuera de la malla: modo común", 12, fill=ALT))
+b.append(T(520, yc + 78, "I₃ por fuera de la malla: modo común", 13, fill=ALT))
 b.append(T(420, yc - 62, "Modo diferencial: I₁ = I₂, opuestas; sus campos se anulan fuera del cable", 13, fill=ACC))
 b.append(T(420, 30, "Corrientes en un coaxial", 15, extra='font-weight="600"'))
 # segundo dibujo: choque de modo común
@@ -214,13 +214,13 @@ for k in range(5):
     cx = 360 + k * 30
     b.append(f'<ellipse cx="{cx:.1f}" cy="{y2:.1f}" rx="16" ry="34" stroke="{INK}" stroke-width="5"/>')
 b.append(rect(345, y2 - 46, 150, 92, "none", f'stroke="{GRIS}" stroke-width="1.5" stroke-dasharray="5 4"'))
-b.append(T(420, y2 - 54, "varias espiras de coaxial sobre un toroide de ferrita", 12))
+b.append(T(420, y2 - 54, "varias espiras de coaxial sobre un toroide de ferrita", 13))
 b.append(flecha(250, y2 - 24, 320, y2 - 24, ACC, extra='stroke-width="2.5"'))
-b.append(T(240, y2 - 32, "la señal útil pasa", 12, "end", fill=ACC))
+b.append(T(240, y2 - 32, "la señal útil pasa", 13, "end", fill=ACC))
 b.append(flecha(640, y2 + 24, 520, y2 + 24, ALT, extra='stroke-width="2.5"'))
 b.append(L(512, y2 + 12, 528, y2 + 36, f'stroke="{ALT}" stroke-width="3"'))
 b.append(L(512, y2 + 36, 528, y2 + 12, f'stroke="{ALT}" stroke-width="3"'))
-b.append(T(600, y2 + 58, "el modo común encuentra una impedancia alta", 12, fill=ALT))
+b.append(T(600, y2 + 58, "el modo común encuentra una impedancia alta", 13, fill=ALT))
 b.append(T(420, y2 - 84, "Choque de modo común (balun de corriente)", 14, extra='font-weight="600"'))
 guarda("08-modo-comun.svg", 840, 440, b,
        "Arriba, un coaxial en corte longitudinal. La corriente útil va por el vivo y vuelve por la cara interior de la malla con el mismo valor y sentido opuesto, así que sus campos se anulan fuera del cable: es el modo diferencial. Una tercera corriente, en modo común, circula por la cara exterior de la malla y hace que el cable radie y capte. Abajo, un choque formado por varias espiras de coaxial sobre un toroide de ferrita: la señal útil pasa sin notarlo y la corriente en modo común encuentra una impedancia alta.")
@@ -255,9 +255,9 @@ for n in range(n0, n1 + 1):
     # cada raya ensanchada: la frecuencia de conmutación deriva con la carga
     b.append(rect(x - 3, y_de(nivel), 6, Y0 - y_de(nivel), ALT, 'stroke="none" fill-opacity="0.85"'))
     if n == 101:
-        b.append(T(x - 6, y_de(nivel) - 8, "101 × 70 kHz", 11, "end", fill=ALT))
+        b.append(T(x - 6, y_de(nivel) - 8, "101 × 70 kHz", 12, "end", fill=ALT))
     if n == 102:
-        b.append(T(x + 6, y_de(nivel) - 8, "102 × 70 kHz", 11, "start", fill=ALT))
+        b.append(T(x + 6, y_de(nivel) - 8, "102 × 70 kHz", 12, "start", fill=ALT))
 b.append(flecha(x_de(101 * FSW), y_de(36), x_de(102 * FSW), y_de(36), doble=True, extra='stroke-width="1.2"'))
 b.append(T((x_de(101 * FSW) + x_de(102 * FSW)) / 2, y_de(36) - 6, "70 kHz", 12))
 b.append(T((X0 + X1) / 2, 30, "Armónicos de una fuente conmutada de 70 kHz", 15, extra='font-weight="600"'))
