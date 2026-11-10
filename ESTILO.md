@@ -179,3 +179,36 @@ python3 herramientas/glosario.py /tmp/manual-build/site
 ```
 
 El script lee las anclas del sitio compilado y no escribe nada si una entrada apunta a un apartado que no existe, si hay términos duplicados o si una remisión «Véase» no tiene entrada. Después repite la copia y la compilación para comprobar el capítulo generado.
+
+## 13. Simulacro del examen
+
+El capítulo 16 no se edita a mano: lo genera `herramientas/simulacro.py` a partir del banco de preguntas `herramientas/simulacro.yml`, y la página la monta `docs/javascripts/simulacro.js`. El formato de cada pregunta está al principio de `simulacro.py`.
+
+- **Al cambiar un capítulo, mantén el banco al día.** Busca en `simulacro.yml` las preguntas cuyo `enlace` apunta a ese capítulo y revisa que su enunciado, su respuesta correcta, sus incorrectas y su explicación sigan diciendo lo mismo que el texto. Si renombras o mueves un apartado, cambia el ancla. Si cambia una cifra, cámbiala también en `herramientas/calculos16.py`. Si un capítulo añade un tema que puede entrar en el examen, añade preguntas sobre él.
+- Las preguntas son **propias**, como las de las autoevaluaciones de los capítulos (§1 y §8): nunca copiadas ni adaptadas del *Libro de examen* del Radio Club Utiel ni de ningún otro banco, y distintas de las de la autoevaluación del propio capítulo.
+- Cada pregunta tiene una respuesta correcta y tres incorrectas plausibles, que sean errores típicos, de longitud parecida, sin «todas/ninguna de las anteriores» ni opciones que dependan de su orden, porque el simulacro las baraja. La explicación dice por qué es correcta y enlaza el apartado que la respalda, con el formato `página#ancla` del glosario.
+- Texto plano, sin LaTeX ni Markdown: el simulacro lo muestra tal cual. Las respuestas van sin punto final, salvo el de una abreviatura («1000 W p. c. e.»); el enunciado y la explicación, con su puntuación normal.
+- El banco necesita al menos 60 preguntas por parte y al menos una por materia del anexo II, porque cada simulacro saca una de cada materia y reparte el resto al azar. Procura que cada materia tenga unas diez, para que no se repitan siempre las mismas. `simulacro.py` avisa de las materias con menos de tres preguntas.
+
+Para regenerarlo, compila la copia como en el §9 y ejecuta los scripts sobre ella:
+
+```sh
+rm -rf /tmp/manual-build
+rsync -a --exclude .git --exclude .venv --exclude site ./ /tmp/manual-build/
+.venv/bin/zensical build --clean --strict -f /tmp/manual-build/mkdocs.yml
+python3 herramientas/calculos16.py
+python3 herramientas/simulacro.py /tmp/manual-build/site
+```
+
+`simulacro.py` no escribe nada si una pregunta enlaza un apartado que no existe, si le falta un campo, si tiene opciones repetidas, si hay identificadores o enunciados duplicados o casi iguales, o si una cifra no coincide con `calculos16.py`. Después repite la copia y la compilación para comprobar la página generada.
+
+Si cambias `simulacro.js`, pasa también la prueba sin navegador de `herramientas/prueba-simulacro.js`, que usa jsdom (instálalo en una carpeta temporal, fuera del repositorio):
+
+```sh
+npm install --prefix /tmp/jsdom jsdom@24.1.3
+NODE_PATH=/tmp/jsdom/node_modules node herramientas/prueba-simulacro.js \
+  /tmp/manual-build/site/16-autoevaluacion/index.html \
+  /tmp/manual-build/site/javascripts/simulacro.js
+```
+
+Recorre un simulacro completo, la corrección y el cierre por tiempo, y comprueba en 300 simulacros por parte que siempre salen todas las materias. Todas las líneas tienen que empezar por «OK».

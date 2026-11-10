@@ -14,3 +14,124 @@
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+/* Simulacro del examen (capítulo 16, javascripts/simulacro.js). Opciones
+   grandes para tocarlas con el dedo y una barra fija abajo con el progreso y
+   el cronómetro. */
+.simulacro {
+  margin: 1em 0 2em;
+}
+.simulacro fieldset {
+  border: 0;
+  margin: 0 0 1.2em;
+  padding: 0;
+  min-width: 0;
+}
+.simulacro legend {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+.simulacro-opcion {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  padding: 0.55em 0.7em;
+  margin: 0.35em 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3em;
+  cursor: pointer;
+  line-height: 1.4;
+}
+.simulacro-opcion:hover {
+  border-color: var(--md-accent-fg-color);
+}
+.simulacro-opcion:has(input:checked) {
+  border-color: var(--md-primary-fg-color);
+  background: var(--md-default-fg-color--lightest);
+}
+.simulacro-opcion input {
+  margin: 0.25em 0 0;
+  flex: none;
+  width: 1.1em;
+  height: 1.1em;
+}
+.simulacro-letra {
+  flex: none;
+  font-weight: 700;
+}
+.md-typeset ol.simulacro-preguntas,
+.md-typeset ol.simulacro-fallos {
+  margin-left: 1.4em;
+}
+.md-typeset ol.simulacro-preguntas > li {
+  margin-bottom: 1.4em;
+}
+.simulacro-pregunta legend {
+  font-weight: 400;
+}
+.simulacro-pie {
+  margin: 1.5em 0 5em;
+}
+.simulacro-aviso {
+  font-weight: 700;
+}
+.simulacro-barra {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 0.6em 1em calc(0.6em + env(safe-area-inset-bottom));
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+.simulacro-tiempo {
+  font-weight: 700;
+}
+.simulacro-tiempo--poco {
+  background: #c62828;
+  color: #fff;
+  padding: 0 0.4em;
+  border-radius: 0.2em;
+}
+.simulacro-resumen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
+}
+.simulacro-nota {
+  flex: 1 1 14em;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7em 0.9em;
+  border-left: 0.3em solid;
+  border-radius: 0.2em;
+  background: var(--md-default-fg-color--lightest);
+}
+.simulacro-apto {
+  border-color: #2e7d32;
+}
+.simulacro-noapto {
+  border-color: #c62828;
+}
+.simulacro-veredicto {
+  font-weight: 700;
+}
+.md-typeset ol.simulacro-fallos > li {
+  margin-bottom: 1.6em;
+}
+.md-typeset .simulacro-fallos p {
+  margin: 0.3em 0;
+}
+.simulacro-enunciado {
+  font-weight: 700;
+}
+.simulacro .md-button {
+  margin: 0.5em 0.5em 0.5em 0;
+}

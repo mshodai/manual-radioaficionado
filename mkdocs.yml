@@ -97,5 +97,7 @@ extra_javascript:
   # en las páginas con diagramas; por eso esa copia no figura en esta lista.
   - javascripts/mermaid.js
   - javascripts/figuras.js
+  # simulacro.js solo actúa en la página del capítulo 16, que lleva el banco.
+  - javascripts/simulacro.js
   - javascripts/mathjax.js
   - javascripts/vendor/mathjax/tex-mml-chtml.js
