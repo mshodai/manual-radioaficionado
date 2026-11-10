@@ -1,0 +1,497 @@
+# Término @ página#ancla @ definición. Ver herramientas/glosario.py y ESTILO.md §12.
+5NN @ 11-telegrafia#el-informe-rst-en-telegrafia @ Forma abreviada de 599 en telegrafía: la N sustituye al 9. Es el informe que se envía a todo el mundo en los concursos.
+73 @ 10-operacion#en-fonia @ «Saludos cordiales». Se dice «setenta y tres», sin ese de plural, porque ya significa «saludos». Viene de la telegrafía.
+88 @ 10-operacion#en-fonia @ Saludo afectuoso, más personal que 73.
+/M, /MM, /MA, /P @ 09-reglamentacion/espanol#como-identificas-tus-emisiones @ Añadidos optativos al indicativo en telegrafía para estación móvil, móvil marítima, móvil aeronáutica y portable. En telefonía se dicen con palabras («portable», «móvil»…).
+
+A1A @ 11-telegrafia#que-es-la-telegrafia @ Designación de emisión de la telegrafía: modulación de amplitud (A), una sola señal digital sin subportadora (1) y telegrafía para recepción auditiva (A).
+A3E @ 04-teoria-radio#designacion-de-las-emisiones-segun-la-uit @ Designación de emisión de la voz en AM de doble banda lateral.
+Absorción @ 05-propagacion-bandas#lo-que-le-pasa-a-una-onda-por-el-camino @ Pérdida de parte de la energía de una onda en el medio que atraviesa, que la convierte en calor.
+Absorción del casquete polar @ 05-propagacion-bandas#perturbaciones-solares @ Absorción de la HF en los trayectos que cruzan las regiones polares, causada por las partículas de una tormenta de protones. En inglés, *PCA* (*polar cap absorption*).
+Acoplador de antena @ 06-antenas-lineas#el-acoplador-de-antena @ Red de bobinas y condensadores ajustables que se coloca entre el transmisor y la línea para que el equipo vea una carga adecuada. También se llama sintonizador (en inglés, *antenna tuner* o *ATU*, *antenna tuning unit*).
+ADC @ 04-teoria-radio#que-es-un-sdr @ Convertidor analógico-digital (*analog-to-digital converter*): mide la tensión de la señal muchas veces por segundo. Es la pieza clave de un SDR.
+Adaptación de impedancias @ 06-antenas-lineas#ondas-estacionarias @ Situación en que la impedancia de la antena es igual a la impedancia característica de la línea: la antena absorbe toda la energía y no hay onda reflejada.
+ADIF @ 10-operacion#que-es-buena-practica @ Formato de intercambio de registros de contactos que aceptan LoTW, eQSL y los organizadores de concursos.
+AGC @ 04-teoria-radio#el-receptor-superheterodino @ Sigla inglesa del control automático de ganancia (*automatic gain control*). Véase **CAG**.
+Aislante @ 02-electricidad-electronica#resistencia-conductores-y-aislantes @ Material que apenas deja pasar la corriente, como el plástico, el vidrio, la cerámica o el aire seco.
+ALC @ 04-teoria-radio#transmisor-de-blu @ Sigla inglesa del control automático de nivel (*automatic level control*). Véase **CAL**.
+Alfabeto de deletreo @ 10-operacion#el-cuadro-de-la-uit @ Cuadro de palabras de código, una por letra y cifra, que sustituyen a las letras para que no se confundan con ruido. El oficial es el del apéndice 14 del Reglamento de Radiocomunicaciones de la UIT.
+AM @ 04-teoria-radio#modulacion-de-amplitud-am @ Modulación de amplitud: la amplitud de la portadora sigue a la señal de audio. Su envolvente reproduce la forma del audio.
+Amperímetro @ 02-electricidad-electronica#como-se-mide @ Instrumento que mide la intensidad de corriente. Se conecta en serie y su resistencia interna es casi nula.
+Amperio @ 02-electricidad-electronica#carga-corriente-y-tension @ Unidad de intensidad de corriente (A). Equivale al paso de un culombio de carga por segundo.
+Amperio hora @ 02-electricidad-electronica#energia-y-capacidad-de-las-baterias @ Unidad en que se da la capacidad de una batería (Ah, o mAh). Multiplicada por la tensión da la energía almacenada, en vatios hora.
+Amplificador @ 04-teoria-radio#amplificadores @ Circuito que aumenta la potencia de una señal. Su ganancia se expresa en decibelios.
+Amplificador lineal @ 04-teoria-radio#amplificadores @ Amplificador cuya salida es una copia exacta y aumentada de la entrada. Lo necesitan la BLU y la AM, porque la información va en la amplitud.
+AMSAT @ 13-satelites#amsat @ *Radio Amateur Satellite Corporation*, organización nacida en 1969 que impulsa los satélites de aficionado. Hay asociaciones AMSAT nacionales, como AMSAT-EA en España.
+Analizador de antenas @ 06-antenas-lineas#medir-la-roe @ Instrumento que mide la impedancia y la ROE de una antena sin transmitir, con una señal propia muy débil, y la barre en toda una banda.
+Ancho de banda @ 04-teoria-radio#ancho-de-banda @ Margen de frecuencias que ocupa una emisión, en hercios (Hz). En un circuito resonante es, aproximadamente, $f_0 / Q$.
+Ancho de haz @ 06-antenas-lineas#diagrama-de-radiacion @ Ángulo entre las dos direcciones en que la potencia radiada cae a la mitad (−3 dB) respecto al máximo. Se da en grados.
+Anchura de banda necesaria @ 04-teoria-radio#ancho-de-banda @ La estrictamente suficiente para transmitir la información con la velocidad y la calidad requeridas (número 1.152 del Reglamento de Radiocomunicaciones).
+Ángulo de elevación @ 05-propagacion-bandas#salto-y-zona-de-silencio @ Ángulo sobre el horizonte con que sale la onda de la antena. Los ángulos bajos dan saltos más largos.
+Ángulo de incidencia @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ Ángulo que forma la onda con la vertical al llegar a una capa de la ionosfera. Interviene en la ley de la secante.
+Antena @ 06-antenas-lineas#resonancia-y-longitud-electrica @ Conductor dimensionado para que la corriente de radiofrecuencia sea lo más grande posible a la frecuencia de trabajo, y así lanzar o captar ondas electromagnéticas.
+Antena de 5/8 de onda @ 06-antenas-lineas#vertical-de-cuarto-de-onda-y-plano-de-tierra @ Vertical más larga que un cuarto de onda, con una bobina de adaptación en la base y algo más de ganancia en horizontal. Es la habitual de móvil en VHF y UHF.
+Antena isótropa @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Antena ideal, sin pérdidas, que radiaría igual en todas direcciones. No existe, pero es la referencia de la ganancia en dBi y de los cálculos de exposición.
+Antena parabólica @ 06-antenas-lineas#antenas-de-apertura-parabolicas-y-bocinas @ Antena con un reflector en forma de paraboloide que concentra en el foco la energía que le llega de frente. En el foco va el alimentador.
+AOS @ 13-satelites#la-orbita-baja @ Adquisición de señal (*acquisition of signal*): momento en que un satélite aparece por el horizonte al empezar un pase. Lo contrario es la **LOS**.
+Apagón de radio @ 05-propagacion-bandas#perturbaciones-solares @ Absorción repentina de la HF en el lado diurno de la Tierra, porque una fulguración ioniza de golpe la capa D. También se llama perturbación ionosférica súbita (en inglés, *SID*, *sudden ionospheric disturbance*).
+APRS @ 12-modos-digitales#que-es @ *Automatic Packet Reporting System*. Red de datos en la que las estaciones envían paquetes cortos con su posición, datos meteorológicos o mensajes breves, en 144,800 MHz en Europa.
+Área de captura @ 06-antenas-lineas#area-de-captura @ Superficie equivalente con la que una antena recoge la potencia de la onda que le llega. También se llama apertura efectiva. Se mide en m² y crece con la ganancia.
+ARISS @ 13-satelites#la-radio-a-bordo @ *Amateur Radio on the International Space Station*. Programa que gestiona las estaciones de radioaficionado de la Estación Espacial Internacional y organiza contactos con centros escolares.
+Armónico @ 08-interferencias#armonicos @ Emisión no deseada en un múltiplo entero de la frecuencia de trabajo: el doble (segundo armónico), el triple (tercero)… Su nivel se da en dBc.
+Asociación de radioaficionados reconocida @ 09-reglamentacion/espanol#estaciones-colectivas @ Asociación que puede ser titular de estaciones colectivas y de estaciones automáticas desatendidas. De su uso responde la junta directiva.
+Atenuación @ 02-electricidad-electronica#decibelios @ Pérdida de potencia o de tensión. En decibelios se expresa con un valor negativo.
+Atenuador @ 04-teoria-radio#mandos-y-ayudas-del-receptor @ Mando del receptor que quita ganancia en la entrada. Ayuda a reconocer los productos de intermodulación del propio receptor.
+Atribución @ 05-propagacion-bandas#donde-se-fijan @ Reparto de cada margen del espectro entre uno o varios servicios, a título primario o secundario. En España lo fija el CNAF.
+ATU @ 06-antenas-lineas#el-acoplador-de-antena @ Sigla inglesa del acoplador de antena (*antenna tuning unit*). Véase **Acoplador de antena**.
+Aurora @ 05-propagacion-bandas#propagacion-auroral @ Ionización que forman en las regiones polares las partículas de una tormenta geomagnética fuerte. Refleja las señales de VHF y les da un sonido áspero.
+Autonomía @ 15-emergencias#por-que-es-lo-primero-que-falla @ Tiempo que una batería alimenta un equipo: su capacidad útil dividida por la corriente media que consume. Se da en horas.
+Autorización de radioaficionado @ 01-autorizacion#la-autorizacion-de-radioaficionado @ Autorización administrativa individual que otorga la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales para usar las bandas del servicio de aficionados. Es personal e intransferible y no caduca.
+Autorización especial @ 09-reglamentacion/espanol#autorizaciones-especiales @ Permiso adicional a la autorización ordinaria para usar bandas secundarias con riesgo de interferencia o características técnicas distintas de las de la orden.
+Azimut @ 13-satelites#el-seguimiento-del-pase @ Dirección horizontal hacia la que hay que apuntar la antena, medida en grados desde el norte geográfico.
+
+Backwave @ 11-telegrafia#como-se-evitan @ Portadora residual que se oye débil durante los silencios de una emisión de CW porque el transmisor no se apaga del todo.
+Balun @ 06-antenas-lineas#balun-y-corrientes-en-modo-comun @ Transformador de RF entre una carga simétrica, como un dipolo, y una línea asimétrica, como el coaxial (de *balanced-unbalanced*, simétrico-asimétrico). Bloquea las corrientes en modo común.
+Baliza @ 05-propagacion-bandas#que-es-una-radiobaliza @ Véase **Radiobaliza**.
+Banda ciudadana @ 14-escucha-uso-libre#que-es-y-que-norma-la-regula @ Banda de 26 960 a 27 410 kHz que hoy no necesita autorización (en inglés, *Citizens' Band*, CB). No es del servicio de aficionados.
+Banda lateral @ 04-teoria-radio#ancho-de-banda @ Cada una de las franjas de frecuencias que aparecen a los lados de la portadora al modularla.
+Banda lateral única @ 04-teoria-radio#banda-lateral-unica-blu @ Véase **BLU**.
+Banda secundaria @ 09-reglamentacion/espanol#autorizaciones-especiales @ Banda atribuida a los aficionados a título secundario: no pueden causar interferencias perjudiciales a los servicios primarios ni reclamar protección frente a ellos, y su potencia máxima es la mitad.
+Bandas de aficionado @ 05-propagacion-bandas#tabla-de-bandas @ Márgenes del espectro atribuidos al servicio de aficionados. Se nombran por su longitud de onda aproximada: 160 m (1,8 MHz), 80 m, 40 m, 20 m, 10 m, 6 m, 2 m (144 MHz), 70 cm (430 MHz), 23 cm…
+Baudio @ 04-teoria-radio#modulaciones-digitales @ Unidad de la velocidad de modulación: número de cambios de estado, o símbolos, por segundo.
+BFO @ 04-teoria-radio#onda-continua-cw @ Oscilador de batido (*beat frequency oscillator*): el receptor lo mezcla con la señal recibida para que la CW y la BLU se oigan como tono o como voz.
+Bit por segundo @ 04-teoria-radio#modulaciones-digitales @ Unidad de la velocidad binaria (bit/s). Si cada símbolo puede tomar $M$ estados, lleva $\log_2 M$ bits.
+BLU @ 04-teoria-radio#banda-lateral-unica-blu @ Banda lateral única (en inglés, *SSB*, *single sideband*): modulación que elimina la portadora y una de las dos bandas laterales. Se recibe con un filtro de unos 2,4 kHz y se usa en la superior (USB) o en la inferior (LSB).
+Bloqueo @ 08-interferencias#saturacion-y-bloqueo @ Pérdida de sensibilidad de un receptor saturado por una señal fuerte: las señales que escuchabas bajan o desaparecen mientras dura.
+Bobina @ 02-electricidad-electronica#bobinas @ Componente formado por un hilo arrollado, con núcleo de aire o de ferrita, que almacena energía en un campo magnético. También se llama inductor. Deja pasar la continua y se opone a la alterna.
+Bobina de carga @ 06-antenas-lineas#antenas-acortadas-y-antenas-de-movil-para-hf @ Bobina que se intercala en una antena más corta que la resonante para compensar su reactancia capacitiva.
+Bocina @ 06-antenas-lineas#antenas-de-apertura-parabolicas-y-bocinas @ Antena formada por una guía de ondas que se ensancha poco a poco hasta abrirse al aire. Se usa en microondas.
+Boom @ 06-antenas-lineas#antena-yagi @ Soporte sobre el que se montan los elementos de una antena Yagi.
+Bureau @ 10-operacion#las-tres-vias @ Servicio de QSL de una asociación que agrupa las tarjetas de sus usuarios y las intercambia por lotes con las de otros países. En España lo lleva la URE.
+
+C4FM @ 12-modos-digitales#system-fusion-c4fm @ Modulación FSK de 4 niveles, en un canal de 12,5 kHz, que usa System Fusion.
+Cable coaxial @ 06-antenas-lineas#que-es-una-linea-de-transmision @ Línea de transmisión formada por un conductor central (el vivo), un dieléctrico aislante, una malla o pantalla metálica y una cubierta exterior. Es asimétrica.
+CAG @ 04-teoria-radio#el-receptor-superheterodino @ Control automático de ganancia (en inglés, *AGC*, *automatic gain control*): mide la intensidad de la señal y reduce la ganancia cuando es fuerte, para que el volumen no cambie con cada estación.
+CAL @ 04-teoria-radio#transmisor-de-blu @ Control automático de nivel (en inglés, *ALC*, *automatic level control*): reduce la excitación cuando el amplificador se acerca a su límite.
+Caída de tensión @ 02-electricidad-electronica#las-leyes-de-kirchhoff @ Tensión que se pierde en un componente o en un cable al pasar la corriente. Se mide en voltios.
+Campo cercano @ 03-seguridad#campo-cercano-y-campo-lejano @ Zona próxima a la antena, a menos de una longitud de onda aproximadamente, donde los campos eléctrico y magnético no siguen la relación sencilla del campo lejano.
+Campo lejano @ 03-seguridad#campo-cercano-y-campo-lejano @ Zona alejada de la antena donde la densidad de potencia baja con el cuadrado de la distancia: al doble de distancia, la cuarta parte.
+Capa D @ 05-propagacion-bandas#que-es-y-como-se-forma @ Capa más baja de la ionosfera, solo de día. No devuelve las ondas, pero absorbe las de frecuencia baja: por eso de día 160 m y 80 m solo dan contactos cercanos.
+Capa E @ 05-propagacion-bandas#que-es-y-como-se-forma @ Capa de la ionosfera entre unos 90 y 130 km. Sigue al Sol: es máxima a mediodía y casi desaparece de noche.
+Capa F2 @ 05-propagacion-bandas#que-es-y-como-se-forma @ Capa más alta y más ionizada de la ionosfera, entre unos 250 y 400 km. Es la responsable de casi todos los contactos a larga distancia en HF. De noche se une con la F1 en una sola capa F.
+Capacidad @ 02-electricidad-electronica#condensadores @ Magnitud de un condensador, que indica cuánta carga almacena. Se mide en faradios (F); en la práctica, en µF, nF y pF.
+Carga artificial @ 04-teoria-radio#emisiones-no-deseadas @ Resistencia que disipa la potencia del transmisor sin radiarla. Se usa para ajustes y pruebas, y para saber si una interferencia sale de la antena o del equipo.
+Cascada @ 04-teoria-radio#la-cascada @ Representación del espectro que acumula las líneas en el tiempo y pinta la intensidad con colores (en inglés, *waterfall*).
+CAT @ 12-modos-digitales#la-radio-y-el-ordenador @ *Computer aided transceiver*. Enlace de datos, por USB o puerto serie, con el que un programa lee y cambia la frecuencia y el modo de la radio.
+CB @ 14-escucha-uso-libre#que-es-y-que-norma-la-regula @ Véase **Banda ciudadana**.
+CEPT @ 09-reglamentacion/europeo#la-cept-y-sus-recomendaciones @ Conferencia Europea de Administraciones de Correos y Telecomunicaciones. Sus recomendaciones T/R 61-01 y T/R 61-02 regulan la licencia CEPT y el HAREC.
+Centro de actividad @ 11-telegrafia#para-que-sirve-el-plan @ Frecuencia que el plan de bandas de la IARU señala como punto de encuentro de un modo o una actividad, como QRP o QRS en CW.
+Centros de actividad de emergencia @ 15-emergencias#los-centros-de-actividad-de-emergencia-de-la-iaru @ Frecuencias de HF que la IARU señala como punto de encuentro del tráfico de emergencia: 3 760 y 7 110 kHz en la Región 1, y 14 300, 18 160 y 21 360 kHz. No son exclusivas, pero hay que dejarlas libres.
+Choque de modo común @ 08-interferencias#ferritas-y-choques-de-modo-comun @ Núcleo de ferrita sobre el que se enrolla un cable, o ferrita partida que se cierra a su alrededor, para frenar las corrientes en modo común.
+CI @ 02-electricidad-electronica#transistores-y-circuitos-integrados @ Véase **Circuito integrado**.
+Ciclo de trabajo @ 03-seguridad#potencia-media-y-ciclo-de-trabajo @ Fracción de la potencia de pico que entrega un transmisor de media mientras emite en un modo. Junto con el tiempo de emisión, da la potencia media para calcular la exposición.
+Ciclo solar @ 05-propagacion-bandas#el-ciclo-solar @ Subida y bajada del número de manchas solares con un periodo medio de unos 11 años. Hacia el máximo se abren más las bandas altas de HF; hacia el mínimo mejoran las bajas.
+Circuito integrado @ 02-electricidad-electronica#transistores-y-circuitos-integrados @ Componente que reúne en un solo encapsulado muchos transistores, resistencias y condensadores. Se abrevia CI.
+Circuito resonante @ 02-electricidad-electronica#reactancia-impedancia-y-resonancia @ Circuito de bobina y condensador que selecciona una frecuencia, la de resonancia, y rechaza las demás. También se llama sintonizado.
+Clase de emisión @ 04-teoria-radio#designacion-de-las-emisiones-segun-la-uit @ Código de tres símbolos de la UIT: la primera letra dice cómo se modula, la cifra qué señal modula y la última letra para qué sirve la información. Por ejemplo, A1A, J3E o F3E.
+Clics de manipulación @ 11-telegrafia#de-donde-salen @ Chasquidos que se oyen a varios kilohercios a cada lado de una señal de CW cuyos flancos son demasiado bruscos. Se evitan ajustando el tiempo de subida.
+Clúster de DX @ 10-operacion#el-dx @ Red en línea en la que los radioaficionados anuncian las estaciones que oyen.
+CMR @ 09-reglamentacion/internacional#el-reglamento-de-radiocomunicaciones @ Conferencia mundial de radiocomunicaciones de la UIT, que revisa el Reglamento de Radiocomunicaciones cada pocos años. La CMR-23 es la de 2023.
+CNAF @ 09-reglamentacion/espanol#las-normas-que-te-afectan @ Cuadro Nacional de Atribución de Frecuencias: dice qué bandas son del servicio de aficionados y con qué categoría. El vigente lo aprobó la Orden TDF/732/2026.
+Código de color @ 12-modos-digitales#dmr @ Número de 0 a 15 que lleva cada repetidor DMR para distinguirlo de otros que comparten frecuencia (en inglés, *colour code*).
+Código Morse @ 11-telegrafia#la-norma-de-referencia @ Código de puntos y rayas que se usa en telegrafía. El internacional lo fija la Recomendación UIT-R M.1677-1.
+Código Q @ 10-operacion#que-es-el-codigo-q @ Conjunto de grupos de tres letras que empiezan por Q, con un significado fijo: con interrogación son pregunta y sin ella, respuesta o afirmación. Lo recoge la Recomendación UIT-R M.1172.
+Coeficiente de reflexión @ 06-antenas-lineas#ondas-estacionarias @ Proporción de la onda que se refleja en el extremo de una línea desadaptada ($\Gamma$). Es adimensional, de 0 (adaptada) a 1.
+Compatibilidad electromagnética @ 08-interferencias#compatibilidad-electromagnetica @ Capacidad de un aparato para funcionar bien en su entorno sin estropear el funcionamiento de los demás (en inglés, *EMC*, *electromagnetic compatibility*). Tiene dos caras: la emisión y la inmunidad.
+Concurso @ 10-operacion#los-concursos @ Competición en la que se trata de hacer el mayor número de contactos válidos en un tiempo fijado, intercambiando los datos que piden las bases (en inglés, *contest*).
+Condensador @ 02-electricidad-electronica#condensadores @ Componente formado por dos placas conductoras separadas por un dieléctrico, que almacena energía en un campo eléctrico. Bloquea la continua y deja pasar mejor la alterna cuanto más alta es su frecuencia.
+Conducto troposférico @ 05-propagacion-bandas#propagacion-troposferica @ Propagación en VHF y UHF en la que una inversión térmica fuerte atrapa la onda entre la capa y el suelo o el mar, y la lleva cientos o miles de kilómetros (en inglés, *ducting*).
+Conductor @ 02-electricidad-electronica#resistencia-conductores-y-aislantes @ Material con muy poca resistencia, como el cobre, el aluminio o la plata.
+Conexión equipotencial @ 08-interferencias#toma-de-tierra-y-conexion-equipotencial @ Unión de todos los chasis de la estación a un punto común con conexiones cortas y anchas, para que no haya RF entre ellos.
+Conversión directa @ 04-teoria-radio#receptor-de-conversion-directa @ Receptor en el que el oscilador local está en la frecuencia de la señal, de modo que la mezcla da directamente audio.
+Corriente alterna @ 02-electricidad-electronica#corriente-continua-y-corriente-alterna @ Corriente cuya polaridad se invierte periódicamente. Se abrevia CA. La de la red europea es de 230 V y 50 Hz.
+Corriente continua @ 02-electricidad-electronica#corriente-continua-y-corriente-alterna @ Corriente que circula siempre en el mismo sentido, con una tensión de polaridad fija. Se abrevia CC.
+Corriente eléctrica @ 02-electricidad-electronica#carga-corriente-y-tension @ Desplazamiento de cargas en el mismo sentido por un material. Su intensidad ($I$) se mide en amperios (A).
+Corrientes en modo común @ 06-antenas-lineas#balun-y-corrientes-en-modo-comun @ Corrientes que circulan por la cara exterior de la malla de un coaxial, o en el mismo sentido por varios conductores de un cable. Hacen radiar al cable, deforman el diagrama y meten RF en la casa.
+CQ @ 10-operacion#la-llamada-general @ Llamada general, que invita a cualquier estación a contestar. «CQ DX» pide respuesta solo a estaciones lejanas.
+Criterio de Nyquist @ 04-teoria-radio#el-teorema-de-muestreo @ Para representar fielmente una señal hay que tomar más de dos muestras por ciclo de su componente más alta. La mitad de la frecuencia de muestreo es la frecuencia de Nyquist.
+CTCSS @ 10-operacion#tonos-de-acceso-ctcss-y-1-750-hz @ *Continuous Tone-Coded Squelch System*. Tono subaudible, entre 67,0 y 250,3 Hz, que se suma a la voz para abrir un repetidor o el silenciador de otro equipo.
+Cuadrado del localizador @ 13-satelites#como-es-un-contacto @ Zona en que está una estación, como IN80. Se intercambia en los contactos por satélite y es lo que cuenta para los diplomas.
+Cuadro @ 06-antenas-lineas#cuadros-y-delta @ Antena formada por un bucle cuadrado de una longitud de onda de perímetro (en inglés, *quad*). Con forma de triángulo es la delta.
+CW @ 11-telegrafia#que-es-la-telegrafia @ Telegrafía (*continuous wave*, onda continua): transmisión de texto encendiendo y apagando una portadora al ritmo del código Morse.
+
+dBc @ 08-interferencias#armonicos @ Decibelios respecto a la portadora. Es la unidad en que se da el nivel de los armónicos.
+dBd @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Decibelios de ganancia de una antena respecto a un dipolo de media onda. Se cumple que dBi = dBd + 2,15.
+dBi @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Decibelios de ganancia de una antena respecto a la antena isótropa.
+dBm @ 02-electricidad-electronica#valores-absolutos-dbm-y-dbw @ Decibelios respecto a 1 mW. Expresa una potencia absoluta: 0 dBm = 1 mW; 30 dBm = 1 W.
+dBW @ 02-electricidad-electronica#valores-absolutos-dbm-y-dbw @ Decibelios respecto a 1 W. Expresa una potencia absoluta: 0 dBW = 1 W.
+DDS @ 04-teoria-radio#osciladores @ Sintetizador digital directo (*direct digital synthesizer*): calcula la senoide muestra a muestra y la convierte en tensión.
+Decibelio @ 02-electricidad-electronica#decibelios @ Unidad logarítmica (dB) para expresar relaciones de potencia: $10 \log (P_2/P_1)$. Para tensiones sobre la misma impedancia se usa el factor 20. +3 dB es el doble de potencia y +10 dB, diez veces.
+Declaración responsable @ 06-antenas-lineas#ayuntamientos-y-otras-autorizaciones @ Documento en que declaras que cumples los requisitos de una actuación. Sustituye a las licencias municipales que no se pueden exigir para instalar antenas.
+Delta @ 06-antenas-lineas#cuadros-y-delta @ Antena de bucle con forma de triángulo, variante del cuadro.
+Densidad de potencia @ 03-seguridad#pire-y-distancia-de-seguridad @ Potencia que atraviesa cada metro cuadrado en el campo lejano de una antena, en W/m². Con ella se comprueban los límites de exposición.
+Desplazamiento @ 10-operacion#desplazamiento-y-canales @ Diferencia entre la frecuencia de entrada y la de salida de un repetidor (en inglés, *shift*). En la Región 1 es de −600 kHz en 2 m y de −1,6 o −7,6 MHz en 70 cm.
+Desvanecimiento @ 05-propagacion-bandas#desvanecimiento @ Subida y bajada de la intensidad de una señal recibida por varios caminos que se suman y se restan (en inglés, *fading*). En código Q, QSB.
+Desviación @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ En FM, lo que se aparta como máximo la frecuencia de su valor central ($\Delta f$, en kHz). Depende del volumen del audio.
+Detector @ 04-teoria-radio#multiplicadores-y-detectores @ Circuito que recupera la información de una señal modulada. También se llama demodulador. El de envolvente sirve para AM; el de producto, para BLU y CW; el discriminador, para FM.
+Diagrama de radiación @ 06-antenas-lineas#diagrama-de-radiacion @ Dibujo polar de cuánto radia una antena en cada dirección. Se dibuja en el plano horizontal y en el vertical.
+Dieléctrico @ 02-electricidad-electronica#condensadores @ Material aislante que separa las placas de un condensador o los conductores de una línea de transmisión.
+Diferencia de potencial @ 02-electricidad-electronica#carga-corriente-y-tension @ Véase **Tensión**.
+Difracción @ 05-propagacion-bandas#lo-que-le-pasa-a-una-onda-por-el-camino @ Fenómeno por el que una onda rodea el borde de un obstáculo y alcanza, debilitada, la zona de sombra. Cuanto más larga es la onda, más se dobla.
+Digipeater @ 12-modos-digitales#digipeaters-e-igates @ Repetidor digital de APRS: recibe un paquete, lo guarda y lo vuelve a transmitir una vez en la misma frecuencia.
+Diodo @ 02-electricidad-electronica#diodos @ Semiconductor con una unión P-N que deja pasar la corriente en un solo sentido, del ánodo al cátodo. Para conducir necesita una pequeña tensión.
+Diodo Zener @ 02-electricidad-electronica#diodos @ Diodo que, conectado al revés, mantiene una tensión casi constante entre sus extremos. Sirve como referencia de tensión.
+Dipolo de media onda @ 06-antenas-lineas#dipolo-de-media-onda @ Antena de dos brazos alimentada en el centro, de media longitud de onda en total: $L\,(\text{m}) \approx 143 / f\,(\text{MHz})$. Tiene unos 73 Ω en el espacio libre y 2,15 dBi de ganancia.
+Dipolo plegado @ 06-antenas-lineas#dipolo-plegado @ Dipolo de media onda formado por un bucle estrecho de dos conductores paralelos unidos en las puntas. Su impedancia es de unos 300 Ω.
+Director @ 06-antenas-lineas#antena-yagi @ Elemento parásito de una Yagi, algo más corto que el excitado, que se coloca delante y empuja la radiación hacia delante.
+Directividad @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Cuánto más intensa es la radiación de una antena en la dirección de máximo que si la misma potencia se repartiera por igual en todas direcciones.
+Dispersión meteórica @ 05-propagacion-bandas#dispersion-meteorica @ Propagación en VHF por reflexión en los rastros ionizados de los meteoros, que duran fracciones de segundo (en inglés, *meteor scatter*, MS). Permite contactos de hasta unos 2 000 km.
+Distancia de salto @ 05-propagacion-bandas#salto-y-zona-de-silencio @ Distancia mínima a la que vuelve a la Tierra la onda ionosférica.
+Distancia de seguridad @ 03-seguridad#pire-y-distancia-de-seguridad @ Distancia a una antena a partir de la cual la densidad de potencia queda por debajo del límite de exposición. Se calcula a partir de la PIRE.
+Distintivo de llamada @ 09-reglamentacion/espanol#el-distintivo-de-llamada @ Combinación de letras y cifras que identifica a una estación. También se llama indicativo. En España tiene prefijo, cifra de distrito y sufijo.
+Distintivo temporal @ 09-reglamentacion/espanol#distintivos-temporales @ Indicativo especial, con prefijo o sufijo distinto, que se autoriza para un evento concreto y por un periodo limitado.
+Distrito @ 09-reglamentacion/espanol#el-distrito @ Cifra del indicativo que indica la zona de residencia del titular cuando se le otorgó la autorización.
+Divisor de tensión @ 02-electricidad-electronica#el-divisor-de-tension @ Dos resistencias en serie que reparten la tensión de una fuente en proporción a su valor.
+DMR @ 12-modos-digitales#dmr @ *Digital Mobile Radio*. Norma de voz digital del ETSI, pensada para radio profesional, con dos ranuras de tiempo en un canal de 12,5 kHz.
+Doble conversión @ 04-teoria-radio#la-frecuencia-imagen @ Receptor superheterodino con una primera FI alta, que aleja la frecuencia imagen, y una segunda más baja, donde es fácil hacer filtros estrechos.
+Doppler @ 05-propagacion-bandas#efecto-doppler-y-satelites @ Véase **Efecto Doppler**.
+DSP @ 04-teoria-radio#filtros @ Procesado digital de señal (*digital signal processing*): filtra y trata la señal convertida en números. Da filtros, reductores de ruido y muescas.
+D-STAR @ 12-modos-digitales#d-star @ Norma de voz digital de la Liga Japonesa de Radioaficionados (JARL), con modulación GMSK y llamadas dirigidas por indicativo.
+Dúplex completo @ 13-satelites#oirte-a-ti-mismo @ Forma de trabajar en la que transmites en una banda y escuchas a la vez en otra. En los satélites te permite oír tu propia bajada.
+DX @ 10-operacion#el-dx @ Contacto o estación lejana o difícil: otros continentes en HF, cientos de kilómetros en VHF o un país raro.
+DXCC @ 10-operacion#los-diplomas @ *DX Century Club*, diploma de la ARRL que se consigue con 100 entidades de su lista confirmadas.
+
+Efecto captura @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ En FM, si llegan dos señales en la misma frecuencia, el receptor reproduce casi solo la más fuerte, sin mezclarlas.
+Efecto Doppler @ 13-satelites#cuanto-se-desplaza-la-frecuencia @ Desplazamiento de la frecuencia recibida cuando emisor y receptor se acercan o se alejan: $\Delta f = f \cdot v/c$. En un satélite de órbita baja crece con la frecuencia y cambia de signo durante el pase.
+Efecto pelicular @ 06-antenas-lineas#perdidas-en-la-linea @ Concentración de la corriente de RF en la superficie de los conductores, que hace crecer su resistencia con la frecuencia.
+Eficiencia @ 06-antenas-lineas#impedancia-resistencia-de-radiacion-y-eficiencia @ Fracción de la potencia que recibe una antena que acaba radiada. El resto se pierde en calor.
+EFHW @ 06-antenas-lineas#media-onda-alimentada-en-un-extremo @ *End-fed half-wave*: hilo de media onda alimentado en una punta, donde la impedancia es muy alta (de 2 000 a 4 000 Ω), con un transformador 49:1.
+EIRP @ 03-seguridad#pire-y-distancia-de-seguridad @ Sigla inglesa de la potencia isótropa radiada equivalente (*equivalent isotropically radiated power*). Véase **PIRE**.
+Elemento excitado @ 06-antenas-lineas#antena-yagi @ Elemento de una Yagi conectado a la línea: un dipolo resonante, simple o plegado.
+Elementos orbitales @ 13-satelites#los-elementos-orbitales @ Números que describen la órbita de un satélite en un instante y permiten al programa de seguimiento calcular sus pases. El formato tradicional son los TLE.
+Elevación @ 13-satelites#el-seguimiento-del-pase @ Altura sobre el horizonte, en grados, a la que está un satélite o hacia la que apunta una antena.
+EME @ 05-propagacion-bandas#rebote-lunar @ Rebote lunar (*Earth-Moon-Earth*): comunicación que usa la Luna como reflector pasivo.
+EMC @ 08-interferencias#compatibilidad-electromagnetica @ Sigla inglesa de la compatibilidad electromagnética (*electromagnetic compatibility*). Véase **Compatibilidad electromagnética**.
+Emisiones fuera de banda @ 08-interferencias#causas-en-el-transmisor @ Emisiones no deseadas pegadas a la propia emisión y producidas por la modulación, como las salpicaduras o los clics de manipulación.
+Emisiones no esenciales @ 08-interferencias#causas-en-el-transmisor @ Emisiones no deseadas que se pueden reducir sin afectar a la información transmitida, como los armónicos. También se llaman espurias.
+Energía @ 02-electricidad-electronica#energia-y-capacidad-de-las-baterias @ Potencia por tiempo. En electricidad se mide en vatios hora (Wh) o kilovatios hora (kWh).
+Envolvente @ 04-teoria-radio#modulacion-de-amplitud-am @ Curva que une los picos de una señal modulada. En AM tiene la forma del audio.
+ERP @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Sigla inglesa de la potencia radiada aparente (*effective radiated power*). Véase **p. r. a.**
+Esporádica E @ 05-propagacion-bandas#esporadica-e @ Nubes muy densas de ionización a la altura de la capa E que producen aperturas repentinas en 10 m, 6 m y 4 m, y en las más intensas en 2 m, con saltos de unos 500 a 2 300 km. Se abrevia Es.
+Estación automática desatendida @ 09-reglamentacion/espanol#estaciones-automaticas-desatendidas @ Estación colectiva que funciona sin intervención directa del operador, como un repetidor o una radiobaliza.
+Estación colectiva @ 09-reglamentacion/espanol#estaciones-colectivas @ Estación que pertenece a una asociación de radioaficionados reconocida. Puede servir para que personas sin autorización prueben la radio.
+Estación fija @ 09-reglamentacion/espanol#estacion-fija @ Conjunto de equipos y antenas que emite desde una ubicación fija determinada.
+Estación móvil @ 09-reglamentacion/espanol#clases-de-estaciones @ Estación que se usa en movimiento o detenida en puntos no determinados.
+Estación portable @ 09-reglamentacion/espanol#estacion-portable @ Estación fija que se usa temporalmente en otra ubicación determinada. Se notifica a la Jefatura con cinco días de antelación salvo usos de hasta quince días.
+Estación portátil @ 09-reglamentacion/espanol#clases-de-estaciones @ Estación móvil con la antena y la fuente de energía incorporadas al propio equipo.
+
+F3E @ 04-teoria-radio#designacion-de-las-emisiones-segun-la-uit @ Designación de emisión de la voz en FM.
+Factor de calidad @ 02-electricidad-electronica#reactancia-impedancia-y-resonancia @ Medida de lo selectivo que es un circuito resonante ($Q$). Cuanto mayor es, más estrecha es la banda que deja pasar: $B = f_0/Q$.
+Factor de velocidad @ 06-antenas-lineas#factor-de-velocidad @ Fracción de la velocidad de la luz a la que viaja la onda por una línea: $FV = 1/\sqrt{\varepsilon_r}$. Unos 0,66 en coaxial de polietileno macizo.
+Faradio @ 02-electricidad-electronica#condensadores @ Unidad de capacidad (F).
+Ferrita @ 08-interferencias#ferritas-y-choques-de-modo-comun @ Material magnético que presenta una impedancia alta a las corrientes en modo común y deja pasar la señal útil en modo diferencial.
+FI @ 04-teoria-radio#el-receptor-superheterodino @ Frecuencia intermedia: frecuencia fija a la que el receptor superheterodino convierte la señal sintonizada para filtrarla y amplificarla.
+Filtro @ 08-interferencias#filtros @ Circuito que deja pasar unas frecuencias y atenúa otras. Puede ser paso bajo, paso alto, paso banda o de banda eliminada.
+Filtro de banda eliminada @ 08-interferencias#filtros @ Filtro que suprime una frecuencia o un margen concreto y deja pasar el resto (en inglés, *notch*).
+Filtro de red @ 08-interferencias#filtros @ Filtro en el cable de alimentación que impide que la RF entre o salga por la red eléctrica.
+Filtro paso alto @ 08-interferencias#filtros @ Filtro que deja pasar lo que está por encima de una frecuencia de corte. En el televisor afectado rechaza una emisión de HF.
+Filtro paso bajo @ 08-interferencias#filtros @ Filtro que deja pasar lo que está por debajo de una frecuencia de corte. A la salida del transmisor elimina los armónicos.
+Filtro paso banda @ 04-teoria-radio#filtros @ Filtro que deja pasar un margen alrededor de una frecuencia central. Es el filtro de FI de un receptor.
+Flujo solar @ 05-propagacion-bandas#manchas-solares-y-flujo-solar @ Potencia de la emisión de radio del Sol en 2 800 MHz (10,7 cm), en unidades de flujo solar (sfu). Se escribe F10.7.
+FM @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ Modulación de frecuencia: la amplitud no cambia y la frecuencia instantánea de la portadora sube y baja al ritmo del audio.
+FOT @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ Frecuencia óptima de trabajo: la que se recomienda usar en un trayecto, que se suele tomar como el 85 % de la MUF.
+Frecuencia @ 04-teoria-radio#frecuencia-periodo-y-longitud-de-onda @ Número de ciclos completos por segundo de una señal ($f$). Se mide en hercios (Hz) y es la inversa del periodo.
+Frecuencia crítica @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ La frecuencia más alta que una capa de la ionosfera devuelve a la Tierra si la onda llega en vertical. La de la capa F2 se escribe foF2.
+Frecuencia de llamada @ 10-operacion#si-la-frecuencia-es-de-todos @ Frecuencia en la que se establece el contacto para pasar después a otra libre. En FM son 145,500 MHz y 433,500 MHz.
+Frecuencia de muestreo @ 04-teoria-radio#que-es-un-sdr @ Número de muestras por segundo que toma un convertidor analógico-digital ($f_s$), en S/s o MS/s.
+Frecuencia de resonancia @ 02-electricidad-electronica#reactancia-impedancia-y-resonancia @ Frecuencia en la que se igualan las reactancias de una bobina y un condensador: $f_0 = 1/(2\pi\sqrt{L \cdot C})$.
+Frecuencia imagen @ 04-teoria-radio#la-frecuencia-imagen @ Segunda frecuencia que recibe un superheterodino, situada a dos veces la FI de la deseada, al otro lado del oscilador local.
+FSK @ 04-teoria-radio#modulaciones-digitales @ *Frequency shift keying*: modulación digital que cambia entre dos o más frecuencias. La usan el RTTY y el FT8.
+FT8 @ 12-modos-digitales#ft8-y-ft4 @ Modo digital de HF con mensajes cortos y estructurados en periodos fijos de 15 s, con corrección de errores, que descodifica señales de hasta −21 dB en 2 500 Hz. El FT4 es una variante más rápida para concursos.
+Fuente conmutada @ 08-interferencias#fuentes-de-alimentacion-conmutadas @ Fuente de alimentación que convierte la tensión de red abriendo y cerrando un transistor a decenas o cientos de kilohercios. Es ligera, pero puede generar un peine de interferencias.
+Fuente de alimentación @ 02-electricidad-electronica#fuentes-de-alimentacion @ Equipo que obtiene de la red de 230 V la tensión continua que necesitan los equipos, por ejemplo 13,8 V. La lineal tiene transformador, rectificador, filtro y regulador.
+Fulguración @ 05-propagacion-bandas#perturbaciones-solares @ Estallido de rayos X en el Sol que provoca un apagón de radio en el lado diurno de la Tierra.
+Fusible @ 02-electricidad-electronica#otros-componentes @ Hilo calibrado que se funde si la corriente supera un valor, para proteger el circuito y el cableado. Se sustituye siempre por otro del mismo valor.
+
+Ganancia @ 02-electricidad-electronica#decibelios @ Aumento de potencia o de tensión de un circuito. En decibelios se expresa con un valor positivo.
+Ganancia de antena @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Directividad multiplicada por la eficiencia: incluye las pérdidas. Se da en dBi o en dBd.
+GEO @ 13-satelites#la-orbita-geoestacionaria @ Órbita geoestacionaria (*geostationary orbit*): sobre el ecuador y con un periodo igual a la rotación de la Tierra, de modo que el satélite parece quieto en el cielo.
+Grupo de conversación @ 12-modos-digitales#dmr @ En DMR, número que agrupa a quienes quieren hablar entre sí, estén en el repetidor que estén (en inglés, *talkgroup*).
+Guía de ondas @ 06-antenas-lineas#que-es-una-linea-de-transmision @ Tubo metálico hueco por cuyo interior viaja la onda. Solo funciona por encima de una frecuencia de corte y se usa en microondas.
+
+HAREC @ 09-reglamentacion/europeo#que-es_1 @ Certificado de examen armonizado de radioaficionado de la Recomendación T/R 61-02 de la CEPT. Prueba que aprobaste un examen con el temario común y te permite obtener la licencia de otro país si te instalas en él.
+Hélice axial @ 06-antenas-lineas#antenas-de-apertura-parabolicas-y-bocinas @ Antena de polarización circular formada por un conductor en espiral, de una longitud de onda por vuelta, delante de un plano reflector.
+Henrio @ 02-electricidad-electronica#bobinas @ Unidad de inductancia (H).
+Hercio @ 02-electricidad-electronica#corriente-alterna @ Unidad de frecuencia (Hz): un ciclo por segundo. Múltiplos habituales: kHz, MHz y GHz.
+HF @ 04-teoria-radio#el-espectro-radioelectrico @ *High frequency*: banda de 3 a 30 MHz, de ondas decamétricas. Permite contactos a miles de kilómetros por la ionosfera.
+Hilo largo @ 06-antenas-lineas#antenas-de-hilo-no-resonantes @ Hilo de longitud arbitraria conectado al equipo mediante un acoplador. Necesita una buena toma de tierra o un contrapeso.
+Horizonte radioeléctrico @ 05-propagacion-bandas#vision-directa-y-horizonte-radioelectrico @ Distancia hasta la que llega la onda directa desde una antena a $h$ metros: $d\,(\text{km}) \approx 4{,}12 \sqrt{h}$. Es algo mayor que el óptico porque la atmósfera curva las ondas.
+Hotspot @ 12-modos-digitales#los-hotspots @ Pequeño transceptor de pocos milivatios unido a un ordenador con Internet, que hace de repetidor personal para los modos de voz digital.
+HSP @ 15-emergencias#recargar-con-el-sol @ Horas solares pico: número de horas equivalentes a pleno sol en un día. Con ellas se calcula la energía diaria de un panel solar.
+Huella @ 13-satelites#la-orbita-baja @ Zona de la Tierra desde la que se ve un satélite sobre el horizonte. Dos estaciones dentro de la huella pueden comunicar a través de él.
+
+IARU @ 09-reglamentacion#para-que-sirven @ Unión Internacional de Radioaficionados: federa a las asociaciones nacionales y se organiza en tres regiones. La de España es la Región 1, que aprueba los planes de bandas.
+ICM @ 08-interferencias#si-eres-tu-quien-sufre-la-interferencia @ Aplicaciones industriales, científicas y médicas. En las bandas ICM que comparte el servicio de aficionados, hay que aceptar sus interferencias.
+Impedancia @ 02-electricidad-electronica#reactancia-impedancia-y-resonancia @ Oposición total a la corriente alterna de un circuito con resistencia y reactancia ($Z$). Se mide en ohmios.
+Impedancia característica @ 06-antenas-lineas#impedancia-caracteristica @ Resistencia aparente que presenta una línea de transmisión ($Z_0$), que depende de su geometría y del aislante, no de su longitud. En radioafición se usa casi siempre coaxial de 50 Ω; el de 75 Ω es el de televisión.
+Índice A @ 05-propagacion-bandas#indices-geomagneticos-k-y-a @ Índice diario y lineal de la actividad geomagnética, de 0 a 400. Su versión planetaria es el Ap.
+Índice de modulación @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ En AM, profundidad de la modulación ($m$, de 0 a 1). En FM, cociente entre la desviación y la frecuencia moduladora ($\beta$).
+Índice K @ 05-propagacion-bandas#indices-geomagneticos-k-y-a @ Índice de la perturbación del campo magnético terrestre, de 0 (tranquilo) a 9 (tormenta extrema), calculado cada tres horas. Su versión planetaria es el Kp.
+Indicativo @ 09-reglamentacion/espanol#el-distintivo-de-llamada @ Véase **Distintivo de llamada**.
+Inductancia @ 02-electricidad-electronica#bobinas @ Magnitud de una bobina ($L$). Se mide en henrios (H); en la práctica, en µH.
+Informe de señal @ 10-operacion#las-tres-cifras @ Valoración de cómo se recibe al corresponsal. En fonía es el RS, de dos cifras; en telegrafía, el RST, de tres.
+Inmunidad @ 08-interferencias#compatibilidad-electromagnetica @ Lo que un aparato aguanta sin fallar cuando le llegan perturbaciones de fuera.
+Intensidad de campo eléctrico @ 03-seguridad#pire-y-distancia-de-seguridad @ Magnitud del campo eléctrico de una onda ($E$), en voltios por metro (V/m).
+Interferencia @ 08-interferencias#las-definiciones-oficiales @ Efecto de una energía no deseada sobre la recepción de un sistema de radiocomunicación, que se nota como pérdida de calidad o información falseada o perdida.
+Interferencia perjudicial @ 08-interferencias#las-definiciones-oficiales @ Interferencia que compromete un servicio de radionavegación o de seguridad, o que degrada gravemente, interrumpe repetidamente o impide un servicio autorizado.
+Intermodulación @ 08-interferencias#intermodulacion @ Aparición de nuevas frecuencias, combinación de las originales, cuando dos o más señales pasan por un elemento no lineal. Los productos de tercer orden ($2f_1 - f_2$) son los más peligrosos.
+Ionosfera @ 05-propagacion-bandas#que-es-y-como-se-forma @ Región alta de la atmósfera con electrones libres, ionizada por la radiación del Sol, que desvía las ondas de HF y las devuelve a la Tierra. Se organiza en las capas D, E, F1 y F2.
+Ionosonda @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ Equipo que emite pulsos en vertical barriendo frecuencias para medir la frecuencia crítica de las capas de la ionosfera.
+ISS @ 13-satelites#la-radio-a-bordo @ Estación Espacial Internacional (*International Space Station*), que lleva estaciones de radioaficionado gestionadas por ARISS.
+
+J3E @ 04-teoria-radio#designacion-de-las-emisiones-segun-la-uit @ Designación de emisión de la voz en BLU con portadora suprimida.
+Jefatura Provincial de Inspección de Telecomunicaciones @ 08-interferencias#la-reclamacion-ante-el-ministerio @ Oficina del ministerio en cada provincia que hace los exámenes, recibe las notificaciones y atiende las reclamaciones por interferencias.
+
+K @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ En telegrafía, «adelante»: invitación a transmitir a cualquiera.
+KN @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ Prosigno que significa «adelante, solo la estación con la que hablo»; las demás, que no entren.
+
+LEO @ 13-satelites#la-orbita-baja @ Órbita baja (*low Earth orbit*), entre unos 400 y 1 000 km de altura, en la que están casi todos los satélites de aficionado.
+Ley de la secante @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ Relación entre la MUF de un trayecto y la frecuencia crítica: la MUF es la frecuencia crítica dividida por el coseno del ángulo de incidencia.
+Ley de Ohm @ 02-electricidad-electronica#ley-de-ohm @ En una resistencia, la corriente es proporcional a la tensión e inversamente proporcional a la resistencia: $I = V/R$.
+Leyes de Kirchhoff @ 02-electricidad-electronica#las-leyes-de-kirchhoff @ En un nudo, la suma de las corrientes que entran es igual a la de las que salen. En una malla, la suma de las tensiones de las fuentes es igual a la de las caídas de tensión.
+Libro de guardia @ 10-operacion#que-es-buena-practica @ Registro de los contactos y emisiones de una estación: fecha y hora UTC, frecuencia, modo, indicativo… La normativa española no lo exige, pero conviene llevarlo.
+Licencia CEPT @ 09-reglamentacion/europeo#que-es @ Validez de la licencia nacional, según la Recomendación T/R 61-01, para operar en otros países que la aplican durante estancias temporales, sin trámites ni tasas.
+Limitador @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ Etapa que recorta la amplitud de la señal antes del demodulador de FM, para que el ruido de amplitud no se oiga. En el transmisor impide que la desviación supere la máxima.
+Línea de transmisión @ 06-antenas-lineas#que-es-una-linea-de-transmision @ Cable que lleva la energía del transmisor a la antena, y de la antena al receptor, sin radiarla por el camino. También se llama línea de alimentación.
+Línea gris @ 05-propagacion-bandas#trayecto-corto-trayecto-largo-y-linea-gris @ Franja entre el día y la noche, también llamada terminador, especialmente favorable para la propagación en las bandas bajas.
+Línea paralela @ 06-antenas-lineas#que-es-una-linea-de-transmision @ Línea de dos conductores paralelos separados por aire (línea de escalera) o por una cinta de plástico (de 300 o 450 Ω). También se llama bifilar.
+Longitud de onda @ 04-teoria-radio#frecuencia-periodo-y-longitud-de-onda @ Distancia entre dos crestas consecutivas de una onda ($\lambda$), en metros: $\lambda\,(\text{m}) = 300 / f\,(\text{MHz})$.
+LoRa @ 15-emergencias/meshtastic#lora-en-868-mhz @ Modulación de espectro ensanchado que sacrifica velocidad para recibir señales muy débiles, incluso por debajo del ruido. La usa Meshtastic en la banda de uso común de 868 MHz.
+LOS @ 13-satelites#la-orbita-baja @ Pérdida de señal (*loss of signal*): momento en que un satélite desaparece por el horizonte al acabar un pase.
+LoTW @ 10-operacion#los-sistemas-electronicos @ *Logbook of The World*, base de datos de la ARRL en la que se sube el registro firmado digitalmente para confirmar contactos.
+LSB @ 04-teoria-radio#banda-lateral-unica-blu @ Banda lateral inferior (*lower sideband*). En fonía de HF se usa por debajo de 10 MHz.
+LUF @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ Frecuencia mínima utilizable (*lowest usable frequency*): la más baja que mantiene un enlace útil. Por debajo, la absorción en la capa D lo impide.
+
+Manchas solares @ 05-propagacion-bandas#manchas-solares-y-flujo-solar @ Regiones activas del Sol de las que procede la radiación ultravioleta que ioniza la capa F2. Su número (SSN) sigue el ciclo solar.
+Manipulador @ 11-telegrafia#manipuladores @ Interruptor con el que se enciende y apaga la emisión en telegrafía. Puede ser vertical, de palas con manipulador electrónico (*keyer*), semiautomático o lateral.
+Margen dinámico @ 04-teoria-radio#que-se-le-pide-a-un-receptor @ Capacidad de un receptor para recibir una señal débil junto a otra muy fuerte sin saturarse ni generar señales falsas. Se da en decibelios.
+MAYDAY @ 15-emergencias#las-senales-de-socorro-urgencia-y-seguridad @ Señal radiotelefónica de socorro: una persona o una unidad móvil está amenazada por un peligro grave e inminente. Se dice tres veces. Si la oyes, deja de transmitir y escucha.
+Medidor de ROE @ 06-antenas-lineas#medir-la-roe @ Instrumento que se intercala en la línea para medir la ROE mientras se transmite. También se llama reflectómetro.
+Medidor S @ 04-teoria-radio#mandos-y-ayudas-del-receptor @ Indicador de la intensidad de la señal recibida en unidades S, de S1 a S9 y, por encima, en decibelios sobre S9.
+Mezclador @ 04-teoria-radio#mezcladores @ Circuito que recibe dos señales y entrega, entre otras, su suma y su diferencia de frecuencias.
+Modo común @ 08-interferencias#ferritas-y-choques-de-modo-comun @ Véase **Corrientes en modo común**.
+Modo diferencial @ 08-interferencias#ferritas-y-choques-de-modo-comun @ Forma normal de circular la señal por un cable: corrientes iguales y opuestas cuyos campos se anulan, de modo que el cable ni radia ni capta.
+Modulación @ 04-teoria-radio#portadora-y-modulacion @ Proceso de imprimir la información (voz, datos) en una portadora variando su amplitud, su frecuencia o su fase. La operación inversa es la demodulación o detección.
+MUF @ 05-propagacion-bandas#frecuencia-critica-y-frecuencia-maxima-utilizable @ Frecuencia máxima utilizable (*maximum usable frequency*): la más alta que sirve para un trayecto ionosférico determinado.
+Multiplicador de frecuencia @ 04-teoria-radio#multiplicadores-y-detectores @ Amplificador que distorsiona a propósito para generar armónicos, seguido de un filtro que escoge el deseado.
+
+Nulo @ 06-antenas-lineas#diagrama-de-radiacion @ Dirección en la que una antena casi no radia ni recibe.
+NVIS @ 05-propagacion-bandas#incidencia-casi-vertical-nvis @ Propagación por incidencia casi vertical (*near vertical incidence skywave*): la onda sube casi en vertical y vuelve cubriendo un círculo de unos cientos de kilómetros. Sus bandas típicas son 80 m y 60 m, y 40 m de día.
+
+Ohmio @ 02-electricidad-electronica#resistencia-conductores-y-aislantes @ Unidad de resistencia, reactancia e impedancia (Ω).
+OM @ 10-operacion#en-fonia @ «Colega». Heredada de la telegrafía, como YL (colega mujer) y XYL (esposa).
+Onda de superficie @ 05-propagacion-bandas#onda-de-superficie @ Onda que se propaga pegada a la Tierra, con polarización vertical, siguiendo su curvatura. Es la propia de las ondas largas y medias.
+Onda directa @ 05-propagacion-bandas#tres-caminos @ Onda que va en línea recta entre las dos antenas. Es la norma en VHF y superiores.
+Onda electromagnética @ 04-teoria-radio#que-es-una-onda-electromagnetica @ Campos eléctrico y magnético que se desprenden de un conductor y viajan por el espacio a la velocidad de la luz, unos $3 \cdot 10^8$ m/s.
+Onda ionosférica @ 05-propagacion-bandas#tres-caminos @ Onda que sube a la ionosfera y vuelve a la Tierra lejos del emisor. También se llama onda espacial.
+Ondas estacionarias @ 06-antenas-lineas#ondas-estacionarias @ Reparto de tensión y corriente con máximos y mínimos fijos que aparece en una línea desadaptada, donde conviven la onda incidente y la reflejada.
+Orden IET/1311/2013 @ 09-reglamentacion/espanol#las-normas-que-te-afectan @ Orden que aprueba el Reglamento de uso del dominio público radioeléctrico por radioaficionados: la autorización, las estaciones, la identificación, las condiciones de uso y, en sus anexos, las bandas y potencias y el temario.
+OSCAR @ 13-satelites#amsat @ *Orbiting Satellite Carrying Amateur Radio*. Número que AMSAT asigna a un satélite de aficionado, precedido de letras: SO-50, AO-123.
+Oscilador @ 04-teoria-radio#osciladores @ Circuito que genera una señal alterna de frecuencia estable a partir de la alimentación continua. Puede ser LC, de cristal o un sintetizador.
+Oscilador local @ 04-teoria-radio#el-receptor-superheterodino @ Oscilador de un superheterodino que se sintoniza a una distancia igual a la FI de la señal deseada. Se abrevia OL.
+
+p. c. e. @ 05-propagacion-bandas#tabla-de-bandas @ Potencia de cresta de la envolvente: la que alcanza un transmisor en los picos de la modulación. En inglés, *PEP* (*peak envelope power*). Es la que limita la orden en BLU.
+p. r. a. @ 06-antenas-lineas#ganancia-directividad-y-potencia-radiada @ Potencia radiada aparente (en inglés, *ERP*, *effective radiated power*): la potencia entregada a la antena multiplicada por su ganancia respecto al dipolo. La PIRE es 1,64 veces la p. r. a.
+PAN PAN @ 15-emergencias#las-senales-de-socorro-urgencia-y-seguridad @ Señal radiotelefónica de urgencia: la estación tiene que transmitir un mensaje muy urgente sobre la seguridad de una persona o una unidad móvil.
+Pase @ 13-satelites#la-orbita-baja @ Tiempo durante el cual un satélite de órbita baja está sobre tu horizonte, desde la AOS hasta la LOS.
+PEP @ 04-teoria-radio#banda-lateral-unica-blu @ Sigla inglesa de la potencia de cresta de la envolvente (*peak envelope power*). Véase **p. c. e.**
+Pérdida de retorno @ 06-antenas-lineas#ondas-estacionarias @ Cuánto más débil es la onda reflejada que la incidente, en decibelios: $-20 \log |\Gamma|$.
+Pérdida en el espacio libre @ 05-propagacion-bandas#atenuacion-en-el-espacio-libre @ Atenuación de una onda por el simple reparto de su energía al alejarse de la antena, sin obstáculos. Crece con la distancia y con la frecuencia.
+Periodo @ 02-electricidad-electronica#corriente-alterna @ Lo que tarda en repetirse un ciclo completo ($T$), en segundos. Es la inversa de la frecuencia.
+Pile-up @ 10-operacion#el-pile-up @ Situación en que cientos de estaciones contestan a la vez a una estación rara.
+PIRE @ 03-seguridad#pire-y-distancia-de-seguridad @ Potencia isótropa radiada equivalente (en inglés, *EIRP*, *equivalent isotropically radiated power*): la potencia entregada a la antena multiplicada por su ganancia respecto a la antena isótropa. Se da en vatios y también se escribe p. i. r. e.
+Plan de bandas @ 09-reglamentacion#para-que-sirven @ Reparto de cada banda en tramos según el modo y el ancho de banda que aprueba la IARU Región 1. La Orden IET/1311/2013 lo toma como norma general.
+Plano de tierra @ 06-antenas-lineas#vertical-de-cuarto-de-onda-y-plano-de-tierra @ Conjunto de radiales de un cuarto de onda que sustituye al suelo como espejo de una antena vertical. En VHF, la vertical con cuatro radiales es la *ground plane*.
+PLC @ 08-interferencias#comunicaciones-por-la-red-electrica-plc @ *Power line communication*: adaptadores que llevan la red de datos por los enchufes e inyectan en la instalación eléctrica señales de banda ancha en buena parte de la HF.
+PLL @ 04-teoria-radio#osciladores @ Bucle de enganche de fase (*phase-locked loop*): corrige un oscilador variable hasta que su frecuencia es un múltiplo exacto de una referencia de cuarzo.
+PM @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ Modulación de fase: varía la fase de la portadora en lugar de la frecuencia.
+PMR446 @ 14-escucha-uso-libre#que-es_1 @ Portátiles de uso común, sin licencia, en la banda de 446,0 a 446,2 MHz, con 500 mW p. r. a. como máximo y antena fija.
+Polarización @ 06-antenas-lineas#polarizacion @ Orientación del campo eléctrico que radia una antena, que coincide con la del conductor: horizontal, vertical o circular.
+Polímetro @ 02-electricidad-electronica#como-se-mide @ Instrumento que reúne amperímetro, voltímetro y óhmetro, y suele añadir prueba de continuidad y de diodos. También se llama multímetro.
+Portadora @ 04-teoria-radio#portadora-y-modulacion @ Onda de alta frecuencia a la que se imprime la información mediante la modulación.
+Potencia @ 02-electricidad-electronica#potencia-y-energia @ Rapidez con la que se entrega o se consume energía ($P = V \cdot I$). Se mide en vatios (W).
+Potenciómetro @ 02-electricidad-electronica#resistencias @ Resistencia variable que maneja el usuario, como el mando de volumen.
+Prefijo @ 09-reglamentacion/espanol#el-prefijo @ Primera parte del indicativo, que indica la nacionalidad. Los permanentes de España son EA, EB, EC y ED; los demás de las series de España son temporales.
+Prosigno @ 11-telegrafia#senales-de-servicio @ Señal de procedimiento de telegrafía que se transmite como un solo carácter, sin pausa entre letras. Se escribe con raya encima o entre ángulos: `<SK>`, `<AR>`.
+PSK @ 04-teoria-radio#modulaciones-digitales @ *Phase shift keying*: modulación digital que cambia la fase de la portadora.
+PSK31 @ 12-modos-digitales#psk31 @ Modo digital de teclado para conversar en tiempo real, muy estrecho, que codifica las letras con el Varicode.
+PTT @ 04-teoria-radio#el-transceptor @ *Push to talk*: pulsador que pasa el transceptor de recepción a transmisión.
+
+QRL @ 10-operacion#los-grupos-que-mas-vas-a-oir @ «Frecuencia ocupada». En CW, `QRL?` pregunta si la frecuencia está libre antes de llamar.
+QRM @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Interferencia de otras estaciones. Como pregunta: «¿Está interferida mi transmisión?» (escala de 1 a 5).
+QRN @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Ruido atmosférico o eléctrico. Como pregunta: «¿Le perturban los atmosféricos?» (escala de 1 a 5).
+QRO @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Potencia alta, o subir la potencia. Como pregunta: «¿Debo aumentar la potencia?».
+QRP @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Potencia baja; operar con muy poca potencia, por convenio 5 W o menos en CW. Como pregunta: «¿Debo disminuir la potencia?».
+QRQ @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Transmitir más deprisa. Como pregunta: «¿Debo transmitir más de prisa?».
+QRS @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Transmitir más despacio. Como pregunta: «¿Debo transmitir más despacio?».
+QRT @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Dejo de transmitir, cierro la estación. Como pregunta: «¿Debo cesar de transmitir?».
+QRV @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Estoy preparado, estoy activo en la banda. Como pregunta: «¿Está usted preparado?».
+QRX @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Espera un momento. Como pregunta: «¿Cuándo volverá a llamarme?».
+QRZ @ 10-operacion#los-grupos-que-mas-vas-a-oir @ «¿Quién me llama?».
+QSB @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Desvanecimiento: la señal sube y baja. Como pregunta: «¿Varía la intensidad de mis señales?».
+QSL @ 10-operacion#la-tarjeta-qsl @ «Recibido». También, la tarjeta que confirma por escrito un contacto, con indicativos, fecha y hora UTC, frecuencia, modo e informe.
+QSO @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Contacto entre dos estaciones. Oficialmente es la pregunta «¿Puede comunicar directamente con…?».
+QSP @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Retransmitir un mensaje para otra estación.
+QSY @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Cambiar de frecuencia: «QSY a 145,450».
+QTH @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Lugar donde está la estación. Oficialmente es la pregunta por la situación en latitud y longitud.
+QTR @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Hora exacta.
+QUF @ 15-emergencias#las-senales-de-socorro-urgencia-y-seguridad @ «He recibido la señal de socorro». Se usa en telegrafía y en modos digitales.
+QO-100 @ 13-satelites#que-es @ Transpondedor de aficionado del satélite geoestacionario Es'hail-2, que sube en 13 cm y baja en 3 cm (modo S/x).
+
+Radiales @ 06-antenas-lineas#vertical-de-cuarto-de-onda-y-plano-de-tierra @ Conductores de un cuarto de onda que salen de la base de una antena vertical y forman su plano de tierra.
+Radiobaliza @ 05-propagacion-bandas#que-es-una-radiobaliza @ Estación automática desatendida que emite señales de identificación de forma continua para estudiar la propagación. Si la oyes, la banda está abierta hacia ese lugar.
+Radiofrecuencia @ 03-seguridad#radiacion-ionizante-y-no-ionizante @ Ondas electromagnéticas que se usan para radiocomunicación. Es radiación no ionizante: su efecto comprobado sobre el cuerpo es el calentamiento. Se abrevia RF.
+Radiación no ionizante @ 03-seguridad#radiacion-ionizante-y-no-ionizante @ Radiación cuyos fotones no tienen energía suficiente para romper enlaces químicos ni dañar el ADN, como la radiofrecuencia.
+Radiograma @ 15-emergencias#el-radiograma-de-la-iaru @ Formato de mensaje de la IARU para el tráfico de emergencia, con cuatro partes: preámbulo, dirección, texto y firma.
+Reactancia @ 02-electricidad-electronica#reactancia-impedancia-y-resonancia @ Oposición de bobinas y condensadores a la corriente alterna, en ohmios. No disipa energía: la almacena y la devuelve en cada ciclo. La inductiva es $X_L = 2\pi f L$ y la capacitiva, $X_C = 1/(2\pi f C)$.
+Rebote lunar @ 05-propagacion-bandas#rebote-lunar @ Véase **EME**.
+Receptor superheterodino @ 04-teoria-radio#el-receptor-superheterodino @ Receptor que convierte la señal sintonizada, mediante un mezclador y un oscilador local, en una frecuencia intermedia fija donde se filtra y amplifica.
+Red dirigida @ 15-emergencias#por-que-hace-falta-un-director @ Red en la que una estación de control (*net control station*, NCS) decide quién transmite y cuándo (en inglés, *directed net*). Lo contrario es una red abierta.
+Reflector @ 06-antenas-lineas#antena-yagi @ Elemento parásito de una Yagi, algo más largo que el excitado, que se coloca detrás.
+Refracción @ 05-propagacion-bandas#lo-que-le-pasa-a-una-onda-por-el-camino @ Curvatura de una onda al pasar por un medio cuyo índice de refracción cambia poco a poco, como la ionosfera o la atmósfera baja.
+Región 1 @ 09-reglamentacion/internacional#las-regiones-de-la-uit @ Una de las tres regiones en que la UIT divide el mundo para atribuir las bandas. España, con Canarias, está en ella.
+Reglamento de Radiocomunicaciones @ 09-reglamentacion/internacional#el-reglamento-de-radiocomunicaciones @ Tratado internacional de la UIT que atribuye las bandas a los servicios y fija las reglas de las estaciones. Se abrevia RR y sus disposiciones se citan por número.
+REMER @ 15-emergencias#la-remer @ Red Nacional de Radio de Emergencia: red de radioaficionados voluntarios de Protección Civil, alternativa y complementaria a sus demás redes.
+Rendimiento @ 04-teoria-radio#amplificadores @ Cociente entre la potencia de RF que entrega un amplificador y la potencia de continua que consume. El resto se convierte en calor.
+Repetidor @ 10-operacion#que-hacen @ Estación automática en un punto alto que recibe en una frecuencia (la entrada) y retransmite a la vez en otra (la salida).
+Resistencia @ 02-electricidad-electronica#resistencias @ Oposición de un material al paso de la corriente ($R$), en ohmios (Ω). También, el componente que limita la corriente, reparte tensiones o sirve de carga.
+Resistencia de radiación @ 06-antenas-lineas#impedancia-resistencia-de-radiacion-y-eficiencia @ Resistencia ficticia que representa la potencia que una antena envía al espacio como onda. Unos 73 Ω en un dipolo de media onda.
+Resonancia @ 06-antenas-lineas#resonancia-y-longitud-electrica @ Estado de una antena en el que la parte reactiva de su impedancia vale cero. Un hilo de media onda resuena.
+RF @ 03-seguridad#radiacion-ionizante-y-no-ionizante @ Véase **Radiofrecuencia**.
+RIT @ 04-teoria-radio#mandos-y-ayudas-del-receptor @ Clarificador (*receiver incremental tuning*): desplaza un poco la frecuencia de recepción sin mover la de transmisión.
+ROE @ 06-antenas-lineas#ondas-estacionarias @ Relación de ondas estacionarias (en inglés, *SWR*, *standing wave ratio*, o *VSWR*): cociente entre la tensión máxima y la mínima a lo largo de una línea. Vale 1 con la línea adaptada; se escribe 1,5 o 1,5:1.
+RS @ 10-operacion#las-tres-cifras @ Informe de señal en fonía: legibilidad (R, de 1 a 5) e intensidad (S, de 1 a 9).
+RST @ 10-operacion#las-tres-cifras @ Informe de señal en telegrafía y modos de tono: legibilidad (*readability*, 1 a 5), intensidad (*strength*, 1 a 9) y tono (1 a 9). Es costumbre de los aficionados, no norma de la UIT.
+RTTY @ 12-modos-digitales#rtty @ Radioteletipo: modo digital FSK de dos tonos, con un desplazamiento habitual de 170 Hz, que transmite el código Baudot de 5 bits a 45,45 baudios.
+Ruido @ 04-teoria-radio#ruido-y-relacion-senalruido @ Señal no deseada que llega con la útil: la de la atmósfera, la de los aparatos eléctricos y la de los propios componentes del receptor.
+Ruido de fase @ 04-teoria-radio#osciladores @ Ruido que añade un oscilador poco limpio alrededor de su frecuencia. Ensucia tanto la recepción como la emisión.
+
+S/R @ 04-teoria-radio#ruido-y-relacion-senalruido @ Relación señal/ruido (en inglés, *SNR*): cuánto más fuerte es la señal que el ruido, en decibelios. Decide si entiendes o no una señal.
+Salpicaduras @ 08-interferencias#otras-emisiones-no-deseadas @ Ensanchamiento de una emisión de BLU o AM por exceso de modulación, que molesta a las frecuencias vecinas (en inglés, *splatter*).
+SAR @ 03-seguridad#como-actua-la-radiofrecuencia-sobre-el-cuerpo @ Tasa de absorción específica (*specific absorption rate*): energía de RF que absorbe el cuerpo, en vatios por kilogramo (W/kg).
+Saturación @ 08-interferencias#saturacion-y-bloqueo @ Estado de las primeras etapas de un receptor que, ante una señal muy fuerte, dejan de comportarse de forma lineal. Produce bloqueo e intermodulación.
+SDR @ 04-teoria-radio#que-es-un-sdr @ Receptor definido por software (*software defined radio*): convierte la señal en números lo antes posible y un programa hace el resto.
+SÉCURITÉ @ 15-emergencias#las-senales-de-socorro-urgencia-y-seguridad @ Señal radiotelefónica de seguridad, que anuncia un aviso náutico o meteorológico importante. Se pronuncia como en francés.
+Selectividad @ 04-teoria-radio#que-se-le-pide-a-un-receptor @ Capacidad de un receptor para separar la señal deseada de las vecinas. La dan sobre todo los filtros de FI.
+Semiconductor @ 02-electricidad-electronica#resistencia-conductores-y-aislantes @ Material, como el silicio, cuya conducción está entre la de los conductores y la de los aislantes y se puede controlar. Con él se fabrican diodos y transistores.
+Sensibilidad @ 04-teoria-radio#que-se-le-pide-a-un-receptor @ Capacidad de un receptor para recibir señales débiles. Se da como la tensión de entrada, en µV, que da una relación señal/ruido determinada.
+Servicio de aficionados @ 09-reglamentacion/internacional#el-servicio-de-aficionados @ Servicio de radiocomunicación cuyo objeto es la instrucción individual, la intercomunicación y los estudios técnicos, hechos por personas autorizadas, a título personal y sin ánimo de lucro.
+Servicio secundario @ 08-interferencias#si-eres-tu-quien-sufre-la-interferencia @ Servicio que no puede causar interferencias perjudiciales a los primarios ni reclamar protección frente a ellos. Véase **Banda secundaria**.
+Silenciador @ 04-teoria-radio#mandos-y-ayudas-del-receptor @ Mando que enmudece el altavoz cuando no hay señal (en inglés, *squelch*).
+Símplex @ 14-escucha-uso-libre#potencia-y-antena @ Funcionamiento en el que se transmite y se recibe en la misma frecuencia, sin repetidor.
+Sintetizador @ 04-teoria-radio#osciladores @ Circuito que obtiene todas las frecuencias de un equipo a partir de un único oscilador de referencia de cuarzo, mediante un PLL o un DDS.
+SK @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ Prosigno de fin de contacto (el «fin de trabajo» de la recomendación de la UIT).
+Sobredesviación @ 04-teoria-radio#modulacion-de-frecuencia-fm-y-de-fase-pm @ En FM, desviación mayor que la prevista, por hablar muy cerca del micrófono o subir su ganancia. Ensancha la emisión.
+Sobremodulación @ 04-teoria-radio#modulacion-de-amplitud-am @ En AM, índice de modulación mayor que 1: la portadora se anula durante parte del ciclo, el audio se distorsiona y la emisión salpica a las frecuencias vecinas.
+Solapamiento @ 04-teoria-radio#el-teorema-de-muestreo @ Aparición, en una señal muestreada, de una componente de frecuencia superior a la de Nyquist como si fuera otra más baja (en inglés, *aliasing*). Se evita con un filtro antisolapamiento.
+Split @ 10-operacion#el-split @ Operación en la que una estación transmite en una frecuencia y escucha en otra, típica de los pile-ups.
+SSB @ 04-teoria-radio#banda-lateral-unica-blu @ Sigla inglesa de la banda lateral única (*single sideband*). Véase **BLU**.
+SSN @ 05-propagacion-bandas#manchas-solares-y-flujo-solar @ Número de manchas solares (*sunspot number*). Para seguir el ciclo se usa el número suavizado, una media de 13 meses.
+SSTV @ 12-modos-digitales#sstv @ Televisión de barrido lento: transmisión de imágenes fijas como una sucesión de tonos de audio.
+Stub @ 06-antenas-lineas#lineas-como-circuitos-resonantes @ Tramo de línea de un cuarto o media onda que se comporta como un circuito resonante. Un cuarto de onda en cortocircuito presenta una impedancia altísima.
+Sufijo @ 09-reglamentacion/espanol#el-sufijo @ Última parte del indicativo: hasta tres letras asignadas por orden alfabético. Los de una y dos letras se reservan a titulares con cinco años de antigüedad.
+SWL @ 14-escucha-uso-libre#que-es @ Escucha: quien sigue las emisiones de radio sin transmitir (*shortwave listener*).
+SWR @ 06-antenas-lineas#ondas-estacionarias @ Sigla inglesa de la relación de ondas estacionarias (*standing wave ratio*); VSWR es *voltage standing wave ratio*. Véase **ROE**.
+
+T/R 61-01 @ 09-reglamentacion/europeo#la-cept-y-sus-recomendaciones @ Recomendación de la CEPT que crea la licencia CEPT para operar de visita en otros países.
+T/R 61-02 @ 09-reglamentacion/europeo#la-cept-y-sus-recomendaciones @ Recomendación de la CEPT que crea el HAREC y fija el temario común del examen.
+Telegrafía @ 11-telegrafia#que-es-la-telegrafia @ Transmisión de texto encendiendo y apagando una portadora al ritmo de un código, normalmente el Morse. Véase **CW**.
+Tensión @ 02-electricidad-electronica#carga-corriente-y-tension @ Empuje que mueve las cargas por un circuito ($V$). También se llama diferencia de potencial. Se mide en voltios (V).
+TLE @ 13-satelites#los-elementos-orbitales @ *Two-line elements*: formato tradicional de los elementos orbitales, también llamados keplerianos.
+Toma de tierra @ 03-seguridad#la-instalacion-electrica-de-la-estacion @ Unión de las carcasas metálicas de los aparatos con el terreno, para proteger a las personas. Su conductor es el amarillo y verde.
+Tono de 1 750 Hz @ 10-operacion#tonos-de-acceso-ctcss-y-1-750-hz @ Pitido corto y audible que se envía al empezar para abrir un repetidor (en inglés, *tone burst*). Es el sistema antiguo; el actual es el CTCSS.
+Tormenta geomagnética @ 05-propagacion-bandas#perturbaciones-solares @ Perturbación del campo magnético terrestre causada por una eyección de masa coronal. La capa F2 se desordena y la MUF cae durante uno o varios días.
+Transceptor @ 04-teoria-radio#el-transceptor @ Receptor y transmisor en la misma caja, que comparten sintetizador, filtros y mezcladores.
+Transformador @ 02-electricidad-electronica#transformadores @ Dos bobinas, primario y secundario, sobre un mismo núcleo. La relación de tensiones es la de espiras.
+Transformador de cuarto de onda @ 06-antenas-lineas#el-transformador-de-cuarto-de-onda @ Tramo de línea de un cuarto de onda eléctrica que transforma una impedancia en otra.
+Transistor @ 02-electricidad-electronica#transistores-y-circuitos-integrados @ Semiconductor en el que una corriente o tensión pequeña controla otra mayor, para amplificar o conmutar. Los bipolares tienen base, colector y emisor; los de efecto de campo (FET), puerta, drenador y fuente.
+Transpondedor lineal @ 13-satelites#repetidores-fm-y-transpondedores-lineales @ Equipo de un satélite que recibe un tramo entero de banda y lo vuelve a emitir en otra sin demodularlo, de modo que caben a la vez muchos contactos en BLU y CW. Muchos son inversores.
+Transversor @ 04-teoria-radio#el-transceptor @ Convertidor que permite usar un transceptor de HF en bandas de VHF o superiores, cambiando la frecuencia en los dos sentidos.
+Trayecto largo @ 05-propagacion-bandas#trayecto-corto-trayecto-largo-y-linea-gris @ Camino de una señal entre dos puntos que da la vuelta por las antípodas, en sentido contrario al trayecto corto habitual.
+
+UHF @ 04-teoria-radio#el-espectro-radioelectrico @ *Ultra high frequency*: banda de 300 a 3 000 MHz. Con la VHF, es donde operan los portátiles y los repetidores.
+UIT @ 09-reglamentacion/internacional#nivel-internacional-la-uit @ Unión Internacional de Telecomunicaciones: organismo de las Naciones Unidas que reparte el espectro y redacta el Reglamento de Radiocomunicaciones.
+Unidad S @ 04-teoria-radio#mandos-y-ayudas-del-receptor @ Escalón del medidor S: 6 dB. Por debajo de 30 MHz, S9 son 50 µV en 50 Ω (−73 dBm); por encima, 5 µV (−93 dBm).
+Unun @ 06-antenas-lineas#balun-y-corrientes-en-modo-comun @ Transformador entre dos impedancias asimétricas (de *unbalanced-unbalanced*), como el 49:1 de una antena alimentada en un extremo.
+URE @ 10-operacion#las-tres-vias @ Unión de Radioaficionados Españoles, sección española de la IARU. Lleva el bureau de QSL de España.
+USB @ 04-teoria-radio#banda-lateral-unica-blu @ Banda lateral superior (*upper sideband*). En fonía de HF se usa por encima de 10 MHz, y es la que usan normalmente los modos digitales.
+Uso común @ 14-escucha-uso-libre#que-es_1 @ Uso del espectro sin ningún título habilitante, sin límite de usuarios y con las condiciones técnicas del CNAF, como el de PMR446.
+Uso especial @ 09-reglamentacion/espanol#las-normas-que-te-afectan @ Uso de bandas que se explotan de forma compartida, sin limitar el número de usuarios. El de los radioaficionados se otorga con autorización individual.
+UTC @ 05-propagacion-bandas#el-international-beacon-project @ Tiempo universal coordinado (*Coordinated Universal Time*): la hora de referencia que se usa en radioafición en lugar de la local.
+
+Valor eficaz @ 02-electricidad-electronica#corriente-alterna @ Valor de una tensión continua que produciría el mismo calor en una resistencia (en inglés, *RMS*). En una senoide es el de pico dividido por $\sqrt{2}$.
+Valor de pico @ 02-electricidad-electronica#corriente-alterna @ Máximo que alcanza una tensión alterna ($V_p$). El valor pico a pico es el doble.
+Varicap @ 02-electricidad-electronica#diodos @ Diodo cuya capacidad cambia con la tensión aplicada. Permite sintonizar sin piezas móviles. También se llama varactor.
+Vatímetro direccional @ 06-antenas-lineas#medir-la-roe @ Instrumento que mide por separado la potencia directa y la reflejada en una línea.
+Vatio @ 02-electricidad-electronica#potencia-y-energia @ Unidad de potencia (W).
+Velocidad de modulación @ 04-teoria-radio#modulaciones-digitales @ Número de símbolos por segundo de una señal digital, en baudios.
+VFO @ 04-teoria-radio#osciladores @ Oscilador de frecuencia variable (*variable frequency oscillator*). En el split se usa un segundo VFO para transmitir en otra frecuencia.
+VHF @ 04-teoria-radio#el-espectro-radioelectrico @ *Very high frequency*: banda de 30 a 300 MHz. Con la UHF, es donde operan los portátiles y los repetidores.
+Visión directa @ 05-propagacion-bandas#vision-directa-y-horizonte-radioelectrico @ Camino en línea recta entre dos antenas que se ven. Dos estaciones se ven si la suma de sus horizontes alcanza la distancia que las separa.
+Voltímetro @ 02-electricidad-electronica#como-se-mide @ Instrumento que mide la tensión. Se conecta en paralelo y su resistencia interna es muy alta.
+Voltio @ 02-electricidad-electronica#carga-corriente-y-tension @ Unidad de tensión (V).
+VOX @ 12-modos-digitales#la-radio-y-el-ordenador @ *Voice-operated exchange*: función que pone la radio en transmisión cuando le llega audio, sin pulsar el PTT.
+
+Yagi @ 06-antenas-lineas#antena-yagi @ Antena directiva formada por un elemento excitado, un reflector detrás y uno o varios directores delante, sobre un boom.
+
+Zona de silencio @ 05-propagacion-bandas#salto-y-zona-de-silencio @ Franja que no recibe nada, entre el final de la onda de superficie y la distancia de salto de la onda ionosférica (en inglés, *skip zone*).
+
+AR @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ Prosigno de fin del mensaje (el signo +). Se envía al final de una llamada o de un cambio, antes de K.
+AS @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ Prosigno que significa «espera un momento».
+BK @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ En telegrafía, cambio rápido para intercambiar una frase corta sin repetir los indicativos.
+BT @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ Prosigno separador entre partes del mensaje (el doble guion =), como un punto y aparte.
+CL @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ En telegrafía, «cierro la estación y dejo de escuchar».
+HH @ 11-telegrafia#prosignos-y-senales-de-procedimiento @ Señal de error en telegrafía: ocho puntos seguidos. Después se repite bien la última palabra.
+DE @ 11-telegrafia#abreviaturas-habituales @ «De»: separa los indicativos en una llamada, «a ti DE mí».
+R @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «recibido». RR es «recibido todo».
+TU, TNX @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «gracias».
+FER @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «por» (del inglés *for*).
+UR, MY @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «tu, tus» y «mi, mis».
+HR @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «aquí».
+ES @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «y».
+FB @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «muy bien».
+GM, GA, GE @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «buenos días», «buenas tardes» y «buenas noches».
+PSE @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «por favor»: «PSE QSL» pide la tarjeta.
+AGN @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «otra vez».
+HW? @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «¿qué tal me copias?».
+CUL @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «hasta luego».
+GL @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «buena suerte».
+NAME, OP @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «nombre» y «operador».
+RIG, ANT, PWR @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «equipo», «antena» y «potencia».
+WX @ 11-telegrafia#abreviaturas-habituales @ En telegrafía, «tiempo meteorológico».
+YL, XYL @ 10-operacion#en-fonia @ «Colega mujer» y «esposa». Véase **OM**.
+Relación delante/detrás @ 06-antenas-lineas#diagrama-de-radiacion @ Diferencia en decibelios entre lo que una antena radia hacia delante y hacia atrás (en inglés, *F/B*). Una Yagi de tres elementos da unos 20 dB.
+Espectro radioeléctrico @ 04-teoria-radio#el-espectro-radioelectrico @ Conjunto de frecuencias que se usan para radiocomunicaciones. La UIT lo divide en bandas como la HF, la VHF y la UHF.
+Velocidad de la luz @ 04-teoria-radio#que-es-una-onda-electromagnetica @ Velocidad a la que viajan las ondas de radio en el vacío, y casi igual en el aire:  \approx 3 \cdot 10^8$ m/s, 300 000 km por segundo.
+PARIS @ 11-telegrafia#la-palabra-paris @ Palabra de referencia, de 50 unidades de punto con su espacio, con la que se mide la velocidad de la telegrafía en palabras por minuto (ppm; en inglés, *wpm*).
+Método Koch @ 11-telegrafia#el-metodo-koch @ Forma de aprender telegrafía oyendo los caracteres desde el primer día a la velocidad final: se empieza con dos y se añade uno cada vez que se acierta el 90 %.
+Interceptación @ 14-escucha-uso-libre#lo-que-dice-la-ley-sobre-escuchar @ Captar sin autorización telecomunicaciones no destinadas al público en general. La Ley 11/2022 castiga como infracción muy grave tanto interceptarlas como divulgar su contenido.
+Comunicaciones en nombre de terceros @ 09-reglamentacion/espanol#lo-que-dice-el-articulo-30 @ Mensajes que una estación de aficionado transmite por cuenta de otras personas. Solo se permiten en casos de emergencia o desastre.
+Codificación @ 09-reglamentacion/espanol#lo-que-dice-el-articulo-30 @ Las transmisiones entre estaciones de aficionado no se pueden codificar para ocultar su significado. La única excepción son las señales de control entre las estaciones de mando y los satélites de aficionado.
+SRD @ 14-escucha-uso-libre#otras-bandas-de-uso-comun @ Dispositivos de corto alcance (*short range devices*) que usan bandas de uso común: mandos de garaje, sensores, alarmas, telemetría.
+Meshtastic @ 15-emergencias/meshtastic#que-es @ Proyecto de código abierto que convierte radios LoRa de bajo coste en una red de mensajería en malla, sin infraestructura. En 868 MHz no es radioafición.
+Winlink @ 12-modos-digitales#winlink-y-vara @ Sistema de correo electrónico por radio: el programa del usuario conecta con una pasarela (RMS) que entrega y recoge el correo.
+Escucha @ 14-escucha-uso-libre#que-es @ Véase **SWL**.
+Espurias @ 08-interferencias#causas-en-el-transmisor @ Véase **Emisiones no esenciales**.
+Frecuencia intermedia @ 04-teoria-radio#el-receptor-superheterodino @ Véase **FI**.
+Oscilador de batido @ 04-teoria-radio#onda-continua-cw @ Véase **BFO**.
+Sintonizador de antena @ 06-antenas-lineas#el-acoplador-de-antena @ Véase **Acoplador de antena**.
+QRG @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Frecuencia. Como pregunta: «¿Quiere indicarme mi frecuencia exacta?».
+QRK @ 10-operacion#los-grupos-que-mas-vas-a-oir @ Inteligibilidad de la señal. Como pregunta: «¿Cuál es la inteligibilidad de mi transmisión?» (escala de 1 a 5).
+QAP @ 10-operacion#en-fonia @ «A la escucha». Es costumbre en España y en Hispanoamérica, pero no forma parte de la Recomendación UIT-R M.1172.
+ISM @ 15-emergencias/meshtastic#meshtastic @ *Industrial, scientific and medical*: sigla inglesa de las bandas ICM. A la de 868 MHz se la suele llamar «banda ISM», pero en Europa es de dispositivos de corto alcance.
+DCS @ 10-operacion#tonos-de-acceso-ctcss-y-1-750-hz @ *Digital-Coded Squelch*, silenciador por código digital: código subaudible de tres cifras (023, 754…) que se suma a la voz para abrir el silenciador. Es habitual en PMR446; la FM.24 de la IARU no lo admite para los repetidores.
+BNC @ 06-antenas-lineas#conectores @ Conector de bayoneta y enganche rápido (*Bayonet Neill–Concelman*), habitual en instrumentos y en portátiles antiguos.
+SMA @ 06-antenas-lineas#conectores @ Conector pequeño y roscado (*SubMiniature version A*) para cables finos. Lo llevan los portátiles actuales y los receptores SDR; muchos usan la variante SMA inversa.
+PL-259 @ 06-antenas-lineas#conectores @ Clavija (*plug*) del conector UHF, el clásico de los equipos de HF; la base es la SO-239. No mantiene una impedancia constante en UHF.
+Conector N @ 06-antenas-lineas#conectores @ Conector roscado, estanco y de impedancia constante, preferido a partir de 430 MHz y en instalaciones exteriores. La N es de Paul Neill, uno de sus inventores.
