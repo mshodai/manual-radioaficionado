@@ -89,7 +89,7 @@ Una antena anunciada con 7 dBi tiene $7 - 2{,}15 = 4{,}85$ dBd. Desconfía de lo
 
 Con la ganancia se calcula la potencia que «parece» radiar la antena en su dirección de máximo. La Orden IET/1311/2013, que verás más adelante, define dos magnitudes en su anexo I (comprobado en noviembre de 2026):
 
-- **Potencia radiada aparente** (p. r. a., *ERP*): la potencia entregada a la antena multiplicada por su ganancia respecto al dipolo.
+- **Potencia radiada aparente** (p. r. a., *ERP*, de *effective radiated power*): la potencia entregada a la antena multiplicada por su ganancia respecto al dipolo.
 - **Potencia isótropa radiada equivalente** (p. i. r. e., *EIRP*): la potencia entregada a la antena multiplicada por su ganancia respecto a la antena isótropa. Es la que se usa en el [capítulo 3](03-seguridad.md) para calcular distancias de seguridad.
 
 **Ejemplo 5.** Entregas 100 W a una Yagi de 6 dBd. 6 dB equivalen a multiplicar por unas 4: la p. r. a. es $100 \cdot 10^{0{,}6} \approx 398\ \text{W}$. En dBi, la antena tiene 8,15 dBi, y la p. i. r. e. es $100 \cdot 10^{0{,}815} \approx 653\ \text{W}$. La p. i. r. e. siempre es 1,64 veces la p. r. a.
@@ -320,10 +320,10 @@ Un mismo nombre genérico, como RG-58 o RG-213, lo fabrican muchas marcas con ca
 
 Los conectores también tienen impedancia y pérdidas, y además son el punto por donde entra el agua. Los más habituales son:
 
-- **UHF** (macho **PL-259**, hembra **SO-239**): el clásico de los equipos de HF. Robusto y fácil de montar, pero no mantiene una impedancia constante, y eso se nota a partir de las frecuencias de UHF, pese a su nombre.
-- **N**: roscado, estanco y de impedancia constante. Es el preferido a partir de 430 MHz y en cualquier instalación exterior.
-- **BNC**: de bayoneta, de enganche rápido. Habitual en instrumentos y en equipos portátiles antiguos.
-- **SMA**: pequeño y roscado, para cables finos. Lo llevan los portátiles actuales, los receptores SDR y muchos módulos de radio. Muchos portátiles chinos llevan la variante **SMA inversa**, con los sexos del vivo cambiados: comprueba cuál lleva el tuyo antes de comprar una antena.
+- **UHF** (macho **PL-259**, hembra **SO-239**): el clásico de los equipos de HF. Robusto y fácil de montar, pero no mantiene una impedancia constante, y eso se nota a partir de las frecuencias de UHF, pese a su nombre. PL-259 y SO-239 son designaciones militares estadounidenses: PL de *plug* (clavija) y SO de *socket* (base).
+- **N**, por Paul Neill, uno de sus inventores: roscado, estanco y de impedancia constante. Es el preferido a partir de 430 MHz y en cualquier instalación exterior.
+- **BNC** (*Bayonet Neill–Concelman*, la bayoneta de Neill y Concelman): de bayoneta, de enganche rápido. Habitual en instrumentos y en equipos portátiles antiguos.
+- **SMA** (*SubMiniature version A*, subminiatura de tipo A): pequeño y roscado, para cables finos. Lo llevan los portátiles actuales, los receptores SDR y muchos módulos de radio. Muchos portátiles chinos llevan la variante **SMA inversa**, con los sexos del vivo cambiados: comprueba cuál lleva el tuyo antes de comprar una antena.
 
 Cada conector debe corresponder al diámetro exacto del cable. Un conector mal montado, con un pelo de la malla tocando el vivo o con el dieléctrico fundido por el soldador, causa más problemas que muchos metros de cable.
 
@@ -348,7 +348,7 @@ $$
 
 donde $Z_L$ es la impedancia de la carga, la antena, y $Z_0$ la de la línea. Vale 0 si la línea está adaptada y 1, en valor absoluto, si la carga es un cortocircuito o un circuito abierto, que lo reflejan todo. La fracción de potencia reflejada es $|\Gamma|^2$.
 
-La **relación de ondas estacionarias** (**ROE**, en inglés *SWR* o *VSWR*) es el cociente entre la tensión máxima y la mínima a lo largo de la línea:
+La **relación de ondas estacionarias** (**ROE**, en inglés *SWR*, de *standing wave ratio*, o *VSWR*, de *voltage standing wave ratio*) es el cociente entre la tensión máxima y la mínima a lo largo de la línea:
 
 $$
 \text{ROE} = \frac{V_{\text{máx}}}{V_{\text{mín}}} = \frac{1 + |\Gamma|}{1 - |\Gamma|}
@@ -415,7 +415,7 @@ Desconfía de una ROE estupendamente baja en todas las bandas con una antena sen
 
 ### El acoplador de antena
 
-El **acoplador de antena** o **sintonizador** (*antenna tuner*, *ATU*) es una red de bobinas y condensadores ajustables que se coloca entre el transmisor y la línea. Transforma la impedancia que presenta la línea en 50 Ω, de modo que el transmisor ve una carga adaptada y entrega toda su potencia. Los hay manuales y automáticos, y muchos transceptores llevan uno incorporado de margen limitado.
+El **acoplador de antena** o **sintonizador** (*antenna tuner*, o *ATU*, de *antenna tuning unit*) es una red de bobinas y condensadores ajustables que se coloca entre el transmisor y la línea. Transforma la impedancia que presenta la línea en 50 Ω, de modo que el transmisor ve una carga adaptada y entrega toda su potencia. Los hay manuales y automáticos, y muchos transceptores llevan uno incorporado de margen limitado.
 
 Lo que el acoplador **no** hace es arreglar la antena: entre él y la antena la ROE sigue siendo la misma, con sus pérdidas en la línea. Por eso un acoplador en el cuarto de radio funciona muy bien con línea paralela, que pierde poco aunque tenga ROE alta, y bastante peor con un coaxial largo en las bandas altas. La solución más eficiente con coaxial es poner el acoplador automático junto a la antena, en el exterior.
 

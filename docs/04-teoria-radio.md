@@ -53,7 +53,7 @@ El conjunto de frecuencias que se usan para radiocomunicaciones es el **espectro
 
 *Figura 4.2. Bandas de la nomenclatura de la UIT que más te interesan, según el artículo 2 del Reglamento de Radiocomunicaciones (comprobado en noviembre de 2026). El límite inferior de cada banda queda fuera y el superior, dentro.*
 
-Las que más vas a usar son la **HF** (3 a 30 MHz, ondas decamétricas), donde están las bandas que permiten contactos a miles de kilómetros, y la **VHF** y la **UHF** (30 a 3 000 MHz), donde operan los portátiles y los repetidores. La propagación de cada una se estudia en el capítulo 5.
+Las que más vas a usar son la **HF** (*high frequency*, 3 a 30 MHz, ondas decamétricas), donde están las bandas que permiten contactos a miles de kilómetros, y la **VHF** (*very high frequency*) y la **UHF** (*ultra high frequency*), de 30 a 3 000 MHz,, donde operan los portátiles y los repetidores. La propagación de cada una se estudia en el capítulo 5.
 
 ## Información, ruido y ancho de banda
 
@@ -89,7 +89,7 @@ El ruido se reparte por todas las frecuencias, así que un filtro más estrecho 
 
 La forma más sencilla de enviar información es encender y apagar la portadora siguiendo el código Morse. Es la **telegrafía** u **onda continua** (*CW*, *continuous wave*). Ocupa muy poco, unos cientos de hercios como mucho, y se entiende con señales débiles. La estudiarás en el capítulo 11.
 
-Para oírla, el receptor mezcla la portadora recibida con un oscilador propio, el **oscilador de batido** (*BFO*), ligeramente desplazado. La diferencia entre las dos frecuencias, por ejemplo 600 Hz, sale como un pitido audible.
+Para oírla, el receptor mezcla la portadora recibida con un oscilador propio, el **oscilador de batido** (*BFO*, *beat frequency oscillator*), ligeramente desplazado. La diferencia entre las dos frecuencias, por ejemplo 600 Hz, sale como un pitido audible.
 
 Si la portadora se enciende y se apaga de golpe, aparecen bandas laterales muy anchas que se oyen como chasquidos en las frecuencias vecinas: son los **clics de manipulación**. Los transmisores bien diseñados suavizan los flancos de cada pulso durante unos milisegundos para evitarlos.
 
@@ -123,7 +123,7 @@ y las dos bandas laterales juntas se llevan $P_c \cdot m^2 / 2$.
 
 ### Banda lateral única (BLU)
 
-Las dos bandas laterales de la AM llevan exactamente la misma información, y la portadora no lleva ninguna. La **banda lateral única** (**BLU**, en inglés *SSB*) elimina la portadora y una de las dos bandas. Se queda con la **banda lateral superior** (*USB*) o con la **inferior** (*LSB*).
+Las dos bandas laterales de la AM llevan exactamente la misma información, y la portadora no lleva ninguna. La **banda lateral única** (**BLU**, en inglés *SSB*, de *single sideband*) elimina la portadora y una de las dos bandas. Se queda con la **banda lateral superior** (*USB*, *upper sideband*) o con la **inferior** (*LSB*, *lower sideband*).
 
 Las ventajas son grandes:
 
@@ -137,7 +137,7 @@ A cambio, el receptor tiene que reponer la portadora con su BFO, y si no está b
 
 Por costumbre, en HF se usa LSB por debajo de 10 MHz (bandas de 160, 80 y 40 m) y USB por encima (20 m y superiores), y también en VHF y UHF. La excepción es la banda de 60 m, en 5 MHz: aunque está por debajo de 10 MHz, en ella se usa USB. Así lo recomienda el plan de bandas de HF de la IARU Región 1, recogido en su [manual para los responsables de HF](https://www.iaru-r1.org/reference/handbooks/) (*HF Manager's Handbook*) (comprobado en noviembre de 2026).
 
-La potencia de un transmisor de BLU no es constante, porque sigue a la voz. Se indica como **potencia de cresta de la envolvente** (*PEP*): la que se alcanza en los picos de la modulación.
+La potencia de un transmisor de BLU no es constante, porque sigue a la voz. Se indica como **potencia de cresta de la envolvente** (*PEP*, *peak envelope power*): la que se alcanza en los picos de la modulación.
 
 ### Modulación de frecuencia (FM) y de fase (PM)
 
@@ -249,9 +249,9 @@ Receptores y transmisores se construyen con unos pocos bloques que se repiten. C
 
 Un **oscilador** genera una señal alterna de frecuencia estable a partir de la alimentación continua. En esencia es un amplificador que se realimenta a sí mismo a través de un circuito que solo deja pasar una frecuencia.
 
-- **Oscilador LC**: la frecuencia la fija un circuito resonante de bobina y condensador (capítulo 2). Si el condensador es variable, tienes un **oscilador de frecuencia variable** (*VFO*). Es sencillo, pero se desplaza con la temperatura.
+- **Oscilador LC**: la frecuencia la fija un circuito resonante de bobina y condensador (capítulo 2). Si el condensador es variable, tienes un **oscilador de frecuencia variable** (*VFO*, *variable frequency oscillator*). Es sencillo, pero se desplaza con la temperatura.
 - **Oscilador de cristal**: usa un cristal de cuarzo, que vibra mecánicamente a una frecuencia muy precisa. Es muy estable, pero solo da una frecuencia.
-- **Sintetizador**: los equipos actuales obtienen todas sus frecuencias de un único oscilador de referencia de cuarzo. Un **bucle de enganche de fase** (*PLL*) corrige un oscilador variable hasta que su frecuencia es un múltiplo exacto de la referencia. Un **sintetizador digital directo** (*DDS*) calcula la senoide muestra a muestra y la convierte en tensión. En ambos casos el teclado y el mando de sintonía mandan sobre un número, no sobre un condensador.
+- **Sintetizador**: los equipos actuales obtienen todas sus frecuencias de un único oscilador de referencia de cuarzo. Un **bucle de enganche de fase** (*PLL*, *phase-locked loop*) corrige un oscilador variable hasta que su frecuencia es un múltiplo exacto de la referencia. Un **sintetizador digital directo** (*DDS*, *direct digital synthesizer*) calcula la senoide muestra a muestra y la convierte en tensión. En ambos casos el teclado y el mando de sintonía mandan sobre un número, no sobre un condensador.
 
 La calidad de un oscilador se mide por su **estabilidad** (cuánto deriva su frecuencia) y su **pureza**: un oscilador ruidoso añade ruido de fase, que ensucia tanto lo que recibes como lo que emites.
 
@@ -278,7 +278,7 @@ Un **filtro** deja pasar unas frecuencias y atenúa otras. Según lo que dejan p
 - **Paso banda**: deja pasar un margen alrededor de una frecuencia central. Es el filtro de FI de un receptor.
 - **Banda eliminada**: suprime un margen y deja pasar el resto. Se usa contra una interferencia concreta.
 
-Los filtros se hacen con bobinas y condensadores, con cristales de cuarzo (los **filtros de cristal**, muy selectivos y de flancos muy abruptos) o, en los equipos modernos, con cálculos: el **procesado digital de señal** (*DSP*) filtra la señal convertida en números.
+Los filtros se hacen con bobinas y condensadores, con cristales de cuarzo (los **filtros de cristal**, muy selectivos y de flancos muy abruptos) o, en los equipos modernos, con cálculos: el **procesado digital de señal** (*DSP*, *digital signal processing*) filtra la señal convertida en números.
 
 ### Amplificadores
 
@@ -349,7 +349,7 @@ flowchart TB
 4. El **filtro de FI** es el que da la selectividad: 2,4 kHz para BLU, 500 Hz para CW o 12 kHz para FM.
 5. El **amplificador de FI** aporta la mayor parte de la ganancia.
 6. El **detector** recupera el audio, con la ayuda del BFO en BLU y CW.
-7. El **control automático de ganancia** (CAG, en inglés *AGC*) mide la intensidad de la señal y reduce la ganancia cuando es fuerte, para que el volumen no cambie con cada estación.
+7. El **control automático de ganancia** (CAG, en inglés *AGC*, de *automatic gain control*) mide la intensidad de la señal y reduce la ganancia cuando es fuerte, para que el volumen no cambie con cada estación.
 
 **Ejemplo.** Para recibir 14 200 kHz con una FI de 9 MHz, el oscilador local puede ir por encima, en $14\,200 + 9\,000 = 23\,200\ \text{kHz}$. El mezclador entrega $23\,200 - 14\,200 = 9\,000\ \text{kHz}$, que pasa por el filtro, y la suma, 37 400 kHz, que el filtro rechaza.
 
@@ -384,7 +384,7 @@ Si el oscilador local se pone justo en la frecuencia de la señal, la diferencia
 
 - **Atenuador** y **preamplificador**: quitan o añaden ganancia en la entrada. Con señales fuertes, el atenuador evita la saturación; el preamplificador solo ayuda cuando el ruido de la banda es bajo, como en VHF y UHF.
 - **Ganancia de RF** y **CAG**: el CAG ajusta la ganancia solo, con constantes de tiempo rápida o lenta según el modo.
-- **Clarificador** (*RIT*): desplaza un poco la frecuencia de recepción sin mover la de transmisión, para corregir a un corresponsal que está ligeramente desplazado.
+- **Clarificador** (*RIT*, *receiver incremental tuning*): desplaza un poco la frecuencia de recepción sin mover la de transmisión, para corregir a un corresponsal que está ligeramente desplazado.
 - **Silenciador** (*squelch*): enmudece el altavoz cuando no hay señal. Imprescindible en FM.
 - **Supresor de ruido** (*noise blanker*): elimina impulsos breves y repetitivos, como los del encendido de un motor.
 - **Reductor de ruido** y **filtro de muesca** (*notch*), normalmente por DSP: el primero atenúa el ruido de fondo y el segundo elimina un pitido fijo.
@@ -399,7 +399,7 @@ Si el oscilador local se pone justo en la frecuencia de la señal, la diferencia
 
 En un **receptor definido por software** (**SDR**, *software defined radio*), la señal de radio se convierte en números lo antes posible y el resto del trabajo lo hace un programa: filtrar, demodular, quitar ruido. Lo que en un superheterodino son filtros de cristal y detectores, en un SDR son cálculos. Cambiar de modo o estrechar un filtro es cambiar un parámetro.
 
-La pieza clave es el **convertidor analógico-digital** (*ADC*), que mide la tensión de la señal muchas veces por segundo. Cada medida es una **muestra** y el número de medidas por segundo es la **frecuencia de muestreo** $f_s$, en muestras por segundo (S/s; en la práctica, megamuestras por segundo, MS/s).
+La pieza clave es el **convertidor analógico-digital** (*ADC*, *analog-to-digital converter*), que mide la tensión de la señal muchas veces por segundo. Cada medida es una **muestra** y el número de medidas por segundo es la **frecuencia de muestreo** $f_s$, en muestras por segundo (S/s; en la práctica, megamuestras por segundo, MS/s).
 
 ### El teorema de muestreo
 
@@ -486,7 +486,7 @@ flowchart TB
 2. El **filtro de banda lateral** deja pasar solo una. Moviendo la frecuencia del oscilador de portadora a un lado u otro del filtro se elige USB o LSB.
 3. El **mezclador** lleva la señal a la frecuencia de trabajo, con el VFO o el sintetizador. Es el mismo principio que en el receptor, y en un transceptor ambos comparten osciladores y filtros.
 4. El **amplificador lineal** sube la potencia sin deformar la envolvente.
-5. El **control automático de nivel** (CAL, en inglés *ALC*) reduce la excitación cuando el amplificador se acerca a su límite.
+5. El **control automático de nivel** (CAL, en inglés *ALC*, de *automatic level control*) reduce la excitación cuando el amplificador se acerca a su límite.
 6. El **filtro paso bajo** final elimina los armónicos.
 
 Si subes demasiado la ganancia del micrófono o la excitación, el amplificador deja de ser lineal y aparecen productos de distorsión a ambos lados de tu señal. Ocupas más de lo debido y molestas a las estaciones vecinas, igual que con la sobremodulación de la AM. Ajusta la ganancia de forma que el CAL apenas actúe en los picos de la voz.

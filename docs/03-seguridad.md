@@ -73,13 +73,13 @@ y la potencia media es $30 \cdot 0{,}43 \approx 13\ \text{W}$. Si dejas el progr
 
 ### PIRE y distancia de seguridad
 
-Para estimar la exposición necesitas la potencia que la antena concentra en su dirección de máxima radiación. Es la **potencia isotrópica radiada equivalente** (**PIRE**, en inglés *EIRP*):
+Para estimar la exposición necesitas la potencia que la antena concentra en su dirección de máxima radiación. Es la **potencia isótropa radiada equivalente** (**PIRE**, en inglés *EIRP*, de *equivalent isotropically radiated power*):
 
 $$
 \text{PIRE} = P_{\text{tx}} \cdot G_{\text{línea}} \cdot G_{\text{antena}}
 $$
 
-donde $P_{\text{tx}}$ es la potencia del transmisor en vatios, $G_{\text{línea}}$ la ganancia de la línea de transmisión (menor que 1, porque el cable pierde) y $G_{\text{antena}}$ la ganancia de la antena respecto a la antena isotrópica, ambas como factores, no en decibelios. Si trabajas en decibelios, sumas: PIRE en dBW = potencia en dBW − pérdidas del cable en dB + ganancia en dBi.
+donde $P_{\text{tx}}$ es la potencia del transmisor en vatios, $G_{\text{línea}}$ la ganancia de la línea de transmisión (menor que 1, porque el cable pierde) y $G_{\text{antena}}$ la ganancia de la antena respecto a la antena isótropa, ambas como factores, no en decibelios. Si trabajas en decibelios, sumas: PIRE en dBW = potencia en dBW − pérdidas del cable en dB + ganancia en dBi.
 
 En campo lejano, la **densidad de potencia** $S$ a una distancia $d$ de la antena, en la dirección de máxima radiación, es
 

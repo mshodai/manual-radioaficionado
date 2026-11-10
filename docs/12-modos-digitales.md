@@ -16,7 +16,7 @@ Entre los dos aparatos hacen falta tres conexiones:
 
 - **Audio** en los dos sentidos: de la salida de la radio a la entrada del ordenador y de la salida del ordenador a la entrada de modulación de la radio. Puede ir por una **tarjeta de sonido** externa o, en muchos transceptores actuales, por el propio cable USB, que lleva dentro un códec de audio. La guía de WSJT-X pide audio a 48 000 Hz y 16 bits ([guía de WSJT-X](https://wsjtx.github.io/wsjtx/guide-full.html), apartado de requisitos; comprobado en noviembre de 2026).
 - **Control del equipo**, o **CAT** (*computer aided transceiver*): un enlace de datos, por USB o por un puerto serie, por el que el programa lee y cambia la frecuencia y el modo.
-- **Conmutación de emisión y recepción** (*PTT*). WSJT-X admite cuatro métodos: por CAT, por las líneas DTR o RTS de un puerto serie o por **VOX**, que pone la radio en transmisión cuando le llega audio.
+- **Conmutación de emisión y recepción** (*PTT*). WSJT-X admite cuatro métodos: por CAT, por las líneas DTR o RTS de un puerto serie o por **VOX** (*voice-operated exchange*), que pone la radio en transmisión cuando le llega audio.
 
 ```mermaid
 flowchart TB

@@ -155,3 +155,27 @@ El manual es público. **No contiene datos personales del autor ni de su entorno
 - Ni frecuencias, canales, tonos, protocolos, horarios o nombres de personas de su grupo de emergencias o de cualquier otro grupo al que pertenezca.
 
 Los equipos se presentan como **ejemplos genéricos de equipos habituales** («un portátil bibanda de VHF/UHF de gama económica», «un receptor de onda corta de bolsillo»). Si hace falta nombrar un modelo concreto, se presenta como un equipo frecuente en el mercado, no como el del autor. Los ejemplos de indicativos usan formatos ficticios y se dicen ficticios.
+
+## 12. Glosario
+
+El capítulo 17 no se edita a mano: lo genera `herramientas/glosario.py` a partir de `herramientas/glosario-entradas.txt`, con una línea por término:
+
+```text
+Término @ página#ancla @ Definición breve.
+```
+
+- **Al cambiar o añadir un capítulo, actualiza las entradas afectadas y regenera el glosario.** Revisa los términos nuevos que se definen en negrita, las definiciones que cambian y los apartados que se renombran o se mueven, porque con ellos cambian las anclas.
+- Cada definición ocupa una o dos líneas, con la unidad si la tiene, y solo dice lo que dice el capítulo enlazado. Si un término aparece en varios capítulos, se enlaza al apartado que mejor lo explica.
+- Las siglas llevan su desarrollo y, si son inglesas, su significado en español. El desarrollo inglés tiene que estar también en el capítulo, donde se presenta la sigla.
+- Los sinónimos y las siglas inglesas que tienen entrada propia en español remiten a ella con «Véase **Término**».
+
+Para regenerarlo, compila la copia como en el §9 y ejecuta el script sobre ella:
+
+```sh
+rm -rf /tmp/manual-build
+rsync -a --exclude .git --exclude .venv --exclude site ./ /tmp/manual-build/
+.venv/bin/zensical build --clean --strict -f /tmp/manual-build/mkdocs.yml
+python3 herramientas/glosario.py /tmp/manual-build/site
+```
+
+El script lee las anclas del sitio compilado y no escribe nada si una entrada apunta a un apartado que no existe, si hay términos duplicados o si una remisión «Véase» no tiene entrada. Después repite la copia y la compilación para comprobar el capítulo generado.

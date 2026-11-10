@@ -34,7 +34,7 @@ La diferencia importa. Un ruido leve que apenas se nota es una interferencia; so
 
 ### Compatibilidad electromagnética
 
-La **compatibilidad electromagnética** (*EMC*) es la capacidad de un aparato para funcionar bien en su entorno sin estropear el funcionamiento de los demás. Tiene dos caras:
+La **compatibilidad electromagnética** (*EMC*, *electromagnetic compatibility*) es la capacidad de un aparato para funcionar bien en su entorno sin estropear el funcionamiento de los demás. Tiene dos caras:
 
 - La **emisión**: lo que el aparato suelta al exterior, por el aire o por sus cables.
 - La **inmunidad**: lo que el aparato aguanta sin fallar cuando le llegan perturbaciones de fuera.

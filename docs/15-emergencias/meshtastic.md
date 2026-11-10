@@ -1,7 +1,7 @@
 # Meshtastic
 
 !!! warning "Fuera de la radioafición"
-    Meshtastic usa LoRa en la banda ISM de uso común; no es un servicio de radioaficionados.
+    Meshtastic usa LoRa en la banda de uso común de 868 MHz; no es un servicio de radioaficionados. A esa banda se la suele llamar «banda ISM», pero en Europa no lo es: ISM (*industrial, scientific and medical*) es la sigla inglesa de las bandas ICM, destinadas a aplicaciones industriales, científicas y médicas, como la de 433 MHz del [capítulo 14](../14-escucha-uso-libre.md#433-mhz). La de 868 MHz es de dispositivos de corto alcance.
 
 Meshtastic se ha hecho muy popular como «radio de emergencia» barata: un módulo del tamaño de una caja de cerillas, una antena pequeña y el móvil para escribir. En esta sección aprenderás qué es, en qué banda funciona en España y con qué límites, por qué no es radioafición aunque la usen muchos radioaficionados, qué pasa con el cifrado según la banda y qué puede y qué no puede hacer cuando falla todo lo demás. Te servirá para valorarla como complemento de tu plan de comunicaciones sin confundirla con él.
 

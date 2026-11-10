@@ -171,8 +171,8 @@ El Sol no solo varía lentamente: también tiene erupciones que alteran la propa
 
 | Fenómeno | Cuándo llega | Qué hace en la radio | Escala de la NOAA |
 |---|---|---|---|
-| **Fulguración**: estallido de rayos X | A los 8 minutos, a la velocidad de la luz | Ioniza de golpe la capa D en el lado diurno y absorbe la HF, empezando por las bandas bajas: es el **apagón de radio** o **perturbación ionosférica súbita** (*SID*). Dura de minutos a un par de horas. | **R** (*radio blackouts*), según la intensidad de los rayos X: de R1, clase M1, a R5, clase X20 |
-| **Tormenta de protones**: partículas de alta energía | En minutos u horas | Entran por los polos y absorben la HF en los trayectos que cruzan las regiones polares: es la **absorción del casquete polar** (*PCA*). Puede durar días. | **S** (*solar radiation storms*) |
+| **Fulguración**: estallido de rayos X | A los 8 minutos, a la velocidad de la luz | Ioniza de golpe la capa D en el lado diurno y absorbe la HF, empezando por las bandas bajas: es el **apagón de radio** o **perturbación ionosférica súbita** (*SID*, *sudden ionospheric disturbance*). Dura de minutos a un par de horas. | **R** (*radio blackouts*), según la intensidad de los rayos X: de R1, clase M1, a R5, clase X20 |
+| **Tormenta de protones**: partículas de alta energía | En minutos u horas | Entran por los polos y absorben la HF en los trayectos que cruzan las regiones polares: es la **absorción del casquete polar** (*PCA*, *polar cap absorption*). Puede durar días. | **S** (*solar radiation storms*) |
 | **Eyección de masa coronal** (*CME*): nube de plasma | En uno a cuatro días | Sacude el campo magnético terrestre: es una **tormenta geomagnética**. La capa F2 se desordena y la MUF cae, sobre todo en latitudes altas, durante uno o varios días. Puede provocar auroras. | **G** (*geomagnetic storms*), según el índice Kp: de G1, Kp 5, a G5, Kp 9 |
 
 ### Índices geomagnéticos K y A
@@ -350,7 +350,7 @@ Las 18 balizas, en el orden en que se turnan, y su estado según el fichero de e
 | 17 | OA4B | Lima, Perú | En servicio |
 | 18 | YV5B | Caracas, Venezuela | Fuera de servicio temporalmente |
 
-El ciclo está sincronizado con el tiempo universal. La NCDXF publica en su web un [horario imprimible de las balizas](https://www.ncdxf.org/beacon/ibp.pdf), una tabla en checo preparada en 2005 por OK1SAT, con el minuto y el segundo de cada turno dentro de la hora. Según esa tabla, el ciclo empieza en el segundo 0 de cada minuto múltiplo de 3 (las 10:00:00, 10:03:00, 10:06:00 UTC…), con 4U1UN en 14 100 kHz (comprobado en noviembre de 2026). La tabla es antigua y nombra la baliza de Hawái con su indicativo anterior, KH6WO, pero el orden y los tiempos coinciden con los del reloj en línea de la NCDXF.
+El ciclo está sincronizado con el **tiempo universal coordinado** (UTC, en inglés *Coordinated Universal Time*), la hora de referencia que se usa en radioafición en lugar de la local. La NCDXF publica en su web un [horario imprimible de las balizas](https://www.ncdxf.org/beacon/ibp.pdf), una tabla en checo preparada en 2005 por OK1SAT, con el minuto y el segundo de cada turno dentro de la hora. Según esa tabla, el ciclo empieza en el segundo 0 de cada minuto múltiplo de 3 (las 10:00:00, 10:03:00, 10:06:00 UTC…), con 4U1UN en 14 100 kHz (comprobado en noviembre de 2026). La tabla es antigua y nombra la baliza de Hawái con su indicativo anterior, KH6WO, pero el orden y los tiempos coinciden con los del reloj en línea de la NCDXF.
 
 ![Tabla de 18 franjas de 10 segundos por 5 frecuencias con la baliza que suena en cada una; CS3B aparece resaltada en diagonal](assets/figuras/05-ibp.svg)
 

@@ -254,6 +254,8 @@ Para que el repetidor no se active con cualquier ruido o con la señal de otra e
 
 La Recomendación técnica FM.24 de la IARU Región 1, recogida en el [VHF Handbook](https://www.iaru-r1.org/reference/handbooks/) (versión 10.03, páginas 119 y 120; comprobado en noviembre de 2026), admite los dos sistemas, prefiere el CTCSS para los repetidores nuevos, pide que desde 2015 los repetidores FM nuevos lo usen tanto en recepción como en transmisión y fija la lista de 38 frecuencias normalizadas, de 67,0 a 250,3 Hz. Si el repetidor también **emite** su tono, puedes activar el CTCSS en tu receptor y solo lo oirás a él, no a otras estaciones del mismo canal.
 
+Algunos equipos ofrecen además el **DCS** (*Digital-Coded Squelch*, silenciador por código digital). En lugar de un tono continuo, suma a la voz un código digital subaudible, identificado por un número de tres cifras (023, 754…), y el receptor solo abre el silenciador si reconoce el suyo. Es habitual en los PMR446 del [capítulo 14](14-escucha-uso-libre.md#canales) y en las radios profesionales, pero no es uno de los dos sistemas que la FM.24 admite para los repetidores.
+
 En España, el artículo 25.c) de la [Orden IET/1311/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-7624#a25) obliga a que el acceso a los repetidores analógicos y digitales finales sea libre y a que, si el repetidor tiene un código de acceso, sea públicamente conocido (comprobado en noviembre de 2026). Por eso el tono de cada repetidor aparece en los listados que publican las asociaciones.
 
 !!! example "En la práctica"

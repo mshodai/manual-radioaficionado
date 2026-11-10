@@ -111,7 +111,7 @@ donde $n$ va de 1 a 16 y 0,0125 MHz son los 12,5 kHz de separación.
 
 **Ejemplo.** El canal 8 está en $446{,}00625 + 7 \cdot 0{,}0125 = 446{,}09375\ \text{MHz}$, y el 16, el último, en $446{,}00625 + 15 \cdot 0{,}0125 = 446{,}19375\ \text{MHz}$, a 6,25 kHz del borde de la banda, la mitad de un canal.
 
-Los equipos analógicos suelen añadir **subtonos** CTCSS o códigos DCS, que muchos fabricantes llaman «códigos de privacidad». No son privados: solo silencian el altavoz mientras no llega el tono elegido, como viste con los repetidores en el [capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz). Cualquiera en el mismo canal te oye.
+Los equipos analógicos suelen añadir **subtonos** CTCSS o códigos DCS ([capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz)), que muchos fabricantes llaman «códigos de privacidad». No son privados: solo silencian el altavoz mientras no llega el tono elegido, como viste con los repetidores en el [capítulo 10](10-operacion.md#tonos-de-acceso-ctcss-y-1-750-hz). Cualquiera en el mismo canal te oye.
 
 ### Modos digitales
 
