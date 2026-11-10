@@ -15,9 +15,11 @@
   overflow-y: hidden;
 }
 
-/* Simulacro del examen (capítulo 16, javascripts/simulacro.js). Opciones
-   grandes para tocarlas con el dedo y una barra fija abajo con el progreso y
-   el cronómetro. */
+/* Simulacro del examen (capítulo 16, javascripts/simulacro.js). Todo usa la
+   letra y los colores del tema: el texto, como el del capítulo; los títulos de
+   cada grupo de opciones, como un h4; los botones, como los de Zensical. En
+   pantallas táctiles cada opción mide al menos 44 px de alto. Abajo, una barra
+   fija con el progreso y el cronómetro. */
 .simulacro {
   margin: 1em 0 2em;
 }
@@ -28,52 +30,96 @@
   min-width: 0;
 }
 .simulacro legend {
-  font-weight: 700;
-  margin-bottom: 0.5em;
+  margin: 1em 0 0.5em;
   padding: 0;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--md-default-fg-color);
+}
+/* En las preguntas, la leyenda es el enunciado: texto normal del capítulo. */
+.simulacro .simulacro-pregunta legend {
+  margin: 0 0 0.5em;
+  font-weight: 400;
+  color: var(--md-typeset-color);
 }
 .simulacro-opcion {
   display: flex;
   align-items: flex-start;
-  gap: 0.5em;
-  padding: 0.55em 0.7em;
+  gap: 0.6em;
+  padding: 0.4em 0.7em;
   margin: 0.35em 0;
   border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.3em;
+  border-radius: 0.2rem;
   cursor: pointer;
-  line-height: 1.4;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--md-typeset-color);
+  transition: border-color 125ms, background-color 125ms;
 }
 .simulacro-opcion:hover {
   border-color: var(--md-accent-fg-color);
 }
 .simulacro-opcion:has(input:checked) {
   border-color: var(--md-primary-fg-color);
-  background: var(--md-default-fg-color--lightest);
+  background-color: var(--md-accent-fg-color--transparent);
+}
+.simulacro-opcion:has(input:focus-visible) {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
 }
 .simulacro-opcion input {
-  margin: 0.25em 0 0;
   flex: none;
-  width: 1.1em;
-  height: 1.1em;
+  width: 1em;
+  height: 1em;
+  margin: 0.3em 0 0;
+  accent-color: var(--md-primary-fg-color);
 }
 .simulacro-letra {
   flex: none;
-  font-weight: 700;
+  color: var(--md-default-fg-color--light);
 }
-.md-typeset ol.simulacro-preguntas,
-.md-typeset ol.simulacro-fallos {
-  margin-left: 1.4em;
+@media (max-width: 59.984375em), (pointer: coarse) {
+  .simulacro-opcion {
+    min-height: 44px;
+    align-items: center;
+    padding: 0.5em 0.8em;
+  }
+  .simulacro-opcion input {
+    margin: 0;
+    width: 1.2em;
+    height: 1.2em;
+  }
+}
+.simulacro button {
+  font-family: inherit;
+  border: 0;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+/* El número de cada pregunta va dentro de la leyenda: el de la lista se
+   alinearía con la primera opción, porque la leyenda no cuenta como su
+   primera línea. */
+.md-typeset ol.simulacro-preguntas {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  counter-reset: pregunta;
 }
 .md-typeset ol.simulacro-preguntas > li {
-  margin-bottom: 1.4em;
+  margin: 0 0 1.4em;
+  counter-increment: pregunta;
 }
-.simulacro-pregunta legend {
-  font-weight: 400;
+.simulacro .simulacro-pregunta legend::before {
+  content: counter(pregunta) ". ";
+  font-weight: 700;
+}
+.md-typeset ol.simulacro-fallos {
+  margin-left: 1.4em;
 }
 .simulacro-pie {
   margin: 1.5em 0 5em;
 }
-.simulacro-aviso {
+.md-typeset .simulacro-aviso {
+  color: var(--md-default-fg-color);
   font-weight: 700;
 }
 .simulacro-barra {
@@ -88,7 +134,7 @@
   padding: 0.6em 1em calc(0.6em + env(safe-area-inset-bottom));
   background: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-variant-numeric: tabular-nums;
 }
 .simulacro-tiempo {
@@ -109,9 +155,9 @@
   flex: 1 1 14em;
   display: flex;
   flex-direction: column;
-  padding: 0.7em 0.9em;
-  border-left: 0.3em solid;
-  border-radius: 0.2em;
+  padding: 0.6em 0.9em;
+  border-left: 0.2rem solid;
+  border-radius: 0.1rem;
   background: var(--md-default-fg-color--lightest);
 }
 .simulacro-apto {
@@ -120,8 +166,9 @@
 .simulacro-noapto {
   border-color: #c62828;
 }
-.simulacro-veredicto {
+.md-typeset .simulacro-veredicto {
   font-weight: 700;
+  color: var(--md-default-fg-color);
 }
 .md-typeset ol.simulacro-fallos > li {
   margin-bottom: 1.6em;
@@ -129,9 +176,7 @@
 .md-typeset .simulacro-fallos p {
   margin: 0.3em 0;
 }
-.simulacro-enunciado {
+.md-typeset .simulacro-fallos .simulacro-enunciado {
   font-weight: 700;
-}
-.simulacro .md-button {
-  margin: 0.5em 0.5em 0.5em 0;
+  color: var(--md-default-fg-color);
 }

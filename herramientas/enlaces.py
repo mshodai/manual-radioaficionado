@@ -8,6 +8,11 @@ Uso, desde la raíz del repositorio, con una copia del sitio ya compilada
 
 Recorre todas las páginas HTML del sitio y comprueba:
 
+- Ids duplicados: que ningún id se repite dentro de una página. Un id repetido
+  hace que un ancla lleve al elemento equivocado y que getElementById devuelva
+  el primero (le pasó al simulacro del cap. 16, que acabó montado dentro del
+  título «Simulacro»). Solo ve el HTML compilado, no los ids que añadan los
+  scripts al ejecutarse.
 - Enlaces internos (href y src): que el archivo de destino existe y, si llevan
   ancla (#…), que la página de destino tiene un elemento con ese id.
 - Enlaces externos (http y https): una petición HEAD con un tiempo de espera
@@ -29,7 +34,8 @@ Los resultados externos se clasifican así:
   motivo y el resultado de esta pasada, y no cuentan como error.
 
 No corrige nada: imprime cada grupo con las páginas del manual en que aparece
-cada enlace, y termina con código 1 si hay algún enlace interno o externo roto.
+cada enlace, y termina con código 1 si hay algún id duplicado o algún enlace
+interno o externo roto.
 Solo usa la biblioteca estándar de Python.
 """
 
@@ -40,7 +46,7 @@ import threading
 import time
 import urllib.error
 import urllib.request
-from collections import defaultdict
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from pathlib import Path
@@ -68,10 +74,16 @@ class Analizador(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.ids = set()
+        self.repetidos = Counter()  # id: veces que aparece, solo los repetidos
+        self._vistos = set()
         self.enlaces = []
 
     def handle_starttag(self, etiqueta, atributos):
         a = dict(atributos)
+        if a.get("id"):
+            if a["id"] in self._vistos:
+                self.repetidos[a["id"]] += 1
+            self._vistos.add(a["id"])
         for clave in ("id", "name"):
             if a.get(clave) and (clave == "id" or etiqueta == "a"):
                 self.ids.add(a[clave])
@@ -84,14 +96,16 @@ class Analizador(HTMLParser):
 
 
 def leer_sitio(sitio: Path):
-    """Devuelve ({ruta html: ids}, {ruta html: [enlaces]})."""
-    ids, enlaces = {}, {}
+    """Devuelve ({ruta html: ids}, {ruta html: [enlaces]}, {ruta html: {id: veces}})."""
+    ids, enlaces, repetidos = {}, {}, {}
     for f in sorted(sitio.rglob("*.html")):
         p = Analizador()
         p.feed(f.read_text(encoding="utf-8"))
         ids[f] = p.ids
         enlaces[f] = p.enlaces
-    return ids, enlaces
+        if p.repetidos:
+            repetidos[f] = {i: n + 1 for i, n in p.repetidos.items()}
+    return ids, enlaces, repetidos
 
 
 def url_de(sitio: Path, f: Path) -> str:
@@ -217,16 +231,22 @@ def main():
     if not (args.sitio / "index.html").is_file():
         sys.exit(f"{args.sitio} no parece un sitio compilado (falta index.html)")
 
-    ids, enlaces = leer_sitio(args.sitio)
+    ids, enlaces, repetidos = leer_sitio(args.sitio)
     rotos, externos = comprobar_internos(args.sitio, ids, enlaces)
     total = sum(len(v) for v in enlaces.values())
     print(f"{len(enlaces)} páginas, {total} enlaces, {len(externos)} URL externas distintas.\n")
 
-    print(f"== Internos rotos: {len(rotos)}")
+    n_rep = sum(len(v) for v in repetidos.values())
+    print(f"== Ids duplicados: {n_rep}")
+    for f, lista in sorted(repetidos.items()):
+        for ident, veces in sorted(lista.items()):
+            print(f"  {nombre(args.sitio, f)}: id=\"{ident}\" aparece {veces} veces")
+
+    print(f"\n== Internos rotos: {len(rotos)}")
     for (pagina, href), motivo in sorted(rotos.items()):
         print(f"  {pagina}: {href}  ({motivo})")
 
-    hay_rotos = bool(rotos)
+    hay_rotos = bool(rotos) or bool(repetidos)
     if not args.sin_externos:
         urls = sorted(externos)
         with ThreadPoolExecutor(args.hilos) as ex:

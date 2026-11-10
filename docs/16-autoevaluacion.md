@@ -22,7 +22,7 @@ Las preguntas en blanco no suman y los fallos no restan, porque la resolución n
 
 ## Simulacro
 
-<div id="simulacro" class="simulacro">
+<div id="simulacro-app" class="simulacro">
 <noscript><p>El simulacro necesita JavaScript. Actívalo en el navegador para hacerlo.</p></noscript>
 </div>
 

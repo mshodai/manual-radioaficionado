@@ -19,10 +19,17 @@ w.scrollTo = () => {};
 w.eval(js);
 d.dispatchEvent(new w.Event("DOMContentLoaded"));
 const banco = JSON.parse(d.getElementById("simulacro-banco").textContent);
-const correctas = new Set(banco.preguntas.map(p => p.opciones[0]));
+// La correcta de cada pregunta, por su enunciado: una opción incorrecta de una
+// pregunta puede coincidir con la correcta de otra («25 W», «ROE 1,67»).
+const correctaDe = new Map(banco.preguntas.map(p => [p.pregunta, p.opciones[0]]));
+const buenaDe = f => [...f.querySelectorAll("label")]
+  .find(l => l.lastChild.textContent === correctaDe.get(f.querySelector("legend").textContent));
 const ok = (c, m) => { console.log((c ? "OK  " : "MAL ") + m); if (!c) process.exitCode = 1; };
-const raiz = d.getElementById("simulacro");
+const raiz = d.getElementById("simulacro-app");
 const boton = t => [...raiz.querySelectorAll("button")].find(b => b.textContent.startsWith(t));
+
+ok(raiz.tagName === "DIV" && raiz.classList.contains("simulacro") && d.querySelectorAll("#simulacro-app").length === 1,
+  "contenedor único <div class=\"simulacro\">, no un título con el mismo id");
 
 ok(raiz.querySelectorAll('input[name="partes"]').length === 3, "pantalla inicial con 3 opciones de partes");
 boton("Empezar").click();
@@ -34,7 +41,7 @@ ok(d.querySelector(".simulacro-barra") && /0\/30/.test(d.querySelector(".simulac
 // Parte 1: 20 correctas, 10 incorrectas.
 [...preguntas].forEach((f, i) => {
   const labels = [...f.querySelectorAll("label")];
-  const buena = labels.find(l => correctas.has(l.lastChild.textContent));
+  const buena = buenaDe(f);
   const elegida = i < 20 ? buena : labels.find(l => l !== buena);
   const input = elegida.querySelector("input");
   input.checked = true;
@@ -46,7 +53,7 @@ preguntas = raiz.querySelectorAll(".simulacro-pregunta");
 ok(preguntas.length === 30 && /Parte segunda/.test(raiz.textContent), "pasa a la parte segunda");
 // Parte 2: 10 correctas, 20 en blanco.
 [...preguntas].slice(0, 10).forEach(f => {
-  const buena = [...f.querySelectorAll("label")].find(l => correctas.has(l.lastChild.textContent));
+  const buena = buenaDe(f);
   buena.querySelector("input").checked = true;
   buena.querySelector("input").dispatchEvent(new w.Event("change"));
 });
@@ -87,7 +94,7 @@ w.close();
     let fallos = 0;
     for (let i = 0; i < 300; i++) {
       d2.dispatchEvent(new w2.Event("DOMContentLoaded"));
-      const r2 = d2.getElementById("simulacro");
+      const r2 = d2.getElementById("simulacro-app");
       r2.querySelector(`input[name="partes"][value="${parte}"]`).checked = true;
       d2.getElementById("simulacro-crono").checked = false;
       [...r2.querySelectorAll("button")].find(b => b.textContent.startsWith("Empezar")).click();
@@ -111,7 +118,7 @@ w.close();
   w3.scrollTo = () => {};
   w3.eval(js);
   w3.addEventListener("load", () => {
-    const r3 = d3.getElementById("simulacro");
+    const r3 = d3.getElementById("simulacro-app");
     [...r3.querySelectorAll("button")].find(b => b.textContent.startsWith("Empezar")).click();
     const real = w3.Date.now;
     w3.Date.now = () => real() + 46 * 60 * 1000;

@@ -2,7 +2,7 @@
 //
 // Lee el banco de preguntas que herramientas/simulacro.py incrusta en la página
 // como JSON (<script id="simulacro-banco">) y monta el simulacro dentro de
-// <div id="simulacro">. En las demás páginas no hace nada. Todo ocurre en el
+// <div id="simulacro-app">. En las demás páginas no hace nada. Todo ocurre en el
 // navegador y en memoria: no se envía ni se guarda nada, ni siquiera en
 // localStorage.
 
@@ -13,7 +13,7 @@
   var TITULO_PARTE = { 1: "Parte primera: electricidad y radioelectricidad", 2: "Parte segunda: normativa" };
 
   var banco = null;     // datos del JSON
-  var raiz = null;      // <div id="simulacro">
+  var raiz = null;      // <div id="simulacro-app">
   var estado = null;    // simulacro en curso
   var reloj = null;     // setInterval del cronómetro
   var barra = null;     // barra fija con el progreso y el tiempo
@@ -354,7 +354,9 @@
   function arrancar() {
     // Con navigation.instant la página cambia sin recargar: se para lo que hubiera.
     limpiarTodo();
-    raiz = document.getElementById("simulacro");
+    // El id no puede ser «simulacro»: es el del título «## Simulacro», y el
+    // simulacro se montaría dentro del <h2>, con su letra y sin estos estilos.
+    raiz = document.getElementById("simulacro-app");
     var datos = document.getElementById("simulacro-banco");
     if (!raiz || !datos) return;
     try {

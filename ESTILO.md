@@ -229,6 +229,8 @@ rsync -a --exclude .git --exclude .venv --exclude site ./ /tmp/manual-build/
 python3 herramientas/enlaces.py /tmp/manual-build/site
 ```
 
+Comprueba también que ningún id se repite dentro de una página: un id repetido lleva las anclas al elemento equivocado y rompe los scripts que buscan un elemento por su id. Cuenta como error. Si añades HTML a mano con un `id`, no le pongas el mismo texto que a un título de la página, porque Zensical da a cada título un id sacado de su texto.
+
 Con `--sin-externos` comprueba solo los internos, en un segundo y sin conexión. El informe separa tres grupos de enlaces externos:
 
 - **Rotos** (4xx, dominio inexistente): busca la nueva dirección en la propia web o sustitúyelo. Si es normativa, enlaza de nuevo la fuente oficial y actualiza la fecha de comprobación (§7).
